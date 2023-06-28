@@ -10,4 +10,8 @@ pipelines:
           deployment: dev
           trigger: automatic
           script:
-            - ssh $SSH "cd /home/eMOBIQ/web/emobiq/dev/emobiq-documentation; git pull origin dev;"
+            - ssh $SSH "
+                set -e;
+                cd $PATH_FOLDER;
+                git pull origin dev;
+              "
