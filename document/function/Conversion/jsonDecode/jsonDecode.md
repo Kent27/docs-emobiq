@@ -1,43 +1,59 @@
 # jsonDecode
 
+## Description
 
-### Description
+Decodes a JSON string to return the string in the original sequence.
 
-Decode a JSON string.
+## Input / Parameter
 
-### Flowchart
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| string | The value to decode. | Object | - | - | Yes |
 
-- N/A 
+## Output
 
-### Input / Parameters
+| Description | Output Type |
+| ------ | ------ |
+| Returns the object specified. | Object |
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | object | The Object. | Object | Yes  |
+### Object
 
-### Scenario / Use Case
+| Key | Description | Output Type |
+| ------ | ------ | ------ |
+| (key) | The dynamic key specfied by the user. | String/Text |
 
-User want to decode json strings.
-<br>
-Gender : F<br />
-Name : Lili<br />
+## Callback
 
-### Step
+N/A
 
-1. Call the function.
+## Video
 
-   ![](../../../../document/function/Conversion/jsonDecode/jsonDecode-step-1.png?raw=true)
-   
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
-![](../../../../document/function/Conversion/jsonDecode/jsonDecode-result-1.png?raw=true)
-   
-### Video
+Coming Soon.
 
-- N/A
+<!-- Explain the output.
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

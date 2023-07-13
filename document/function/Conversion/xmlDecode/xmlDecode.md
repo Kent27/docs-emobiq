@@ -1,42 +1,53 @@
 # xmlDecode
 
-### Description
+## Description
 
-Decode the values in those XML string on the server side.
+Decodes the values in the XML strings from the server.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| value | The XML string to decode. | Any | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | string | XML | xml | Yes  |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the decoded XML string. | String/Text |
 
-### Scenario / Use Case
+## Callback
 
-User want to decode from XML format to string.
-<br>
-<b>string:</b><br><?xml version="1.0" encoding="utf-8"?> <string xmlns="http://orangekloud.com/">[{"id":"1","code":"C20000","name":"Maxi-Teq","address":"300 Billings Drive","tel":"555-0110","term":"C.O.D"},{"id":"2","code":"C23900","name":"Parameter Technology","address":"908 Darby Road","tel":"555-0119","term":"C.O.D"}</string>
-<br />
+N/A
 
-### Step
+## Video
 
-1. Call the function.
+Coming Soon.
 
-    ![](../../../../document/function/Conversion/xmlDecode/xmlDecode-step-1.png?raw=true)
-    
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
- ![](../../../../document/function/Conversion/xmlDecode/xmlDecode-result-1.png?raw=true)
-   
-### Video
+Coming Soon.
 
-- N/A
+<!-- Explain the output.
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

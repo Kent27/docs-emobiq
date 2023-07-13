@@ -1,37 +1,61 @@
 ﻿# callback
 
-### Description
+## Description
 
-Callback action to trigger a flow of actions .
+This function is used to trigger a flow of actions.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| value | Returns an object from the function. | String/Text | - | - | Yes |
+| extra | Extra parameters stored and passed to callback. | Any | - | - | No |
+<!-- | callback | Callback functions. | [functionList] | - | - | No | -->
 
-### Input / Parameters
-value: 'string', extra: 'string', callback: 'functionList'
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | value |  Return object from function | String | Yes  |
-| 2 | extra | Extra params pass to callback | String | Yes  |
-| 3 | callback | Callback functions | FunctionList | Yes  |
+## Output?
 
-### Scenario / Use Case
+| Description | Output Type |
+| ------ | ------ |
+| Returns a boolean value in the console. | Boolean |
 
-- N/A
+## Callback?
 
-### Step
+### yesCallback
 
-- N/A
+The function to be executed when user clicks on the 'OK' button
+
+| Description | Output Type |
+| ------ | ------ |
+| Returns the output of the function executed. | N/A |
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

@@ -1,40 +1,51 @@
 # fontSmall  
 
-### Description
+## Description
 
-Change font size to small.
+Changes the font size to 'small' or the smallest size.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+N/A
 
-### Input / Parameters
+## Output
 
-- N/A
+N/A 
 
-### Scenario / Use Case
+Note: The text in the component selected or the text selected will be updated with the 'small' font size.
 
-User want to change the font size to small.
+## Callback
 
-### Step
+N/A
 
-1. Call the function.
-    
-   ![](../../../../document/function/Conversion/fontSmall/fontSmall-step-1.png?raw=true)
- 
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
- ![](../../../../document/function/Conversion/fontSmall/fontSmall-result-1.png?raw=true)
- 
- ![](../../../../document/function/Conversion/fontSmall/fontSmall-result-2.png?raw=true)
- 
-    
-### Video
+Coming Soon.
 
-- N/A
+<!-- Explain the output.
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

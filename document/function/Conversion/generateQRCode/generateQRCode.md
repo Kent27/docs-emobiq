@@ -1,57 +1,83 @@
 # generateQRCode
 
-### Description
+## Description
 
-Create a trademark for a type of matrix barcode. 
+Creates an image for a type of matrix barcode. 
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| type | The type of QRCode. | String/Text | - | - | No |
+| value | The value of the QRCode. | String/Text | - | - | Yes |
+| logo? | The number to return the absolute of. | String/Text | - | - | No |
+| extra? | The number to return the absolute of. | String/Text | - | - | No |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required | Example |
-| ------ | ------ | ------ |------ | ------ | ------ |
-| 1 | type | Type of QR Code |  | Yes  | <href><http://www.qrcode.com/en/codes/>"
-| 2 | value | Value for QR Code |  | Yes  |
-| 3 | imageSize | Size of image | Number | Yes  |
-| 4 | method | Method |  | Yes  |
-| 5 | local | If the value is true, it will generate the code from mobile and otherwise it will generate from internet. | Boolean | No |
-| 6 | extra |  |  | No | 
+Display and explain the output of the function.
 
-### Scenario / Use Case
+Example below:
 
-The user wants to generate a QR Code.
+| Description | Output Type |
+| ------ | ------ |
+| Returns the base64 value | Object |
 
-### Step
+### Object
 
-1. Call the function.
-   <br>
-   type : qr <br />
-   value : ABCD <br />
-   imageSize : 200 <br />
-   method : post <br />
+| Key | Description | Output Type |
+| ------ | ------ | ------ |
+| filePath | The base64 value. | String/Text |
 
-   ![](../../../../document/function/Conversion/generateQRcode/generateQRcode-step-1.png?raw=true)
-   
-   ![](../../../../document/function/Conversion/generateQRcode/generateQRcode-step-2.png?raw=true)
-   
-2. Add a console for display the response from console.
-    
-   ![](../../../../document/function/Conversion/generateQRcode/generateQRcode-step-3.png?raw=true)
- 
+## Callback
+
+Display and explain the callbacks available for the function.
+
+Example below:
+
+### successCallback
+
+Explain what this callback is for?
+<!-- A successCallback is executed when a function runs successfully. It takes the result returned by the function as its parameter. ? -->
+
+| Description | Output Type |
+| ------ | ------ |
+| Returns the base64 value | Object |
+
+#### Object
+
+| Key | Description | Output Type |
+| ------ | ------ | ------ |
+| filePath | The base64 value. | String/Text |
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
-    
-![](../../../../document/function/Conversion/generateQRcode/generateQRcode-result-1.png?raw=true)
-   
-![](../../../../document/function/Conversion/generateQRcode/generateQRcode-result-2.png?raw=true)
-   
-### Video
 
-- N/A
+Coming Soon.
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+<!-- Explain the output.
 
-### Notes
+Format: ![]({image-path}?raw=true) -->
 
-- N/A
+## Links

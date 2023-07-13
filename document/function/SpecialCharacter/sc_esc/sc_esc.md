@@ -1,18 +1,18 @@
-# sc_space
+# sc_esc
 
-## Description
+## Description?
 
-This function is used to add a space between the values passed. The behaviour of this function is the same as pressing the spacebar key. It can be used along with the concat function to return words or sentences with spaces between them.
+ASCII esc character.
 
 ## Input / Parameter
 
 N/A
 
-## Output
+## Output?
 
 | Description | Output Type |
 | ------ | ------ |
-| Returns the passed values, separated by a space between them. | Any |
+| Returns the passed value. | Any |
 
 ## Callback
 

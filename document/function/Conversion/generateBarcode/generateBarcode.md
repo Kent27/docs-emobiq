@@ -1,61 +1,63 @@
 # generateBarcode
 
-### Description
+## Description
 
-Create a a machine-readable code in the form of numbers and a pattern of parallel lines of varying widths, printed on a commodity and used especially for stock control.
+Creates a machine-readable code in the form of numbers and a pattern of parallel lines of varying widths.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| type | The type of barcode. | String/Text | CODE128 | - | No |
+| fontSize | The font size of the barcode. | Number | 20 | - | No |
+| height | The height of the barcode. | Number | 100 | - | No |
+| width | The width of the barcode. | Number | 2 | - | No |
+| margin | The margin of the barcode. | Number | 10 | - | No |
+| value | The value of the barcode. | String/Text | - | - | Yes |
+| displayText | To display text or not. | Boolean | true | - | No |
+| text | The text to display. | String/Text | - | - | No |
+| bold | Bolds the text. | String/Text | - | - | No |
+| italic | Italicizes the text. | String/Text | - | - | No |
+| textAlign | To align text or not. | String/Text | center | - | No |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required | Example |
-| ------ | ------ | ------ |------ | ------ | ------|
-| 1 | type | Type of barcode. |  | No  | <href><https://www.scandit.com/types-barcodes-choosing-right-barcode/>
-| 2 | fontSize |  Size of the font. |  | No  |
-| 3 | height | Height of the barcode. | Number | Yes  |
-| 4 | width | Width of the barcode.  | Number | Yes  |
-| 5 | value | Value of barcode.  | String | Yes |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the base64 barcode image pattern. | String/Text |
 
-### Scenario / Use Case
+## Callback
 
-The user wants to generate a barcode.
+N/A
 
-### Step
+## Video
 
-1. Call the function "setComponentValue" and set the value for component.
-   <br>
-   component: imgQR<br/>
-  
-    ![](../../../../document/function/Conversion/generateBarcode/generateBarcode-step-1.png?raw=true)
+Coming Soon.
 
-2. Call the function "generateBarcode" and set the value for barcode.
-   <br>
-   height : 200 <br />
-   width : 200 <br />
-   value : aaa
-   
-   ![](../../../../document/function/Conversion/generateBarcode/generateBarcode-step-2.png?raw=true)
-   
-   ![](../../../../document/function/Conversion/generateBarcode/generateBarcode-step-3.png?raw=true)
-   
-3. Add a console for display the response from     console.
-   
-   ![](../../../../document/function/Conversion/generateBarcode/generateBarcode-step-4.png?raw=true)
- 
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
-   ![](../../../../document/function/Conversion/generateBarcode/generateBarcode-result-1.png?raw=true)
-   
-   ![](../../../../document/function/Conversion/generateBarcode/generateBarcode-result-2.png?raw=true)
-   
-### Video
+Coming Soon.
 
-- N/A
+<!-- Explain the output.
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

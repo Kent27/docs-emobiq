@@ -1,51 +1,61 @@
 ﻿# setTimeout
 
-### Description
+## Description
 
-Calls a function or evaluates an expression after a specified number of milliseconds.
+Calls a function or evaluates an expression after a specified number of seconds.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| timeout | The time before a function is executed. | Number | 0 | - | No |
+| persistent | ? | Boolean | false | true, false | No |
+| extra | Extra parameters stored and passed to callback. | Any | - | - | No |
 
-### Input / Parameters
+## Output?
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | timeout | Time. | Time | Yes  |
+| Description | Output Type |
+| ------ | ------ |
+| Returns a boolean value in the console. | Boolean |
 
-### Scenario / Use Case
+## Callback?
 
-The user wants to display the infoDialog after 1 second.
+### yesCallback
 
-### Step
+The function to be executed after the timeout.
 
-1. Call the function "setTimeout"and set the             value for timeout.
-   <br>
-   timeout: 1000<br>
-  
-    ![](../../../../document/function/Flow/setTimeout/setTimeout-step-1.png?raw=true)
-    
-2. Execute the callback coding and call the              function "infoDialog" to display a infoDialog         after 1 seconds.
-   <br>
-   title: Message<br>
-   content: Done<br>
-   disableTimer: true<br>
-   
-    ![](../../../../document/function/Flow/setTimeout/setTimeout-step-2.png?raw=true)
-    
+| Description | Output Type |
+| ------ | ------ |
+| Returns the output of the function executed. | N/A |
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
-![](../../../../document/function/Flow/setTimeout/setTimeout-result-1.png?raw=true)
+Coming Soon.
 
-It will display the infoDialog after 1 seconds.
+<!-- Explain the output.
 
-### Video
+Format: ![]({image-path}?raw=true) -->
 
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

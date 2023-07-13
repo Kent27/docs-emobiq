@@ -1,49 +1,60 @@
 # modalDialog.md
 
-### Description
+## Description
 
-To display an information on dialog box.
+Displays a dialog box (modal) with a snippet selected by the user.
 
-### Flowchart
-
-- N/A 
-
-### Input / Parameters
+## Input / Parameter
 
 | No | Name | Description | Data Type | Required | 
 | ------ | ------ | ------ |------ | ------ |
 | 1 | snippet | Title of the snippet. | String | Yes | 
 | 2 | show | to show the snippet. | String | Yes |
 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| snippet | The title of the snippet. | String/Text | - | - | Yes |
+| show | The show or not to show the snippet. | Boolean | false | true, false | Yes |
+| closable | To be able to close or not to close the snippet. | Boolean | true | true, false | No |
 
-### Scenario / Use Case
+## Output
 
-User want to display an information on dialog box.
+| Description | Output Type |
+| ------ | ------ |
+| Returns a boolean value in the console. | Boolean |
 
-### Step
+## Callback
 
-1. Call the function.
-   <br>
-  
-   ![](../../../../document/function/Dialog/modalDialog/modalDialog-step-1.png?raw=true)
-   
-2. okCallback returns the input value if the             user clicks "OK" and set the variable.
-   <br>
-   var:vCorrectValue
-   value:input
-   
-   ![](../../../../document/function/Dialog/inputDialog/inputDialog-step-2.png?raw=true)
+N/A
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-![](../../../../document/function/Dialog/inputDialog/inputDialog-result-1.png?raw=true)
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

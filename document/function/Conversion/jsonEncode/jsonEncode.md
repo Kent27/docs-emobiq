@@ -1,43 +1,60 @@
 # jsonEncode
 
-### Description
+## Description
 
 Returns the JSON representation of a value.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| object | The value to encode. | Object | - | - | Yes |
+| indent | Indents the object values. | Number | - | - | No |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | object | The Object | Object | Yes  |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the object specified. | Object |
 
-### Scenario / Use Case
+### Object
 
-User want to encode from string to json.
+| Key | Description | Output Type |
+| ------ | ------ | ------ |
+| (key) | The dynamic key specfied by the user. | String/Text |
 
-### Step
+## Callback
 
-1. Call the function.
-   <br>
-   Name : Lili<br />
-   Gender : F<br />
+N/A
 
-  ![](../../../../document/function/Conversion/jsonEncode/jsonEncode-step-1.png?raw=true)
-    
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
- ![](../../../../document/function/Conversion/jsonEncode/jsonEncode-result-1.png?raw=true)
-    
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

@@ -1,49 +1,66 @@
 # infoDialog
 
-### Description
+## Description
 
-To display a dialog box and show information.
+Displays a dialog box (modal) that shows some message set by the user.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
-
-### Input / Parameters
-
-| No | Name | Description | Data Type | Required | 
-| ------ | ------ | ------ |------ | ------ |
-| 1 | title | Title of the infoDialog. | String | Yes | 
-| 2 | content | Message in the dialog box. | String | Yes |
-| 3 | disableTimer | true or false | Boolean | No  |
-| 4 | timeOut | Interval of time  | Time | No  |
-| 5 | okCaption | Caption for "OK" button.  | String | No  |
-| 6 | okCallback | Function to be executed when user clicks on "OK" button.  | [functionList] | No  |
-
-### Scenario / Use Case
-
-The user wants to display an information dialog.
-
-### Step
-
-1. Call the function "infoDialog" and set the            value.
-   <br>
-   title: Message<br/>
-   content: Updated Successful.<br/>
-   timeOut: 30000<br/>
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| title | The title of the dialog box. | String/Text | - | - | Yes |
+| content | The message to be shown in the dialog box. | String/Text | - | - | Yes |
+| disableTimer | To disable the timer or not. | Boolean | false | true, false | No |
+| timeOut | The duration that the modal appears on the screen for. (1 second = 1000) | Number | - | - | No |
+| okCaption | The label for the 'OK' button. | String/Text | - | - | No |
+<!-- | okCallback | The function to be executed when user clicks on the 'OK' button. | [functionList] | - | - | No | -->
    
-   ![](../../../../document/function/Dialog/infoDialog/infoDialog-step-1.png?raw=true)
+## Output?
+
+| Description | Output Type |
+| ------ | ------ |
+| Returns a boolean value in the console. | Boolean |
+
+Note: A modal will pop up which displays the parameters specified by the user.
+
+## Callback?
+
+### okCallback
+
+The function to be executed when user clicks on the 'OK' button.
+
+| Description | Output Type |
+| ------ | ------ |
+| Returns the output of the function executed. | N/A |
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
-The following info dialog will be displayed and shows the information. It will be time out in 30 seconds. <br>
-   ![](../../../../document/function/Dialog/infoDialog/infoDialog-result-1.png?raw=true)
-   
-   
-### Video
 
-- N/A
+Coming Soon.
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+<!-- Explain the output.
 
-### Notes
+Format: ![]({image-path}?raw=true) -->
 
-- N/A
+## Links

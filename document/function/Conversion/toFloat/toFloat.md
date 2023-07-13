@@ -1,41 +1,53 @@
 # toFloat
 
-### Description
+## Description
 
-Convert a value to a float type.
+Converts a passed value to a float type.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| value | The value to convert to a float. | Any | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | value | number | Decimal | Yes  |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the passed value as a float. | Number |
 
-### Scenario / Use Case
+## Callback
 
-User want to convert a value to float type.
+N/A
 
-### Step
+## Video
 
-1. Call the function.
-   <br />
-   value : 12.2222
+Coming Soon.
 
-  ![](../../../../document/function/Conversion/toFloat/toFloat-step-1.png?raw=true)
- 
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
-12.2222(toFloat function parses a string and returns a floating point number.)
-    
-### Video
+Coming Soon.
 
-- N/A
+<!-- Explain the output.
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

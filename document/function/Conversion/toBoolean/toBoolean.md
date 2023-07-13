@@ -1,39 +1,53 @@
 # toBoolean  
 
-### Description
+## Description
 
-Convert a value to a boolean type.
+Converts a passed value to a boolean type.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| value | The value to convert to a boolean. | Any | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | value | number and string | String | Yes  |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the passes value as a boolean. | Boolean |
 
-### Scenario / Use Case
+## Callback
 
-The user wants to convert a value to boolean.
+N/A
 
-### Step
- 
-1. Put the function inside the console for display the response from console.
- 
-    ![](../../../../document/function/Conversion/toBoolean/toBoolean-step-3.png?raw=true)
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-false (if the value is 0, then it will return false. )
-    
-### Video
+Coming Soon.
 
-- N/A
+<!-- Explain the output.
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

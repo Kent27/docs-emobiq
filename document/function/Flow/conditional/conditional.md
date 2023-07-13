@@ -1,51 +1,72 @@
-﻿# Conditional
+﻿# conditional
 
-### Description
+## Description
 
-Is the if-then statement, the program execute a certain section of code only if one or more conditions being met.
+Checks whether the condition passed is met and executes the callback functions accordingly.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| condition | The condition to be checked against. | String/Text | - | - | Yes |
+| yesValue | The output value if condition is 'true'. | String/Text | - | - | No |
+| noValue | The output value if condition is 'false. | String/Text | - | - | No |
+| extra | Extra parameters stored and passed to callback. | Any | - | - | No |
+<!-- | yesCallback | The function to be executed when the condition is 'true'. | [functionList] | - | - | No | -->
+<!-- | noCallback | The function to be executed when the condition is 'false'. | [functionList] | - | - | No | -->
 
-### Input / Parameters
+## Output?
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | condition | Character and number. | String | Yes  |
+| Description | Output Type |
+| ------ | ------ |
+| Returns a boolean value in the console. | Boolean |
 
-### Scenario / Use Case
+## Callback?
 
-The user wants to prove that the value 13 is greater than the value 1.</br>
+### yesCallback
 
-### Step
+The function to be executed when the condition passed is 'true'.
 
-1. Call the function "greater" and set the               value.<br>
-   value1: 13<br/>
-   value2:  1<br/>
-  
-   ![](../../../../document/function/Flow/conditional/conditional-step-1.png?raw=true)
-   
-2. Add a console and set the value if the                condition is met then the program will execute    a     code from "yesCallback".<br>
-   value : greater<br/>
+| Description | Output Type |
+| ------ | ------ |
+| Returns the output of the function executed. | N/A |
 
-   ![](../../../../document/function/Flow/conditional/conditional-step-2.png?raw=true)
-   
-3. Add a console and set the value if the                condition is not met so the program will              execute a code from "noCallback". <br>
-   value : not greater<br/>
-   
-   ![](../../../../document/function/Flow/conditional/conditional-step-3.png?raw=true)
+### noCallback
+
+The function to be executed when the condition passed is 'false'.
+
+| Description | Output Type |
+| ------ | ------ |
+| Returns the output of the function executed. | N/A |
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-"greater" 
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

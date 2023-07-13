@@ -1,48 +1,60 @@
 ﻿# forLoop
 
-### Description
+## Description
  
-Loops are used to execute a set of statements repeatedly until a particular condition is satisfied.
+Loops through the parameter over a range, from the start to the end of the range with an increment of 1 step after every loop to execute a statement until a particular condition is satisfied.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| start | The first value in the range to be looped over. | Number | - | - | Yes |
+| end | The last value in the range to be looped over. | Number | - | - | Yes |
 
-### Input / Parameters
+## Output?
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | start | The first values that need to be run. | String | Yes  |
-| 2 | end | The last values that need to be run. | String | Yes  |
+| Description | Output Type |
+| ------ | ------ |
+| Returns a boolean value in the console. | Boolean |
 
-### Scenario / Use Case
+## Callback?
 
-The user wants to set the loop condition to run which starting from 1 to 12.
+### yesCallback
 
-### Step
+The function to be executed when the loop ends.
 
-1. Call the function "forLoop"and defines the            condition for the loop to run.
-   <br>
-   start: 1<br>
-   end : 12
-   
-   ![](../../../../document/function/Flow/forLoop/forLoop-step-1.png?raw=true)
-    
-2. Add a console and display the response from           console.
-   <br>
-   
-    ![](../../../../document/function/Flow/forLoop/forLoop-step-2.png?raw=true)
-    
+| Description | Output Type |
+| ------ | ------ |
+| Returns the output of the function executed. | N/A |
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
-![](../../../../document/function/Flow/forLoop/forLoop-result-1.png?raw=true)
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links
