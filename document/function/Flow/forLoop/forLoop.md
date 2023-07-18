@@ -11,21 +11,19 @@ Loops through the parameter over a range, from the start to the end of the range
 | start | The first value in the range to be looped over. | Number | - | - | Yes |
 | end | The last value in the range to be looped over. | Number | - | - | Yes |
 
-## Output?
+## Output
 
-| Description | Output Type |
-| ------ | ------ |
-| Returns a boolean value in the console. | Boolean |
+N/A
 
-## Callback?
+## Callback
 
 ### yesCallback
 
-The function to be executed when the loop ends.
+This will be triggered for every loop that happens within the range.
 
 | Description | Output Type |
 | ------ | ------ |
-| Returns the output of the function executed. | N/A |
+| The current active value within the range. | Number |
 
 ## Video
 

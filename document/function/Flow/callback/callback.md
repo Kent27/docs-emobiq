@@ -8,25 +8,22 @@ This function is used to trigger a flow of actions.
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| value | Returns an object from the function. | String/Text | - | - | Yes |
-| extra | Extra parameters stored and passed to callback. | Any | - | - | No |
-<!-- | callback | Callback functions. | [functionList] | - | - | No | -->
+| value | The value to be returned by the 'callback'. | Any | - | - | Yes |
+| extra | The value to be included to the 'callback' as a system value under 'extra'. | Any | - | - | No |
 
-## Output?
+## Output
 
-| Description | Output Type |
-| ------ | ------ |
-| Returns a boolean value in the console. | Boolean |
+N/A
 
-## Callback?
+## Callback
 
 ### yesCallback
 
-The function to be executed when user clicks on the 'OK' button
+The function to be executed immediately.
 
 | Description | Output Type |
 | ------ | ------ |
-| Returns the output of the function executed. | N/A |
+| Returns the 'value'. | Any |
 
 ## Video
 

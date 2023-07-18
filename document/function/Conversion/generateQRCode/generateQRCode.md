@@ -2,53 +2,30 @@
 
 ## Description
 
-Creates an image for a type of matrix barcode. 
+Creates an image for a type of matrix barcode (QR Code).
 
 ## Input / Parameter
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| type | The type of QRCode. | String/Text | - | - | No |
-| value | The value of the QRCode. | String/Text | - | - | Yes |
-| logo? | The number to return the absolute of. | String/Text | - | - | No |
-| extra? | The number to return the absolute of. | String/Text | - | - | No |
+| type | Not currently in use by the function. | String/Text | - | - | No |
+| value | The value to be attached to the QR code. | String/Text | - | - | Yes |
+| logo | An image base64 or URL of an image to be appended to the QR Code. | String/Text | - | - | No |
+| extra | The value to be included to the 'callback' as a system value under 'extra'. | Any | - | - | No |
 
 ## Output
 
-Display and explain the output of the function.
-
-Example below:
-
-| Description | Output Type |
-| ------ | ------ |
-| Returns the base64 value | Object |
-
-### Object
-
-| Key | Description | Output Type |
-| ------ | ------ | ------ |
-| filePath | The base64 value. | String/Text |
+N/A
 
 ## Callback
 
-Display and explain the callbacks available for the function.
+### callback
 
-Example below:
-
-### successCallback
-
-Explain what this callback is for?
-<!-- A successCallback is executed when a function runs successfully. It takes the result returned by the function as its parameter. ? -->
+It is executed after the function completeled generating the matrix barcode (QR Code).
 
 | Description | Output Type |
 | ------ | ------ |
-| Returns the base64 value | Object |
-
-#### Object
-
-| Key | Description | Output Type |
-| ------ | ------ | ------ |
-| filePath | The base64 value. | String/Text |
+| Returns the image base64 value. | String/Text |
 
 ## Video
 

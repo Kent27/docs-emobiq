@@ -9,35 +9,25 @@ Checks whether the condition passed is met and executes the callback functions a
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
 | condition | The condition to be checked against. | String/Text | - | - | Yes |
-| yesValue | The output value if condition is 'true'. | String/Text | - | - | No |
-| noValue | The output value if condition is 'false. | String/Text | - | - | No |
+| yesValue | The output value if condition is 'true'. | Any | - | - | No |
+| noValue | The output value if condition is 'false. | Any | - | - | No |
 | extra | Extra parameters stored and passed to callback. | Any | - | - | No |
-<!-- | yesCallback | The function to be executed when the condition is 'true'. | [functionList] | - | - | No | -->
-<!-- | noCallback | The function to be executed when the condition is 'false'. | [functionList] | - | - | No | -->
 
-## Output?
+## Output
 
 | Description | Output Type |
 | ------ | ------ |
-| Returns a boolean value in the console. | Boolean |
+| Returns the 'yesValue' or 'noValue'. | Any |
 
-## Callback?
+## Callback
 
 ### yesCallback
 
 The function to be executed when the condition passed is 'true'.
 
-| Description | Output Type |
-| ------ | ------ |
-| Returns the output of the function executed. | N/A |
-
 ### noCallback
 
 The function to be executed when the condition passed is 'false'.
-
-| Description | Output Type |
-| ------ | ------ |
-| Returns the output of the function executed. | N/A |
 
 ## Video
 

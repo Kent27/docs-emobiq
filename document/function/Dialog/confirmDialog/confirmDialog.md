@@ -12,34 +12,22 @@ Displays a dialog box (modal) that asks for confirmation from the user.
 | content | The message to be shown in the dialog box. | String/Text | - | - | Yes |
 | okCaption | The label for the 'OK' button. | String/Text | - | - | No |
 | cancelCaption | The label for the 'Cancel' button. | String/Text | - | - | No |
-<!-- | okCallback | The function to be executed when user clicks on the 'OK' button. | [functionList] | - | - | No | -->
-<!-- | cancelCallback | The function to be executed when user clicks on the 'Cancel' button. | [functionList] | - | - | No | -->
 
-## Output?
+## Output
 
-| Description | Output Type |
-| ------ | ------ |
-| Returns a boolean value in the console. | Boolean |
+N/A
 
 Note: A modal will pop up which displays the parameters specified by the user.
 
-## Callback?
+## Callback
 
 ### okCallback
 
 Functions to be executed when the user clicks the 'OK' button.
 
-| Description | Output Type |
-| ------ | ------ |
-| Returns the output of the function executed. | N/A |
-
-### cancelCallback?
+### cancelCallback
 
 Functions to be executed when the user clicks the 'Cancel' button.
-
-| Description | Output Type |
-| ------ | ------ |
-| Returns the output of the function executed. | N/A |
 
 ## Video
 

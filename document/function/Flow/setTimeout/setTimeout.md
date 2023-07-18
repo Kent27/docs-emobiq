@@ -9,24 +9,18 @@ Calls a function or evaluates an expression after a specified number of seconds.
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
 | timeout | The time before a function is executed. | Number | 0 | - | No |
-| persistent | ? | Boolean | false | true, false | No |
-| extra | Extra parameters stored and passed to callback. | Any | - | - | No |
+| persistent | To identify whether this should still be executed outside the current active page. | Boolean | false | true, false | No |
+| extra | The value to be included to the 'callback' as a system value under 'extra'. | Any | - | - | No |
 
-## Output?
+## Output
 
-| Description | Output Type |
-| ------ | ------ |
-| Returns a boolean value in the console. | Boolean |
+N/A
 
-## Callback?
+## Callback
 
 ### yesCallback
 
 The function to be executed after the timeout.
-
-| Description | Output Type |
-| ------ | ------ |
-| Returns the output of the function executed. | N/A |
 
 ## Video
 

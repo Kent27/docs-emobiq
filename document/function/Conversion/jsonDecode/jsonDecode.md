@@ -2,13 +2,15 @@
 
 ## Description
 
-Decodes a JSON string to return the string in the original sequence.
+Decodes a [JSON][JSON] string to an object format.
+
+See 'jsonEncode' function for the json encoding function.
 
 ## Input / Parameter
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| string | The value to decode. | Object | - | - | Yes |
+| string | The value to decode. | String/Text | - | - | Yes |
 
 ## Output
 
@@ -20,7 +22,7 @@ Decodes a JSON string to return the string in the original sequence.
 
 | Key | Description | Output Type |
 | ------ | ------ | ------ |
-| (key) | The dynamic key specfied by the user. | String/Text |
+| (key) | The dynamic key specfied in the [JSON][JSON] string. | String/Text |
 
 ## Callback
 
@@ -57,3 +59,5 @@ Coming Soon.
 Format: ![]({image-path}?raw=true) -->
 
 ## Links
+
+[JSON]: <https://www.json.org/json-en.html>

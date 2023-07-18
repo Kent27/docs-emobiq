@@ -1,18 +1,22 @@
-# sc_escapse
+# sc_escape
 
-## Description?
+## Description
 
-ASCII escapse character.
+Returns an ASCII escape character, which refers to the table below:
+
+| Decimal | Hex | Oct | Char |
+| ------ | ------ | ------ | ------ |
+| 27 | 1B | 033 | ESC |
 
 ## Input / Parameter
 
 N/A
 
-## Output?
+## Output
 
 | Description | Output Type |
 | ------ | ------ |
-| Returns the passed value. | Any |
+| Returns the ASCII escape character. | String/Text |
 
 ## Callback
 

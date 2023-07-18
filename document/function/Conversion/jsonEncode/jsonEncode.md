@@ -2,26 +2,22 @@
 
 ## Description
 
-Returns the JSON representation of a value.
+Encodes an object format to a [JSON][JSON] string representation.
+
+See 'jsonDecode' function for the json decoding function.
 
 ## Input / Parameter
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| object | The value to encode. | Object | - | - | Yes |
-| indent | Indents the object values. | Number | - | - | No |
+| object | The value to be encoded. | Object | - | - | Yes |
+| indent | Spacing indentation to be included in the output. | Number | 0 | - | No |
 
 ## Output
 
 | Description | Output Type |
 | ------ | ------ |
-| Returns the object specified. | Object |
-
-### Object
-
-| Key | Description | Output Type |
-| ------ | ------ | ------ |
-| (key) | The dynamic key specfied by the user. | String/Text |
+| Returns the [JSON][JSON] string representation. | String/Text |
 
 ## Callback
 
@@ -58,3 +54,5 @@ Coming Soon.
 Format: ![]({image-path}?raw=true) -->
 
 ## Links
+
+[JSON]: <https://www.json.org/json-en.html>

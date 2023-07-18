@@ -1,2 +1,4 @@
 # Ignore Files
+# Used so that the folder would be created because it is needed
 .DS_Store
+*.mov

@@ -13,21 +13,19 @@ Example: loop through a list of numbers to square (operation to be applied) ever
 | values | The list of elements to loop through. | Array/List | - | - | Yes |
 | extra | Extra parameters stored and passed to callback. | Any | - | - | No |
 
-## Output?
+## Output
 
-| Description | Output Type |
-| ------ | ------ |
-| Returns a boolean value in the console. | Boolean |
+N/A
 
-## Callback?
+## Callback
 
 ### yesCallback
 
-The function to be executed when all the elements in the list have been looped through.
+This will be triggered for every loop that happens within the 'values'.
 
 | Description | Output Type |
 | ------ | ------ |
-| Returns the output of the function executed. | N/A |
+| The current active value within the 'values'. | Any |
 
 ## Video
 

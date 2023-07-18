@@ -13,25 +13,18 @@ Displays a dialog box (modal) that shows some message set by the user.
 | disableTimer | To disable the timer or not. | Boolean | false | true, false | No |
 | timeOut | The duration that the modal appears on the screen for. (1 second = 1000) | Number | - | - | No |
 | okCaption | The label for the 'OK' button. | String/Text | - | - | No |
-<!-- | okCallback | The function to be executed when user clicks on the 'OK' button. | [functionList] | - | - | No | -->
    
-## Output?
+## Output
 
-| Description | Output Type |
-| ------ | ------ |
-| Returns a boolean value in the console. | Boolean |
+N/A
 
 Note: A modal will pop up which displays the parameters specified by the user.
 
-## Callback?
+## Callback
 
 ### okCallback
 
-The function to be executed when user clicks on the 'OK' button.
-
-| Description | Output Type |
-| ------ | ------ |
-| Returns the output of the function executed. | N/A |
+The function to be executed when user clicks on the button in the modal.
 
 ## Video
 

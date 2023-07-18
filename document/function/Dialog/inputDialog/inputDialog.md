@@ -11,34 +11,22 @@ Displays a dialog box (modal) that requires the user to enter some input.
 | title | The title of the dialog box. | String/Text | - | - | Yes |
 | type | The type of input to enter in the dialog box. | String/Text | - | - | Yes |
 | value | Default value to be displayed in the input field of the dialog box. | Integer | - | - | No |
-<!-- | okCallback | The function to be executed when user clicks on the 'OK' button. | [functionList] | - | - | No | -->
-<!-- | cancelCallback | The function to be executed when user clicks on the 'Cancel' button. | [functionList] | - | - | No | -->
    
-## Output?
+## Output
 
-| Description | Output Type |
-| ------ | ------ |
-| Returns a boolean value in the console. | Boolean |
+N/A
 
 Note: A modal will pop up which displays the parameters specified by the user.
 
-## Callback?
+## Callback
 
 ### okCallback
 
 The function to be executed when user clicks on the 'OK' button.
 
-| Description | Output Type |
-| ------ | ------ |
-| Returns the output of the function executed. | N/A |
-
 ### cancelCallback
 
 The function to be executed when user clicks on the 'Cancel' button.
-
-| Description | Output Type |
-| ------ | ------ |
-| Returns the output of the function executed. | N/A |
 
 ## Video
 
