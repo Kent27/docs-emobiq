@@ -1,40 +1,58 @@
-# sendMailSMTP
+# socketDisconnect
 
-### Description
+## Description
 
-Disconnect TCP connection through socket
+Disconnects a TCP connection through a socket.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| type | The type of connection. | String/Text | - | - | Yes |
+| name | The name of the connection. | String/Text | default | - | No |
 
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
+## Output
 
-### Input / Parameters
+N/A
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | type | Type of connection | String |   |
-| 2 | name | Connection name | String |  | 
-| 3 | callback | Success callback | FunctionList |  | 
-| 4 | errorCallback | Error callback | FunctionList |  | 
+## Callback?
 
-### Scenario / Use Case
+### callback
 
-- N/A
+The function to be executed if the connection is removed successfully.
 
-### Step
+### errorCallback
 
-- N/A
+The function to be executed if the connection is not removed successfully.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

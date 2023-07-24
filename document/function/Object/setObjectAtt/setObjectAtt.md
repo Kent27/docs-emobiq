@@ -2,7 +2,7 @@
 
 ## Description
 
-Set the attribute/property value of an object.
+Allows users to set the attribute/property value of an object.
 
 ## Input / Parameter
     

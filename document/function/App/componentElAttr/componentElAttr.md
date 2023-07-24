@@ -1,16 +1,16 @@
 # componentElAttr
 
-### Description
+## Description
 
-Get the element attribute of the component, such as name, value etc.
+Returns the element attribute of a component, such as name, value etc.
 
-### Input / Parameter
+## Input / Parameter
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
 | component | The name of the component to get attribute from | String/Text | - | - | Partial (Yes if no 'componentId'.) |
 | componentId | The id of the component to get attribute from | String/Text | - | - | Partial (Yes if no 'component'.) |
-| attr | The attribute of the component | String/Text | - | - | Yes |
+| attr | The attribute of the component. | String/Text | - | - | Yes |
 
 __\* Note:__ Either component or componentId must have value in order for this function to work.
 
@@ -18,7 +18,7 @@ __\* Note:__ Either component or componentId must have value in order for this f
 
 | Description | Output Type |
 | ------ | ------ |
-| The element attribute to be obtained. | String/Text |
+| Returns the element attribute of the component specified. | String/Text |
 
 ## Callback
 

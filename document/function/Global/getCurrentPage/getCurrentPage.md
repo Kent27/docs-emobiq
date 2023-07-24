@@ -1,33 +1,51 @@
-# getCruentPage
+# getCurrentPage
 
-### Description
+## Description
 
-Return the current page.
+Returns the name of the current page the user is on.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+N/A
 
-### Input / Parameters
+## Output
 
-- N/A
+| Description | Output Type |
+| ------ | ------ |
+| Returns the name of the current page. | String/Text |
 
-### Scenario / Use Case
+## Callback
 
-- N/A
+N/A
 
-### Step
+## Video
 
-- N/A
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

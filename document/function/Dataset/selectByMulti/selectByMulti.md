@@ -1,41 +1,63 @@
 ﻿# selectByMulti
 
-### Description
+## Description
 
-Filter the dataset with multiple fields.
+Retrieves the specified records from multiple fields in a dataset.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| dataset | The name of the local table to remove the records from. | String/Text | - | - | Yes |
+| first? | ? | String/Text | - | - | No |
+| filter | The filters for the field and value to remove. | Array/List | - | - | Yes |
+| orFilter | Additional filters for the field and value to remove. | Array/List | - | - | No |
+| extra | Extra parameters stored and passed to callback. | Any | - | - | No |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | dataset | Dataset to be searched | String |   |
-| 2 | first | Get first match | Boolean |   |
-| 3 | filter | First filtering condition | Object |   |
-| 4 | orFilter | Second filtering condition | Object |   |
-| 5 | extra | Extra parameters | Object |   |
-| 6 | callback | Success callback | FunctionList |   |
-| 7 | errorCallback | Error callback | FunctionList |   |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the list of records selected from the local table. | Array/List |
 
-### Scenario / Use Case
+## Callback?
 
-- N/A
+### callback
 
-### Step
+The function to be executed if the specified records are selected successfully.
 
-- N/A
+### errorCallback
+
+The function to be executed if the specified records are not selected successfully.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

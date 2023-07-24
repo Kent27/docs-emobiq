@@ -2,38 +2,48 @@
 
 ## Description
 
-Refresh the current page.
+Refreshes the current page to show any changes.
 
 ## Input / Parameter
 
-| Name | Description | Input Type | Default | Options | Required |
-| ------ | ------ | ------ | ------ | ------ | ------ |
-| - | - | - | - | - | - |
+N/A
 
 ## Output
 
-### Default Output
+N/A
 
-| Description | Output Type |
-| ------ | ------ |
-| Checks that the page has been reloaded. | Boolean |
+## Callback
+
+N/A
 
 ## Video
 
 Coming Soon.
 
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
 ## Example
 
-The user wants to refresh the current page that he is on.
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-1. Call the function.
+Coming Soon.
 
-    ![](../../../../document/function/App/reload/reload-step-1.png?raw=true)
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-The page has been refreshed.
+Coming Soon.
+
+<!-- Explain the output.
+
+Format: ![]({image-path}?raw=true) -->
 
 ## Links

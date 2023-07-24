@@ -2,7 +2,7 @@
 
 ## Description
 
-Get the attribute/property value of an object.
+Retrieves the attribute/property value of an object.
 
 ## Input / Parameter
     

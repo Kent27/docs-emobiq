@@ -1,39 +1,62 @@
 # saveBase64ToGallery
 
-### Description
+## Description
 
-Save base64 image to gallery.
+Saves a base64 image to gallery.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| base64 | The base64 data of the image file. | String/Text | - | - | Yes |
+| quality | The quality of the image file. | String/Text | - | - | No |
+| prefix | The prefix of the image file. | String/Text | - | - | No |
 
-### Input / Parameters
+<!-- | callback | When the function is triggered successfully. | functionList | - | - | No | -->
+<!-- | errCallback | When the function is not triggered successfully. | functionList | - | - | No | -->
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | base64 | Base64 data of file | String  |   |
-| 2 | quality | Base64 data of file | String  |   |
-| 3 | prefix | Prefix to the file | String  |   |
-| 4 | callback | Success Callback | functionList |  | 
-| 5 | errCallback | Error Callback | functionList |  | 
+## Output
 
-### Scenario / Use Case
+N/A
 
-- N/A
+Note: The gallery will be updated to include the the base64 image saved.
 
-### Step
+## Callback?
 
-- N/A
+### callback
+The function to execute if the base64 image has been saved successfully.
+
+### errCallback
+The function to execute if the base64 image is not saved successfully.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

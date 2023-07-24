@@ -1,42 +1,51 @@
 # keyboardHide
 
-### Description
+## Description
 
-Hide keyboard of mobile device.
+Hides the keyboard of the mobile device in the edit component.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+N/A
 
-### Input / Parameters
+## Output
 
-- N/A
+N/A
 
-### Scenario / Use Case
+Note: The edit component will be updated to hide the keyboard.
 
-The user want to hide the keyboard when the edit text is focused.
+## Callback
 
-### Step
+N/A
 
-1. Call the keyboardHide function. 
+## Video
 
-    ![](../../../../document/function/Device/keyboardHide/keyboardHide-step-1.png?raw=true)
-    
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
-Keyboard is shown.
+Coming Soon.
 
-![](../../../../document/function/Device/keyboardHide/keyboardHide-result-1.png?raw=true)
+<!-- Explain the output.
 
-Keyboard of mobile device will be dismissed. 
+Format: ![]({image-path}?raw=true) -->
 
-![](../../../../document/function/Device/keyboardHide/keyboardHide-result-2.png?raw=true)
-
-### Video
-
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

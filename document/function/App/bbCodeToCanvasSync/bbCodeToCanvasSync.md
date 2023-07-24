@@ -2,7 +2,7 @@
 
 ## Description
 
-Generate a canvas by following a specific format including images, canvas are mainly used for printing.
+Generates a canvas by following a specific format including images, canvas are mainly used for printing.
 
 ## Input / Parameter
 
@@ -16,6 +16,7 @@ Generate a canvas by following a specific format including images, canvas are ma
 | marginLeft | The margin left value of the canvas. | Number | 0 | - | No | 
 | marginRight | The margin right value of the canvas. | Number | 0 | - | No | 
 | marginBottom | The margin bottom value of the canvas. | Number | 0 | - | No | 
+| rotateDegree | The degree of rotation of the canvas. | Number | 0 | - | No | 
 
 <!-- | callback | When the function was triggered successfully. | Function List | - | - | No | -->
 <!-- | errCallback | When the function trigger failed successfully. | Function List | - | - | No | -->
@@ -34,29 +35,17 @@ Text Format
 
 ## Output
 
-| Description | Output Type |
-| ------ | ------ |
-| Returns true if the canvas was generated, returns false otherwise. | Boolean |
+N/A
 
 ## Callback?
 
-Display and explain the callbacks available for the function.
+### callback
 
-Example below:
+The function to be executed when the canvas is generated successfully.
 
-### successCallback
+### errCallback
 
-Explain what this callback is for?
-
-| Description | Output Type |
-| ------ | ------ |
-| Returns the base64 value | Object |
-
-#### Object
-
-| Key | Description | Output Type |
-| ------ | ------ | ------ |
-| filePath | The base64 value. | String/Text |
+The function to be executed when the canvas is not generated.
 
 ## Video
 

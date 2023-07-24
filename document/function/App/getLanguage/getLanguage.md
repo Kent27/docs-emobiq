@@ -2,38 +2,50 @@
 
 ## Description
 
-Get the language of the app. The default language is set to English.
+Returns the language of the app. The default language is set to English.
 
-## Input / Parameters
+## Input / Parameter
 
-| Name | Description | Input Type | Default | Options | Required |
-| ------ | ------ | ------ | ------ | ------ | ------ |
-| - | - | - | - | - | - |
+N/A
 
 ## Output
 
-### Default Output
-
 | Description | Output Type |
 | ------ | ------ |
-| Returns the language of the app. | String |
+| Returns the language of the app. | String/Text |
+
+## Callback
+
+N/A
 
 ## Video
 
 Coming Soon.
 
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
 ## Example
 
-The user wants to retrieve the language of the app.
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-1. Call the function.
+Coming Soon.
 
-    ![](../../../../document/function/App/getLanguage/getLanguage-step-1.png?raw=true)
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-Language of the app, e.g. English
+Coming Soon.
+
+<!-- Explain the output.
+
+Format: ![]({image-path}?raw=true) -->
 
 ## Links

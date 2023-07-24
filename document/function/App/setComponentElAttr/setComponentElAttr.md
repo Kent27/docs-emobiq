@@ -1,8 +1,8 @@
-# setComponentFocus
+# setComponentElAttr
 
 ## Description
 
-Highlights a specific text in a component.
+Allows users to set a new value for an attribute of a component.
 
 ## Input / Parameter
 
@@ -10,8 +10,8 @@ Highlights a specific text in a component.
 | ------ | ------ | ------ | ------ | ------ | ------ |
 | component | The name of the component. | String/Text | - | - | Partial (Yes if no 'componentId'.) |
 | componentId | The id of the component. | String/Text | - | - | Partial (Yes if no 'component'.) |
-| selectAllText | Highlight all the words in the component. | Boolean | false | true, false | No |
-| hideKeyboard | Hide or display keyboard. | Boolean | false | true, false | No |
+| attr | The attribute of the component. | String/Text | - | - | Yes |
+| value | The value to be set for the attribute. | String/Text | - | - | Yes |
 
 __\* Note:__ Either component or componentId must have value in order for this function to work.
 
@@ -19,7 +19,7 @@ __\* Note:__ Either component or componentId must have value in order for this f
 
 N/A
 
-Note: The component will be updated to show the highlighted text in the edit component.
+Note: The component will be updated to show the new value assigned to the attribute.
 
 ## Callback
 

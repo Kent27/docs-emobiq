@@ -2,47 +2,55 @@
 
 ## Description
 
-Retrive the details of the component.
+Retrieves the details of a component.
 
-## Input / Parameters
+## Input / Parameter
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| component | The name of the component. | String | - | - | Partial (Yes if no 'componentId'.) |
-| componentId | The id of the component. | String | - | - | Partial (Yes if no 'component'.) |
+| component | The name of the component. | String/Text | - | - | Partial (Yes if no 'componentId'.) |
+| componentId | The id of the component. | String/Text | - | - | Partial (Yes if no 'component'.) |
 
 __\* Note:__ Either component or componentId must have value in order for this function to work.
 
 ## Output
 
-### Default Output
-
 | Description | Output Type |
 | ------ | ------ |
-| The details of the component selected. | String |
+| Returns the details of the component. | Array/List |
+
+## Callback
+
+N/A
 
 ## Video
 
 Coming Soon.
 
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
 ## Example
 
-The user wants to view all the attributes or details of a component.
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-1. Draw a button "ButtonGetCom".
+Coming Soon.
 
-    ![](../../../../document/function/App/getComponent/getComponent-step-1.png?raw=true)
-    
-2. Call the function.
+<!-- Show the steps and share some screenshots.
 
-    ![](../../../../document/function/App/getComponent/getComponent-step-2.png?raw=true)
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-In the console, the details of the component will appear as shown:
+Coming Soon.
 
-![](../../../../document/function/App/getComponent/getComponent-result-1.png?raw=true)
+<!-- Explain the output.
+
+Format: ![]({image-path}?raw=true) -->
 
 ## Links

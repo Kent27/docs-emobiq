@@ -1,51 +1,63 @@
-
 # barcodeScanner
 
-### Description
+## Description
 
-Activate barcode scanner using camera of device.
+Activates a barcode scanner using the camera of the device.
 
-### Flowchart
+## Input / Parameter?
 
-- N/A
+N/A
 
-### Input / Parameters
+<!-- | Name | Description | Input Type | Default | Options | Required | -->
+<!-- | ------ | ------ | ------ | ------ | ------ | ------ |
+<!-- | showFlipCameraButton | Show flip camera button. Supported on iOS and Android. | Boolean | - | - | No | -->
+<!-- | showTorchButton | Show torch button. Supported on iOS and Android. | Boolean | - | - | No | -->
+<!-- | torchOn | Launch with the torch switched on (if available). Supported on Android only. | Boolean | - | - | No | -->
+<!-- | prompt | Prompt text. Supported on Android only. | String/Text | - | - | No | -->
+<!-- | resultDuration | Display scanned text for X ms. 0 suppresses it entirely, default 1500. Supported on Android only. | Number | - | - | No | -->
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | showFlipCameraButton | Show flip camera button. Supported on iOS and Android | Boolean | No |
-| 2 | showTorchButton | Show torch button. Supported on iOS and Android | Boolean | No |
-| 3 | torchOn | Launch with the torch switched on (if available). Supported on Android only. | Boolean | No |
-| 4 | prompt | Prompt text. Supported on Android only. | String | No |
-| 5 | resultDuration | Display scanned text for X ms. 0 suppresses it entirely, default 1500. Supported on Android only. | Number | No |
+## Output
 
-### Scenario / Use Case
+N/A
 
-The user want scan barcode and display in a dialog.
+## Callback?
 
-### Step
+### callback
 
-1. Call the barcodeScanner function in a button event.
+The function to be executed if the barcode scanner is activated successfully.
 
-    ![](../../../../document/function/Device/barcodeScanner/barcodeScanner-step-1.png?raw=true)
+### errorCallback
 
-2. In callback, add infoDialog function. 
+The function to be executed if the barcode scanner is not activated successfully.
 
-    ![](../../../../document/function/Device/barcodeScanner/barcodeScanner-step-2.png?raw=true)
-    
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
-When press on button, the barcode scanner will be activated. <br />
-![](../../../../document/function/Device/barcodeScanner/barcodeScanner-result-1.png?raw=true)
+Coming Soon.
 
-After scanned the barcode, the value will be displayed in a dialog box. <br />
-![](../../../../document/function/Device/barcodeScanner/barcodeScanner-result-2.png?raw=true)
+<!-- Explain the output.
 
-### Video
+Format: ![]({image-path}?raw=true) -->
 
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

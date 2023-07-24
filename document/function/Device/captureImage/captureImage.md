@@ -1,50 +1,59 @@
 # captureImage
 
-### Description
+## Description
 
 Activates the camera of the mobile device to capture image.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| quality | The quality of the saved image. (Ranging from 0-100, where 100 is the full resolution.) | Number | - | - | Yes |
+| height | The height to scale the image to, in pixels. | Number | - | - | Partial (Yes if 'width is provided'.) |
+| width | The width to scale the image to, in pixels. | Number | - | - | Partial (Yes if 'height' is provided'.) |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required | Example |
-| ------ | ------ | ------ |------ | ------ | ------ |
-| 1 | quality | Quality of the saved image, expressed as a range of 0-100, where 100 is typically full resolution with no loss from file compression. | Integer | Yes | 50
-| 2 | height | Height in pixels to scale image. Must be used with width. Aspect ratio remains constant. | Integer | No |
-| 3 | width | Width in pixels to scale image. Must be used with height. Aspect ratio remains constant. | Integer | No |
+N/A
 
-### Scenario / Use Case
+## Callback?
 
-The user want to take photo using mobile device and view the photo in the image component.
+### callback
 
-### Step
+The function to be executed if the camera captures an image successfully.
 
-1. Draw a image component "Image653", a button "captureImage"
-  
-    ![](../../../../document/function/Device/captureImage/captureImage-step-1.png?raw=true)
-    
-2. Call the function captureImage in the button.
+### errorCallback
 
-    ![](../../../../document/function/Device/captureImage/captureImage-step-2.png?raw=true)
+The function to be executed if the camera does not capture an image successfully.
 
-3. In callback, call setComponentValue to set the image to the image component.
+## Video
 
-    ![](../../../../document/function/Device/captureImage/captureImage-step-3.png?raw=true)
-    
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
-The image captured will be shown in the image component.
+Coming Soon.
 
-![](../../../../document/function/Device/captureImage/captureImage-result-1.png?raw=true)
+<!-- Explain the output.
 
-### Video
+Format: ![]({image-path}?raw=true) -->
 
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- User must build the app first before they can test on this function.
+## Links

@@ -1,36 +1,53 @@
-# generateAlphaNumeric
+# generateRandomAlphanumeric
 
-### Description
+## Description
 
-Generate a random alphanumeric characters.
+Generates a series of random alphanumeric characters based on the length specified by the user.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| characterLength | The length of alphanumeric characters to generate. | Number | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required | Example |
-| ------ | ------ | ------ |------ | ------ | ------ |
-| 1 | characterLength | CharacterLength | Integer | Yes | 1, 2, 3, …
+| Description | Output Type |
+| ------ | ------ |
+| Returns the series of random alphanumeric characters generated. | String/Text |
 
+## Callback
 
-### Scenario / Use Case
+N/A
 
-- N/A
+## Video
 
-### Step
+Coming Soon.
 
-- N/A
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

@@ -2,7 +2,7 @@
 
 ## Description
 
-Adding a specific duration or increment to a date, resulting in a new date value.
+Adds a specific duration or increment to a date, resulting in a new date value.
 
 ## Input / Parameter
 

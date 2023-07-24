@@ -2,52 +2,52 @@
 
 ## Description
 
-Set a default language for the app from the pre-defined languages in language settings.
+Allows users to set a default language for the app from the pre-defined languages in language settings.
 
 ## Input / Parameter
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| lang | The name of the language to be set as default. | String | - | - | Yes |
+| lang | The name of the language to be set as default. | String/Text | - | - | Yes |
 
 ## Output
 
-### Default Output
+N/A
 
-| Description | Output Type |
-| ------ | ------ |
-| The new language that has been set. | String |
+Note: The component will be updated to show the translated text in the language specified by the user.
+
+## Callback
+
+N/A
 
 ## Video
 
 Coming Soon.
 
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
 ## Example
 
-The user wants to change the default language (English) of their App.
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-1. Go to language setting tab add language "chinese", add label "Language" and assign chinese word for the label as below:
+Coming Soon.
 
-    ![](../../../../document/function/App/setLanguage/setLanguage-step-1.png?raw=true)
-    
-2. Draw a Label with "Language" Caption, a button "setLanguage"
+<!-- Show the steps and share some screenshots.
 
-    ![](../../../../document/function/App/setLanguage/setLanguage-step-2.png?raw=true)
-    
-3. Call the function
+1. .....
 
-    ![](../../../../document/function/App/setLanguage/setLanguage-step-3.png?raw=true)
-    
-4. Reload
-
-    ![](../../../../document/function/App/setLanguage/setLanguage-step-4.png?raw=true)
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-The word "Language" will be changed to "语言选择". <br />
+Coming Soon.
 
-![](../../../../document/function/App/setLanguage/setLanguage-result-1.png?raw=true)
+<!-- Explain the output.
+
+Format: ![]({image-path}?raw=true) -->
 
 ## Links

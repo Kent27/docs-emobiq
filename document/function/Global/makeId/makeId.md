@@ -1,35 +1,51 @@
 # makeId
 
-### Description
+## Description
 
-Generate unique ID or number.
+Generates a unique ID or number.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+N/A
 
-### Input / Parameters
+## Output
 
-- N/A
+| Description | Output Type |
+| ------ | ------ |
+| Returns the unique ID, which is a series of numbers. | Number |
 
-### Scenario / Use Case
+## Callback
 
-The user wants generate a unique ID before store data into a table.
+N/A
 
-### Step
+## Video
 
-1. Call the function.
+Coming Soon.
 
-    ![](makeId-step-1.png?raw=true)
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-User will get a series of number eg 1534990333586678.
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

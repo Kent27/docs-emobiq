@@ -2,45 +2,53 @@
 
 ## Description
 
-Create a global variable with a value associated to it.
+Creates a global variable with a value associated to it.
 
 ## Input / Parameter
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| var | The name of the variable to create. | String | - | - | Yes |
-| value | The value associated to the variable. | String | - | - | Yes |
+| var | The name of the variable to create. | String/Text | - | - | Yes |
+| value | The value associated to the variable. | String/Text | - | - | Yes |
 
 ## Output
 
-### Default Output
-
 | Description | Output Type |
 | ------ | ------ |
-| Checks if the variable is created? | String |
+| Returns the value of the variable created. | String/Text |
+
+## Callback
+
+N/A
 
 ## Video
 
 Coming Soon.
 
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
 ## Example
 
-The user wants to create a global variable that can be accessed or used in any function in the app.
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-1. Call the function, create a variable of single value.
+Coming Soon.
 
-    ![](../../../../document/function/App/setVar/setVar-step-1.png?raw=true)
+<!-- Show the steps and share some screenshots.
 
-2. Call the function, create a variable of an object.
+1. .....
 
-    ![](../../../../document/function/App/setVar/setVar-step-2.png?raw=true)
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-In console, user can type emobiqApp._GVar to view all the global variable.
+Coming Soon.
 
-![](../../../../document/function/App/setVar/setVar-result-1.png?raw=true)
+<!-- Explain the output.
+
+Format: ![]({image-path}?raw=true) -->
 
 ## Links

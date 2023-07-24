@@ -1,39 +1,57 @@
 # btPrinterDisconnect
 
-### Description
+## Description
 
-Disconnect bluetooth printer.
+Disconnects a bluetooth printer from the device.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| timeout | The duration the printer can be idle for before it is disconnected. | String/Text | - | - | Yes |
 
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
+## Output?
 
-### Input / Parameters
+N/A
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | timeout | Timeout duration | String |  | 
-| 2 | callback | Success Callback | functionList |  | 
-| 3 | errCallback | Error Callback | functionList |  | 
+## Callback?
 
-### Scenario / Use Case
+### callback
 
-- N/A
+The function to be executed if the printer is disconnected successfully.
 
-### Step
+### errCallback
 
-- N/A
+The function to be executed if the printer is not disconnected successfully.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

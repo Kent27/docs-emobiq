@@ -2,7 +2,7 @@
 
 ## Description
 
-Converting a number into a specific desired format, such as adding commas for thousands separators or specifying decimal places.
+Converts a number into a specific desired format, such as adding commas for thousands separators or specifying decimal places.
 
 ## Input / Parameter
 

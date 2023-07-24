@@ -1,54 +1,72 @@
 # generatePaynowQR
 
-### Description
+## Description
 
-Generate Paynow QR code.
+Generates a Paynow QR code.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| formatIndicator | The format indicator for the QR code. | String/Text | - | - | Yes |
+| initiationMethod | The initiation method. | Array/List | - | - | Yes |
+| accountIdentifier | The account id. | String/Text | - | - | Yes |
+| accountProxyType | The proxy type of the account. | String/Text | - | - | Yes |
+| accountProxyValue | The proxy value of the account. | String/Text | - | - | Yes |
+| editableAmountIndicator | The editable amount indicator. | String/Text | - | - | Yes |
+| qrExpiryDate | The expiry date of the QR code. | String/Text | - | - | Yes |
+| merchantCategoryCode | The category code of the merchant. | String/Text | - | - | Yes |
+| transactionCurrency | The currency of the transaction. | String/Text | - | - | Yes |
+| transactionAmount | The transaction amount. | String/Text | - | - | Yes |
+| countryCode | The country code of the merchant. | String/Text | - | - | Yes |
+| merchantName | The name of the merchant. | String/Text | - | - | Yes |
+| merchantCity | The city of the merchant. | String/Text | - | - | Yes |
+| billNumber | The bill number for the transaction. | String/Text | - | - | Yes |
+| logo | The logo of the QR code. | String/Text | - | - | No |
+| extra | Extra parameters stored and passed to callback. | Any | - | - | No |
 
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
+## Output
 
-### Input / Parameters
+N/A
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | formatIndicator | Format indicator | String |  |
-| 2 | initiationMethod | Initiation Method | String |  | 
-| 3 | accountIdentifier | Accoutn Id | String |  | 
-| 4 | accountProxyType | Account proxy type | String |  | 
-| 5 | accountProxyValue | Account proxy value | String |  | 
-| 6 | editableAmountIndicator | Editable Amount Indicator | String |  | 
-| 7 | qrExpiryDate | Qr Expiry Date | String |  | 
-| 8 | merchantCategoryCode | Merchant Category Code | String |  | 
-| 9 | transactionCurrency | Transaction Currency | String |  | 
-| 9 | transactionAmount | Transaction amount | String |  | 
-| 9 | countryCode | Country code | String |  | 
-| 9 | merchantName | Merchant Name | String |  | 
-| 9 | merchantCity | Merchant city | String |  | 
-| 9 | billNumber | Bill No | String |  | 
-| 9 | logo | Logo | String |  | 
-| 9 | extra | Extra objects to parameters | Object |  | 
-| 10 | callback | Success callback | FunctionList |  | 
-| 11 | errorCallback | Error callback | FunctionList |  | 
+## Callback?
 
-### Scenario / Use Case
+### callback
 
-- N/A
+The function to be executed if the Paynow QR code is generated successfully.
 
-### Step
+### errorCallback
 
-- N/A
+The function to be executed if the Paynow QR code is not generated successfully.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

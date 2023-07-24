@@ -2,7 +2,7 @@
 
 ## Description
 
-Send an email through the app.
+Sends an email through the app.
 
 ## Input / Parameter
 
@@ -10,61 +10,54 @@ Send an email through the app.
 | ------ | ------ | ------ | ------ | ------ | ------ |
 | config | The configuration of the email to be sent. | Object | - | - | Yes |
 | from | The name of the sender. | Object | - | - | Yes |
-| to | The name of the recipient. | Array | - | - | Yes |
-| cc | The carbon copy. | Array | - | - | No |
-| bcc | The blind carbon copy. | Array | - | - | No |
+| to | The name of the recipient. | Array/List | - | - | Yes |
+| cc | The carbon copy. | Array/List | - | - | No |
+| bcc | The blind carbon copy. | Array/List | - | - | No |
 | data | The contents of the email. | Object | - | - | Yes |
-| attachment | The file(s) to be attached. | String/Array? | - | - | No |
+| attachment | The file(s) to be attached. | Array/List | - | - | No |
 
 ## Output
 
-### Default Output
+N/A
 
-| Description | Output Type |
-| ------ | ------ |
-| Returns a the email structure. | String |
+## Callback?
+
+### callback
+
+The function to be executed when the email is sent successfully.
+
+### errCallback
+
+The function to be executed when the email is not sent successfully.
 
 ## Video
 
 Coming Soon.
 
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
 ## Example
 
-The user wants to send an email via the app.
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-1. Call the sendMail function, add toObject function in "config" parameter as below:
+Coming Soon.
 
-    ![](../../../../document/function/App/sendMail/sendMail-step-1.png?raw=true)
+<!-- Show the steps and share some screenshots.
 
-2. For "from" paremeter, add toObject with "email" & "name".
+1. .....
 
-    ![](../../../../document/function/App/sendMail/sendMail-step-2.png?raw=true)
-
-3. For "to" paremeter, add toArray function then toObject funtion.
-
-    ![](../../../../document/function/App/sendMail/sendMail-step-3.png?raw=true)
-
-    Add fields "email" & "name".
-
-    ![](../../../../document/function/App/sendMail/sendMail-step-5.png?raw=true)
-
-4. For "cc" paremeter, add toArray function then toObject funtion.
-   
-    ![](../../../../document/function/App/sendMail/sendMail-step-4.png?raw=true)
-
-    Add fields "email" & "name".
-
-    ![](../../../../document/function/App/sendMail/sendMail-step-6.png?raw=true)
-
-5. For "data" paremeter, add toObject function then add fields "subject" "body". 
-
-    ![](../../../../document/function/App/sendMail/sendMail-step-7.png?raw=true)
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-Email Received:
-![](../../../../document/function/App/sendMail/sendMail-result-1.png?raw=true)
+Coming Soon.
+
+<!-- Explain the output.
+
+Format: ![]({image-path}?raw=true) -->
 
 ## Links

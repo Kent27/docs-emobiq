@@ -2,7 +2,7 @@
 
 ## Description
 
-Remove all global variables in the app. 
+Removes all global variables in the app excluding the variables specified. 
 
 ## Input / Parameter
 
@@ -12,9 +12,9 @@ Remove all global variables in the app.
 
 ## Output
 
-| Description | Output Type |
-| ------ | ------ |
-| Checks whether all the global variables have been deleted. | Boolean |
+N/A
+
+Note: The global variables will be updated to remove all of them.
 
 ## Callback
 

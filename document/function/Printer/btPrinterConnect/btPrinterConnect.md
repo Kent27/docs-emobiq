@@ -1,40 +1,58 @@
 # btPrinterConnect
 
-### Description
+## Description
 
-Connect bluetooth printer.
+Connects a bluetooth printer to the device.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| printerID | The id of the printer to connent. | String/Text | - | - | Yes |
+| extra | Extra parameters stored and passed to callback. | Any | - | - | No |
 
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
+## Output?
 
-### Input / Parameters
+N/A
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | printerId | Printer Id | String |  | 
-| 2 | extra | Extra objects | Object |  | 
-| 3 | callback | Success Callback | functionList |  | 
-| 4 | errCallback | Error Callback | functionList |  | 
+## Callback?
 
-### Scenario / Use Case
+### callback
 
-- N/A
+The function to be executed if the printer is connected successfully.
 
-### Step
+### errCallback
 
-- N/A
+The function to be executed if the printer is not connected successfully.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

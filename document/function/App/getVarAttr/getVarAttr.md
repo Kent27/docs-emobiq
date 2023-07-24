@@ -2,40 +2,54 @@
 
 ## Description
 
-Get the attribute value of an object or array variable.
+Returns the attribute value of an object or array variable.
 
-## Input / Parameters
+## Input / Parameter
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| var | The name of the variable. | String | - | - | Yes |
-| attr | The attribute of the variable to be obtained. | String | - | - | Yes |
-| default | The default value of the variable. | String | - | - | Yes |
+| var | The name of the variable. | String/Text | - | - | Yes |
+| attr | The attribute of the variable to be obtained. | String/Text | - | - | Yes |
+| default | The default value of the variable. | String/Text | - | - | Yes |
 
 ## Output
 
-### Default Output
-
 | Description | Output Type |
 | ------ | ------ |
-| Returns the value of the attribute of the variable. | String |
+| Returns the attribute value of the object if there is a value, returns default value passed by the user otherwise. | String/Text |
+
+## Callback
+
+N/A
 
 ## Video
 
 Coming Soon.
 
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
 ## Example
 
-The user wants to retrieve a value of an attribute from a global variable which had been declared.
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-1. Assuming you have followed the "setVar" fuction in help document, call the function.
+Coming Soon.
 
-    ![](../../../../document/function/App/getVarAttr/getVarAttr-step-1.png?raw=true)
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-If the "code" attribute of the user variable "vObject" has no value, the console will display "No Value".
+Coming Soon.
+
+<!-- Explain the output.
+
+Format: ![]({image-path}?raw=true) -->
 
 ## Links

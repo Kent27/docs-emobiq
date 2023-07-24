@@ -2,7 +2,7 @@
 
 ## Description
 
-Create an object of the passed data.
+Creates an object of the passed data.
 
 ## Input / Parameter
 

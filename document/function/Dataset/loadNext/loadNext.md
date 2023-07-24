@@ -1,50 +1,56 @@
 ﻿# loadNext
 
-### Description
+## Description
 
-Loads the following next records of the table or dataset.
+Loads the subsequent records in a dataset after loadData function was run.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| dataset | The name of the local table to be loaded. | String/Text | - | - | Yes |
+| datasetDisplay? | The values to displayed from the local table. | Boolean | false | true, false | No |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | dataset | The dataset name of the table to be loaded. | String | Yes  |
-| 2 | datasetDisplay | |  | No |
-| 3 | beforeCallback |  |  | No |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the list of subsequent records from the dataset. | Array/List |
 
-### Scenario / Use Case
+## Callback?
 
-The user wants to load the next of the data after a specific number of the data are loaded from dataset "l_customer".
+### beforeCallback
 
-### Step
+The function to be executed if the subsequent records are loaded successfully.
 
-1. Add a console for display the value"load    next called".
+## Video
 
-   ![](../../../../document/function/Dataset/loadNext/loadNext-step-1.png?raw=true)
- 
-2. Call the function "loadNext" and define     the dataset.
-   <br>dataset: l_customer
-    
-   ![](../../../../document/function/Dataset/loadNext/loadNext-step-2.png?raw=true)
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-![](../../../../document/function/Dataset/loadNext/loadNext-result-1.png?raw=true) <br>(Add a console and set the value "load next called" just let you more clear to see the different result between load data and load next function.)
+Coming Soon.
 
-![](../../../../document/function/Dataset/loadNext/loadNext-result-2.png?raw=true) <br>
+<!-- Explain the output.
 
-( When you call the function "loadNext", the rest of the data will be display it continuously. )
+Format: ![]({image-path}?raw=true) -->
 
-### Video
-
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

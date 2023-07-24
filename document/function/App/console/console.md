@@ -2,38 +2,52 @@
 
 ## Description
 
-Display the output/ result in browser. 
+Using this function will display the output/result in the browser console. 
 
 ## Input / Parameter
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| value | The output to be shown in the browser console, such as characters, numbers or words. | String | - | - | Yes |
+| value | The output to be shown in the browser console, such as characters, numbers or words. | String/Text | - | - | Yes |
 
 ## Output
 
-### Default Output
-
 | Description | Output Type |
 | ------ | ------ |
-| The input that was entered in the 'value' parameter. | String |
+| Returns the value specified in the parameter. | String/Text |
+
+## Callback
+
+N/A
 
 ## Video
 
-[![Video]({image-path}?raw=true)]({url-link})
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
 ## Example
 
-The user wants to view the result in the console of a broswer for debugging purpose.
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-1. Call the function.
+Coming Soon.
 
-    ![](../../../../document/function/App/console/console-step-1.png?raw=true)
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-![](../../../../document/function/App/console/console-result-1.png?raw=true)
+Coming Soon.
+
+<!-- Explain the output.
+
+Format: ![]({image-path}?raw=true) -->
 
 ## Links

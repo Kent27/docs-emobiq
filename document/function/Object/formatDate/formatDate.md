@@ -2,7 +2,7 @@
 
 ## Description
 
-Converting a date into a specific desired format, such as changing the display of a date from one representation to another.
+Converts a date into a specific desired format, such as changing the display of a date from one representation to another.
 
 ## Input / Parameter
     

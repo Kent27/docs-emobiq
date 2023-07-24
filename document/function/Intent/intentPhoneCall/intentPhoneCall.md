@@ -1,44 +1,51 @@
 # intentPhoneCall
 
-### Description
+## Description
 
-This function is to start a call.
+This function is used to start a call.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| phone | The phone number to call. | String/Text | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required | 
-| ------ | ------ | ------ |------ | ------ |
-| 1 | phone | phone number | String | Yes | 
+N/A
 
-### Scenario / Use Case
+## Callback
 
-The user wants to start a call.
-<br>
+N/A
 
-### Step
+## Video
 
-1. Call the function.
+Coming Soon.
 
-    ![](../../../../document/function/Intent/intentPhoneCall/intentPhoneCall-step-1.png?raw=true)
-    
-2. Click open skype if use laptop/pc, click call if use phone.
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
-    ![](../../../../document/function/Intent/intentPhoneCall/intentPhoneCall-step-2.png?raw=true)
-    
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
-![](../../../../document/function/Intent/intentPhoneCall/intentPhoneCall-result-1.png?raw=true)
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

@@ -1,39 +1,57 @@
 # btPrinterPrint
 
-### Description
+## Description
 
-Send data to the printer.
+Sends data to a printer to print the required document.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| text | The data to print. | String/Text | - | - | Yes |
 
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
+## Output?
 
-### Input / Parameters
+N/A
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | text | Data to print | String |  | 
-| 1 | callback | Success Callback | functionList |  | 
-| 2 | errorCallback | Error Callback | functionList |  | 
+## Callback?
 
-### Scenario / Use Case
+### callback
 
-- N/A
+The function to be executed if the data to be printed is sent to the printer successfully.
 
-### Step
+### errorCallback
 
-- N/A
+The function to be executed if the data to be printed is not sent to the printer successfully.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

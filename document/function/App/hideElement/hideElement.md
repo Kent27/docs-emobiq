@@ -2,41 +2,55 @@
 
 ## Description
 
-Hide a component on the screen.
+Hides a component on the screen.
 
-## Input / Parameters
+## Input / Parameter
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| component | The name of the component. | String | - | - | Partial (Yes if no 'componentId'.) |
-| componentId | The id of the component. | String | - | - | Partial (Yes if no 'component'.) |
+| component | The name of the component. | String/Text | - | - | Partial (Yes if no 'componentId'.) |
+| componentId | The id of the component. | String/Text | - | - | Partial (Yes if no 'component'.) |
 
 __\* Note:__ Either component or componentId must have value in order for this function to work.
 
 ## Output
 
-### Default Output
+N/A
 
-| Description | Output Type |
-| ------ | ------ |
-| Checks whether component is hidden. | Boolean |
+Note: The component will be updated to be hidden on the screen.
+
+## Callback
+
+N/A
 
 ## Video
 
 Coming Soon.
 
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
 ## Example
 
-The user wants to hide a button component on the screen.
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-1. Call the function
+Coming Soon.
 
-    ![](../../../../document/function/App/hideElement/hideElement-step-1.png?raw=true)
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-The button will no longer be visible on the mobile screen.
+Coming Soon.
+
+<!-- Explain the output.
+
+Format: ![]({image-path}?raw=true) -->
 
 ## Links

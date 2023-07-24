@@ -1,40 +1,51 @@
 # onBackButton
 
-### Description
+## Description
 
-Trigger back buton of android device only.
+Triggers the back button to navigate to another page. This is applicable to android devicesß only.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+N/A
 
-### Input / Parameters
+## Output
 
-- N/A
+N/A
 
-### Scenario / Use Case
+## Callback?
 
-The user want to redirect to another page when press of back button.
+### callback
 
-### Step
+The gotoPage function will be executed when the back button is triggered to navigate to the page specified.
 
-1. Call the onBackButton function. 
+## Video
 
-    ![](../../../../document/function/Device/onBackButton/onBackButton-step-1.png?raw=true)
-    
-2. In callback, add gotoPage function and give the "p" parameter as pgGlobal.
+Coming Soon.
 
-    ![](../../../../document/function/Device/onBackButton/onBackButton-step-2.png?raw=true)
-    
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
-User will redirect to pgGlobal if the press on back button of android device.
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

@@ -1,40 +1,54 @@
 # canvasToCPCL
 
-### Description
+## Description
 
-Convert canvas to CPCL printer language.
+Converts a canvas to CPCL printer language.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| canvas | The name of the canvas to convert. | String/Text | - | - | Yes |
+| singlePrint | To print single-sided or not. | Boolean | true | true, false | No |
+| copies | The number of copies to print. | Number | 1 | - | No |
+| blackMark | To show black mark or not. | Boolean | false? | true, false | No |
 
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
+## Output
 
-### Input / Parameters
+N/A
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | canvas | Canvas to convert | String |  | 
-| 2 | singlePrint | Single print control flag | Boolean |  | 
-| 3 | copies | Number of copies | Integer |  | 
-| 4 | blackMark | True to check balck | Boolean |  | 
+## Callback
 
-### Scenario / Use Case
+N/A
 
-- N/A
+## Video
 
-### Step
+Coming Soon.
 
-- N/A
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

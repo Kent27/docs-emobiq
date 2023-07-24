@@ -1,41 +1,55 @@
 # deviceHasTouchSensor
 
-### Description
+## Description
 
-Active touch sensor (fingerprint) of a mobile device.
+Activates the touch sensor (fingerprint) feature of a mobile device.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+N/A
 
-### Input / Parameters
+## Output
 
-- N/A
+N/A
 
-### Scenario / Use Case
+## Callback?
 
-The user want activate touch sensor of their device.
+### callback
 
-### Step
+The infoDialog function will be executed to display a modal to notify if the touch sensor is activated successfuly.
 
-1. Call the deviceHasTouchSensor function in a button event.
+### errorCallback
 
-    ![](../../../../document/function/Device/deviceHasTouchSensor/deviceHasTouchSensor-step-1.png?raw=true)
+The function to be executed if the touch sensor is not activated successfully.
 
-2. In callback, add infoDialog function. 
+## Video
 
-    ![](../../../../document/function/Device/deviceHasTouchSensor/deviceHasTouchSensor-step-2.png?raw=true)
-    
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
-Info dialog will be prompted as below:  <br />
-![](../../../../document/function/Device/deviceHasTouchSensor/deviceHasTouchSensor-result-1.png?raw=true)
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- The mobile device must have touch sensor and user must setup the fingerprint in their device settings.
+## Links

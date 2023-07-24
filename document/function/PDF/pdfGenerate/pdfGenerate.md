@@ -1,44 +1,63 @@
 # pdfGenerate
 
-### Description
+## Description
 
-Generating pdf.
+Generates a PDF.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| type | The type of data to use. | String/Text | url | url, html | No |
+| value | The value of the PDF file. | String/Text | - | - | Yes |
+| result | The result of the PDF file. | String/Text | base64 | base64, share | Yes |
+| size | The size of the PDF file. | String/Text | A4 | A4, A3, A2 | Yes |
+| orientation | The orientation of the PDF file. | String/Text | portrait | portrait, landscape | Yes |
+| fileName | The name of the PDF file. | String/Text | - | - | Yes |
+| extra | Extra parameters stored and passed to callback. | Any | - | - | No |
 
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
+## Output
 
-### Input / Parameters
+N/A
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | type | Type html or url(default) | String | No |
-| 2 | value | html or url | String | Yes | 
-| 3 | size | Document Size | String | Yes | 
-| 4 | orientation | Document orientation | String | Yes | 
-| 5 | fileName | File name | String | Yes | 
-| 6 | extra | Extra plugin params | Object | No | 
-| 7 | callback | Success callback | FunctionList | No | 
-| 8 | errorCallback | Error callback | FunctionList | No | 
+## Callback?
 
-### Scenario / Use Case
+### callback
 
-- N/A
+The function to be executed if the PDF is generated successfully.
 
-### Step
+### errorCallback
 
-- N/A
+The function to be executed if the PDF is not generated successfully.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

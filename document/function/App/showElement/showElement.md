@@ -2,41 +2,55 @@
 
 ## Description
 
-Make a component visible on the screen.
+Makes a component visible on the screen.
 
 ## Input / Parameter
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| component | The name of the component. | String | - | - | Partial (Yes if no 'componentId'.) |
-| componentId | The id of the component. | String | - | - | Partial (Yes if no 'component'.) |
+| component | The name of the component. | String/Text | - | - | Partial (Yes if no 'componentId'.) |
+| componentId | The id of the component. | String/Text | - | - | Partial (Yes if no 'component'.) |
 
 __\* Note:__ Either component or componentId must have value in order for this function to work.
 
 ## Output
 
-### Default Output
+N/A
 
-| Description | Output Type |
-| ------ | ------ |
-| Checks whether the component is visible on screen. | Boolean |
+Note: The component will be updated to be shown on the screen.
+
+## Callback
+
+N/A
 
 ## Video
 
 Coming Soon.
 
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
 ## Example
 
-The user wants to display a button component that was previously not visible on the screen.
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-1. Call the function
+Coming Soon.
 
-    ![](../../../../document/function/App/showElement/showElement-step-1.png?raw=true)
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-The button will be shown in the mobile screen.
+Coming Soon.
+
+<!-- Explain the output.
+
+Format: ![]({image-path}?raw=true) -->
 
 ## Links

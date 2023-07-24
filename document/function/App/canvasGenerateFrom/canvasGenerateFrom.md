@@ -2,7 +2,7 @@
 
 ## Description
 
-Convert a file data to a canvas, canvas are mainly used for printing.
+Converts a file data to a canvas, canvas are mainly used for printing.
 
 ## Input / Parameter
 
@@ -18,29 +18,17 @@ Convert a file data to a canvas, canvas are mainly used for printing.
 
 ## Output
 
-| Description | Output Type |
-| ------ | ------ |
-| Returns true if the canvas was generated, returns false otherwise. | Boolean |
+N/A
 
 ## Callback?
 
-Display and explain the callbacks available for the function.
+### callback
 
-Example below:
+The function to be executed when the canvas is generated successfully.
 
-### successCallback
+### errCallback
 
-Explain what this callback is for?
-
-| Description | Output Type |
-| ------ | ------ |
-| Returns the base64 value | Object |
-
-#### Object
-
-| Key | Description | Output Type |
-| ------ | ------ | ------ |
-| filePath | The base64 value. | String/Text |
+The function to be executed when the canvas is not generated.
 
 ## Video
 

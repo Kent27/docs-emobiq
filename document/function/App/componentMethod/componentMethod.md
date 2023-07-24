@@ -1,5 +1,4 @@
-# Component Method
-
+# componentMethod
 
 ## Description
 
@@ -9,51 +8,51 @@ To perform InsertBy, DeleteBy or UpdateBy functions to insert, delete or update 
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| component | The name of the local table. | String | - | - | Yes |
-| componentId | The id of the local table. | String | - | - | No |
-| method | The method to be used to execute the changes in the local table. | String | - | - | Yes |
-| arguments | The data to be edited, such as a row in the local table. | String | - | - | Yes |
+| component | The name of the local table. | String/Text | - | - | Partial (Yes if no 'componentId'.) |
+| componentId | The id of the local table. | String/Text | - | - | Partial (Yes if no 'component'.) |
+| method | The method to be used to execute the changes in the local table. | String/Text | - | - | Yes |
+| arguments | The data to be edited, such as a row in the local table. | Array/List | - | - | Yes |
+
+__\* Note:__ Either component or componentId must have value in order for this function to work.
 
 ## Output
 
-### Default Output
-
 | Description | Output Type |
 | ------ | ------ |
-| The data in the local table is updated with the selected function. | - |
+| Returns the updated list of rows in the local table. | Array/List |
 
-### Parameter Output: {parameter-name}
+## Callback
 
-The parameter output of the function.
+N/A
 
 ## Video
 
 Coming Soon.
 
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
 ## Example
 
-The user wants to delete a row of data inside the local table. 
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-1. make sure local table is added to Services, and consist of some data.
- 
-     ![](../../../../document/function/App/componentMethod/componentMethod-Step-1.png?raw=true)
+Coming Soon.
 
-2. Call Function "componentMethod"
- 
-     ![](../../../../document/function/App/componentMethod/componentMethod-Step-2.png?raw=true)
-     
-3. Fill up the function
+<!-- Show the steps and share some screenshots.
 
-     ![](../../../../document/function/App/componentMethod/componentMethod-Step-3.png?raw=true)
-     
-4. Run the function and result is the row with ID : ABC123 is deleted 
+1. .....
 
-     ![](../../../../document/function/App/componentMethod/componentMethod-Step-4.png?raw=true)
-     
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
-The row in the local table with id = 'ABC123' is deleted.
+Coming Soon.
+
+<!-- Explain the output.
+
+Format: ![]({image-path}?raw=true) -->
 
 ## Links

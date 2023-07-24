@@ -1,38 +1,55 @@
 # btPrinterIsConnected
 
-### Description
+## Description
 
-Check whether printer is connected or not.
+Checks whether a printer is connected to the device.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+N/A
 
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
+## Output?
 
-### Input / Parameters
+N/A
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | yesCallback | Success Callback | functionList |  | 
-| 2 | noCallback | Error Callback | functionList |  | 
+## Callback?
 
-### Scenario / Use Case
+### yesCallback
 
-- N/A
+The function to be executed if the printer is connected.
 
-### Step
+### noCallback
 
-- N/A
+The function to be executed if the printer is not connected.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

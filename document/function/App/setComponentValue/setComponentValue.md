@@ -2,50 +2,56 @@
 
 ## Description
 
-Set a value to a component.
+Allows users to set a value to a component.
 
 ## Input / Parameter
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| component | The name of the component. | String | - | - | Yes |
-| componentId | The id of the component. | String | - | - | No |
-| value | The value to be set for the component. | String | - | - | Yes |
+| component | The name of the component. | String/Text | - | - | Partial (Yes if no 'componentId'.) |
+| componentId | The id of the component. | String/Text | - | - | Partial (Yes if no 'component'.) |
+| value | The value to be set for the component. | String/Text | - | - | Yes |
+
+__\* Note:__ Either component or componentId must have value in order for this function to work.
 
 ## Output
 
-### Default Output
+N/A
 
-| Description | Output Type |
-| ------ | ------ |
-| The new value set to the component. | String |
+Note: The component will be updated to show the value that has been set to it.
+
+## Callback
+
+N/A
 
 ## Video
 
 Coming Soon.
 
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
 ## Example
 
-The user wants to change the value of a label component.
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-1. Add a lable and a button 
+Coming Soon.
 
-	![](../../../../document/function/App/setComponentValue/setComponentValue-Step-1.png?raw=true)
+<!-- Show the steps and share some screenshots.
 
-2. Call Function "setComponentValue"
+1. .....
 
-     ![](../../../../document/function/App/setComponentValue/setComponentValue-Step-2.png?raw=true)
-     
-3. Fill up the parameters
-
-	![](../../../../document/function/App/setComponentValue/setComponentValue-Step-3.png?raw=true)
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-The caption (value) of the label has been changed to abc123.
+Coming Soon.
 
-![](../../../../document/function/App/setComponentValue/setComponentValue-Result-1.png?raw=true)
+<!-- Explain the output.
+
+Format: ![]({image-path}?raw=true) -->
 
 ## Links

@@ -2,36 +2,48 @@
 
 ## Description
 
-Disable the sorting feature in the app.
+Disables the sorting feature in the app.
 
 ## Input / Parameter
 
-| Name | Description | Input Type | Default | Options | Required |
-| ------ | ------ | ------ | ------ | ------ | ------ |
-| - | - | - | - | - | - |
+N/A
 
 ## Output
 
-### Default Output?
+N/A
 
-| Description | Output Type |
-| ------ | ------ |
-| Returns the base64 value | String |
+## Callback
+
+N/A
 
 ## Video
 
 Coming Soon.
 
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
 ## Example
 
-The user wants to disable the sorting feature in the app.
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
 Coming Soon.
 
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
 Coming Soon.
+
+<!-- Explain the output.
+
+Format: ![]({image-path}?raw=true) -->
 
 ## Links

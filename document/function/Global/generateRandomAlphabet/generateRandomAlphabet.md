@@ -1,35 +1,53 @@
-# generateAlphabet
+# generateRandomAlphabet
 
-### Description
+## Description
 
-Generate a random alphabet characters.
-### Flowchart
+Generates a series of random alphabets based on the length specified by the user.
 
-- N/A
+## Input / Parameter
 
-### Input / Parameters
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| characterLength | The length of alphabets to generate. | Number | - | - | Yes |
 
-| No | Name | Description | Data Type | Required | Example |
-| ------ | ------ | ------ |------ | ------ | ------ |
-| 1 | characterLength | CharacterLength | Integer | Yes | 1, 2, 3, …
+## Output
 
+| Description | Output Type |
+| ------ | ------ |
+| Returns the series of random alphabets generated. | String/Text |
 
-### Scenario / Use Case
+## Callback
 
-- N/A
+N/A
 
-### Step
+## Video
 
-- N/A
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

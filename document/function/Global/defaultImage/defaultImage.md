@@ -1,26 +1,22 @@
-# btPrinterPortList
+# defaultImage
 
 ## Description
 
-Returns a list of all the bluetooth printer ports.
+Generates a default image to be used.
 
 ## Input / Parameter
 
 N/A
 
-## Output?
+## Output
+
+| Description | Output Type |
+| ------ | ------ |
+| Returns the url for the default image. | String/Text |
+
+## Callback
 
 N/A
-
-## Callback?
-
-### callback
-
-The function to be executed if the printer ports are returned successfully.
-
-### errCallback
-
-The function to be executed if the printer ports are not returned successfully, or when 'btPrinterPortList error: bluetoothClassicSerial plugins not found' is returned.
 
 ## Video
 

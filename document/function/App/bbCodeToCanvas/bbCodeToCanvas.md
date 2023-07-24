@@ -2,7 +2,7 @@
 
 ## Description
 
-Generate a canvas by following a specific format, canvas are mainly used for printing.
+Generates a canvas by following a specific format, canvas are mainly used for printing.
 
 ## Input / Parameter
 
@@ -31,29 +31,11 @@ Text Format
 
 ## Output
 
-| Description | Output Type |
-| ------ | ------ |
-| Returns true if the canvas was generated, returns false otherwise. | Boolean |
+N/A
 
-## Callback?
+## Callback
 
-Display and explain the callbacks available for the function.
-
-Example below:
-
-### successCallback
-
-Explain what this callback is for?
-
-| Description | Output Type |
-| ------ | ------ |
-| Returns the base64 value | Object |
-
-#### Object
-
-| Key | Description | Output Type |
-| ------ | ------ | ------ |
-| filePath | The base64 value. | String/Text |
+N/A
 
 ## Video
 

@@ -1,42 +1,60 @@
 # socketSend
 
-### Description
+## Description
 
-Send data to the socket
+Sends data to a socket.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| type | The type of connection. | String/Text | - | - | Yes |
+| name | The name of the connection. | String/Text | default | - | No |
+| event? | The event to listen for. | String/Text | - | - | No |
+| data | The data to send to the socket. | String/Text | - | - | No |
 
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
+## Output
 
-### Input / Parameters
+N/A
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | type | Type of connection | String |   |
-| 2 | name | Connection name | String |  | 
-| 3 | event | Event to listen | String |  | 
-| 4 | data | Data | String |  | 
-| 5 | callback | Success callback | FunctionList |  | 
-| 6 | errorCallback | Error callback | FunctionList |  | 
+## Callback?
 
-### Scenario / Use Case
+### callback
 
-- N/A
+The function to be executed if data is sent to the socket successfully.
 
-### Step
+### errorCallback
 
-- N/A
+The function to be executed if data is not sent to the socket successfully.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

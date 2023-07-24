@@ -1,44 +1,53 @@
 # deviceRemoveTouchSensor
 
-### Description
+## Description
 
-Remove touch sensor for mobile device.
+Removes the touch sensor feature in a mobile device.
 
+## Input / Parameter
 
-### Flowchart
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| key | The key in the device keychain. | String/Text | - | - | Yes |
 
-- N/A
+## Output
 
-### Input / Parameters
+N/A
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | key | Key in the device keychain | String | Yes |
+## Callback?
 
-### Scenario / Use Case
+### callback
 
-The user want remove specific key of touch sensor in their device.
+The function to be executed if touch sensor feature is removed successfully.
 
-### Step
+## Video
 
-1. Call the deviceRemoveTouchSensor function in a button event, define key to remove.
+Coming Soon.
 
-    ![](../../../../document/function/Device/deviceRemoveTouchSensor/deviceRemoveTouchSensor-step-1.png?raw=true)
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
-2. In callback, add infoDialog function. 
+## Example
 
-    ![](../../../../document/function/Device/deviceRemoveTouchSensor/deviceRemoveTouchSensor-step-2.png?raw=true)
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-![](../../../../document/function/Device/deviceRemoveTouchSensor/deviceRemoveTouchSensor-result-1.png?raw=true)
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- Prerequisite: You must know how to use deviceAddTouchSensor function.
-- The mobile device must have touch sensor and user must setup the fingerprint in their device settings.
+## Links

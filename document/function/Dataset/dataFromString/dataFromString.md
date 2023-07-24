@@ -1,68 +1,62 @@
 ﻿# dataFromString
 
+## Description
 
-### Description
+This will replace all the existing records in the local table with the new records. The values inserted must be in a JSON format.
 
-This will replace all of the existing records in the local table with the new ones, the values inserted must be in a json format.
+## Input / Parameter
 
-### Flowchart
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| dataset | The name of the local table to be edited. | String/Text | - | - | Yes |
+| string | The values to be inserted in the local table. | Array/List | - | - | Yes |
+| append | Inserts the specified content at the end of a selected element. | String/Text | - | - | No |
+| extra | Extra parameters stored and passed to callback. | Any | - | - | No |
 
-- N/A 
+## Output
 
-### Input / Parameters
+| Description | Output Type |
+| ------ | ------ |
+| Returns the list of records in the local table. | Array/List |
 
-| No | Name | Description | Data Type | Required 
-| ------ | ------ | ------ |------ | ------ |
-| 1 | dataset | Name of the dataset to be read in local table.| String | Yes  |
-| 2 | string | The values to be inserted in the local table. | String  | Yes |
-| 3 | append | Inserts specified content at the end of the selected elements. | String  | No |
+## Callback?
 
-### Scenario / Use Case
+### callback
 
-The user wants to replace all the existing records in the local table with the new ones.</br>
+The function to be executed if the local table is updated with the new records successfully.
 
-### Step
+### errorCallback
 
-1. Call the function "dataFromString", set the dataset and set the          function "jsonDecode" to string.<br>
-   dataset: l_customer<br />
-   string: jsonDecode<br/>
-    
-    ![](../../../../document/function/Dataset/dataFromString/dataFromString-step-1.png?raw=true)
-    
-2. Call the function "toArray" and set the function "toObject" to string    and define the id and code.<br>
-   string: toObject<br />
-   id: 1<br>
-   code: C00013<br/>
-   id: 2<br>
-   code: C00014<br>
-   id: 3<br>
-   code: C00015<br>
-   id: 4<br>
-   code: C00016<br>
-   
-   ![](../../../../document/function/Dataset/dataFromString/dataFromString-step-2.png?raw=true)
-   
-   ![](../../../../document/function/Dataset/dataFromString/dataFromString-step-3.png?raw=true)
-   
-   ![](../../../../document/function/Dataset/dataFromString/dataFromString-step-4.png?raw=true)
-   
-   ![](../../../../document/function/Dataset/dataFromString/dataFromString-step-5.png?raw=true)
-   
-   ![](../../../../document/function/Dataset/dataFromString/dataFromString-step-6.png?raw=true)
-  
-    
+The function to be executed if the local table is not updated with the new records successfully.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
-![](../../../../document/function/Dataset/dataFromString/dataFromString-result-1.png?raw=true)<br>
+Coming Soon.
 
-![](../../../../document/function/Dataset/dataFromString/dataFromString-result-2.png?raw=true)
+<!-- Explain the output.
 
-### Video
+Format: ![]({image-path}?raw=true) -->
 
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

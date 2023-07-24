@@ -1,55 +1,61 @@
-# Insert 
+# insert 
 
-### Description
+## Description
 
-Insert a data in a local table.
+Inserts values specified by the user into a local table.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| dataset | The name of the local table to be insert data to. | String/Text | - | - | Yes |
+| dt | The values to be inserted in the local table. | Object | - | - | Yes |
+| extra | Extra parameters stored and passed to callback. | Any | - | - | No |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | dataset | Name of the dataset in local table to be insert. | String | Yes  |
-| 2 | dt | Object name | Object | Yes |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the updated local table as a list. | Array/List |
 
-### Scenario / Use Case
+## Callback?
 
-The user wants to insert the id=23 into the dataset "l_customer".
+### callback
 
-### Step
+The function to be executed if the local table is updated with the new records successfully.
 
-1. Call the function "insert" and define the dataset    and dt.
-   <br>
-   dataset: l_customer<br>
-   
-   ![](../../../../document/function/Dataset/insert/insert-step-1.png?raw=true)
-  
-2. Set toObject function to dt and define the value    of object.
-   <br>
-   dt: toObject<br>
-   id: 23<br>
-   code: C12345<br>
-   name: ABC<br>
-   
-   ![](../../../../document/function/Dataset/insert/insert-step-2.png?raw=true)
-   
+### errCallback
+
+The function to be executed if the local table is not updated with the new records successfully.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
-![](../../../../document/function/Dataset/insert/insert-result-1.png?raw=true)
-( Before insert, the id is until id=22 )
+Coming Soon.
 
-![](../../../../document/function/Dataset/insert/insert-result-2.png?raw=true)
-( After insert, the id=23 successful add into the dataset "l_customer" )
-   
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

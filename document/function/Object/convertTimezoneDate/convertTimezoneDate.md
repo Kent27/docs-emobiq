@@ -2,7 +2,7 @@
 
 ## Description
 
-Converting a date from one timezone to another, changing the date to match a different timezone's local time.
+Converts a date from one timezone to another, changing the date to match a different timezone's local time.
 
 ## Input / Parameter
 

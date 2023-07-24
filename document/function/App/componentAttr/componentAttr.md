@@ -2,15 +2,15 @@
 
 ## Description
 
-Get the attribute of a component, such as its name, dimensions etc.
+Returns the attribute of a component, such as its name, dimensions etc.
 
 ## Input / Parameter
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| component | The name of the component to get attribute from | String/Text | - | - | Partial (Yes if no 'componentId'.) |
-| componentId | The id of the component to get attribute from | String/Text | - | - | Partial (Yes if no 'component'.) |
-| attr | The attribute of the component | String/Text | - | - | Yes |
+| component | The name of the component to get attribute from. | String/Text | - | - | Partial (Yes if no 'componentId'.) |
+| componentId | The id of the component to get attribute from. | String/Text | - | - | Partial (Yes if no 'component'.) |
+| attr | The attribute of the component. | String/Text | - | - | Yes |
 
 __\* Note:__ Either component or componentId must have value in order for this function to work.
 
@@ -18,7 +18,7 @@ __\* Note:__ Either component or componentId must have value in order for this f
 
 | Description | Output Type |
 | ------ | ------ |
-| The attribute to be obtained. | String/Text |
+| Returns the attribute of the component. | String/Text |
 
 ## Callback
 

@@ -1,20 +1,21 @@
-# canvasToDataURL?
+# canvasToDataURL
 
 ## Description
 
-Convert the value in a signature component to dataURL eg data:__[__&lt;mediatype&gt;__]__[_;base64_]_,&lt;data&gt; 
+Converts the value in a signature component to dataURL.
 
 ## Input / Parameter
 
-| No | Name | Description | Data Type | Required | Example |
-| ------ | ------ | ------ |------ | ------ | ------ |
-| 1 | canvas | The name of signature component. | String/Text | Yes | 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| canvas | The name of the component. | String/Text | - | - | Yes |
+| componentId | The id of the component. | String/Text | - | - | No |
 
 ## Output
 
 | Description | Output Type |
 | ------ | ------ |
-| Returns true if the canvas was converted, returns false otherwise. | Boolean |
+| Returns the dataURL of the signature. | String/Text |
 
 ## Callback
 

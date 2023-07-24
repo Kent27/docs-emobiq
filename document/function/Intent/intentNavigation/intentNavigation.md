@@ -1,36 +1,52 @@
 # intentNavigation
 
-### Description
+## Description
 
-Opens the native map app with navigation towards a location.
+Opens the native map app with navigation towards the specified location.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| latLngOrSearch | The latitude and longitude string or the name of a point. | String/Text | - | - | Yes |
+| mode? | The mode for the map. This parameter is only applicable to android. | String/Text | d | d, w, b, r | No |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required | 
-| ------ | ------ | ------ |------ | ------ |
-| 1 | latLngOrSearch | latitude longtitude string or name of point | String | Yes | 
-| 2 | mode | Mode- only android | String | Yes | 
+N/A
 
-### Scenario / Use Case
+## Callback
 
-- N/A
+N/A
 
-### Step
+## Video
 
-- N/A
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

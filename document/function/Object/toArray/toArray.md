@@ -2,7 +2,7 @@
 
 ## Description
 
-Create an array/list of the passed data.
+Creates an array/list of the passed data.
 
 ## Input / Parameter
     

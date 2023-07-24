@@ -1,36 +1,49 @@
 # exitApp
 
-### Description
+## Description
 
-Quit the current mobile app.
+Exits from the current mobile app.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+N/A
 
-### Input / Parameters
+## Output
 
-- N/A
+N/A
 
-### Scenario / Use Case
+## Callback
 
-The user want to exit from current mobile app.
+N/A
 
-### Step
+## Video
 
-1. Call the exitApp function. 
+Coming Soon.
 
-    ![](../../../../document/function/Device/exitApp/exitApp-step-1.png?raw=true)
-    
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
-The mobile app will be closed.
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

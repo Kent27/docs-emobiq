@@ -2,39 +2,53 @@
 
 ## Description
 
-Get the value of a global variable.
+Returns the value of a global variable.
 
-## Input / Parameters
+## Input / Parameter
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| var | The name of the variable. | String | - | - | Yes |
-| default | The default value of the variable. | String | - | - | No |
+| var | The name of the variable. | String/Text | - | - | Yes |
+| default | The default value of the variable. | String/Text | - | - | No |
 
 ## Output
 
-### Default Output
-
 | Description | Output Type |
 | ------ | ------ |
-| Returns the value of the global variable. | String |
+| Returns the value of the global variable if there is a value, returns the default value otherwise. | String/Text |
+
+## Callback
+
+N/A
 
 ## Video
 
 Coming Soon.
 
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
 ## Example
 
-The user wants to get the value of a variable.
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-1. Call the function.
+Coming Soon.
 
-    ![](../../../../document/function/App/getVar/getVar-step-1.png?raw=true)
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-If the user variable "vSingle" has no value, the console will display "No Value".
+Coming Soon.
+
+<!-- Explain the output.
+
+Format: ![]({image-path}?raw=true) -->
 
 ## Links

@@ -2,38 +2,50 @@
 
 ## Description
 
-Retrieve the build version of the App.
+Retrieves the build version of the app.
 
 ## Input / Parameters
 
-| Name | Description | Input Type | Default | Options | Required |
-| ------ | ------ | ------ | ------ | ------ | ------ |
-| - | - | - | - | - | - |
+N/A
 
 ## Output
 
-### Default Output
-
 | Description | Output Type |
 | ------ | ------ |
-| The build version of the App. | String |
+| Returns the app version. | Number |
+
+## Callback
+
+N/A
 
 ## Video
 
 Coming Soon.
 
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
 ## Example
 
-The user wants to get the version of the App.
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-1. Call the function.
+Coming Soon.
 
-    ![](../../../../document/function/App/getAppVersion/getAppVersion-step-1.png?raw=true)
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-App version number eg 1.0
+Coming Soon.
+
+<!-- Explain the output.
+
+Format: ![]({image-path}?raw=true) -->
 
 ## Links

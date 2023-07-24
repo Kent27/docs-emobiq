@@ -1,55 +1,63 @@
 # deleteByMulti
 
-### Description
+## Description
 
-Remove multiple records from an object.
+Removes specified records from multiple fields in a dataset.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| dataset | The name of the local table to remove the records from. | String/Text | - | - | Yes |
+| first? | ? | String/Text | - | - | No |
+| filter | The filters for the field and value to remove. | Array/List | - | - | Yes |
+| orFilter | Additional filters for the field and value to remove. | Array/List | - | - | No |
+| extra | Extra parameters stored and passed to callback. | Any | - | - | No |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | dataset | Name of the dataset to be update in local table. | String | Yes  |
-| 2 | filter | Filter details to be used in retrieving the data. | Object | Yes |
-| 3 | orFilter | Filter details to be used in retrieving the data.  |  Object | No |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the updated local table as a list. | Array/List |
 
-### Scenario / Use Case
+## Callback?
 
-The user wants to delete the field id=25 and name=ABC from dataset "l_customer".
+### callback
 
-### Step
+The function to be executed if the specified records are removed successfully.
 
-1. Call the function "deleteByMulti" and define the dataset.
-   <br>
-   dataset: l_customer<br>
-   
-2. Set toArray and toObject function to filter and define the         value of object.
-   <br> filter: toArray --> toObject<br>
-        id: 25<br>
-        name: A1A2A3A4<br>
-         
-    ![](../../../../document/function/Dataset/deleteByMulti/deleteByMulti-step-1.png?raw=true)
- 
-    ![](../../../../document/function/Dataset/deleteByMulti/deleteByMulti-step-2.png?raw=true)
-    
+### errorCallback
+
+The function to be executed if the specified records are not removed successfully.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
+Coming Soon.
 
-  ![](../../../../document/function/Dataset/deleteByMulti/deleteByMulti-result-1.png?raw=true)
-  ( Before delete, the id=25; name= A1A2A3A4 is still store in the local table. )
-   
-  ![](../../../../document/function/Dataset/deleteByMulti/deleteByMulti-result-2.png?raw=true)
-  ( After delete, id=25; name= A1A2A3A4 was removed in local table.)
-   
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

@@ -1,46 +1,61 @@
 # istampzRequest
 
-### Description
+## Description
 
-Retrieve the stamp from iStampz product.
+Retrieves the stamp from an iStampz product.
 
-### Input / Parameters
+## Input / Parameter?
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| istampz | A snippet. | Boolean | - | - | Yes |
-| data | The time that is taken to retrieve the istampz product stamp. | Integer | - | - | Yes |
-| callback | Functions to carry out after the stamp is retrieved successfully. | functionList | - | - | Yes |
-| errorCallback | Functions to handle errors that arise while trying to retrieve the stamp. | functionList | Yes |
+| istampz | A snippet. | String/Text | - | - | Yes |
+| data | The time that is taken to retrieve the istampz product stamp. | Array/List | - | - | Yes |
 
-## Output
+<!-- | callback | Functions to carry out after the stamp is retrieved successfully. | functionList | - | - | Yes | -->
+<!-- | errorCallback | Functions to handle errors that arise while trying to retrieve the stamp. | functionList | Yes | -->
 
-### Default Output
+## Output?
 
-| Description | Output Type |
-| ------ | ------ |
-| Returns the stamp from the iStampz product. | String |
+N/A
 
-### Parameter Output: {parameter-name}
+## Callback?
 
-#### yes?
+### callback
 
-#### errorCallback?
+The function to be executed when the istampz product stamp is retrieved successfully.
+
+### errorCallback
+
+The function to be executed when the istampz product stamp is not retrieved.
 
 ## Video
 
 Coming Soon.
 
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
 ## Example
 
-The user wants to get the stamp from an iStampz product.
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
 Coming Soon.
 
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
 Coming Soon.
+
+<!-- Explain the output.
+
+Format: ![]({image-path}?raw=true) -->
 
 ## Links

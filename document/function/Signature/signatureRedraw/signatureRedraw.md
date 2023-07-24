@@ -1,39 +1,54 @@
 # pdfGenerate
 
-### Description
+## Description
 
-Clear canvas and redraw the signature 
+Clears a canvas and allows users to redraw the signature.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| component | The name of the component. | String/Text | - | - | Partial (Yes if no 'componentId'.) |
+| componentId | The id of the component. | String/Text | - | - | Partial (Yes if no 'component'.) |
 
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
+__\* Note:__ Either component or componentId must have value in order for this function to work.
 
-### Input / Parameters
+## Output
 
-'component': 'string', 'componentId': 'string'
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | component | Name of component | String | Yes |
-| 2 | componentId | Id of component | String | Yes | 
+N/A
 
-### Scenario / Use Case
+## Callback
 
-- N/A
+N/A
 
-### Step
+## Video
 
-- N/A
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

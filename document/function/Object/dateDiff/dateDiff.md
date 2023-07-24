@@ -2,7 +2,7 @@
 
 ## Description
 
-Calculates of the difference between two dates, measuring the duration or interval between them in terms of days, weeks, months and etc.
+Calculates the difference between two dates, measuring the duration or interval between them in terms of days, weeks, months, etc.
 
 ## Input / Parameter
 

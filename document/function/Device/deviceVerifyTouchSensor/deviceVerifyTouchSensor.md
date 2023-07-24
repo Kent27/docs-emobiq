@@ -1,53 +1,58 @@
-
 # deviceVerifyTouchSensor
 
-### Description
+## Description
 
-Verify fingerprint that stored in mobile device.
+Verifies the fingerprint that is stored in a user's mobile device.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| key | The key in the device keychain. | String/Text | - | - | Yes |
+| message | The message to display in the fingerprint dialog. | String/Text | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | key | Key in the device keychain | String | Yes |
-| 2 | message | Message to display in fingerprint dialog | String | Yes |
+N/A
 
+## Callback?
 
-### Scenario / Use Case
+### callback
 
-The user want verify fingerprint in their device and display the password in dialog box.
+The infoDialog function will be executed to display a modal to show the device key if the fingerprint is verified successfully.
 
-### Step
+### errorCallback
 
-1. Call the deviceVerifyTouchSensor function in a button event.
+The function to be executed if the fingerprint is not verified successfully.
 
-    ![](../../../../document/function/Device/deviceVerifyTouchSensor/deviceVerifyTouchSensor-step-1.png?raw=true)
+## Video
 
-2. In callback, add infoDialog function. 
+Coming Soon.
 
-    ![](../../../../document/function/Device/deviceVerifyTouchSensor/deviceVerifyTouchSensor-step-2.png?raw=true)
-    
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
-Fingerprint authentication will be prompted with message we provided. <br />
-![](../../../../document/function/Device/deviceVerifyTouchSensor/deviceVerifyTouchSensor-result-1.png?raw=true)
+Coming Soon.
 
-Fingerprint recognized. <br />
-![](../../../../document/function/Device/deviceVerifyTouchSensor/deviceVerifyTouchSensor-result-2.png?raw=true)
+<!-- Explain the output.
 
-The password "ABC" will be shown. <br />
-![](../../../../document/function/Device/deviceVerifyTouchSensor/deviceVerifyTouchSensor-result-3.png?raw=true)
+Format: ![]({image-path}?raw=true) -->
 
-### Video
-
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- Prerequisite: You must know how to use deviceAddTouchSensor function.
-- The mobile device must have touch sensor and user must setup the fingerprint in their device settings.
+## Links

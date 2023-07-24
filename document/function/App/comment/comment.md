@@ -2,7 +2,7 @@
 
 ## Description
 
-A note for developers to refer to during development stage.
+Provides a note for developers to refer to during development stage.
 
 ## Input / Parameter
 
@@ -12,9 +12,9 @@ A note for developers to refer to during development stage.
 
 ## Output
 
-| Description | Output Type |
-| ------ | ------ |
-| The comment written in the value input box. | String/Text |
+N/A
+
+Note: The comment function node will be updated to show the value specified by the user.
 
 ## Callback
 

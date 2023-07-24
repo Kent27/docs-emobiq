@@ -2,13 +2,13 @@
 
 ## Description
 
-Retrieves the current date and enable adding a specific duration or increment to a date.
+Retrieves the current date and enables adding a specific duration or increment to a date.
 
 ## Input / Parameter
     
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| withTime | To include time in the result. | Boolean | false | - | Yes |
+| withTime | To include time in the result or not. | Boolean | false | - | Yes |
 | add | The duration to be added in the current date. | Number | 0 | - | No |
 | type | The duration type of 'add'. | String/Text | days | days, hours, minutes, seconds  | No |
 
