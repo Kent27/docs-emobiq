@@ -38,7 +38,7 @@ Example below:
 
 | Description | Output Type |
 | ------ | ------ |
-| Returns the base64 value | Object |
+| Returns the base64 value. | Object |
 
 ### Object
 
@@ -59,7 +59,7 @@ Explain what this callback is for?
 
 | Description | Output Type |
 | ------ | ------ |
-| Returns the base64 value | Object |
+| Returns the base64 value. | Object |
 
 #### Object
 
