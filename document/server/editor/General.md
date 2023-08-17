@@ -12,7 +12,7 @@ A platform used to create server related modules and provides information relate
 
 ![Header](general-header.png?raw=true)
 
-As shown in the image above, Server platform consists of:
+As shown in the image above, the header consists of:
 
 - Emobiq Logo at the top left to navigate to homepage
 - Application's name and version
