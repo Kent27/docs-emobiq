@@ -1,10 +1,10 @@
-# Authentication
+# API - Authentication
 
 ## Description
 
 Authentication can be applied to this API, which provide access protections and will require privilege to use them. This is useful if you want to restrict some parts of the API to limited users and not make them public.
 
-## Use cases
+## Example use case
 
 * Allow only registered users to access certain exclusive Actions.
 * Allow only administrators account to access sensitive Actions.

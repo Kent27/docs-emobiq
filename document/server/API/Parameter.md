@@ -1,4 +1,4 @@
-# Parameter
+# API - Parameter
 
 ## Description
 
@@ -9,7 +9,7 @@ There are two types available:
 1. **Query**: Short key-value pairs that comes as part of the URL. For instance, `/posts?page=2&per_page=10`
 2. **Body**: More complex or large data may appear as part of the client request, and are usually in the form of **text** or **json**.
 
-## Use cases
+## Example use case
 
 * Filter products by category, price range, or availability.
 * Retrieve a sorted list of items, such as sorting products by name or date added.
