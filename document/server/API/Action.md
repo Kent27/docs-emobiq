@@ -2,8 +2,8 @@
 
 ## Description
 
-Create the functionality of the API by utilizing the existing function blocks available in this section. Combine these
-function blocks cohesively to execute a desired task effectively.
+Create the functionality of the API by using the function blocks available in eMOBIQ. Combine these
+function blocks cohesively to execute a desired task for the Action.
 
 ## Overview
 
@@ -13,10 +13,6 @@ function blocks cohesively to execute a desired task effectively.
 2. **Function list**: A list of eMOBIQ function block for use.
 3. **Inspector**: Modify the input parameters of a function block.
 
-* An Action can have a set of function block arranged in a flow.
-* A flow can have sub-flows, in which the result will be propagated up to its parent flow and ultimately, to the main
-  flow.
-  ![Action flow demo](Action-flow-demo.png)
 
 ## How to use
 
@@ -25,21 +21,57 @@ function blocks cohesively to execute a desired task effectively.
 1. A brand new Action Flow will have a **Start** and **End** terminating block.
    ![Action start end](Action-start-end.png)
 2. Look for the function block to use in the Function List window, use the search field to quickly find the desired
-   block. (Refer to the documentation under the "Function" section to obtain more detailed information about the function block).
+   block. (Refer to the documentation under the "Function" section to obtain more detailed information about the
+   function block).
 3. Drag and drop the block to use to the connection point (represented by the black circle between each block in flow).
-   * Alternatively, you may right click the connection point to quickly insert function block at the exact place. A function selection popup will appear.
-   ![Action function popup](Action-function-popup.png)
-4. Proceed with the remaining blocks and advance through the process until completion. Remember to use the `Result.setAPI` block to terminate the API flow and assign a result.
+    * Alternatively, you may right click the connection point to quickly insert function block at the exact place. A
+      function selection popup will appear.
+      ![Action function popup](Action-function-popup.png)
+4. Proceed with the remaining blocks and continue until complete. Remember to use the `Result.setAPI` block to terminate
+   the API flow and assign a result.
 
 ### Copy & paste a function block
+
 1. Inside the action flow, highlight the function block to copy.
-2. On the top right of the action flow window, click on the `Copy` icon. The block will be copied into the internal clipboard.
+2. On the top right of the action flow window, click on the `Copy` icon. The block will be copied into the internal
+   clipboard.
 3. Highlight a connection point you want to place the block to.
-4. On the top right of the action flow window, click on the `Paste` icon. The block will then be pasted at the position just under the connection point.
+4. On the top right of the action flow window, click on the `Paste` icon. The block will then be pasted at the position
+   just under the connection point.
 
 ### Removing a function block
+
 1. Inside the action flow, highlight the function block to remove.
-2. On the top right of the action flow window, click on the `Delete` icon. 
+2. On the top right of the action flow window, click on the `Delete` icon.
 3. Confirm the deletion, and the block, including its subflow if available, will be removed.
 
+### Modifying the parameter of a function block
 
+1. Inside the action flow, highlight the function block.
+2. Use the Inspector window to check the input parameters available, and if needed, set a desired value.
+   ![Action inspector](Action-inspector.png)
+3. Click on the left symbol button to change the parameter type. The following options are available:
+    * **value**: A literal value, e.g. a text or number. Value entered in the field will be used as is.
+    * **param**: Take the value from the global parameter. Only applicable in user-defined Global functions. Specify the
+      parameter key in the field.
+    * **input**: Take the value from the surrounding function with callbacks, for example, `Control.forLoop`. The value
+      will be available if the current block is inside a function callback.
+    * **inputField**: Same as **input**, but obtain the value from an attribute if it is a object. Specify the key in
+      the field.
+    * **extra**: Take the value from the extra parameter provided by the surrounding function with callbacks. The value
+      will be available if the current block is inside a function callback.
+    * **extraField**: Same as **extra**, but obtain the value from an attribute if it is a object. Specify the key in
+      the field.
+    * **header**: Take the value from the incoming HTTP header on the API request.
+    * **headerField**: Same as **header**, but obtain the value from an attribute if it is a object. Specify the key in
+      the field.
+    * **query**: Take the value from the Query on the API request.
+    * **queryField**: Same as **query**, but obtain the value from an attribute if it is a object. Specify the key in
+      the field.
+    * **body**: Take the value from the Body on the API request.
+    * **bodyField**: Same as **body**, but obtain the value from an attribute if it is a object. Specify the key in the
+      field.
+    * **function**: Take the value from a result of another function call. A new sub-flow will be opened where you may
+      specify what action will it return. Only a single block with returning result is allowed, but function can be
+      nested.
+       ![Action subflow](Action-subflow.png)
