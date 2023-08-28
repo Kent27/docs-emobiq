@@ -23,8 +23,8 @@ To modify a Table Content,
    * Available fields:
       The content and it's fields will be dynamically added based from the table structure data
       ![Table content fields structure](Table-content-fields-structure.png)
-3. Modifying the **Name** field
-   Type on the field to modify the **Name** value
+3. Modifying the selected field depending on the fields type
+   * Type on the field to modify the selected value for **VARCHAR** typed field or select from the selection for **BOOLEAN** typed field
 4. The type for each field in **Content** tab will depends on the table structure type
    * There are 8 types selection:
       * **VARCHAR**
@@ -35,7 +35,7 @@ To modify a Table Content,
       * **DATETIME**
       * **DECIMAL**
       * **BLOB**
-   * The detailed information for each supported data type can be found here: `https://mariadb.com/kb/en/data-types/`
+   * The detailed information for each supported data type can be found here: [`MariaDB-data-types`](https://mariadb.com/kb/en/data-types/)
 5. The changes on the **Content** tab will be automatically saved to the server.
 
 
