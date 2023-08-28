@@ -10,7 +10,7 @@ To create a new Table Content,
    ![Table content add button](Table-content-add-button.png)
 3. A new table content will be added with several empty / default value fields inside
    ![Table content fields](Table-content-fields.png)
-   Available fields:
+   * Available fields:
       The content and it's fields will be dynamically added based from the table structure data
       ![Table content fields structure](Table-content-fields-structure.png)
 
@@ -20,8 +20,7 @@ To modify a Table Content,
 
 1. Highlight the table which content you want to modify, then select the **Content** tab.
 2. Select the field that you want to modify
-   Available fields:
-      Available fields:
+   * Available fields:
       The content and it's fields will be dynamically added based from the table structure data
       ![Table content fields structure](Table-content-fields-structure.png)
 3. Modifying the **Name** field
@@ -36,7 +35,7 @@ To modify a Table Content,
       * **DATETIME**
       * **DECIMAL**
       * **BLOB**
-   * The detailed information for each supported data type can be found here [Mariadb-data-types]: https://mariadb.com/kb/en/data-types/
+   * The detailed information for each supported data type can be found here: `https://mariadb.com/kb/en/data-types/`
 5. The changes on the **Content** tab will be automatically saved to the server.
 
 

@@ -23,4 +23,4 @@ This module allow us to create a database, table and it's contents
 2. **Edit section**: Allow to create, rename or delete currently selected item (except for the root database). In addition,
    contains Configuration button to allow changing configuration on currently selected item.
 3. **Table properties tab**: Toggle between table Structure, Relations or Contents section for each table.
-4. **Table properties section**: Allow to create, modify and delete table Structure, Relations or Contents.
+4. **Table properties section**: Allow to create, modify and delete table Structure, Relations or Content.
