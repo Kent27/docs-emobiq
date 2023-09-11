@@ -9,14 +9,22 @@ Stores value into an attribute of an object variable in the application's local 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
 | name | The variable's identifier containing the object. | Text | - | - | Yes |
-| attribute | The attribute name of the object variable to store value into. | Text | - | - | Yes |
-| defaultValue | The default value to be used if the attribute does not exist or does not contain a value. | Any | - | - | No |
+| attribute | The attribute name of the object variable to set value to. | Text | - | - | Yes |
+| value | The value to be set for this variable. Can be null. | Any | - | - | No |
 
 ## Output
 
 | Description | Output Type |
 | ------ | ------ |
-| The stored variable's value from the attribute, or null if the value does not exist, variable is not an object and default value is not supplied. | Any |
+| Returns the formatted information. | Object |
+
+### Object
+
+| Key | Description | Output Type |
+| ------ | ------ | ------ |
+| success | Boolean value to denote whether the fucntion was executed successfully. | Text |
+| message | The message to print. | Text |
+| data | Any additional message or data to print. | Text |
 
 ## Callback
 

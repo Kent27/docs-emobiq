@@ -8,9 +8,9 @@ Returns the position of an element in a list or the element at a specified posit
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| data | The list of numbers to sum. | List | - | - | Yes |
-| value | The list of numbers to sum. | Any | - | - | Partial (Yes if no 'position'.) |
-| position | The list of numbers to sum. | Number | - | - | Partial (Yes if no 'value'.) |
+| data | The list to be searched. | List | - | - | Yes |
+| value | The element to look for. | Any | - | - | Partial (Yes if no 'position'.) |
+| position | The position to search for. | Number | - | - | Partial (Yes if no 'value'.) |
 
 ## Output
 

@@ -1,22 +1,18 @@
-# Conversion.toList
+# Conversion.toNull
 
 ## Description
 
-Creates a list using the values provided or creates a new list.
+Returns a value of type null.
 
 ## Input / Parameter
 
-| Name | Description | Input Type | Default | Options | Required |
-| ------ | ------ | ------ | ------ | ------ | ------ |
-| data | Takes all the values passed and returns them as a list. | DynamicList | - | - | Yes |
-
-* Note: DynamicList refers to being able to add multiple values as required.
+N/A
 
 ## Output
 
 | Description | Output Type |
 | ------ | ------ |
-| Returns the new list with the passed data. | List |
+| Returns the value of type null. | Null |
 
 ## Callback
 

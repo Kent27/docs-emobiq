@@ -25,6 +25,42 @@ Sends an email through the SMTP server.
 | attachment | The file path of the attachments. | Object / List | - | - | No | 
 | extra | The stored value that is passed to all the callbacks. | Any | - | - | No | 
 
+### to (Object | List)
+
+Will contain a single object, or a list of one (1) or more objects which consist of
+
+| Key | Description | Input Type | Required |
+| ------ | ------ | ------ | ------ |
+| email | Recipient's email address. | Text | Yes |
+| name | Recipient’s display name. | Text | No |
+
+### cc (Object | List)
+
+Will contain a single object, or a list of zero (0) or more objects which consist of
+
+| Key | Description | Input Type | Required |
+| ------ | ------ | ------ | ------ |
+| email | CC'ed email address. | Text | Yes |
+| name | CC'ed display name. | Text | No |
+
+### bcc (Object | List)
+
+Will contain a single object, or a list of zero (0) or more objects which consist of
+
+| Key | Description | Input Type | Required |
+| ------ | ------ | ------ | ------ |
+| email | BCC'ed email address. | Text | Yes |
+| name | BCC'ed display name. | Text | No |
+
+### attachment (Object | List)
+
+Will contain a single object, or a list of zero (0) or more objects which consist of
+
+| Key | Description | Input Type | Required |
+| ------ | ------ | ------ | ------ |
+| name | Optional name. If not specified, file name will be used. | Text | No |
+| value | Contains the direct file path of the attachments. | Text | Yes |
+
 ## Output
 
 | Description | Output Type |

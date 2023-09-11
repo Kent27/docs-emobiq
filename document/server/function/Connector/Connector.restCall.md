@@ -20,6 +20,24 @@ Performs a rest API call using a Rest Connector.
 | attachment | The path to the selected file. | Object / List | - | - | No |
 | extra | The stored value that is passed to all the callbacks. | Any | - | - | No |
 
+### cookies (Object | List)
+
+Cookies of the API call. Will contain a single object, or a list of one (1) or more objects which consist of
+
+| Key | Description | Input Type | Required |
+| ------ | ------ | ------ | ------ |
+| name | Nmae of the cookie. | Text | No |
+| value | Contains the value of the cookie. | Text | Yes |
+
+### attachment (Object | List)
+
+The path to the selected file. Will contain a single object, or a list of one (1) or more objects which consist of
+
+| Key | Description | Input Type | Required |
+| ------ | ------ | ------ | ------ |
+| name | Optional name. If not specified, file name will be used. | Text | No |
+| value | Contains the direct file path of the attachments. | Text | Yes |
+
 ## Output
 
 | Description | Output Type |

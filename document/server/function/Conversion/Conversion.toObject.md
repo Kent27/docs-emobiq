@@ -2,7 +2,7 @@
 
 ## Description
 
-Creates an object which includes the passed data.
+Creates an object using the key-value pairs provided or creates a new object.
 
 ## Input / Parameter
 
@@ -10,7 +10,7 @@ Creates an object which includes the passed data.
 | ------ | ------ | ------ | ------ | ------ | ------ |
 | {Dynamic} | {Based on user inputs.} | Any | - | - | No |
 
-Note: Dynamic input means that user can generate the necessary input required and assign a value in it as well. 
+Note: Dynamic input means that user can add the necessary input required as key-value pairs.
 
 ## Output   
 

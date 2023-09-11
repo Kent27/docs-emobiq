@@ -10,6 +10,7 @@ Waits for a series of functions to be run first.
 | ------ | ------ | ------ | ------ | ------ | ------ |
 | successCallback | All the functions in threadCallback will need to be completed before successCallback is run. | Any | - | - | No |
 | threadCallback | The series of functions to be completed before successCallback can be run. | Any | - | - | No |
+| extra | The stored value that is passed to all the callbacks. | Any | - | - | No |
 
 ## Output
 
