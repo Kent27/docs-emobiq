@@ -4,42 +4,52 @@
 
 Get the list of languages predefined in language settings.
 
-## Input / Parameters
+## Input / Parameter
 
-| Name | Description | Input Type | Default | Options | Required |
-| ------ | ------ | ------ | ------ | ------ | ------ |
-| - | - | - | - | - | - |
+N/A
 
 ## Output
 
-### Default Output
+N/A
+
+## Callback
+
+### callback
+
+The function to be executed when the language list is successfully obtained.
 
 | Description | Output Type |
 | ------ | ------ |
-| Returns the list of langauges predefined in the language settings. | Array |
+| Returns the list of languages in the language settings. | Array/List |
 
 ## Video
 
 Coming Soon.
 
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
 ## Example
 
-The user wants to get the list of languages in the App.
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-1. Call the function.
+Coming Soon.
 
-    ![](../../../../document/function/App/getLanguageList/getLanguageList-step-1.png?raw=true)
-    
-2. In callback add a console -> input function to view the result
+<!-- Show the steps and share some screenshots.
 
-    ![](../../../../document/function/App/getLanguageList/getLanguageList-step-2.png?raw=true)
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-The list of languages is retrieved in an array.
- 
-![](../../../../document/function/App/getLanguageList/getLanguageList-result-1.png?raw=true)
+Coming Soon.
+
+<!-- Explain the output.
+
+Format: ![]({image-path}?raw=true) -->
 
 ## Links

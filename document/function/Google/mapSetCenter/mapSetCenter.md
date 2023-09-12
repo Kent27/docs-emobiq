@@ -1,39 +1,55 @@
 # mapSetCenter
 
-### Description
+## Description
 
-Set the center position to the given latitude and longtitude.
+Set the center position based on the latitude and longtitude provided.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Data Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| component | The name of the map component. | String/Text | - | - | Partial (Yes if no 'componentId'.) |
+| componentId | The id of the map component. | String/Text | - | - | Partial (Yes if no 'component'.) |
+| latLng | The latitude and longitude of the point to set as center. | String/Text | - | - | Yes |
 
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
+## Output
 
-### Input / Parameters
+N/A
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | component | Map component | String | No |
-| 2 | componentId | Map component ID | String | Yes | 
-| 3 | latLng | Latitude and longtitude of point | String | Yes | 
+Note: The map component will set the center position based on the latLng input provided.
 
-### Scenario / Use Case
+## Callback
 
-- N/A
+N/A
 
-### Step
+## Video
 
-- N/A
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

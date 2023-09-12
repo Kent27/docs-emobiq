@@ -8,50 +8,56 @@ Share the information from an app to an external application.
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| subject | The subject of the information. | String | - | - | No |
-| message | The message to be shared. | String | - | - | No | 
-| url | The url to be shared. | String | - | - | Yes | 
-| files | Array of files. | String / Array? | - | - | Yes |
-| chooserTitle | Choose the title of the dialog. | String | - | - | Yes |
-| appPackageName | The name of the package. | String | - | - | Yes |
-| iPadCoordinates | The coordinates of iPad popup. | String | - | - | Yes |
-| callback | Function to carry out if information is successfully shared. | functionList | - | - | No |
-| errorCallback | Function to carry out if information is not shared successfully. | functionList | - | - | No |
+| subject | The subject of the information. | String/Text | - | - | No |
+| message | The message to be shared. | String/Text | - | - | No | 
+| url | The url to be shared. | String/Text | - | - | Yes | 
+| files | Array of files. | Array/List | - | - | Yes |
+| chooserTitle | Choose the title of the dialog. | String/Text | - | - | Yes |
+| appPackageName | The name of the package. | String/Text | - | - | Yes |
+| iPadCoordinates | The coordinates of iPad popup. | String/Text | - | - | Yes |
 
 ## Output
 
-### Default Output?
+N/A
 
-| Description | Output Type |
-| ------ | ------ |
-| Returns the base64 value | String |
+## Callback
 
-```js
-    {
-        "filePath": "{filePath}"
-    }
-```
+### callback
 
-### Parameter Output: {parameter-name}
+The function to be executed when information is successfully shared.
 
-#### successCallback?
+### errorCallback
 
-#### errorCallback?
+The function to be executed when information is not shared successfully.
 
 ## Video
 
 Coming Soon.
 
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
 ## Example
 
-The user wants to share information from the app to an external application.
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
 Coming Soon.
 
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
 Coming Soon.
+
+<!-- Explain the output.
+
+Format: ![]({image-path}?raw=true) -->
 
 ## Links

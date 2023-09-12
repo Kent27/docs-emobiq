@@ -1,42 +1,62 @@
 # write
 
-### Description
+## Description
 
 Write data to file.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Data Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| storage | The size of the file. | Number | - | - | Yes |
+| folderPath | The path to store the file. | String/Text | - | - | Yes | 
+| fileName | The name of the file. | String/Text | - | - | Yes | 
+| data | The data to be written to the file. | String/Text | - | - | Yes | 
+| dataType | The data type of the file. | String/Text | - | - | Yes | 
+| extra | Additional data to be used in the callbacks. | Any | - | - | No | 
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | Storage | Size of the file  | Number  |   |
-| 2 | folderPath | Path to store the file | String |   |
-| 3 | fileName |  Name of the file | String |   |
-| 4 | data | Path of the file | String |   |
-| 5 | dataType | Data type of file | String |   |
-| 6 | extra | Extra parameters | Object |   | 
-| 7 | callback | Success Callback | functionList |  | 
-| 8 | errCallback | Error Callback | functionList |  | 
+N/A
 
-### Scenario / Use Case
+## Callback?
 
-- N/A
+### callback
 
-### Step
+The function to be executed when data is written to the file successfully.
 
-- N/A
+### errCallback
+
+The function to be executed when data is not written to the file successfully.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

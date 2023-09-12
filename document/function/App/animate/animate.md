@@ -17,11 +17,11 @@ An animation lets a component gradually change from one style to another.
 
 ## Output
 
-| Description | Output Type |
-| ------ | ------ |
-| Returns true if the component was animated, returns false otherwise. | Boolean |
+N/A
 
-## Callback?
+Note: The component will be updated to show the changes. 
+
+## Callback
 
 N/A
 

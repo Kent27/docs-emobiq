@@ -10,17 +10,15 @@ Runs a function regularly with the specified interval between each run.
 | ------ | ------ | ------ | ------ | ------ | ------ |
 | delay | The duration between each run. | Number | - | - | Yes |
 | timeout | The duration the output appears for. | Number | - | - | Yes |
-| persistent | ? | Boolean | false | true, false | No |
+| persistent | Interval repeated or not? | Boolean | false | true, false | No |
 
-## Output?
+## Output
 
-| Description | Output Type |
-| ------ | ------ |
-| Returns the passed value. | Any |
+N/A
 
 ## Callback?
 
-### yesCallback
+### callback
 
 The function to be executed using the interval set.
 

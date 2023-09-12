@@ -8,46 +8,47 @@ Pull a panel component to trigger a screen to reload.
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| class | The style class to be refreshed.? | String | - | - | Yes |
-| maxTime | The maximum time to load the screen. | Integer | - | - | No |
+| class | The style class of the component that is pulled to trigger refresh. | String/Text | - | - | Yes |
+| maxTime | The maximum time to load the screen. | Number | - | - | No |
 
 ## Output
 
-### Default Output
+N/A
 
-| Description | Output Type |
-| ------ | ------ |
-| Checks if the screen has reloaded. | Boolean |
+## Callback
+
+### onRefresh
+
+The function to be executed when the screen is successfully refreshed.
 
 ## Video
 
 Coming Soon.
 
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
 ## Example
 
-The user wants to refresh the screen by pulling a panel component.
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-1.  In page event "Load",  add pullToRefresh function.
+Coming Soon.
 
-    ![](../../../../document/function/App/pullToRefresh/pullToRefresh-step-1.png?raw=true)
+<!-- Show the steps and share some screenshots.
 
-2.  In onRefresh, add an infoDialog.
+1. .....
 
-    ![](../../../../document/function/App/pullToRefresh/pullToRefresh-step-2.png?raw=true)
-
-3.  Draw a panel and set the background to red.
-
-    ![](../../../../document/function/App/pullToRefresh/pullToRefresh-step-3.png?raw=true) 
-
-4.  Define "pull" for Style Class on Panel Inspector.
-
-    ![](../../../../document/function/App/pullToRefresh/pullToRefresh-step-4.png?raw=true)
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-After user pull on red color panel, the pullToRefresh function will be triggered.
-![](pullToRefresh-result-5.png?raw=true)
+Coming Soon.
+
+<!-- Explain the output.
+
+Format: ![]({image-path}?raw=true) -->
 
 ## Links

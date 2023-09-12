@@ -9,6 +9,7 @@ Clears the parameters of an existing interval.
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
 | intervalId | The id of the interval to clear. | String/Text | - | - | Yes |
+| all | To clear all intervals or not. | Boolean | false | true, false | Yes |
 
 ## Output
 

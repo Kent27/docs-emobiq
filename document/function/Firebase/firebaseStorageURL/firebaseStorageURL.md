@@ -1,40 +1,58 @@
 # firebaseStorageURL
 
-### Description
+## Description
 
 Get the file url from the firebase storage.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Data Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| filePath | The path of the file. | String/Text | - | - | Yes |
+| fileName | The name of the file. | String/Text | - | - | Yes | 
 
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
+## Output
 
-### Input / Parameters
+N/A
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | filepath | File path of the file | String |  |
-| 2 | fileName | File name | String |  | 
-| 3 | callback | Success callback | FunctionList |  | 
-| 4 | errorCallback | Error callback | FunctionList |  | 
+## Callback?
 
-### Scenario / Use Case
+### callback
 
-- N/A
+The function to be executed when the file url is retrieved successfully.
 
-### Step
+### errorCallback
 
-- N/A
+The function to be executed when the file url is not retrieved successfully.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

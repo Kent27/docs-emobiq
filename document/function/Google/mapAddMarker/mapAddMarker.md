@@ -1,49 +1,66 @@
 # mapAddMarker
 
-### Description
+## Description
 
-Add marker on the map.
+Add a marker on the map.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Data Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| component | The name of the map component. | String/Text | - | - | Partial (Yes if no 'componentId'.) |
+| componentId | The id of the map component. | String/Text | - | - | Partial (Yes if no 'component'.) |
+| id | The id of the marker. | String/Text | - | - | Yes |
+| latLng | The latitude and longitude of the point to add a marker to. | String/Text | - | - | Yes |
+| label | The label of the marker. | String/Text | - | - | Yes |
+| labelColor | The color of the label. | String/Text | - | - | Yes |
+| labelFontFamily | The font family of the label. | String/Text | - | - | Yes |
+| labelFontSize | The font size of the label. | String/Text | - | - | Yes |
+| labelFontWeight | The font weight of the label. | String/Text | - | - | Yes |
+| information | The information to add in the label. | String/Text | - | - | Yes |
+| icon | The icon of the marker. | String/Text | - | - | No |
+| data | The data attached to the marker. | Object | - | - | Yes |
 
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
+## Output
 
-### Input / Parameters
+N/A
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | component | Map component | String | No |
-| 2 | componentId | Map component ID | String | Yes | 
-| 3 | id | Marker ID | String | Yes | 
-| 4 | latLng | latitude longtitude of point | String | Yes | 
-| 5 | label | Label of marker | String | Yes | 
-| 6 | labelColor | Label Color | String | Yes | 
-| 7 | labelFontFamily | Label font family | String | Yes | 
-| 8 | labelFontSize | Font size of the Label | String | Yes | 
-| 9 | labelFontWeight | Lavel font weight | String | Yes | 
-| 10 | information | Information | String | Yes | 
-| 11 | icon | Marker Icon | String | String | 
-| 12 | data | Data object attached to marker | Object | Yes | 
-| 13 | clickEvent | Event to listen click action | FunctionList | Yes | 
+Note: The map component will show the marker on the point specified.
 
-### Scenario / Use Case
+## Callback
 
-- N/A
+### clickEvent
 
-### Step
+The function to be executed when the marker on the map component is clicked.
 
-- N/A
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

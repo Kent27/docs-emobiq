@@ -24,9 +24,11 @@ Note: The gallery will be updated to include the the base64 image saved.
 ## Callback?
 
 ### callback
+
 The function to execute if the base64 image has been saved successfully.
 
 ### errCallback
+
 The function to execute if the base64 image is not saved successfully.
 
 ## Video

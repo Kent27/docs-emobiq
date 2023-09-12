@@ -1,42 +1,60 @@
 # firebaseStorageUpload
 
-### Description
+## Description
 
-Upload file to the firebase storage
+Upload a file to the firebase storage.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Data Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| filePath | The path of the file. | String/Text | - | - | Yes |
+| fileName | The name of the file. | String/Text | - | - | Yes | 
+| fileType | The type of file. | String/Text | - | - | Yes |
+| file | The file data. | String/Text | - | - | Yes | 
 
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
+## Output
 
-### Input / Parameters
+N/A
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | filepath | File path of the file | String |  |
-| 2 | fileName | File name | String |  | 
-| 3 | fileType | Type of file | String |  | 
-| 4 | file | File data | String |  | 
-| 5 | callback | Success callback | FunctionList |  | 
-| 6 | errorCallback | Error callback | FunctionList |  | 
+## Callback?
 
-### Scenario / Use Case
+### callback
 
-- N/A
+The function to be executed when the file is uploaded to the firebase storage successfully.
 
-### Step
+### errorCallback
 
-- N/A
+The function to be executed when the file is not uploaded to the firebase storage successfully.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

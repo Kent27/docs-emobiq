@@ -8,7 +8,7 @@ Retrieve the height of the canvas.
 
 | Name | Description | Data Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| canvas | The canvas to retrieve the height of. | Canvas? | - | - | No |
+| canvas | The canvas to retrieve the height of. | String/Text | - | - | Yes |
 
 ## Output
 

@@ -4,7 +4,7 @@
 
 This function will start a text message on the user's device's default messing application. 
 
-### Input / Parameters
+## Input / Parameter
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
@@ -14,6 +14,10 @@ This function will start a text message on the user's device's default messing a
 ## Output
 
 Opens the default text messaging application on user's device with the fields populated by input.
+
+## Callback
+
+N/A
 
 ## Video 
 

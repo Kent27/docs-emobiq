@@ -1,42 +1,52 @@
 # mapClearMarker
 
-### Description
+## Description
 
 Clear markers from the map.
 
-### Flowchart
-
-- N/A
-
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
-
-### Input / Parameters
+## Input / Parameter
  
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | component | Map component | String | No |
-| 2 | componentId | Map component ID | String | Yes | 
-| 3 | mode | Clear mode | String | Yes | 
-| 4 | startLatLng | Start latitude longtitude position | String | Yes | 
-| 5 | endLatLng | End latitude longtitude position | String | Yes | 
-| 6 | waypoints | Ways points  | String | Yes | 
+| Name | Description | Data Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| component | The name of the map component. | String/Text | - | - | Partial (Yes if no 'componentId'.) |
+| componentId | The id of the map component. | String/Text | - | - | Partial (Yes if no 'component'.) |
 
-### Scenario / Use Case
+## Output
 
-- N/A
+N/A
 
-### Step
+## Callback
 
-- N/A
+N/A
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

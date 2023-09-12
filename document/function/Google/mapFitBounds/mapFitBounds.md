@@ -1,39 +1,55 @@
 # mapFitBounds
 
-### Description
+## Description
 
-Fit the map to the given bounds.
+Fit the map within the bounds provided.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Data Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| component | The name of the map component. | String/Text | - | - | Partial (Yes if no 'componentId'.) |
+| componentId | The id of the map component. | String/Text | - | - | Partial (Yes if no 'component'.) |
+| bounds | The bounds to fit the map within. | Object | - | - | Yes |
 
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
+## Output
 
-### Input / Parameters
+N/A
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | component | Map component | String | No |
-| 2 | componentId | Map component ID | String | Yes | 
-| 3 | bounds | Object container | Object | Yes | 
+Note: The map component will be fit within the bound passed.
 
-### Scenario / Use Case
+## Callback
 
-- N/A
+N/A
 
-### Step
+## Video
 
-- N/A
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

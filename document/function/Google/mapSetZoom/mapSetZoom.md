@@ -1,39 +1,55 @@
 # mapSetZoom
 
-### Description
+## Description
 
-Zoom in or out the map.
+Zoom in or out of the map component.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Data Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| component | The name of the map component. | String/Text | - | - | Partial (Yes if no 'componentId'.) |
+| componentId | The id of the map component. | String/Text | - | - | Partial (Yes if no 'component'.) |
+| zoom | The value to zoom by. | Number | - | - | Yes |
 
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
+## Output
 
-### Input / Parameters
+N/A
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | component | Map component | String | No |
-| 2 | componentId | Map component ID | String | Yes | 
-| 3 | zoom | Zoom percentage | Integer | Yes | 
+Note: The map component will zoom in or out based on the zoom value provided.
 
-### Scenario / Use Case
+## Callback
 
-- N/A
+N/A
 
-### Step
+## Video
 
-- N/A
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

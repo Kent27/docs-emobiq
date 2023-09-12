@@ -8,7 +8,7 @@ Resize an existing canvas, canvas are mainly used for printing.
 
 | Name | Description | Data Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| canvas | An existing canvas to be copied over to the new canvas. | Canvas? | - | - | No |
+| canvas | An existing canvas to be copied over to the new canvas. | String/Text | - | - | Yes |
 | canvasWidth | Width of the new resized canvas. | Number | - | - | No | 
 | canvasHeight | Height of the new resized canvas. | Number | - | - | No | 
 | extra | Additional data to be used in the callbacks. | Any | - | - | No | 
@@ -18,29 +18,17 @@ Resize an existing canvas, canvas are mainly used for printing.
 
 ## Output
 
-| Description | Output Type |
-| ------ | ------ |
-| Returns true if the canvas was resized, returns false otherwise. | Boolean |
+N/A
 
 ## Callback?
 
-Display and explain the callbacks available for the function.
+### callback
 
-Example below:
+The function to be executed when the canvas is resized successfully.
 
-### successCallback
+### errorCallback
 
-Explain what this callback is for?
-
-| Description | Output Type |
-| ------ | ------ |
-| Returns the base64 value | Object |
-
-#### Object
-
-| Key | Description | Output Type |
-| ------ | ------ | ------ |
-| filePath | The base64 value. | String/Text |
+The function to be executed when the canvas is not resized successfully.
 
 ## Video
 

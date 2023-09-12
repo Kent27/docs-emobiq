@@ -2,46 +2,54 @@
 
 ## Description
 
-Add a hyperlink to a component which will open in a new tab in the web browser. 
+Allows user to add a hyperlink to a component which can be clicked to open the link in a new tab in the web browser. 
 
 ## Input / Parameter
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| component | The name of the component. | String | - | - | Partial (Yes if no 'componentId'.) |
-| componentId | The id of the component. | String | - | - | Partial (Yes if no 'component'.) |
-| link | The url of the website to open when the component is clicked. | String | - | - | Yes |
+| component | The name of the component. | String/Text | - | - | Partial (Yes if no 'componentId'.) |
+| componentId | The id of the component. | String/Text | - | - | Partial (Yes if no 'component'.) |
+| link | The url of the website to open when the component is clicked. | String/Text | - | - | Yes |
 
 __\* Note:__ Either component or componentId must have value in order for this function to work.
 
 ## Output
 
-### Default Output
+N/A
 
-| Description | Output Type |
-| ------ | ------ |
-| Checks if url is opened upon clicking on the component. | Boolean |
+## Callback
+
+N/A
 
 ## Video
 
 Coming Soon.
 
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
 ## Example
 
-The user wants to open a hyperlink by clicking on the label component.
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-1. Draw a label component & button component
+Coming Soon.
 
-    ![](../../../../document/function/App/setComponentLink/setComponentLink-step-1.png?raw=true)
-    
-2. Call the function.
+<!-- Show the steps and share some screenshots.
 
-    ![](../../../../document/function/App/setComponentLink/setComponentLink-step-2.png?raw=true)
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-The user will be redirected to https://emobiq.com after click on the label.
+Coming Soon.
+
+<!-- Explain the output.
+
+Format: ![]({image-path}?raw=true) -->
 
 ## Links

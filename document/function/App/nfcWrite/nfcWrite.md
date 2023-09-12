@@ -4,42 +4,54 @@
 
 Write data to Near Field Communication (NFC) devices.
 
-## Input / Parameters
+## Input / Parameter
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| message | The message to write to NFC device. | String | - | - | Yes |
-| callback | Function to carry out if writing data to NFC device is successful. | functionList | - | - | Yes | 
-| errorCallback | Function to carry out if writing data to NFC device is unsuccessful. | functionlist | - | - | Yes | 
+| message | The message to write to NFC device. | String/Text | - | - | Yes |
 
 ## Output
 
-### Default Output
+N/A
 
-| Description | Output Type |
-| ------ | ------ |
-| Checks that the message has been written to the NFC device. | Boolean |
+## Callback?
 
-### Parameter Output: {parameter-name}
+### callback
 
-#### callback?
+The function to be executed when writing data to NFC device is successful.
 
-#### errorCallback?
+### errorCallback
+
+The function to be executed when writing data to NFC device is not successful.
 
 ## Video
 
 Coming Soon.
 
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
 ## Example
 
-The user wants to write a message to a NFC device.
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
 Coming Soon.
 
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
 Coming Soon.
+
+<!-- Explain the output.
+
+Format: ![]({image-path}?raw=true) -->
 
 ## Links

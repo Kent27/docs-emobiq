@@ -2,18 +2,16 @@
 
 ## Description
 
-Retrieve HTML code for a selected component for developer's reference.
+Retrieve HTML code for a selected component for developer's reference. Use with the 'console' function to view the HTML code in the console.
 
 ## Input / Parameter
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| component | The name of the component to retrieve HTML code from. | String/Text | - | - | Yes |
-| componentId | The id of the component to retrieve HTML code from. | String/Text | - | - | No |
+| component | The name of the component to retrieve HTML code from. | String/Text | - | - | Partial (Yes if no 'componentId'.) |
+| componentId | The id of the component to retrieve HTML code from. | String/Text | - | - | Partial (Yes if no 'component'.) |
 
 ## Output
-
-### Default Output
 
 | Description | Output Type |
 | ------ | ------ |

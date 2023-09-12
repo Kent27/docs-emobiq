@@ -1,37 +1,57 @@
 # restoreSqlite
 
-### Description
+## Description
 
 Restore sqlite data.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Data Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| file | The file to restore. | String/Text | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | file | File to restore  | Number  |   |
-| 2 | callback | Success Callback | functionList |  | 
-| 3 | errCallback | Error Callback | functionList |  | 
+N/A
 
-### Scenario / Use Case
+## Callback?
 
-- N/A
+### callback
 
-### Step
+The function to be executed when sqlite data is restored successfully.
 
-- N/A
+### errCallback
+
+The function to be executed when sqlite data is not restored successfully.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

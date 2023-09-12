@@ -4,42 +4,54 @@
 
 Stop detecting and reading from Near Field Communication (NFC) devices.
 
-## Input / Parameters
+## Input / Parameter
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| nfc | The NFC device to stop reading from. | String | - | - | Yes |
-| sCallback | The function to carry out if stop reading from NFC device is successful. | functionList | - | - | Yes | 
-| eCallback | The function to carry out if stop reading from NFC device is unsuccessful. | functionList | - | - | Yes | 
+| nfc | The NFC device to stop reading from. | String/Text | - | - | Yes |
 
 ## Output
 
-### Default Output
+N/A
 
-| Description | Output Type |
-| ------ | ------ |
-| Checks that the NFC device is not being read from. | Boolean |
+## Callback?
 
-### Parameter Output: {parameter-name}
+### sCallback
 
-#### successCallback
+The function to be executed when stop reading from NFC device is successful.
 
-#### errorCallback
+### eCallback
+
+The function to be executed when stop reading from NFC device is not successful.
 
 ## Video
 
 Coming Soon.
 
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
 ## Example
 
-The user wants to stop reading from the NFC device.
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
 Coming Soon.
 
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
 Coming Soon.
+
+<!-- Explain the output.
+
+Format: ![]({image-path}?raw=true) -->
 
 ## Links

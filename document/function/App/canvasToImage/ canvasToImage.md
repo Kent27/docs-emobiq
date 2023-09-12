@@ -6,16 +6,14 @@ Convert the value in a canvas to an image component.
 
 ## Input / Parameter
 
-| No | Name | Description | Data Type | Required | 
-| ------ | ------ | ------ |------ | ------ | 
-| 1 | canvas | The name of the canvas. | String/Text | Yes | 
-| 2 | image | The name of the image component to convert the canvas to. | String/Text | Yes | 
+| Name | Description | Data Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| canvas | The name of the canvas. | String/Text | - | - | Yes |
+| image | The name of the image component to convert the canvas to. | String/Text | - | - | Yes |
 
 ## Output
 
-| Description | Output Type |
-| ------ | ------ |
-| Returns true if the canvas was converted, returns false otherwise. | Boolean |
+N/A
 
 ## Callback
 

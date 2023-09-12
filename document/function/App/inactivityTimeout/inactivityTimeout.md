@@ -4,50 +4,55 @@
 
 Detect if a user is inactive/not using the mobile.
 
-### Input / Parameters
+### Input / Parameter
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| currentPageOnly | A snippet. | Boolean | - | - | Yes |
-| timeout | The time limit that a user can stay idle for before being considered inactive. | Integer | - | - | Yes |
-| callback | Functions to do after timeout. | functionList | - | - | Yes |
+| currentPageOnly | Check inactivity on the current snippet or page only. | Boolean | true | true, false | Yes |
+| timeout | The time limit that a user can stay idle for before being considered inactive. | Number | - | - | Yes |
 
 ## Output
 
-### Default Output
+N/A
+
+## Callback
+
+### callback
+
+The function to be executed after timeout, when the user is inactive.
 
 | Description | Output Type |
 | ------ | ------ |
-| Checks if a user is inactive. | Boolean |
+| Returns the list of languages in the language settings. | Array/List |
 
-### Parameter Output: {parameter-name}
-
-#### yes??
-
-| Description | Output Type |
-| ------ | ------ |
-| Contains the information below. | Object |
-
-```js
-    {
-        "filePath": "{This contains the url.}",
-        "fileName": "{}",
-    }
-```
 ## Video
 
 Coming Soon.
 
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
 ## Example
 
-The user wants to check the status when the screen goes to timeout.
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
 Coming Soon.
 
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
 Coming Soon.
+
+<!-- Explain the output.
+
+Format: ![]({image-path}?raw=true) -->
 
 ## Links

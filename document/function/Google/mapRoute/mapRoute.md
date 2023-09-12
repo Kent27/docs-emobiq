@@ -1,42 +1,58 @@
 # mapRoute
 
-### Description
+## Description
 
-Display the route on the map from start postion to end postion.
+Display the route on the map from the start position to the end position.
 
-### Flowchart
+## Input / Parameter 
 
-- N/A
+| Name | Description | Data Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| component | The name of the map component. | String/Text | - | - | Partial (Yes if no 'componentId'.) |
+| componentId | The id of the map component. | String/Text | - | - | Partial (Yes if no 'component'.) |
+| mode | The route mode to show. | String/Text | Driving | Driving, Walking, Bicycling, Transit | Yes |
+| startLatLng | The latitude and longitude of the start position. | String/Text | - | - | Yes |
+| endLatLng | The latitude and longitude of the end position. | String/Text | - | - | Yes |
+| waypoints | The waypoints on the route. | Object | - | - | No |
 
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
+## Output
 
-### Input / Parameters
+N/A
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | component | Map component | String | No |
-| 2 | componentId | Map component ID | String | Yes | 
-| 3 | mode | Clear mode | String | Yes | 
-| 4 | startLatLng | Start latitude longtitude position | String | Yes | 
-| 5 | endLatLng | End latitude longtitude position | String | Yes | 
-| 6 | waypoints | Ways points  | String | Yes | 
+Note: The map component will show the route for the mode selected from the start position to the end position.
 
-### Scenario / Use Case
+## Callback
 
-- N/A
+N/A
 
-### Step
+## Video
 
-- N/A
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

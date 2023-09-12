@@ -1,38 +1,61 @@
 # backupSqlite
 
-### Description
+## Description
 
 Backup sqlite data.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Data Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| storage | Size of the file. | Number | - | - | Yes |
+| fileName | Name of the file. | String/Text | - | - | Yes |
 
-### Input / Parameters
+<!-- | callback | When the function was triggered successfully. | Function List | - | - | No | -->
+<!-- | errCallback | When the function trigger failed successfully. | Function List | - | - | No | -->
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | Storage | Size of the file  | Number  |   |
-| 2 | fileName |  Name of the file | String |   |
-| 3 | callback | Success Callback | functionList |  | 
-| 4 | errCallback | Error Callback | functionList |  | 
+## Output
 
-### Scenario / Use Case
+N/A
 
-- N/A
+## Callback?
 
-### Step
+### callback
 
-- N/A
+The function to be executed when sqlite data backup is successful.
+
+### errCallback
+
+The function to be executed when sqlite data backup is not successful.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

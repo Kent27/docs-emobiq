@@ -8,35 +8,49 @@ Ability to scroll from one component to another in the same long page.
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| component | The name of the component to start scrolling from. | String | - | - | Partial (Yes if no 'componentId'.) |
-| componentId | The id of the component to start scrolling from. | String | - | - | Partial (Yes if no 'component'.) | 
-| toComponent | The name of the component to scroll to. | String | - | - | Partial (Yes if no 'toComponentId'.) | 
-| toComponentId | The id of the component to scroll to. | String | - | - | Partial (Yes if no 'toComponent'.) |
+| component | The name of the component to start scrolling from. | String/Text | - | - | Partial (Yes if no 'componentId'.) |
+| componentId | The id of the component to start scrolling from. | String/Text | - | - | Partial (Yes if no 'component'.) | 
+| toComponent | The name of the component to scroll to. | String/Text | - | - | Partial (Yes if no 'toComponentId'.) | 
+| toComponentId | The id of the component to scroll to. | String/Text | - | - | Partial (Yes if no 'toComponent'.) |
 
 __\* Note:__ Either component or componentId and toComponent or toComponentId must have value in order for this function to work.
 
 ## Output
 
-### Default Output
+N/A
 
-| Description | Output Type |
-| ------ | ------ |
-| Checks if the page scrolls to the correct component. | Boolean |
+## Callback
+
+N/A
 
 ## Video
 
 Coming Soon.
 
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
 ## Example
 
-The user wanted to scroll from one component to another on the same page.
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
 Coming Soon.
 
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
 Coming Soon.
+
+<!-- Explain the output.
+
+Format: ![]({image-path}?raw=true) -->
 
 ## Links
