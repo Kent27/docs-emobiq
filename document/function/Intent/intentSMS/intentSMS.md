@@ -1,45 +1,43 @@
 # intentSMS
 
-### Description
+## Description
 
-This function is to start a message.
-
-### Flowchart
-
-- N/A 
+This function will start a text message on the user's device's default messing application. 
 
 ### Input / Parameters
 
-| No | Name | Description | Data Type | Required | 
-| ------ | ------ | ------ |------ | ------ |
-| 1 | phone | phone number | String | Yes | 
-| 2 | message | message to display | String | Yes | 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| phone | Recipient's phone number | String(?) | - | - | Yes | 
+| message | Text message body | String | - | - | Yes | 
 
-### Scenario / Use Case
+## Output
 
-The user wants to start a message
+Opens the default text messaging application on user's device with the fields populated by input.
+
+## Video 
+
+Coming Soon.
+
+## Example
+
+The user wants to start an email
 <br>
 
-### Step
+### Steps
 
-1. Call the function.
+Using `intentSendSMS` with the parameters
 
-    ![](../../../../document/function/Intent/intentSMS/intentSMS-step-1.png?raw=true)
-    
-2. Click open message.
+|  | value |
+| ---- | ---- | 
+| phone | 0123456789 |
+| message | hai | 
 
-    ![](../../../../document/function/Intent/intentSMS/intentSMS-step-2.png?raw=true)
     
 ### Result
 
 ![](../../../../document/function/Intent/intentSMS/intentSMS-result-1.png?raw=true)
 
-### Video
+## Links
 
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+Coming Soon.

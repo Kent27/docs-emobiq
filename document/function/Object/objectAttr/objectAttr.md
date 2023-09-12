@@ -2,13 +2,13 @@
 
 ## Description
 
-Retrieves the attribute/property value of an object.
+Given an object and an attribute key, the `objectAttr` function will return the value of the specified attribute. 
 
 ## Input / Parameter
     
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| object | The object to get the attribute. | Object | - | - | Yes |
+| object | Object with key-value pairs | Object | - | - | Yes |
 | attr | The name of the attribute to be retrieved. | String/Text | - | - | Yes |
 
 ## Output   
@@ -23,18 +23,21 @@ N/A
 
 ## Video
 
-Coming soon.
+Coming Soon.
 
 ## Example
 
-Coming soon.
+```JSON
+{
+    "name": "John Doe",
+    "email": "john@example.com",
+    "age": 23,
+    "tel": 123456
+}
+```
 
-### Steps
-
-Coming soon.
-
-### Result
-
-Coming soon.
+Given the above object, `objectAttr` function for `name` will return `John`. 
 
 ## Links
+
+Coming Soon.

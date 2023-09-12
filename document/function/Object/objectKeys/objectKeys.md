@@ -2,19 +2,19 @@
 
 ## Description
 
-Creates an array/list of the attribute/property names of an object.
+Given an object of key-value pairs, the `objectKeys` function will return an array of the keys.
 
 ## Input / Parameter
     
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| object | The object to get the attribute/property names. | Object | - | - | Yes |
+| object | Object with key-value pairs | Object | - | - | Yes |
 
 ## Output   
 
 | Description | Output Type |
 | ------ | ------ |
-| Returns the array/list of the attribute/property names. | Array/List |
+| Returns a list of all keys in the object | Array/List |
 
 ## Callback
 
@@ -22,18 +22,25 @@ N/A
 
 ## Video
 
-Coming soon.
+Coming Soon.
 
 ## Example
 
-Coming soon.
+```JSON
+{
+    "name": "John Doe",
+    "email": "john@example.com",
+    "age": 23,
+    "tel": 123456
+}
+```
 
-### Steps
+Given the above object, `objectKeys` function will return this list:
 
-Coming soon.
-
-### Result
-
-Coming soon.
+```JS
+["name", "email", "age", "tel"]
+```
 
 ## Links
+
+Coming Soon.
