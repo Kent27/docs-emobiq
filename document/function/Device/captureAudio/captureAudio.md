@@ -43,6 +43,7 @@ The user wants to create a voice recording using their mobile device.
 2. Drag the function to be executed if the audio recording is successfully generated to the node below the function. In this example, we are using the infoDialog function.
 
     ![](../captureAudio/captureAudio-step-2.png?raw=true)
+
     ![](../captureAudio/captureAudio-step-3.png?raw=true)
 
 3. Fill in the parameters of the infoDialog function.
@@ -58,7 +59,7 @@ Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-The audio file captured will be shown in the dialog modal.
+The audio file recorded will be shown in the dialog modal.
 
 <!-- Explain the output.
 
