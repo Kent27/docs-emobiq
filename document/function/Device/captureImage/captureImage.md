@@ -16,7 +16,7 @@ Activates the camera of the mobile device to capture image.
 
 N/A
 
-## Callback?
+## Callback
 
 ### callback
 
@@ -34,23 +34,31 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to take a photo using their mobile device and view the photo in the image component.
 
 <!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-Coming Soon.
+1. Drag an image and a button component to a page in the mobile designer.
 
-<!-- Show the steps and share some screenshots.
+    ![](../captureImage/captureImage-step-1.png?raw=true)
 
-1. .....
+2. Click on the button, select the event 'click' and Drag the function captureImage to the event flow.
 
-Format: ![]({image-path}?raw=true) -->
+    ![](../captureImage/captureImage-step-2.png?raw=true)
+    
+    ![](../captureImage/captureImage-step-3.png?raw=true)
+
+3. Drag the the function to be executed if the image is captured successfully to the node below the function. In this example, we are using the setComponentValue to set the image to the image component.
+
+  ![](../captureImage/captureImage-step-4.png?raw=true)
+
+  ![](../captureImage/captureImage-step-5.png?raw=true)
 
 ### Result
 
-Coming Soon.
+The image captured will be shown in the image component.
 
 <!-- Explain the output.
 

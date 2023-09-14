@@ -1,42 +1,66 @@
 # captureVideo
 
-### Description
+## Description
 
 Activates the video recording of the mobile device to capture video.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+N/A
 
-### Input / Parameters
+## Output
 
-- N/A
+N/A
 
-### Scenario / Use Case
+## Callback
 
-The user want to do a video recording using mobile device.
+### callback
 
-### Step
+The function to be executed when the video recording is generated successfully.
 
-1. Call the captureVideo function.
+### errorCallback
 
-    ![](../../../../document/function/Device/captureVideo/captureVideo-step-1.png?raw=true)
-    
-2. In callback, add infoDialog function as below to view the path of video recorded.
+The function to be executed when the video recording is not generated successfully.
 
-    ![](../../../../document/function/Device/captureVideo/captureVideo-step-2.png?raw=true)
-    
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+The user wants to create a video recording using their mobile device.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+1. Drag the function captureVideo to the event flow.
+
+    ![](../captureVideo/captureVideo-step-1.png?raw=true)
+
+2. Drag the function to be executed if the video recording is successfully generated to the node below the function. In this example, we are using the infoDialog function.
+
+    ![](../captureVideo/captureVideo-step-2.png?raw=true)
+
+3. Fill in the parameters of the infoDialog function.
+
+    ![](../captureVideo/captureVideo-step-3.png?raw=true)
+
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
-The video recorded will be shown in the image component.
+The video file recorded will be shown in the dialog modal.
 
-![](../../../../document/function/Device/captureVideo/captureVideo-result-1.png?raw=true)
+<!-- Explain the output.
 
-### Video
+Format: ![]({image-path}?raw=true) -->
 
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

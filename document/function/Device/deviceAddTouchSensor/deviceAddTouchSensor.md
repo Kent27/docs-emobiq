@@ -2,7 +2,7 @@
 
 ## Description
 
-Adds touch sensor feature for the user's mobile device.
+Adds touch sensor feature for the user's mobile device. To be able to use this function properly, the mobile device must have a touch sensor and the user must set up the fingerprint authentication in their device setting beforehand.
 
 ## Input / Parameter
 
@@ -15,7 +15,7 @@ Adds touch sensor feature for the user's mobile device.
 
 N/A
 
-## Callback?
+## Callback
 
 ### callback
 
@@ -29,13 +29,23 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to add touch sensor to their mobile device.
 
 <!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-Coming Soon.
+1. Drag a button component to a page in the mobile designer. Select the event click and drag the deviceAddTouchSensor function to the event flow.
+
+    ![](../deviceAddTouchSensor/deviceAddTouchSensor-step-1.png?raw=true)
+
+    ![](../deviceAddTouchSensor/deviceAddTouchSensor-step-2.png?raw=true)
+
+2. Drag the function that is executed when the touch sensor feature is added to the mobile device successfully. In this example, we are using the infoDialog function. Fill in the parameters for the function.
+
+    ![](../deviceAddTouchSensor/deviceAddTouchSensor-step-3.png?raw=true)
+
+    ![](../deviceAddTouchSensor/deviceAddTouchSensor-step-4.png?raw=true)
 
 <!-- Show the steps and share some screenshots.
 
@@ -45,7 +55,7 @@ Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-Coming Soon.
+When the button is pressed, the mobile device will ask for fingerprint authentication. Touch the touch sensor of the device for the fingerprint to be recognized. The dialog will show the input passed.
 
 <!-- Explain the output.
 

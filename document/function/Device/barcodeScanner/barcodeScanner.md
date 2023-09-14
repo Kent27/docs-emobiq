@@ -4,23 +4,21 @@
 
 Activates a barcode scanner using the camera of the device.
 
-## Input / Parameter?
+## Input / Parameter
 
-N/A
-
-<!-- | Name | Description | Input Type | Default | Options | Required | -->
-<!-- | ------ | ------ | ------ | ------ | ------ | ------ |
-<!-- | showFlipCameraButton | Show flip camera button. Supported on iOS and Android. | Boolean | - | - | No | -->
-<!-- | showTorchButton | Show torch button. Supported on iOS and Android. | Boolean | - | - | No | -->
-<!-- | torchOn | Launch with the torch switched on (if available). Supported on Android only. | Boolean | - | - | No | -->
-<!-- | prompt | Prompt text. Supported on Android only. | String/Text | - | - | No | -->
-<!-- | resultDuration | Display scanned text for X ms. 0 suppresses it entirely, default 1500. Supported on Android only. | Number | - | - | No | -->
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| showFlipCameraButton | Show flip camera button. Supported on iOS and Android. | Boolean | true | true, false | No |
+| showTorchButton | Show torch button. Supported on iOS and Android. | Boolean | true | true, false | No |
+| torchOn | Launch with the torch switched on (if available). Supported on Android only. | Boolean | false | true, false | No |
+| prompt | Prompt text. Supported on Android only. | String/Text | - | - | No |
+| resultDuration | Display scanned text for X ms. 0 suppresses it entirely, default 1500. Supported on Android only. | Number | 500? | - | No |
 
 ## Output
 
 N/A
 
-## Callback?
+## Callback
 
 ### callback
 
@@ -38,13 +36,23 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to scan a barcode and display the value in a dialog.
 
 <!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-Coming Soon.
+1. Drag a button to a page in the mobile designer. Select the event click and drag the barcodeScanner function to the event flow.
+
+    ![](../barcodeScanner/barcodeScanner-step-1.png?raw=true)
+
+    ![](../barcodeScanner/barcodeScanner-step-2.png?raw=true)
+
+2. Drag the function to be executed when the barcode scanner is activated successfully. In this example, we are using the infoDialog function. Fill in the parameters of the function.
+
+    ![](../barcodeScanner/barcodeScanner-step-3.png?raw=true)
+
+    ![](../barcodeScanner/barcodeScanner-step-4.png?raw=true)
 
 <!-- Show the steps and share some screenshots.
 
@@ -54,7 +62,7 @@ Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-Coming Soon.
+When the button is pressed, the barcode scanner will be activated. After scanning the barcode, the value will be displayed in a dialog box.
 
 <!-- Explain the output.
 
