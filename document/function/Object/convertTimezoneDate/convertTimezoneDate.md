@@ -8,7 +8,7 @@ Converts a date from one timezone to another, changing the date to match a diffe
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| date | The date to be modified. | String/Text | (Current-Date) | - | Yes |
+| date | The datetime to be modified. | String/Text | Current date at 00:00:00 | - | Yes |
 | timezone | The timezone to apply. | String/Text | - | UTC, [IANA Time Zone List] | Yes |
 
 Note: For [IANA Time Zone List], please use the Zone ID.
@@ -17,7 +17,7 @@ Note: For [IANA Time Zone List], please use the Zone ID.
 
 | Description | Output Type |
 | ------ | ------ |
-| Returns the modified date. | String/Text |
+| Returns the modified datetime | String/Text |
 
 ## Callback
 
@@ -29,15 +29,19 @@ Coming soon.
 
 ## Example
 
-Coming soon.
+## Steps
 
-### Steps
+1. Assuming current timezone being Asia/Singapore.
+   
+2. Using the `convertTimezoneDate` function with the parameters ![](./convertTimezoneDate_step1.png)
 
-Coming soon.
+### Results
 
-### Result
+Will return a string: 
 
-Coming soon.
+```
+12/31/1969, 05:30:00PM
+```
 
 ## Links
 
