@@ -33,7 +33,9 @@ Coming soon.
 
 1. Assuming current timezone being Asia/Singapore.
    
-2. Using the `convertTimezoneDate` function with the parameters ![](./convertTimezoneDate_step1.png)
+2. Using the `convertTimezoneDate` function with the parameters 
+   
+   ![](./convertTimezoneDate_step1.png)
 
 ### Results
 
