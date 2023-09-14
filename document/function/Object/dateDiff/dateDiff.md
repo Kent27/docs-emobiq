@@ -16,7 +16,7 @@ Calculates the difference between two dates, measuring the duration or interval 
 
 | Description | Output Type |
 | ------ | ------ |
-| Returns the calculated difference. | Number |
+| Returns the difference between two dates in terms of days. Will be negative if `value2` is an early date than `value1` | Number/Integer |
 
 ## Callback
 
@@ -28,14 +28,19 @@ Coming soon.
 
 ## Example
 
-Coming soon.
-
 ### Steps
 
-Coming soon.
+1. Using the dates `2023-01-01` and `1970-01-01`
+
+![](dateDiff_step1.png)
 
 ### Result
 
-Coming soon.
+Will return the value: 
+
+```
+-19358
+```
+
 
 ## Links
