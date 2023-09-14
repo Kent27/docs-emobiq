@@ -1,17 +1,13 @@
 
 # barcodeScanEvent
 
-### Description
+## Description
 
 
 
-### Flowchart
+## Input / Parameter
 
-- N/A
-
-### Input / Parameters
-
-
+N/A
 
 ### Scenario / Use Case
 

@@ -1,42 +1,60 @@
 # addPersonAzure
 
-### Description
+## Description
 
-Add personal data to the Azure dataset.
+Add the personal data of a specific person to the Azure dataset created in Services.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Data Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| connector | The name of the Azure connector created in Services. | String/Text | - | - | Yes |
+| groupId | The id of the group to add the person to. | String/Text | - | - | Yes | 
+| personName | The name of the person to add to the group. | String/Text | - | - | Yes | 
+| extra | Additional data to be used in the callbacks. | Any | - | - | No | 
 
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
+## Output
 
-### Input / Parameters
+N/A
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | connector | Name of connector and created in the Services and Global Components page. | String | Yes  |
-| 2 | groupId | Add to Group Id | String | Yes | 
-| 3 | personName | Person Name | String | Yes | 
-| 4 | extra | Extra data to pass into callback | Object | Yes | 
-| 5 | callback | Success callback | FunctionList | No | 
-| 6 | errorCallback | Error callback | FunctionList | No | 
+## Callback?
 
-### Scenario / Use Case
+### callback
 
-- N/A
+The function to be executed when the person is successfully added to the Azure dataset.
 
-### Step
+### errorCallback
 
-- N/A
+The function to be executed when the person is not successfully added to the Azure dataset.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

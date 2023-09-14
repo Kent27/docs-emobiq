@@ -1,9 +1,9 @@
 
-# barcodeScanTrigger
+# barcodeScanEnable
 
 ## Description
 
-Trigger the barcode scanner.
+Enable the barcode scanner.
 
 ## Input / Parameter
 

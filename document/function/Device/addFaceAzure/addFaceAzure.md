@@ -1,43 +1,61 @@
 # addFaceAzure
 
-### Description
+## Description
 
-Add face data of specific person in group to Azure dataset.
+Add the face data of a specific person in a group to the Azure dataset created in Services.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Data Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| connector | The name of the Azure connector created in Services. | String/Text | - | - | Yes |
+| data | The face data to add. | String/Text | - | - | Yes | 
+| groupId | The id of the group to add the face data to. | String/Text | - | - | Yes | 
+| personId | The id of the person in the group the face data belongs to. | String/Text | - | - | Yes | 
+| extra | Additional data to be used in the callbacks. | Any | - | - | No | 
 
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
+## Output
 
-### Input / Parameters
+N/A
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | connector | Name of connector and created in the Services and Global Components page. | String | Yes  |
-| 2 | data | Face data | String | Yes | 
-| 3 | groupId | Add to Group Id | String | Yes | 
-| 4 | personId | Add to Person Id | String | Yes | 
-| 5 | extra | Extra data to pass into callback | Object | Yes | 
-| 6 | callback | Success callback | FunctionList | No | 
-| 7 | errorCallback | Error callback | FunctionList | No | 
+## Callback?
 
-### Scenario / Use Case
+### callback
 
-- N/A
+The function to be executed when the face data is successfully added to the Azure dataset.
 
-### Step
+### errorCallback
 
-- N/A
+The function to be executed when the face data is not successfully added to the Azure dataset.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links
