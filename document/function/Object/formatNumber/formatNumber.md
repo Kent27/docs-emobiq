@@ -29,14 +29,9 @@ Coming soon.
 
 ## Example
 
-Coming soon.
-
-### Steps
-
-Coming soon.
-
-### Result
-
-Coming soon.
+| Function inputs | Expected result |
+| ---- | ----: | 
+| ![](formatNumber_eg1.png) | `1 000.23` | 
+| ![](formatNumber_eg2.png) | `-95,123.0` | 
 
 ## Links
