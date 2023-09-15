@@ -32,13 +32,10 @@ The user wants to activate the beep sound in their mobile device.
 
 ### Steps
 
-1. Drag a button to a page in the mobile designer. Select the event click for the button and drag the function deviceBeep to the event flow.
-
-    ![](../deviceBeep/deviceBeep-step-1.png?raw=true)
-
-2. Fill in the parameter with the number of times the mobile should beep.
-
-    ![](../deviceBeep/deviceBeep-step-2.png?raw=true)
+| No. | Description |  |
+| ------ | ------ | ------ |
+| 1. | ![](../deviceBeep/deviceBeep-step-1.png?raw=true) |Drag a button to a page in the mobile designer. Select the event `click` for the button and drag the function `deviceBeep` to the event flow. |
+| 2. | ![](../deviceBeep/deviceBeep-step-2.png?raw=true) | Fill in the parameter with the number of times the mobile should beep. |
 
 <!-- Show the steps and share some screenshots.
 

@@ -35,17 +35,12 @@ The user wants to add touch sensor to their mobile device.
 
 ### Steps
 
-1. Drag a button component to a page in the mobile designer. Select the event click and drag the deviceAddTouchSensor function to the event flow.
-
-    ![](../deviceAddTouchSensor/deviceAddTouchSensor-step-1.png?raw=true)
-
-    ![](../deviceAddTouchSensor/deviceAddTouchSensor-step-2.png?raw=true)
-
-2. Drag the function that is executed when the touch sensor feature is added to the mobile device successfully. In this example, we are using the infoDialog function. Fill in the parameters for the function.
-
-    ![](../deviceAddTouchSensor/deviceAddTouchSensor-step-3.png?raw=true)
-
-    ![](../deviceAddTouchSensor/deviceAddTouchSensor-step-4.png?raw=true)
+| No. | Description |  |
+| ------ | ------ | ------ |
+| 1. | ![](../deviceAddTouchSensor/deviceAddTouchSensor-step-1.png?raw=true) | Drag a button component to a page in the mobile designer. Select the event `click` and drag the `deviceAddTouchSensor` function to the event flow. |
+| 2. | ![](../deviceAddTouchSensor/deviceAddTouchSensor-step-2.png?raw=true) | Fill in the parameters of the function. |
+| 3. | ![](../deviceAddTouchSensor/deviceAddTouchSensor-step-3.png?raw=true) | Drag the function that is executed when the touch sensor feature is added to the mobile device successfully. In this example, we are using the `infoDialog` function. |
+| 4. | ![](../deviceAddTouchSensor/deviceAddTouchSensor-step-4.png?raw=true) | Fill in the parameters of the function. |
 
 <!-- Show the steps and share some screenshots.
 

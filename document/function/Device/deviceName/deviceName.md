@@ -30,17 +30,10 @@ The user wants to display the device name in a dialog modal.
 
 ### Steps
 
-1. Drag a button to a page in the mobile designer. Select the event 'click' for the button and drag the infoDialog function to the event flow.
-
-    ![](../deviceName/deviceName-step-1.png?raw=true)
-
-2. Fill in the parameters of the function. For the parameter 'content', select the parameter type 'function' and drag the deviceName function to the node in the subflow.
-
-    ![](../deviceName/deviceName-step-2.png?raw=true)
-
-    ![](../deviceName/deviceName-step-3.png?raw=true)
-
-    ![](../deviceName/deviceName-step-4.png?raw=true)
+| No. | Description |  |
+| ------ | ------ | ------ |
+| 1. | ![](../deviceName/deviceName-step-2.png?raw=true) | Drag a button to a page in the mobile designer. Select the event `click` for the button and drag the `infoDialog` function to the event flow. Fill in the parameters of the function. For the parameter `content`, select the parameter type `function`. |
+| 2. | ![](../deviceName/deviceName-step-3.png?raw=true) | Drag the `deviceName` function to the node in the subflow for the `content` parameter. |
 
 <!-- Show the steps and share some screenshots.
 
