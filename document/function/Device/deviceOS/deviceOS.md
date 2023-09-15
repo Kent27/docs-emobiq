@@ -26,13 +26,23 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to display the device operating system in a dialog modal.
 
 <!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-Coming Soon.
+1. Drag a button to a page in the mobile designer. Select the event 'click' for the button and drag the infoDialog function to the event flow.
+
+    ![](../deviceName/deviceName-step-1.png?raw=true)
+
+2. Fill in the parameters of the function. For the parameter 'content', select the parameter type 'function' and drag the deviceOS function to the node in the subflow.
+
+    ![](../deviceName/deviceName-step-2.png?raw=true)
+
+    ![](../deviceName/deviceName-step-3.png?raw=true)
+
+    ![](../deviceName/deviceName-step-4.png?raw=true)
 
 <!-- Show the steps and share some screenshots.
 
@@ -42,7 +52,7 @@ Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-Coming Soon.
+When the button is pressed, the infoDialog will appear to show the device operating system.
 
 <!-- Explain the output.
 

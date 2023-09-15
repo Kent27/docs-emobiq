@@ -36,11 +36,11 @@ The user wants to display the device manufacturer in a dialog modal.
 
 2. Fill in the parameters of the function. For the parameter 'content', select the parameter type 'function' and drag the deviceManufacturer function to the node in the subflow.
 
-    ![](../deviceManufacturer/deviceManufacturer-step-1.png?raw=true)
+    ![](../deviceManufacturer/deviceManufacturer-step-2.png?raw=true)
 
-    ![](../deviceManufacturer/deviceManufacturer-step-1.png?raw=true)
+    ![](../deviceManufacturer/deviceManufacturer-step-3.png?raw=true)
 
-    ![](../deviceManufacturer/deviceManufacturer-step-1.png?raw=true)
+    ![](../deviceManufacturer/deviceManufacturer-step-4.png?raw=true)
 
 <!-- Show the steps and share some screenshots.
 
@@ -50,7 +50,7 @@ Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-When the button is pressed, the infoDialog will appear to show the device ID.
+When the button is pressed, the infoDialog will appear to show the device manufacturer.
 
 <!-- Explain the output.
 
