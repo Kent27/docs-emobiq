@@ -9,7 +9,13 @@ Activates the barcode scanner?
 
 N/A
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 
 
@@ -29,6 +35,6 @@ N/A
 - N/A
 <!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
 
-### Notes
+## Links
 
 - N/A

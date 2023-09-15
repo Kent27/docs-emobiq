@@ -1,16 +1,10 @@
 # mcpGetTranscationDetails
 
-### Description
+## Description
 
  MCP get transaction details.
 
-### Flowchart
-
-- N/A
-
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required |
 | ------ | ------ | ------ |------ | ------ |
@@ -24,7 +18,13 @@
 | 8 | callback | Success callback | FunctionList |  | 
 | 9 | errorCallback | Error callback | FunctionList |  | 
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 - N/A
 
@@ -36,10 +36,4 @@
 
 - N/A
 
-### Video
-
-- N/A
-
-### Notes
-
-- N/A
+## Links

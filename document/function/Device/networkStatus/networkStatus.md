@@ -1,19 +1,21 @@
 
 # networkStatus
 
-### Description
+## Description
 
 Show network status
 
-### Flowchart
-
-- N/A
-
-### Input / Parameters
+## Input / Parameters
 
 
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 User want to know about network status
 
@@ -33,6 +35,6 @@ User want to know about network status
 - N/A
 <!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
 
-### Notes
+## Links
 
 - N/A

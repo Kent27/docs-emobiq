@@ -1,21 +1,23 @@
 ﻿# mssqlQuery 
 
-### Description
+## Description
 
 Query languages are used to make queries in a database, and Microsoft Structured Query Language (SQL) is used to query, insert, update and modify data.
 
-### Flowchart
-
-- N/A 
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required |
 | ------ | ------ | ------ |------ | ------ |
 | 1 | connector | Name of connector and created in the Services and Global Components page. | String | Yes  |
 | 2 | query | A query is a request for data or information from a database table or combination of tables. | String | Yes |
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 The user wants to call the mssqlQuery 
 Web Service.
@@ -48,12 +50,4 @@ Web Service.
 ![](../../../../document/function/Dataset/mssqlQuery/mssqlQuery-result-1.png?raw=true)
 
   
-### Video
-
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

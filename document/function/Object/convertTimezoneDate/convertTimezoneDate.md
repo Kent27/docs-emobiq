@@ -25,11 +25,9 @@ N/A
 
 ## Video
 
-Coming soon.
-
 ## Example
 
-## Steps
+### Steps
 
 1. Assuming current timezone being Asia/Singapore.
    

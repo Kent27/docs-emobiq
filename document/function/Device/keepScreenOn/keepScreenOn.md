@@ -1,22 +1,22 @@
 # keepScreenOn
 
-### Description
+## Description
 
 Enable or disable the screen always on feature.
 
-### Flowchart
-
-- N/A
-
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required |
 | ------ | ------ | ------ |------ | ------ |
 | 1 | value | Enable or disable screen on. | Boolean |   |
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 - N/A
 
@@ -28,10 +28,4 @@ Enable or disable the screen always on feature.
 
 - N/A
 
-### Video
-
-- N/A
-
-### Notes
-
-- N/A
+## Links

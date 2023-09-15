@@ -1,16 +1,10 @@
 # paypalGenerateButton
 
-### Description
+## Description
 
 Generate payla payment button.
 
-### Flowchart
-
-- N/A
-
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
-
-### Input / Parameters
+## Input / Parameters
  
 | No | Name | Description | Data Type | Required |
 | ------ | ------ | ------ |------ | ------ |
@@ -29,7 +23,13 @@ Generate payla payment button.
 | 13 | callback | Success callback | FunctionList |  | 
 | 14 | errorCallback | Error callback | FunctionList |  | 
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 - N/A
 
@@ -41,10 +41,4 @@ Generate payla payment button.
 
 - N/A
 
-### Video
-
-- N/A
-
-### Notes
-
-- N/A
+## Links

@@ -1,16 +1,10 @@
 # identifyFaceAzure
 
-### Description
+## Description
 
 Identify the face data after detecting face.
 
-### Flowchart
-
-- N/A
-
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required |
 | ------ | ------ | ------ |------ | ------ |
@@ -22,7 +16,13 @@ Identify the face data after detecting face.
 | 6 | callback | Success callback | FunctionList |  | 
 | 7 | errorCallback | Error callback | FunctionList |  | 
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 - N/A
 
@@ -34,10 +34,4 @@ Identify the face data after detecting face.
 
 - N/A
 
-### Video
-
-- N/A
-
-### Notes
-
-- N/A
+## Links

@@ -1,16 +1,10 @@
 # verifyFaceFromPhotoAzure
 
-### Description
+## Description
 
 Check person face data with Azure face data.
 
-### Flowchart
-
-- N/A
-
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
-
-### Input / Parameters
+## Input / Parameters
 connector: 'string', data1: 'string', data2: 'string', extra: 'object', callback: 'functionList', errorCallback: 'functionList'
 | No | Name | Description | Data Type | Required |
 | ------ | ------ | ------ |------ | ------ |
@@ -20,7 +14,13 @@ connector: 'string', data1: 'string', data2: 'string', extra: 'object', callback
 | 4 | callback | Success callback | FunctionList | No | 
 | 5 | errorCallback | Error callback | FunctionList | No | 
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 - N/A
 
@@ -32,10 +32,4 @@ connector: 'string', data1: 'string', data2: 'string', extra: 'object', callback
 
 - N/A
 
-### Video
-
-- N/A
-
-### Notes
-
-- N/A
+## Links

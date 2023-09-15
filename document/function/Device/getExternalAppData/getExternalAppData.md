@@ -1,18 +1,20 @@
 # getExternalAppData
 
-### Description
+## Description
 
 
 
-### Flowchart
-
-- N/A
-
-### Input / Parameters
+## Input / Parameters
 
 - N/A
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 
 
@@ -31,6 +33,6 @@ The mobile app will be closed.
 - N/A
 <!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
 
-### Notes
+## Links
 
 - N/A

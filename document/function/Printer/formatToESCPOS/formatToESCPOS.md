@@ -1,16 +1,10 @@
 # formatToESCPOS
 
-### Description
+## Description
 
 Formats to ESCPOS format language.
 
-### Flowchart
-
-- N/A
-
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required |
 | ------ | ------ | ------ |------ | ------ |
@@ -19,7 +13,13 @@ Formats to ESCPOS format language.
 | 3 | font | Font name | String |  | 
 | 4 | size | Size of the font  | String |  | 
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 - N/A
 
@@ -31,10 +31,4 @@ Formats to ESCPOS format language.
 
 - N/A
 
-### Video
-
-- N/A
-
-### Notes
-
-- N/A
+## Links

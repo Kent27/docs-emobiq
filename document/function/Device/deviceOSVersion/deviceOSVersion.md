@@ -1,18 +1,20 @@
 # deviceOSVersion
 
-### Description
+## Description
 
 Get the version of operating system for a device.
 
-### Flowchart
+## Input / Parameters
 
 - N/A
 
-### Input / Parameters
+## Output
 
-- N/A
+## Callback
 
-### Scenario / Use Case
+## Video
+
+## Example
 
 The user want display device operating system version in an info dialog.
 
@@ -27,11 +29,8 @@ The user want display device operating system version in an info dialog.
 The version of the device will be shown. <br />
 ![](../../../../document/function/Device/deviceOSVersion/deviceOSVersion-result-1.png?raw=true)
 
-### Video
 
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
 
-### Notes
+## Links
 
 - N/A

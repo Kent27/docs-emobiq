@@ -1,16 +1,10 @@
 # eNetsPaymentRequest
 
-### Description
+## Description
 
 eNETS payment request.
 
-### Flowchart
-
-- N/A
-
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required |
 | ------ | ------ | ------ |------ | ------ |
@@ -27,7 +21,13 @@ eNETS payment request.
 | 11 | callback | Success callback | FunctionList |  | 
 | 12 | errorCallback | Error callback | FunctionList |  | 
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 - N/A
 
@@ -39,10 +39,4 @@ eNETS payment request.
 
 - N/A
 
-### Video
-
-- N/A
-
-### Notes
-
-- N/A
+## Links

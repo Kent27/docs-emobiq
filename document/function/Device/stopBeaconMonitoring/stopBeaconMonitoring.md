@@ -1,16 +1,10 @@
 # stopBeaconMonitoring
 
-### Description
+## Description
 
 Stop specific beacon monitoring process.
 
-### Flowchart
-
-- N/A
-
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required |
 | ------ | ------ | ------ |------ | ------ |
@@ -21,7 +15,13 @@ Stop specific beacon monitoring process.
 | 5 | callback | Success callback | FunctionList |  | 
 | 6 | errorCallback | Error callback | FunctionList |  | 
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 - N/A
 
@@ -33,10 +33,4 @@ Stop specific beacon monitoring process.
 
 - N/A
 
-### Video
-
-- N/A
-
-### Notes
-
-- N/A
+## Links

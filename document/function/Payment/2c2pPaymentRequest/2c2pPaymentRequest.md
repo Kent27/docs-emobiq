@@ -1,16 +1,10 @@
 # 2c2pPaymentRequest
 
-### Description
+## Description
 
 2C2P payment request
 
-### Flowchart
-
-- N/A
-
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required |
 | ------ | ------ | ------ |------ | ------ |
@@ -26,7 +20,13 @@
 | 10 | callback | Success callback | FunctionList |  | 
 | 11 | errorCallback | Error callback | FunctionList |  | 
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 - N/A
 
@@ -38,10 +38,4 @@
 
 - N/A
 
-### Video
-
-- N/A
-
-### Notes
-
-- N/A
+## Links

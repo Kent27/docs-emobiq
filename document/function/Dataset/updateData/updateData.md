@@ -1,14 +1,10 @@
 ﻿# updateData 
 
-### Description
+## Description
 
 Update a record from a staging database.
 
-### Flowchart
-
-- N/A 
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required |
 | ------ | ------ | ------ |------ | ------ |
@@ -16,7 +12,13 @@ Update a record from a staging database.
 | 2 | _id | Value from the staging database and used for identify which record will be updated. | Integer | Yes  |
 | 3 | param | The data to be updated from the staging database. | Object | Yes |
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 The user wants to update the data from staging table.
 
@@ -64,12 +66,7 @@ The user wants to update the data from staging table.
 ![](../../../../document/function/Dataset/updatedata/updatedata-result-2.png?raw=true)
 ( The row 2, tel no have been successful to be update into no 123.)
 
-### Video
 
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
+## Notes
 
 - N/A

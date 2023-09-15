@@ -1,25 +1,28 @@
 # acumaticaCall 
 
-### Description
+## Description
 
 AcumaticaCall is the function to generate the token session.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| connector | Name of connector and created in the Services and Global Components page. | String/Text | - | - | Yes |
+| ent | The Web Service name to be called. | String/Text | - | - | No |
+| function | The function name to be called. | String/Text | - | - | Yes |
+| data |   | Object | - | - | No |
+| files |   | String | - | - | No  |
+| extra |   | String | - | - | No  |
 
-### Input / Parameters
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | connector | Name of connector and created in the Services and Global Components page. | String | Yes  |
-| 2 | ent | The Web Service name to be called. | String | No  |
-| 3 | function | The function name to be called. | String | Yes  |
-| 4 | data |   | Object | No |
-| 5 | files |   | String | No  |
-| 6 | extra |   | String | No  |
+## Output
 
-### Scenario / Use Case
+## Callback
+
+## Video
+
+## Example
 
 User want to generate token session for ASP.Net
 
@@ -50,12 +53,4 @@ emobiqApp.js?53:4456 ASP.NET_SessionId=afnllmm0512f1o01gxeuqrbp;UserBranch=16;Le
 
 ![](../../../../document/function/Dataset/acumaticaCall/acumaticaCall-result-1.png?raw=true)
 
-### Video
-
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

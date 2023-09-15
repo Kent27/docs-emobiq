@@ -1,21 +1,23 @@
 
 # deviceVibrate
 
-### Description
+## Description
 
 Activate vibration of mobile device.
 
-### Flowchart
-
-- N/A
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required |
 | ------ | ------ | ------ |------ | ------ |
 | 1 | duration | Duration of vibration in miliseconds | Number | Yes |
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 The user want trigger mobile vibration function.
 
@@ -34,6 +36,6 @@ The mobile device will be vibrated for 2s.
 - N/A
 <!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
 
-### Notes
+## Links
 
 - N/A
