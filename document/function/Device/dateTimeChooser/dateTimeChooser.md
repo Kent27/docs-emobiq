@@ -1,61 +1,79 @@
 # dateTimeChooser
 
-### Description
+## Description
 
-Show  date time picker different platforms with different format.
+Customize a datetime picker with different formats.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Data Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| mode | The mode of the picker. | String/Text | - | date, time, datetime | Yes |
+| date | The selected date. | String/Text | current date | - | No |
+| minDate | The minimum date. | String/Text | - | - | Yes |
+| maxDate | The maximum date. | String/Text | - | - | Yes |
+| titleText | The title text. | String/Text | - | - | Yes |
+| okText | The 'OK' button text. | String/Text | - | - | Yes |
+| cancelText | The 'Cancel' button text. | String/Text | - | - | Yes |
+| todayText | The 'Today' button text. | String/Text | - | - | Yes |
+| nowText | The 'Now' button text. | String/Text | - | - | Yes |
+| is24Hour | To set to 24 hour format. | String/Text | - | - | Yes |
+| androidTheme | To set to Android device theme. | String/Text | - | - | Yes |
+| allowOldDates | To allow choosing old dates. | String/Text | - | - | Yes |
+| allowFutureDates | To allow choosing future dates. | String/Text | - | - | Yes |
+| doneButtonLabel | The 'Done' button label. | String/Text | - | - | Yes |
+| doneButtonColor | The 'Done' button color. | String/Text | - | - | Yes |
+| cancelButtonLabel | The 'Cancel' button label. | String/Text | - | - | Yes |
+| cancelButtonColor | The 'Cancel' button color. | String/Text | - | - | Yes |
+| xPosition | The horizontal position of the picker. | String/Text | - | - | Yes |
+| yPosition | The vertical position of the picker. | String/Text | - | - | Yes |
+| minuteInterval | The minute interval. | String/Text | - | - | Yes |
+| popoverArrowDirection | The direction of the popover arrow. | String/Text | - | - | Yes |
+| locale | Locale. | String/Text | - | - | Yes |
+| style | The style for iOS 14. | String/Text | wheels | automatic, inline, compact, wheels | No |
 
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
+## Output
 
-### Input / Parameters
+N/A
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | mode | Mode - date, time, datetime | String |  | 
-| 2 | date | Selected date - default today date | String |  | 
-| 3 | minDate | Minimum date | Strig |  | 
-| 4 | maxDate | Maximum date | String |  | 
-| 5 | titleText | Title text | String |  | 
-| 6 | okText | Ok button text | String |  | 
-| 7 | cancelText | Cancel button text | String |  | 
-| 8 | todayText | Today button text | String |  | 
-| 9 | nowText | Now button text | String |  | 
-| 10 | is24Hour | 24 Hour format | String |  | 
-| 11 | androidTheme | Android device theme | String |  | 
-| 12 | allowOldDates | Allow to choose old dates | String |  | 
-| 13 | allowFutureDates | Allow future dates | String |  | 
-| 14 | doneButtonLabel | Done button text | String |  | 
-| 15 | doneButtonColor | Done button color | String |  | 
-| 16 | cancelButtonLabel | Cancel button text | String |  | 
-| 17 | cancelButtonColor | Vertial | String |  | 
-| 18 | xPosition | Horizontal Position of the popup  | String |  | 
-| 19 | yPosition | Vertial position of the popup | String |  | 
-| 20 | minuteInterval | Minute interval | Integer |  | 
-| 21 | popoverArrowDirection | Popover arrow direction | String |  | 
-| 22 | locale | Locale | String |  | 
-| 23 | style | Style for ios 14:automatic, inline, compact, or wheels (the legacy style is wheels) | String |  | 
-| 24 | callback | Success callback | FunctionList |  | 
-| 25 | errorCallback | Error callback | FunctionList |  | 
+## Callback
 
-### Scenario / Use Case
+### callback
 
-- N/A
+The function to be executed if the datetime picker is shown successfully.
 
-### Step
+### errorCallback
 
-- N/A
+The function to be executed if the datetime picker is not shown successfully.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

@@ -1,38 +1,55 @@
 # currentAccelerometer
 
-### Description
+## Description
 
 Get the current accelerometer details.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+N/A
 
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
+## Output
 
-### Input / Parameters
+N/A
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | callback | Success callback | FunctionList |  | 
-| 2 | errorCallback | Error callback | FunctionList |  | 
+## Callback
 
-### Scenario / Use Case
+### callback
 
-- N/A
+The function to be executed if the current accelerometer details are retrieved successfully.
 
-### Step
+### errorCallback
 
-- N/A
+The function to be executed if the current accelerometer details are not retrieved successfully.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

@@ -3,7 +3,7 @@
 
 ## Description
 
-
+Activates the barcode scanner?
 
 ## Input / Parameter
 

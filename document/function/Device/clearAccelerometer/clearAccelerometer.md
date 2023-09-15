@@ -1,35 +1,49 @@
 # clearAccelerometer
 
-### Description
+## Description
 
-Clear the accelerometer watcher, if watch accelerometer is enabled.
+Clears the accelerometer watcher, if watch accelerometer is enabled.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+N/A
 
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
+## Output
 
-### Input / Parameters
+N/A
 
-- N/A
+## Callback
 
-### Scenario / Use Case
+N/A
 
-- N/A
+## Video
 
-### Step
+Coming Soon.
 
-- N/A
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

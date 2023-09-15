@@ -1,41 +1,59 @@
 # detectFaceAzure
 
-### Description
+## Description
 
-Start detecting the face from import sources to get face data.
+Start detecting the face from imported sources to get face data.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Data Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| connector | The Azure connector created in Services. | String/Text | - | - | Yes |
+| data | The face data to detect. | String/Text | - | - | Yes |
+| extra | Additional data to be used in the callbacks. | Any | - | - | No |
 
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
+## Output
 
-### Input / Parameters
+N/A
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | connector | Name of connector and created in the Services and Global Components page. | String |   |
-| 2 | data | Face data | String |  | 
-| 3 | extra | Extra data to pass into callback | Object |  | 
-| 4 | callback | Success callback | FunctionList |  | 
-| 5 | errorCallback | Error callback | FunctionList |  | 
+## Callback
 
-### Scenario / Use Case
+### callback
 
-- N/A
+The function to be executed if face data is detected successfully.
 
-### Step
+### errorCallback
 
-- N/A
+The function to be executed if face data is not detected successfully.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links
