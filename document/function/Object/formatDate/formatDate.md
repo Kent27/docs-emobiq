@@ -12,9 +12,7 @@ Converts a date into a specific desired format, such as changing the display of 
 | format | The format to apply to the date. See 'Date Format' after this table, take note that you can combine the available format. e.g. Y-m-d, m/d/Y. | String/Text | - | *see below* | Yes |
 
 
-
-
-<div style="width: 50%; float: left;">
+### Date formats
 
 | Date formats | Description |
 | ------ | ------ | 
@@ -36,8 +34,7 @@ Converts a date into a specific desired format, such as changing the display of 
 | o | ISO-8601 year. | 
 | Y | Full year. | 
 
-</div>
-<div style="width: 50%; float: left; clear: right;">
+### Time formats
 
 | Time formats | Description |
 | ------ | ------ | 
@@ -55,9 +52,6 @@ Converts a date into a specific desired format, such as changing the display of 
 | u | Microseconds. 000000..999000 |
 | I | DST observed. 0, 1 |
 
-</div>
-
-<div style="clear:both;">
 
 ### Timezone and others
 | Format | Description | Example<br />for Asia/Singapore | 
@@ -69,7 +63,7 @@ Converts a date into a specific desired format, such as changing the display of 
 | r | RFC 2822 date. |
 | U | Seconds since UNIX epoch. |
 
-</div>
+
 
 ## Output   
 
