@@ -9,11 +9,14 @@ Converts a date into a specific desired format, such as changing the display of 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
 | date | The date to be formatted. | String/Text | (Current-Date) | - | Yes |
-| format | The format to apply to the date. See 'Date Format' after this table, take note that you can combine the available format. e.g. Y-m-d, m/d/Y. | String/Text | - | - | Yes |
+| format | The format to apply to the date. See 'Date Format' after this table, take note that you can combine the available format. e.g. Y-m-d, m/d/Y. | String/Text | - | *see below* | Yes |
 
-Date Format
 
-| Format | Description |
+
+
+<div style="width: 50%; float: left;">
+
+| Date formats | Description |
 | ------ | ------ | 
 | q | Total Days | 
 | d | Day of month with leading 0. 01..31 | 
@@ -32,6 +35,12 @@ Date Format
 | t | Days in month. 28..31 | 
 | o | ISO-8601 year. | 
 | Y | Full year. | 
+
+</div>
+<div style="width: 50%; float: left; clear: right;">
+
+| Time formats | Description |
+| ------ | ------ | 
 | y | Last two digits of the year. 00...99 | 
 | L | Is leap year. 0, 1 | 
 | a | Morning or afteroon lowercase. am, pm | 
@@ -45,12 +54,22 @@ Date Format
 | s | Seconds with leading 0. 00..59 |
 | u | Microseconds. 000000..999000 |
 | I | DST observed. 0, 1 |
-| O | Difference to GMT in hour format. |
-| P | Difference to GMT with colon in hour format.  |
-| Z | Timezone offset in seconds. |
-| c | ISO-8601 date. |
+
+</div>
+
+<div style="clear:both;">
+
+### Timezone and others
+| Format | Description | Example<br />for Asia/Singapore | 
+| ------ | ------ | -----: |  
+| O | GMT timezone offset in hours. | +0800 | 
+| P | GMT timezone offset in hours, including colon  | +08:00 | 
+| Z | GMT timezone offset in seconds. | 28800 | 
+| c | ISO-8601 datetime | 1970-01-01T00:00:00+08:00 | 
 | r | RFC 2822 date. |
 | U | Seconds since UNIX epoch. |
+
+</div>
 
 ## Output   
 
@@ -68,14 +87,10 @@ Coming soon.
 
 ## Example
 
-Coming soon.
 
-### Steps
-
-Coming soon.
-
-### Result
-
-Coming soon.
+| `date` | `format` | Expected result | Explanation | 
+| ---- | ---- | ---- | ---- | 
+| 2023-01-01 | l, m F Y | Sunday, 01 January 2023 |
+| 2023-01-01 | c | 2023-01-01T00:00:00+08:00 | ISO-8601 datetime |
 
 ## Links
