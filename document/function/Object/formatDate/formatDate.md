@@ -82,9 +82,10 @@ Coming soon.
 ## Example
 
 
-| `date` | `format` | Expected result | Explanation | 
-| ---- | ---- | ---- | ---- | 
-| 2023-01-01 | l, m F Y | Sunday, 01 January 2023 |
-| 2023-01-01 | c | 2023-01-01T00:00:00+08:00 | ISO-8601 datetime |
+| Input | Expected result | Explanation | 
+| ---- | ---- | ---- | 
+| ![](formatDate_eg1.png) | Sunday, 01 January 2023 |
+| ![](formatDate_eg2.png) | 01/01/2023 00:00:00 +08:00 |  |
+| ![](formatDate_eg3.png) | 2023-01-01T00:00:00+08:00 | ISO-8601 datetime |
 
 ## Links
