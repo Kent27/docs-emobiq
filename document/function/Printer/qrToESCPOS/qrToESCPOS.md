@@ -1,23 +1,23 @@
 # qrToESCPOS
 
-### Description
+## Description
 
 Convert QR to ESCPOS printer language.
 
-### Flowchart
-
-- N/A
-
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required |
 | ------ | ------ | ------ |------ | ------ |
 | 1 | text | Text to convert | String |  | 
 | 2 | justify | Center,right-left | String |  | 
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 - N/A
 
@@ -29,10 +29,4 @@ Convert QR to ESCPOS printer language.
 
 - N/A
 
-### Video
-
-- N/A
-
-### Notes
-
-- N/A
+## Links

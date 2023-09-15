@@ -1,14 +1,10 @@
 # intentMaps
 
-### Description
+## Description
 
 Opens the native map app.
 
-### Flowchart
-
-- N/A 
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required | 
 | ------ | ------ | ------ |------ | ------ |
@@ -16,7 +12,13 @@ Opens the native map app.
 | 2 | label | Label of the place | String | Yes | 
 | 3 | search | Search text | String | Yes | 
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 - N/A
 
@@ -28,10 +30,4 @@ Opens the native map app.
 
 - N/A
 
-### Video
-
-- N/A
-
-### Notes
-
-- N/A
+## Links

@@ -24,11 +24,10 @@ N/A
 
 ## Video
 
-Coming soon.
 
 ## Example
 
-## Steps
+### Steps
 ![](./addDate-step-2.png)
 
 ### Results

@@ -1,16 +1,10 @@
 # socketListener
 
-### Description
+## Description
 
 Join and listen the specific channel over connected socket.
 
-### Flowchart
-
-- N/A
-
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required |
 | ------ | ------ | ------ |------ | ------ |
@@ -21,7 +15,13 @@ Join and listen the specific channel over connected socket.
 | 4 | callback | Success callback | FunctionList |  | 
 | 5 | errorCallback | Error callback | FunctionList |  | 
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 - N/A
 
@@ -33,10 +33,4 @@ Join and listen the specific channel over connected socket.
 
 - N/A
 
-### Video
-
-- N/A
-
-### Notes
-
-- N/A
+## Links

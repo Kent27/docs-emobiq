@@ -1,14 +1,10 @@
 ﻿# mssqlCall 
 
-### Description
+## Description
 
 Directly access or call a mssql Web Service.
 
-### Flowchart
-
-- N/A 
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required |
 | ------ | ------ | ------ |------ | ------ |
@@ -19,7 +15,19 @@ Directly access or call a mssql Web Service.
 | 5 | filter | Filter details to be used in retrieving the data. | Object | No |
 | 6 | orFilter | Filter details to be used in retrieving the data. | Object | No |
 
-### Scenario / Use Case
+## Output
+
+Coming soon.
+
+## Callback
+
+Coming soon.
+
+## Video
+
+Coming soon.
+
+## Example
 
 The user wants to call the mssql Web Service.
 
@@ -83,12 +91,7 @@ The user wants to call the mssql Web Service.
   
  ![](../../../../document/function/Dataset/mssqlCall/mssqlCall-result-2.png?raw=true)
 
-### Video
 
-- N/A
+## Links
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+Coming soon.

@@ -1,23 +1,23 @@
 # stopStream
 
-### Description
+## Description
 
 Stop beacon monitoring instance.
 
-### Flowchart
-
-- N/A
-
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required |
 | ------ | ------ | ------ |------ | ------ |
 | 1 | component | Name of component | String |  |
 | 2 | componentId | Id of component | String |  | 
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 - N/A
 
@@ -29,10 +29,4 @@ Stop beacon monitoring instance.
 
 - N/A
 
-### Video
-
-- N/A
-
-### Notes
-
-- N/A
+## Links

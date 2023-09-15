@@ -1,16 +1,10 @@
 # networkPrintingPrint
 
-### Description
+## Description
 
 Print the pages from network printer.
 
-### Flowchart
-
-- N/A
-
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required |
 | ------ | ------ | ------ |------ | ------ |
@@ -23,7 +17,13 @@ Print the pages from network printer.
 | 7 | hidePageRange | Hide page range | Boolean |   |
 | 8 | callback | Callback functions | FunctionsList |   |
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 - N/A
 
@@ -35,10 +35,4 @@ Print the pages from network printer.
 
 - N/A
 
-### Video
-
-- N/A
-
-### Notes
-
-- N/A
+## Links

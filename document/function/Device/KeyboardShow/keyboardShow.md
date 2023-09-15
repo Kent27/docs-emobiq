@@ -1,18 +1,20 @@
 # keyboardHide
 
-### Description
+## Description
 
 Show keyboard of mobile device.
 
-### Flowchart
+## Input / Parameters
 
 - N/A
 
-### Input / Parameters
+## Output
 
-- N/A
+## Callback
 
-### Scenario / Use Case
+## Video
+
+## Example
 
 The user want to show the keyboard when the edit text is focused.
 
@@ -37,6 +39,6 @@ Keyboard of mobile device will be dismissed.
 - N/A
 <!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
 
-### Notes
+## Links
 
 - N/A

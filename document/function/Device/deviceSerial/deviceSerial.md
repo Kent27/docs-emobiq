@@ -1,18 +1,20 @@
 # deviceSerial
 
-### Description
+## Description
 
 Get the serial number of a device.
 
-### Flowchart
+## Input / Parameters
 
 - N/A
 
-### Input / Parameters
+## Output
 
-- N/A
+## Callback
 
-### Scenario / Use Case
+## Video
+
+## Example
 
 The user want display device serial number in an info dialog.
 
@@ -32,6 +34,6 @@ The serial number of the device will be shown. <br />
 - N/A
 <!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
 
-### Notes
+## Links
 
 - N/A

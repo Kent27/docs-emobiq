@@ -1,21 +1,21 @@
 # networkPrintingCheck
 
-### Description
+## Description
 
 Checking is the network printing available or not.
-### Flowchart
-
-- N/A
-
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required |
 | ------ | ------ | ------ |------ | ------ |
 | 1 | callback | Success callback function | FunctionsList |   |
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 - N/A
 
@@ -27,10 +27,4 @@ Checking is the network printing available or not.
 
 - N/A
 
-### Video
-
-- N/A
-
-### Notes
-
-- N/A
+## Links

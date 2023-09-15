@@ -1,16 +1,10 @@
 # removePersonAzure
 
-### Description
+## Description
 
 Requesting remove person from Azure.
 
-### Flowchart
-
-- N/A
-
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required |
 | ------ | ------ | ------ |------ | ------ |
@@ -21,7 +15,13 @@ Requesting remove person from Azure.
 | 5 | callback | Success callback | FunctionList | No | 
 | 6 | errorCallback | Error callback | FunctionList | No | 
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 - N/A
 
@@ -33,10 +33,4 @@ Requesting remove person from Azure.
 
 - N/A
 
-### Video
-
-- N/A
-
-### Notes
-
-- N/A
+## Links

@@ -1,18 +1,20 @@
 # fileChooser
 
-### Description
+## Description
 
 Choose multiple file
 
-### Flowchart
+## Input / Parameters
 
 - N/A
 
-### Input / Parameters
+## Output
 
-- N/A
+## Callback
 
-### Scenario / Use Case
+## Video
+
+## Example
 
 User want to choose multiple files.
 
@@ -30,11 +32,6 @@ User want to choose multiple files.
 
 
 
-### Video
-
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
+## Links
 
 - N/A

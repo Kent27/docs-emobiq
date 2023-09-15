@@ -1,16 +1,10 @@
 # watchAccelerometer
 
-### Description
+## Description
 
 Watch the accelerometer of specific device.
 
-### Flowchart
-
-- N/A
-
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required |
 | ------ | ------ | ------ |------ | ------ |
@@ -18,7 +12,13 @@ Watch the accelerometer of specific device.
 | 1 | callback | Success callback | FunctionList |  | 
 | 2 | errorCallback | Error callback | FunctionList |  | 
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 - N/A
 
@@ -30,10 +30,4 @@ Watch the accelerometer of specific device.
 
 - N/A
 
-### Video
-
-- N/A
-
-### Notes
-
-- N/A
+## Links

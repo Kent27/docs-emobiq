@@ -16,9 +16,9 @@ This function will start an email on the user's device's default email applicati
 
 Opens the default email application on user's device with the fields populated by input.
 
-## Video 
+## Callback
 
-Coming Soon.
+## Video 
 
 
 ## Example

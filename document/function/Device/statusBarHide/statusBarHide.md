@@ -1,20 +1,20 @@
 # statusBarHide
 
-### Description
+## Description
 
 Hide status bar.
 
-### Flowchart
+## Input / Parameters
 
 - N/A
 
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
+## Output
 
-### Input / Parameters
+## Callback
 
-- N/A
+## Video
 
-### Scenario / Use Case
+## Example
 
 - N/A
 
@@ -26,10 +26,4 @@ Hide status bar.
 
 - N/A
 
-### Video
-
-- N/A
-
-### Notes
-
-- N/A
+## Links
