@@ -50,7 +50,7 @@ Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-When the button is pressed, the infoDialog will appear to confirm that touch sensor has been activated.
+When the button is pressed, the infoDialog will appear to confirm that the touch sensor has been activated.
 
 <!-- Explain the output.
 
