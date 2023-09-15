@@ -32,7 +32,7 @@ Coming soon.
 
 1. Using the dates `2023-01-01` and `1970-01-01`
 
-![](dateDiff_step1.png)
+![](dateDiff-step-1.png)
 
 ### Result
 

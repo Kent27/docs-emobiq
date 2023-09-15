@@ -29,7 +29,7 @@ Coming soon.
 ## Example
 
 ## Steps
-![](./addDate_step2.png)
+![](./addDate-step-2.png)
 
 ### Results
 Using the `addDate` function with the above parameters will return a string with the value `1970-01-06` which is 5 days after `1970-01-01`.

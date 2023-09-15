@@ -84,8 +84,8 @@ Coming soon.
 
 | Input | Expected result | Explanation | 
 | ---- | ---- | ---- | 
-| ![](formatDate_eg1.png) | Sunday, 01 January 2023 |
-| ![](formatDate_eg2.png) | 01/01/2023 00:00:00 +08:00 |  |
-| ![](formatDate_eg3.png) | 2023-01-01T00:00:00+08:00 | ISO-8601 datetime |
+| ![](formatDate-eg-1.png) | Sunday, 01 January 2023 |
+| ![](formatDate-eg-2.png) | 01/01/2023 00:00:00 +08:00 |  |
+| ![](formatDate-eg-3.png) | 2023-01-01T00:00:00+08:00 | ISO-8601 datetime |
 
 ## Links

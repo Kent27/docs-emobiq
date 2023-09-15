@@ -28,14 +28,15 @@ Coming soon.
 
 ## Example
 
+
 Assuming current datetime is 01-Jan-2023 10:00AM. The table below lists some sample inputs and the expected output by the `dbDate` function.
 
-| Function inputs | Expected result | Explanation | 
+| Function inputs | Expected result in `console` | Explanation | 
 | ------ | ------ | ------ | 
-| ![](./dbDate_eg1.png) | `2023-01-02 10:00:00` | 1 day after today, with timestamp |
-| ![](./dbDate_eg2.png) | `2023-01-02` | 1 day after today, without timestamp | 
-| ![](./dbDate_eg3.png) | `2023-01-01 10:10:00` | 10 minutes after current time (10AM) | 
-| ![](./dbDate_eg4.png) | `2023-04-11` | 100 days after today, without timestamp
+| ![](./dbDate-eg-1.png) | `2023-01-02 10:00:00` | 1 day after today, with timestamp |
+| ![](./dbDate-eg-2.png) | `2023-01-02` | 1 day after today, without timestamp | 
+| ![](./dbDate-eg-3.png) | `2023-01-01 10:10:00` | 10 minutes after current time (10AM) | 
+| ![](./dbDate-eg-4.png) | `2023-04-11` | 100 days after today, without timestamp
 
 
 ## Links
