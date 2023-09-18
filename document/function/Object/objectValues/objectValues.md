@@ -22,18 +22,17 @@ N/A
 
 ## Video
 
-Coming soon.
 
 ## Example
 
-Coming soon.
+![](objectValues-step-1.png)
 
-### Steps
+Given the above object, `objectValues` function will return this list:
 
-Coming soon.
-
-### Result
-
-Coming soon.
+```JS
+["John", "john@example.com", "23", "123456"]
+```
 
 ## Links
+
+* See also `objectKeys`
