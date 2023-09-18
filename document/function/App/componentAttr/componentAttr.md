@@ -26,32 +26,33 @@ N/A
 
 ## Video
 
-Coming Soon.
-
-<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
 ## Example
 
-Coming Soon.
+In this example we will get the name attribute of an input box component using `componentAttr` and print it to the console. 
 
-<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-Coming Soon.
+1. First we drag an input box onto the page. We will name it "InputBox" with the value "This is an input field"
 
-<!-- Show the steps and share some screenshots.
+![](componentAttr-step-1.png)
 
-1. .....
+2. We want to get the 'name' attribute of "InputBox" and display it in the browser console with the help of the `console` helper function. 
+   
+3. Drag `componentAttr` into the event flow, and specify the name of the component, which in this case is "InputBox".
 
-Format: ![]({image-path}?raw=true) -->
+![](componentAttr-step-2.png)
+
 
 ### Result
 
-Coming Soon.
+- The `name` attribute of "InputBox" will be displayed in the browser console.
 
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
+![](componentAttr-step-3.png)
 
 ## Links
+See also: 
+
+* [`setComponentAttr`](./setcomponentattr)
+* [`componentValue`](./componentvalue)

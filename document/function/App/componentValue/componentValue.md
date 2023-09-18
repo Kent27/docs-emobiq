@@ -53,4 +53,6 @@ In this example we will get the component value of an input field using `compone
 
 ## Links
 
-* See also [`setComponentValue`](./setComponentValue)
+See also: 
+
+* [`setComponentValue`](./setComponentValue)
