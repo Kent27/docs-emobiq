@@ -27,17 +27,10 @@ Coming Soon.
 
 ## Example
 
-```JSON
-{
-    "name": "John Doe",
-    "email": "john@example.com",
-    "age": 23,
-    "tel": 123456
-}
-```
+![](objectAttr-step-1.png)
 
 Given the above object, `objectAttr` function for `name` will return `John`. 
 
 ## Links
 
-Coming Soon.
+* See also `objectValues` and `objectKeys`

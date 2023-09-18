@@ -36,4 +36,4 @@ Given the above object, `objectKeys` function will return this list:
 
 ## Links
 
-* See also `objectValues`
+* See also `objectValues` and `objectAttr`
