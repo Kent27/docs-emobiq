@@ -28,26 +28,18 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to add a note while development 
 
-<!-- Share a scenario, like a user requirements. -->
+### Step
 
-### Steps
+1. Call Function "comment"
 
-Coming Soon.
+     ![](../../../../document/function/App/comment/comment-Step-1.png?raw=true)
 
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-Coming Soon.
+A guideline for developers to view a development note 
 
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
 
 ## Links
