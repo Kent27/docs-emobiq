@@ -31,26 +31,13 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+1. Call the function
 
-<!-- Share a scenario, like a user requirements. -->
-
-### Steps
-
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
+    ![](../../../../document/function/App/showElement/showElement-step-1.png?raw=true)
 
 ### Result
 
-Coming Soon.
+A component will be shown in the mobile screen.
 
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
 
 ## Links

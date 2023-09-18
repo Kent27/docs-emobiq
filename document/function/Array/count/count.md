@@ -28,26 +28,25 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to count all the data in an array.
 
-<!-- Share a scenario, like a user requirements. -->
+### Step
 
-### Steps
+1. Call the function "count".
 
-Coming Soon.
+     ![](../../../../document/function/Array/Count/count-step-1.png?raw=true)
+     
+2. Call the function "toArray" and define the value of array.<br>
+   value1  : 2<br />
+   value2  : 1<br />
+   value3  : 1<br />
+   value4  : 1<br />
 
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
+     ![](../../../../document/function/Array/count/count-step-2.png?raw=true)
 
 ### Result
 
-Coming Soon.
+4
 
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
 
 ## Links
