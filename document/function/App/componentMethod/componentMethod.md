@@ -33,20 +33,24 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants delete a row the data inside the local table. 
 
-<!-- Share a scenario, like a user requirements. -->
+### Step
+1. make sure local table is added to Services, and consist of some data.
+ 
+     ![](../../../../document/function/App/componentMethod/componentMethod-Step-1.png?raw=true)
 
-### Steps
+2. Call Function "ComponentMethod"
+ 
+     ![](../../../../document/function/App/componentMethod/componentMethod-Step-2.png?raw=true)
+     
+3. fill up the function
 
-Coming Soon.
+     ![](../../../../document/function/App/componentMethod/componentMethod-Step-3.png?raw=true)
+     
+4. run the function and result is the row with ID : ABC123 is deleted 
 
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
+![](../../../../document/function/App/componentMethod/componentMethod-Step-4.png?raw=true)
 ### Result
 
 Coming Soon.
