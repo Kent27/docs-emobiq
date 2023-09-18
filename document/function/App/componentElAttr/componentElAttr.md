@@ -32,26 +32,21 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to get the value from a text box component.
 
-<!-- Share a scenario, like a user requirements. -->
+### Step
 
-### Steps
+1. Draw a edit text "txtA", a button "componentElAttr".
 
-Coming Soon.
+    ![](../../../../document/function/App/componentElAttr/componentElAttr-step-1.png?raw=true)
 
-<!-- Show the steps and share some screenshots.
+2. In button event, add a "console" then a "componentElAttr" function.
 
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
+    ![](../../../../document/function/App/componentElAttr/componentElAttr-step-2.png?raw=true)
 
 ### Result
 
-Coming Soon.
+The value in edit text will be displayed in console.
 
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
 
 ## Links
