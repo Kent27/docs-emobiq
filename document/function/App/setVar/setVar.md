@@ -37,7 +37,7 @@ Coming Soon.
 
 ### Result
 
-The value of the global variable `version` can be accessed by using the `getVar` function. 
+The value of the global variable `version` can be accessed by using the [`getVar`](./getvar) function. 
 
 ![](setVar-step-3.png) 
 
@@ -48,4 +48,4 @@ Using the above flow will display the value `1.0.0` in the browser console.
 
 ## Links
 
-* See also `getVar`
+* See also [`getVar`](./getvar)

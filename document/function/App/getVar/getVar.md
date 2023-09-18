@@ -38,8 +38,8 @@ N/A
 
 | Variable exists | Variable does not exist | 
 | ---- | ---- | 
-| If the specified global variable has previously been set (see `setVar`), the function will return the variable's value: ("1.0.0" in this example) <br /> ![](getVar-step-2.png) | If the specified global variable does not exist, the function will return the value in `default`:  <br /> ![](getVar-step-3.png) |
+| If the specified global variable has previously been set (see [`setVar`](./setvar)), the function will return the variable's value: ("1.0.0" in this example) <br /> ![](getVar-step-2.png) | If the specified global variable does not exist, the function will return the value in `default`:  <br /> ![](getVar-step-3.png) |
 
 ## Links
 
-* See also `setVar`
+* See also [`setVar`](./setvar)
