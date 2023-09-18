@@ -31,26 +31,23 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user view all the attribute/ details of a component.
 
-<!-- Share a scenario, like a user requirements. -->
+### Step
 
-### Steps
+1. Draw a button "ButtonGetCom".
 
-Coming Soon.
+    ![](../../../../document/function/App/getComponent/getComponent-step-1.png?raw=true)
+    
+3. Call the function.
 
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
+    ![](../../../../document/function/App/getComponent/getComponent-step-2.png?raw=true)
 
 ### Result
 
-Coming Soon.
+In the console, the details of component:
 
-<!-- Explain the output.
+![](../../../../document/function/App/getComponent/getComponent-result-1.png?raw=true)
 
-Format: ![]({image-path}?raw=true) -->
 
 ## Links
