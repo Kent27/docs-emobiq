@@ -28,26 +28,17 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to view the result in console of broswer for debuging purpose.
 
-<!-- Share a scenario, like a user requirements. -->
+### Step
 
-### Steps
+1. Call the function.
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
+    ![](../../../../document/function/App/console/console-step-1.png?raw=true)
 
 ### Result
 
-Coming Soon.
+![](../../../../document/function/App/console/console-result-1.png?raw=true)
 
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
 
 ## Links
