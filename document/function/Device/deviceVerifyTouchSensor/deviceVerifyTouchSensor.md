@@ -15,15 +15,11 @@ Verifies the fingerprint that is stored in a user's mobile device.
 
 N/A
 
-## Callback?
+## Callback
 
 ### callback
 
-The infoDialog function will be executed to display a modal to show the device key if the fingerprint is verified successfully.
-
-### errorCallback
-
-The function to be executed if the fingerprint is not verified successfully.
+The function to be be executed if the fingerprint is verified successfully.
 
 ## Video
 
@@ -33,13 +29,18 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to verify the fingerprint stored in their device and display the password in the dialog box.
 
 <!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-Coming Soon.
+| No. | Description |  |
+| ------ | ------ | ------ |
+| 1. | ![](../deviceVerifyTouchSensor/deviceVerifyTouchSensor-step-1.png?raw=true) | Drag a button to a page in the mobile designer. Select the event `click` for the button and drag the function `deviceVerifyTouchSensor` to the event flow. |
+| 2. | ![](../deviceVerifyTouchSensor/deviceVerifyTouchSensor-step-2.png?raw=true) | Fill in the parameters of the function. |
+| 3. | ![](../deviceVerifyTouchSensor/deviceVerifyTouchSensor-step-3.png?raw=true) | Drag the function to be executed when the touch sensor is verified successfully. In this example, we are using the `infoDialog` function. |
+| 4. | ![](../deviceVerifyTouchSensor/deviceVerifyTouchSensor-step-4.png?raw=true) | Fill in the parameters of the function. |
 
 <!-- Show the steps and share some screenshots.
 
@@ -49,7 +50,7 @@ Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-Coming Soon.
+When the button is pressed, the mobile device will ask for fingerprint authentication with the message entered. Touch the touch sensor of the device for the fingerprint to be recognized. The dialog will appear to show the password.
 
 <!-- Explain the output.
 
