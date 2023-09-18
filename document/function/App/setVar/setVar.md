@@ -29,26 +29,23 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
-
-<!-- Share a scenario, like a user requirements. -->
-
 ### Steps
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
+1. Drag the `setVar` function into the flow window. ![](setVar-step-1.png)
+2. Create a variable called `version` with the value `1.0.0`  ![](setVar-step-2.png) 
+3. This will create a global variable called "version" containing the value "1.0.0" that can be accessed by other components or on other pages of your app.
 
 ### Result
 
-Coming Soon.
+The value of the global variable `version` can be accessed by using the `getVar` function. 
 
-<!-- Explain the output.
+![](setVar-step-3.png) 
 
-Format: ![]({image-path}?raw=true) -->
+Using the above flow will display the value `1.0.0` in the browser console.
+
+![](setVar-step-4.png) 
+
 
 ## Links
+
+* See also `getVar`
