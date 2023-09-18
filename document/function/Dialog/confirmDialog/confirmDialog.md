@@ -37,13 +37,18 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to display a dialog box to ask for confirmation from the end user.
 
 <!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-Coming Soon.
+| No. | Description |  |
+| ------ | ------ | ------ |
+| 1. | ![](../confirmDialog/confirmDialog-step-1.png?raw=true) | Drag a button to a page in the mobile designer. Select the event `click` for the button and drag the `confirmDialog` function to the event flow. |
+| 2. | ![](../confirmDialog/confirmDialog-step-2.png?raw=true) | Fill in the parameters of the function. |
+| 3. | ![](../confirmDialog/confirmDialog-step-3.png?raw=true) | Drag the function to be executed when the OK button is pressed. In this example, we are using the `gotoPage` function. |
+| 4. | ![](../confirmDialog/confirmDialog-step-4.png?raw=true) | Fill in the parameters of the function. |
 
 <!-- Show the steps and share some screenshots.
 
@@ -53,7 +58,9 @@ Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-Coming Soon.
+| No. | Description |
+| ------ | ------ |
+| ![](../confirmDialog/confirmDialog-result-1.png?raw=true) | When the button is pressed, the confirmDialog modal appears. When 'Proceed' button is pressed on the modal, the page navigates to pgWelcome. |
 
 <!-- Explain the output.
 

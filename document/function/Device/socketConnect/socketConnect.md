@@ -4,7 +4,7 @@
 
 Creates a TCP connection through a socket.
 
-## Input / Parameter?
+## Input / Parameter
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
@@ -18,7 +18,7 @@ Creates a TCP connection through a socket.
 
 N/A
 
-## Callback?
+## Callback
 
 ### callback
 

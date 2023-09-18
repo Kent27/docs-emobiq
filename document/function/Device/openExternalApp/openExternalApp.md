@@ -6,11 +6,6 @@ Opens an external mobile app and passes the data specified to that app.
 
 ## Input / Parameter
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | path | Mobile app path | String | Yes |
-| 2 | data | Data | String | Yes |
-
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
 | path | The path of the mobile app. | String/Text | - | - | Yes |

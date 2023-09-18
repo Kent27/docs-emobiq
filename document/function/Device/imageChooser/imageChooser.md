@@ -8,13 +8,13 @@ Selects an image from user's phone storage.
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| multiple? | The image(s) to choose. | Array/List | - | - | Yes |
+| multiple | The image(s) to choose. | Array/List | - | - | Yes |
 
 ## Output
 
 N/A
 
-## Callback?
+## Callback
 
 ### callback
 
