@@ -38,26 +38,41 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user want to send an email via the app.
 
-<!-- Share a scenario, like a user requirements. -->
+### Step
 
-### Steps
+1. Call the sendMail function, add toObject function in "config" parameter as below:
 
-Coming Soon.
+    ![](../../../../document/function/App/sendMail/sendMail-step-1.png?raw=true)
 
-<!-- Show the steps and share some screenshots.
+2. For "from" paremeter, add toObject with "email" & "name".
 
-1. .....
+    ![](../../../../document/function/App/sendMail/sendMail-step-2.png?raw=true)
 
-Format: ![]({image-path}?raw=true) -->
+3. For "to" paremeter, add toArray function then toObject funtion.
 
+    ![](../../../../document/function/App/sendMail/sendMail-step-3.png?raw=true)
+
+    Add fields "email" & "name".
+
+    ![](../../../../document/function/App/sendMail/sendMail-step-5.png?raw=true)
+
+4. For "cc" paremeter, add toArray function then toObject funtion.
+   
+    ![](../../../../document/function/App/sendMail/sendMail-step-4.png?raw=true)
+
+    Add fields "email" & "name".
+
+    ![](../../../../document/function/App/sendMail/sendMail-step-6.png?raw=true)
+
+5. For "data" paremeter, add toObject function then add fields "subject" "body". 
+
+    ![](../../../../document/function/App/sendMail/sendMail-step-7.png?raw=true)
+    
 ### Result
 
-Coming Soon.
-
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
+Email Received:
+![](../../../../document/function/App/sendMail/sendMail-result-1.png?raw=true)
 
 ## Links

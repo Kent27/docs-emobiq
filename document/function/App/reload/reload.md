@@ -24,26 +24,17 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to reload the current page.
 
-<!-- Share a scenario, like a user requirements. -->
+### Step
 
-### Steps
+1. Call the function.
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
+    ![](../../../../document/function/App/reload/reload-step-1.png?raw=true)
 
 ### Result
 
-Coming Soon.
+The page will be reloaded.
 
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
 
 ## Links
