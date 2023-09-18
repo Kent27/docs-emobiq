@@ -34,13 +34,16 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to display some information in a dialog box.
 
 <!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-Coming Soon.
+| No. | Description |  |
+| ------ | ------ | ------ |
+| 1. | ![](../infoDialog/infoDialog-step-1.png?raw=true) | Drag a button to a page in the mobile designer. Select the event `click` for the button and drag the `infoDialog` function to the event flow. |
+| 2. | ![](../infoDialog/infoDialog-step-2.png?raw=true) | Fill in the parameters of the function. |
 
 <!-- Show the steps and share some screenshots.
 
@@ -50,7 +53,9 @@ Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-Coming Soon.
+| No. | Description |
+| ------ | ------ |
+| ![](../infoDialog/infoDialog-result-1.png?raw=true) | When the button is pressed, the infoDialog modal appears showing the information entered by the user. |
 
 <!-- Explain the output.
 

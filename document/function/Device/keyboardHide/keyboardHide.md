@@ -26,13 +26,15 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to hide the keyboard when the edit component is focused.
 
 <!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-Coming Soon.
+| No. | Description |  |
+| ------ | ------ | ------ |
+| 1. | ![](../keyboardHide/keyboardHide-step-1.png?raw=true) | Drag a button and an edit component to a page in the mobile designer. Select the event `click` for the button and drag the `keyboardHide` function to the event flow. |
 
 <!-- Show the steps and share some screenshots.
 
@@ -42,7 +44,9 @@ Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-Coming Soon.
+| Result | Description |
+| ------ | ------ |
+| ![](../keyboardHide/keyboardHide-result-1.png?raw=true) | When the button is pressed, the keyboard for the edit component does not appear when it is focused,. |
 
 <!-- Explain the output.
 

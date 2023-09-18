@@ -15,7 +15,7 @@ Disconnects a TCP connection through a socket.
 
 N/A
 
-## Callback?
+## Callback
 
 ### callback
 

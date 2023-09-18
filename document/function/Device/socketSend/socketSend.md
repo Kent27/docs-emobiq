@@ -10,14 +10,14 @@ Sends data to a socket.
 | ------ | ------ | ------ | ------ | ------ | ------ |
 | type | The type of connection. | String/Text | - | - | Yes |
 | name | The name of the connection. | String/Text | default | - | No |
-| event? | The event to listen for. | String/Text | - | - | No |
+| event | The event to listen for. | String/Text | - | - | No |
 | data | The data to send to the socket. | String/Text | - | - | No |
 
 ## Output
 
 N/A
 
-## Callback?
+## Callback
 
 ### callback
 
