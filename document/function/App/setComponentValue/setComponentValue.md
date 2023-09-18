@@ -12,7 +12,7 @@ Allows users to set a value to a component.
 | componentId | The id of the component. | String/Text | - | - | Partial (Yes if no 'component'.) |
 | value | The value to be set for the component. | String/Text | - | - | Yes |
 
-__\* Note:__ Either component or componentId must have value in order for this function to work.
+__\* Note:__ Either component or componentId must have a value in order for this function to work.
 
 ## Output
 
@@ -26,32 +26,27 @@ N/A
 
 ## Video
 
-Coming Soon.
-
-<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
-
 ## Example
-
-Coming Soon.
-
-<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-Coming Soon.
+In this example we have a button (in blue) that when clicked will change the value of the form input component to say "This is the Input Box!" 
 
-<!-- Show the steps and share some screenshots.
+![](setComponentValue-step-1.png)
 
-1. .....
+1. First, we drag a button and a form input onto the canvas.
+2. Select the button and under the 'Actions' tab, drag the `setComponentValue` into the flow for the button. 
 
-Format: ![]({image-path}?raw=true) -->
+![](setComponentValue-step-2.png)
+
+3. Under the inspector for this function, select the component whose value you would be changing, which in this example is `InputBox`.
+4. Enter the new value to display. 
 
 ### Result
 
-Coming Soon.
+1. Save and preview your app. 
+2. Now when you click the button, it will set the component value of InputBox to 'This is the Input Box!'
 
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
+![](setComponentValue-step-3.gif)
 
 ## Links
