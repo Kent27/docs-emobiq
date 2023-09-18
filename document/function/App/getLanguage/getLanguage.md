@@ -26,26 +26,19 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants get the language of the app.
 
-<!-- Share a scenario, like a user requirements. -->
+### Step
 
-### Steps
+1. Call the function.
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
+    ![](../../../../document/function/App/getLanguage/getLanguage-step-1.png?raw=true)
 
 ### Result
 
-Coming Soon.
+Language of the app eg English. 
 
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
+### Notes
+- user can use functions: setLangugage -> getLanguage to change the language of app provided the language mapping is done.
 
 ## Links
