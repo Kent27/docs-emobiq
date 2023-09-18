@@ -31,18 +31,10 @@ N/A
 
 ## Video
 
-Coming soon.
-
 ## Example
 
-Coming soon.
-
-### Steps
-
-Coming soon.
-
-### Result
-
-Coming soon.
+| Screenshot | Expected results | 
+| ---- | ---- | 
+| ![](concat-step-1.png)  | `The quick brown fox jumped over the lazy dog again.` | 
 
 ## Links
