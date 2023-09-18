@@ -33,26 +33,23 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user override a specific element atrribute of a component.
 
-<!-- Share a scenario, like a user requirements. -->
+### Step
 
-### Steps
+1. Draw a button "btnSetComponentElAttr"
 
-Coming Soon.
+    ![](../../../../document/function/App/setComponentElAttr/setComponentElAttr-step-1.png?raw=true)
+    
+3. Call the function
 
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
+    ![](../../../../document/function/App/setComponentElAttr/setComponentElAttr-step-2.png?raw=true)
 
 ### Result
 
-Coming Soon.
+The elemnet attribute "innerText" of a button "btnSetComponentElAttr" will have the value of "New Label".
 
-<!-- Explain the output.
+![](../../../../document/function/App/setComponentElAttr/setComponentElAttr-result-1.png?raw=true)
 
-Format: ![]({image-path}?raw=true) -->
 
 ## Links

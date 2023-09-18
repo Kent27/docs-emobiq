@@ -36,26 +36,34 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user want to make a not visible component to visible.
 
-<!-- Share a scenario, like a user requirements. -->
+### Step
 
-### Steps
+1. Draw a combo box "ComboBox617", a button "setComboOptions".
 
-Coming Soon.
+    ![](../../../../document/function/App/setComboOptions/setComboOptions-step-1.png?raw=true)
+    
 
-<!-- Show the steps and share some screenshots.
+2. Call the function
 
-1. .....
+    ![](../../../../document/function/App/setComboOptions/setComboOptions-step-2.png?raw=true)
+    
 
-Format: ![]({image-path}?raw=true) -->
+3. Populate an array into data parameter by adding "toArray" & "toObject" functions.
 
+    ![](../../../../document/function/App/setComboOptions/setComboOptions-step-3.png?raw=true)
+    
+
+4. Define the value field & display field.
+
+    ![](../../../../document/function/App/setComboOptions/setComboOptions-step-4.png?raw=true)
+    
 ### Result
 
-Coming Soon.
+The combo box "ComboBox617" have the display values of "abc" & "dfe" & the value of "abc is 1, value of "dfe" is 2.
 
-<!-- Explain the output.
+![](../../../../document/function/App/setComboOptions/setComboOptions-result-1.png?raw=true)
 
-Format: ![]({image-path}?raw=true) -->
 
 ## Links
