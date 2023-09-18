@@ -28,26 +28,35 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user override the default language (English) of their App.
 
-<!-- Share a scenario, like a user requirements. -->
+### Step
 
-### Steps
+1. Go to language setting tab add language "chinese", add label "Language" and assign chinese word for the label as below:
 
-Coming Soon.
+    ![](../../../../document/function/App/setLanguage/setLanguage-step-1.png?raw=true)
+    
+2. Draw a Label with "Language" Caption, a button "setLanguage"
 
-<!-- Show the steps and share some screenshots.
+    ![](../../../../document/function/App/setLanguage/setLanguage-step-2.png?raw=true)
+    
+3. Call the function
 
-1. .....
+    ![](../../../../document/function/App/setLanguage/setLanguage-step-3.png?raw=true)
+    
+4. Reload
 
-Format: ![]({image-path}?raw=true) -->
+    ![](../../../../document/function/App/setLanguage/setLanguage-step-4.png?raw=true)
+
 
 ### Result
 
-Coming Soon.
+The word "Language" will be changed to "语言选择". <br />
 
-<!-- Explain the output.
+![](../../../../document/function/App/setLanguage/setLanguage-result-1.png?raw=true)
 
-Format: ![]({image-path}?raw=true) -->
+### Notes
+
+- In the language setting, the word used for mapping is case sensitive.
 
 ## Links
