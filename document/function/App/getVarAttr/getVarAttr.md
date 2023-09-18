@@ -30,23 +30,17 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to use a value of an attribute from global variable which had been declared.
 
-<!-- Share a scenario, like a user requirements. -->
+### Step
 
-### Steps
+1. Assuming you have followed the "setVar" fuction in help document, call the function.
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
+    ![](../../../../document/function/App/getVarAttr/getVarAttr-step-1.png?raw=true)
 
 ### Result
 
-Coming Soon.
+In console, user can the string "CodeABC". If user variable "vObject" have no value, it will display "No Value".
 
 <!-- Explain the output.
 
