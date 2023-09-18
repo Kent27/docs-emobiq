@@ -24,13 +24,15 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to exit the current mobile app.
 
 <!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-Coming Soon.
+| No. | Description |  |
+| ------ | ------ | ------ |
+| 1. | ![](../exitApp/exitApp-step-1.png?raw=true) | Drag a button to a page in the mobile designer. Select the event `click` for the button and drag the `exitApp` function to the event flow. |
 
 <!-- Show the steps and share some screenshots.
 
@@ -40,7 +42,7 @@ Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-Coming Soon.
+When the button is pressed, the mobile app will be closed.
 
 <!-- Explain the output.
 

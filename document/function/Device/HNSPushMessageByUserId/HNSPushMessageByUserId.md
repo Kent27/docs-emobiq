@@ -18,7 +18,7 @@ Sends a push notification message by the userID.
 
 N/A
 
-## Callback?
+## Callback
 
 ### callback
 
