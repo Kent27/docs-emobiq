@@ -38,5 +38,8 @@ The user wants get version of the App.
 
 App version number eg 1.0
 
+### Notes
+- the app version will only increased if user click on relase build. 
+- user can use functions: console -> getAppVersion to get the version of the app
 
 ## Links
