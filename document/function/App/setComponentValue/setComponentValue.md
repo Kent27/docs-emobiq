@@ -50,3 +50,4 @@ In this example we have a button (in blue) that when clicked will change the val
 ![](setComponentValue-step-3.gif)
 
 ## Links
+* See also [`componentValue`](./componentValue)
