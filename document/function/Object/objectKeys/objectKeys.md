@@ -26,14 +26,7 @@ Coming Soon.
 
 ## Example
 
-```JSON
-{
-    "name": "John Doe",
-    "email": "john@example.com",
-    "age": 23,
-    "tel": 123456
-}
-```
+![](objectKeys-step-1.png)
 
 Given the above object, `objectKeys` function will return this list:
 
@@ -43,4 +36,4 @@ Given the above object, `objectKeys` function will return this list:
 
 ## Links
 
-Coming Soon.
+* See also `objectValues`
