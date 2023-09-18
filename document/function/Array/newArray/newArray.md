@@ -28,26 +28,23 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to create a new array.
 
-<!-- Share a scenario, like a user requirements. -->
+### Step
 
-### Steps
+1. Call the function"newArray" and set the         variable name.<br>
+   var: listOfFruits<br />
+    
+    ![](../../../../document/function/Array/newArray/newArray-step-1.png?raw=true)
+    
+2. Add a console and call the function "getVar"
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
+    ![](../../../../document/function/Array/newArray/newArray-step-2.png?raw=true)
+    
 ### Result
 
-Coming Soon.
+User create a new array successfully.<br>
 
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
+![](../../../../document/function/Array/newArray/newArray-result-1.png?raw=true)
 
 ## Links

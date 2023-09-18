@@ -29,26 +29,36 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to add new value into the array.
 
-<!-- Share a scenario, like a user requirements. -->
+### Step
 
-### Steps
+1. Call the function "newArray" and set the        variable name.
+   </br>
+   var: listOfFruits<br />
 
-Coming Soon.
+    ![](../../../../document/function/Array/push/push-step-1.png?raw=true)
+    
+2. Call the function "push" and define the         value.<br>
+   value: mango
+    
+   ![](../../../../document/function/Array/push/push-step-2.png?raw=true)
 
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
+3. Call the function "push" and define the         value.<br>
+   value: jackfruits
+    
+    ![](../../../../document/function/Array/push/push-step-3.png?raw=true)
+   
+4. Add a console and call the function             "getVar" to view the values in "listOfFruits" array.<br>
+   value = getVar = listOfFruits
+   
+    ![](../../../../document/function/Array/push/push-step-4.png?raw=true)
+    
+    
 ### Result
 
-Coming Soon.
+"mango" and "jackfruits" are added to the array successfully.
 
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
+![](../../../../document/function/Array/push/push-result-1.png?raw=true)
 
 ## Links
