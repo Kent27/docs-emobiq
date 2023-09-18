@@ -29,26 +29,28 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user want get the value of signature component and send to the server for processing.
 
-<!-- Share a scenario, like a user requirements. -->
+### Step
 
-### Steps
+1. Find the signature component. 
 
-Coming Soon.
+    ![](../../../../document/function/App/canvasToDataURL/canvasToDataURL-step-1.png?raw=true)
+    
 
-<!-- Show the steps and share some screenshots.
+2. Draw a signature component "Signature",  a button "canvasToDatURL".
 
-1. .....
+    ![](../../../../document/function/App/canvasToDataURL/canvasToDataURL-step-2.png?raw=true)
+    
 
-Format: ![]({image-path}?raw=true) -->
+3. Call the function by adding a console -> canvasToDataURL in button event.
 
+    ![](../../../../document/function/App/canvasToDataURL/canvasToDataURL-step-3.png?raw=true)
+    
 ### Result
 
-Coming Soon.
+In the console of browser, user can see the dataURL of signature component.
 
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
+![](../../../../document/function/App/canvasToDataURL/canvasToDataURL-result-1.png?raw=true)
 
 ## Links
