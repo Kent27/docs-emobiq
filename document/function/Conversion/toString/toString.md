@@ -28,26 +28,20 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+User want to convert a value to string.
 
-<!-- Share a scenario, like a user requirements. -->
+### Step
 
-### Steps
+1. Call the function.
+   <br>
+   value : abc<br />
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
+   ![](../../../../document/function/Conversion/toString/toString-step-1.png?raw=true)
+    
 ### Result
 
-Coming Soon.
+"123"(The toString function will convert a number to a string with a "" from abc convert to "123")
+    
 
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
 
 ## Links

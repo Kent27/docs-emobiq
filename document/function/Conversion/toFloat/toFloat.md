@@ -28,26 +28,18 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+User want to convert a value to float type.
 
-<!-- Share a scenario, like a user requirements. -->
+### Step
 
-### Steps
+1. Call the function.
+   <br />
+   value : 12.2222
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
+  ![](../../../../document/function/Conversion/toFloat/toFloat-step-1.png?raw=true)
+ 
 ### Result
 
-Coming Soon.
-
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
+12.2222(toFloat function parses a string and returns a floating point number.)
 
 ## Links

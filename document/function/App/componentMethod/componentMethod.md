@@ -36,7 +36,7 @@ Coming Soon.
 The user wants delete a row the data inside the local table. 
 
 ### Step
-1. make sure local table is added to Services, and consist of some data.
+1. Make sure local table is added to Services, and consist of some data.
  
      ![](../../../../document/function/App/componentMethod/componentMethod-Step-1.png?raw=true)
 

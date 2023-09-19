@@ -28,26 +28,20 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+User want to decode from XML format to string.
 
-<!-- Share a scenario, like a user requirements. -->
+```xml
+[{"id":"1","code":"C20000","name":"Maxi-Teq","address":"300 Billings Drive","tel":"555-0110","term":"C.O.D"},{"id":"2","code":"C23900","name":"Parameter Technology","address":"908 Darby Road","tel":"555-0119","term":"C.O.D"}
+```
+### Step
 
-### Steps
+1. Call the function.
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
+    ![](../../../../document/function/Conversion/xmlDecode/xmlDecode-step-1.png?raw=true)
+    
 ### Result
 
-Coming Soon.
+ ![](../../../../document/function/Conversion/xmlDecode/xmlDecode-result-1.png?raw=true)
 
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
 
 ## Links

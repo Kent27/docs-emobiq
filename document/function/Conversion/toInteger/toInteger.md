@@ -28,26 +28,19 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to convert a value to integer.
 
-<!-- Share a scenario, like a user requirements. -->
+### Step
 
-### Steps
+1. Call the function.
+   <br>
+   value : 122.2222
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
+   ![](../../../../document/function/Conversion/toInteger/toInteger-step-1.png?raw=true)
+ 
 ### Result
 
-Coming Soon.
+122
 
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
 
 ## Links

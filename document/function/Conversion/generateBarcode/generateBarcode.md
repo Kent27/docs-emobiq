@@ -38,26 +38,35 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to generate a barcode.
 
-<!-- Share a scenario, like a user requirements. -->
+### Step
 
-### Steps
+1. Call the function "setComponentValue" and set the value for component.
+   <br>
+   component: imgQR<br/>
+  
+    ![](../../../../document/function/Conversion/generateBarcode/generateBarcode-step-1.png?raw=true)
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
+2. Call the function "generateBarcode" and set the value for barcode.
+   <br>
+   height : 200 <br />
+   width : 200 <br />
+   value : aaa
+   
+   ![](../../../../document/function/Conversion/generateBarcode/generateBarcode-step-2.png?raw=true)
+   
+   ![](../../../../document/function/Conversion/generateBarcode/generateBarcode-step-3.png?raw=true)
+   
+3. Add a console for display the response from     console.
+   
+   ![](../../../../document/function/Conversion/generateBarcode/generateBarcode-step-4.png?raw=true)
+ 
 ### Result
 
-Coming Soon.
+   ![](../../../../document/function/Conversion/generateBarcode/generateBarcode-result-1.png?raw=true)
+   
+   ![](../../../../document/function/Conversion/generateBarcode/generateBarcode-result-2.png?raw=true)
 
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
 
 ## Links
