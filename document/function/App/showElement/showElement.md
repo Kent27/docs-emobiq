@@ -33,7 +33,8 @@ Coming Soon.
 
 1. Call the function
 
-    ![](../../../../document/function/App/showElement/showElement-step-1.png?raw=true)
+    ![](./showElement-step-1.png?raw=true)
+    ![](./showElement-step-2.png?raw=true)
 
 ### Result
 
