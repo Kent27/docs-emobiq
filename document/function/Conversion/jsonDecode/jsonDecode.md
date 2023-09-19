@@ -36,27 +36,23 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+User want to decode json strings.
+<br>
+Gender : F<br />
+Name : Lili<br />
 
-<!-- Share a scenario, like a user requirements. -->
+### Step
 
-### Steps
+1. Call the function.
 
-Coming Soon.
+   ![](./jsonDecode-step-1.png?raw=true)
 
-<!-- Show the steps and share some screenshots.
+   ![](./jsonDecode-step-2.png?raw=true)
 
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
+   
 ### Result
 
-Coming Soon.
-
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
+![](./jsonDecode-result-1.png?raw=true)
 
 ## Links
 
