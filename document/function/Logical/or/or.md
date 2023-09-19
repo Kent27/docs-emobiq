@@ -27,26 +27,25 @@ Coming Soon.
 
 <!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
-
 ## Example
 
-
-The user wants to check if either of the values is true.
+The user wants to check if either of the values is true and print the result in the console.
 
 ### Step
 
-1. Call the function.
+1. Call the `console` function. Call the `or` function inside the `value` parameter of the `console` function.
     </br>
     value1 : false <br />
     value2 : false <br />
 
-    ![](../../../../document/function/Logical/or/or-step-1.png?raw=true)
+    ![](../or/or-step-1.png?raw=true)
+
+2. Fill in the parameters of the `or` function.
+
+    ![](../or/or-step-2.png?raw=true)
     
 ### Result
 
-false <br>
-(Both values are false, so the result returns false.)
-
-
+The console will print false since neither value of the `or` function is true.
 
 ## Links
