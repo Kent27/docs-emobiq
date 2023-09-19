@@ -29,26 +29,23 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to check if value 1 is equal or greater than value 2.
+### Step
 
-<!-- Share a scenario, like a user requirements. -->
+1. Call the function.
+   ![](./equalOrGreater-step-1.png?raw=true)
 
-### Steps
 
-Coming Soon.
+2.
+   value1 : 15<br />
+   value2 : 13<br />
 
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
+   
+   ![](./equalOrGreater-step-2.png?raw=true)
 
 ### Result
 
-Coming Soon.
+true
 
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
 
 ## Links
