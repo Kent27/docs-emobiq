@@ -37,13 +37,19 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to prove that the value `13` is greater than the value `1` and see the result in the console.
 
 <!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-Coming Soon.
+| No. | Description |  |
+| ------ | ------ | ------ |
+| 1. | ![](../conditional/conditional-step-1.png?raw=true) ![](../conditional/conditional-step-2.png?raw=true) | Drag a button to a page in the mobile designer. Select the event `click` for the button and drag the `conditional` function to the event flow. Select the `function` parameter input type for the `condition` parameter. |
+| 2. | ![](../conditional/conditional-step-3.png?raw=true) | Drag the function `greater` to the subflow. |
+| 3. | ![](../conditional/conditional-step-4.png?raw=true) | Fill in the inputs of the `greater` function. |
+| 4. | ![](../conditional/conditional-step-5.png?raw=true) | Drag the function `console` to the `yesCallback` and `noCallback` nodes of the `conditional` function. |
+| 5. | ![](../conditional/conditional-step-6.png?raw=true) ![](../conditional/conditional-step-7.png?raw=true) | The `console` function in `yesCallback` should return 'greater' while the `console` function in `noCallback` should return 'not greater'. |
 
 <!-- Show the steps and share some screenshots.
 
@@ -53,7 +59,7 @@ Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-Coming Soon.
+When the button is pressed, the console will print 'greater'.
 
 <!-- Explain the output.
 
