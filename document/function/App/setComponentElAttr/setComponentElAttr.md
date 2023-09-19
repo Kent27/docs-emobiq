@@ -43,7 +43,9 @@ The user override a specific element atrribute of a component.
     
 3. Call the function
 
-    ![](../../../../document/function/App/setComponentElAttr/setComponentElAttr-step-2.png?raw=true)
+    ![](./setComponentElAttr-step-2.png?raw=true)
+
+    ![](./setComponentElAttr-step-3.png?raw=true)
 
 ### Result
 
