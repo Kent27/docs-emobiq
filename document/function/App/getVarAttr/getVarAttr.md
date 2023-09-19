@@ -36,7 +36,8 @@ The user wants to use a value of an attribute from global variable which had bee
 
 1. Assuming you have followed the "setVar" fuction in help document, call the function.
 
-    ![](../../../../document/function/App/getVarAttr/getVarAttr-step-1.png?raw=true)
+    ![](./getVarAttr-step-1.png?raw=true)
+    ![](./getVarAttr-step-2.png?raw=true)
 
 ### Result
 
