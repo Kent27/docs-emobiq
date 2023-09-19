@@ -33,43 +33,40 @@ Coming Soon.
 
 <!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
-
 ## Example
 
-
-The user wants to do a mapping for all the values in an array.
+The user wants to loop through all the values in an array.
 
 ### Step
 
-1. Set the variable "Vmap"
+1. Set a variable "Vmap" using the `setVar` function. Call the function `toArray` in the `value` parameter and set the values for the list.
    <br>
    var: Vmap
    
-    ![](../../../../document/function/Flow/map/map-step-1.png?raw=true)
+    ![](../map/map-step-1.png?raw=true)
+
+    ![](../map/map-step-2.png?raw=true)
+
+    ![](../map/map-step-3.png?raw=true)
     
-2. Call the function"toArray" and set the value    for    array.
-   <br>
-   value1: 11<br/>
-   value2: 112<br/>
-   value3: 1112<br/>
-   value4: 11112<br/>
-   
-   ![](../../../../document/function/Flow/map/map-step-2.png?raw=true)
-     
-3. Call the function"map" and "getVar".
+2. Call the function `map`. Call the function `getVar` in the `values` parameter and enter the variable to get.
    <br>
    var : getVar->Vmap <br />
      
-   ![](../../../../document/function/Flow/map/map-step-3.png?raw=true)
+   ![](../map/map-step-4.png?raw=true)
+
+   ![](../map/map-step-5.png?raw=true)
+
+   ![](../map/map-step-6.png?raw=true)
       
-4. Add a console and display the response from           console.
+4. Add a `console` function to the callback of the `map` function to display the result in the console.
       
-   ![](../../../../document/function/Flow/map/map-step-4.png?raw=true)
+   ![](../map/map-step-7.png?raw=true)
+
+   ![](../map/map-step-8.png?raw=true)
 
 ### Result
 
 ![](../../../../document/function/Flow/map/map-result-1.png?raw=true)
-
-
 
 ## Links

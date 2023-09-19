@@ -31,30 +31,30 @@ Coming Soon.
 
 <!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
-
 ## Example
 
-
-The user wants to set the loop condition to run which starting from 1 to 12.
+The user wants to loop through a range of numbers from 1 to 12.
 
 ### Step
 
-1. Call the function "forLoop"and defines the            condition for the loop to run.
+1. Call the function `forLoop` and enter the parameters for the loop to run.
    <br>
    start: 1<br>
-   end : 12
+   end: 12
    
-   ![](../../../../document/function/Flow/forLoop/forLoop-step-1.png?raw=true)
+   ![](../forLoop/forLoop-step-1.png?raw=true)
+
+   ![](../forLoop/forLoop-step-2.png?raw=true)
     
 2. Add a console and display the response from           console.
    <br>
    
-    ![](../../../../document/function/Flow/forLoop/forLoop-step-2.png?raw=true)
+    ![](../forLoop/forLoop-step-3.png?raw=true)
+
+    ![](../forLoop/forLoop-step-4.png?raw=true)
     
 ### Result
 
-![](../../../../document/function/Flow/forLoop/forLoop-result-1.png?raw=true)
-
-
+![](../forLoop/forLoop-result-1.png?raw=true)
 
 ## Links

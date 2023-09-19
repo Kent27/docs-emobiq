@@ -27,26 +27,30 @@ Coming Soon.
 
 <!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
-
 ## Example
 
-
-The user wants to check if value 1 AND value 2 are both true.
+The user wants to check if value 1 and value 2 are both true and return the result in the console.
 </br>
 
 ### Step
 
-1. Call the function.
+1. Call the function `and` inside the `console` function.
     </br>
     value1 : greater (value1:  3000 and value2:  1100)<br />
     value2 : true<br />
 
-    ![](../../../../document/function/Logical/and/and-step-1.png?raw=true)
+    ![](../and/and-step-1.png?raw=true)
+
+2. Call the function `greater` inside the parameter `value1` and set `value2` to 'true'.
+
+    ![](../and/and-step-2.png?raw=true)
+
+    ![](../and/and-step-3.png?raw=true)
+
+    ![](../and/and-step-4.png?raw=true)
 
 ### Result
 
-true ( Since 3000 is greater than 1100, value1 will return true. The result return true because both of the arguments are true.)
-
-
+The console will print 'true' since `value1` will return 'true' (3000 is greater than 1100) which matches the input for `value2` (true).
 
 ## Links
