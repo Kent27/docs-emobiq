@@ -33,26 +33,25 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
 
-<!-- Share a scenario, like a user requirements. -->
+The user override a specific atrribute of a component.
 
-### Steps
+### Step
 
-Coming Soon.
+1. Draw an edit text "txtTest", a button "setComponentAttr"
 
-<!-- Show the steps and share some screenshots.
+    ![](../../../../document/function/App/setComponentAttr/setComponentAttr-step-1.png?raw=true)
+    
+3. Call the function
 
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
+    ![](./setComponentAttr-step-2.png?raw=true)
+    
+    ![](./setComponentAttr-step-3.png?raw=true)
 
 ### Result
 
-Coming Soon.
+The attribute "value" of the edit text "txtTest" will have the value of "abc".
 
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
+![](../../../../document/function/App/setComponentAttr/setComponentAttr-result-1.png?raw=true)
 
 ## Links
