@@ -28,23 +28,22 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
 
 <!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-Coming Soon.
+1. Drag `toBoolean` function into the event flow. 
 
-<!-- Show the steps and share some screenshots.
+    ![](./toBoolean-step-1.png)
 
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-Coming Soon.
+| Values | Expected result | 
+| ---- | ---- | 
+| ![](./toBoolean-step-2.png) | `false` |
+| ![](./toBoolean-step-3.png) | `true|
 
 <!-- Explain the output.
 
