@@ -35,37 +35,35 @@ Coming Soon.
 
 <!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
-
 ## Example
 
+The user wants to display a dialog box to ask for confirmation from the end user.
 
-The user wants to display a dialog box for ask the comfirmation from the user.
+<!-- Share a scenario, like a user requirements. -->
 
-### Step
+### Steps
 
-1. Call the function "confirmDialog" and set the    value for parameters.
-   <br>
-   title: Confirm<br/>
-   content: Are you sure you want to delete?<br/>
-   okCaption: Delete<br/>
-   cancelCaption: Exit<br/>
-   
-   ![](../../../../document/function/Dialog/confirmDialog/confirmDialog-step-1.png?raw=true)
-   
-   ![](../../../../document/function/Dialog/confirmDialog/confirmDialog-step-2.png?raw=true)
-   
-2. Set a function in okCallback.
-   <br>
-   function:setVar<br/>
-   var:Message<br/>
-   value: Delete<br/>
-   
-   ![](../../../../document/function/Dialog/confirmDialog/confirmDialog-step-3.png?raw=true)
+| No. | Description |  |
+| ------ | ------ | ------ |
+| 1. | ![](../confirmDialog/confirmDialog-step-1.png?raw=true) | Drag a button to a page in the mobile designer. Select the event `click` for the button and drag the `confirmDialog` function to the event flow. |
+| 2. | ![](../confirmDialog/confirmDialog-step-2.png?raw=true) | Fill in the parameters of the function. |
+| 3. | ![](../confirmDialog/confirmDialog-step-3.png?raw=true) | Drag the function to be executed when the OK button is pressed. In this example, we are using the `gotoPage` function. |
+| 4. | ![](../confirmDialog/confirmDialog-step-4.png?raw=true) | Fill in the parameters of the function. |
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-![](../../../../document/function/Dialog/confirmDialog/confirmDialog-result-1.png?raw=true)
+| No. | Description |
+| ------ | ------ |
+| ![](../confirmDialog/confirmDialog-result-1.png?raw=true) | When the button is pressed, the confirmDialog modal appears. When 'Proceed' button is pressed on the modal, the page navigates to pgWelcome. |
 
+<!-- Explain the output.
 
+Format: ![]({image-path}?raw=true) -->
 
 ## Links

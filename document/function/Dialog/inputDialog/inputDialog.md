@@ -34,32 +34,33 @@ Coming Soon.
 
 <!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
-
 ## Example
 
+The user wants to display an input dialog that allows the end user to key in a quantity.
 
-The user wants to display an input dialog to let the user to key in the quantity.
+<!-- Share a scenario, like a user requirements. -->
 
-### Step
+### Steps
 
-1. Call the function "inputDialog" and set the           value.
-   <br>
-   title: Please Key In the Quantity<br/>
-   type: quantity<br/>
-  
-   ![](../../../../document/function/Dialog/inputDialog/inputDialog-step-1.png?raw=true)
-   
-2. Set the function "setVar" in okCallback.
-   <br>
-   var: vCorrectValue <br>
-   value: input
-   
-   ![](../../../../document/function/Dialog/inputDialog/inputDialog-step-2.png?raw=true)
+| No. | Description |  |
+| ------ | ------ | ------ |
+| 1. | ![](../inputDialog/inputDialog-step-1.png?raw=true) | Drag a button to a page in the mobile designer. Select the event `click` for the button and drag the `inputDialog` function to the event flow. |
+| 2. | ![](../inputDialog/inputDialog-step-2.png?raw=true) | Fill in the parameters of the function. |
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-![](../../../../document/function/Dialog/inputDialog/inputDialog-result-1.png?raw=true)
+| No. | Description |
+| ------ | ------ |
+| ![](../inputDialog/inputDialog-result-1.png?raw=true) | When the button is pressed, the inputDialog modal appears in which users can enter their input. |
 
+<!-- Explain the output.
 
+Format: ![]({image-path}?raw=true) -->
 
 ## Links
