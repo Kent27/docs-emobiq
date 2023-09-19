@@ -46,6 +46,10 @@ The user want get the value of signature component and send to the server for pr
 3. Call the function by adding a console -> canvasToDataURL in button event.
 
     ![](../../../../document/function/App/canvasToDataURL/canvasToDataURL-step-3.png?raw=true)
+
+4. Use the name of the signature component inside the function parameters.
+
+    ![](./canvasToDataURL-step-4.png)
     
 ### Result
 
