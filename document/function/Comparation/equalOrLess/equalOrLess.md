@@ -29,26 +29,21 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to check if value 1 is equal or less than value 2.
 
-<!-- Share a scenario, like a user requirements. -->
+### Step
 
-### Steps
+1. Call the function.
+    ![](./equalOrLess-step-1.png?raw=true)
 
-Coming Soon.
+2. value1 :  1<br />
+   value2 : 11<br />
+    ![](./equalOrLess-step-2.png?raw=true)
 
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-Coming Soon.
+true
 
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
 
 ## Links
