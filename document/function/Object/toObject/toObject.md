@@ -26,16 +26,32 @@ N/A
 
 Coming soon.
 
+
 ## Example
 
-Coming soon.
 
-### Steps
+The user wants to create an object data.
 
-Coming soon.
+### Step
+
+1. Call the function "toObject".
+  
+    ![](../../../../document/function/Object/toObject/toObject-step-1.png?raw=true)
+  
+2. Add a key.<br>
+   Key : name <br />
+  
+    ![](../../../../document/function/Object/toObject/toObject-step-2.png?raw=true)
+ 
+3. Defines the values.<br>
+    name : Lili
+    
+    ![](../../../../document/function/Object/toObject/toObject-step-3.png?raw=true)
 
 ### Result
 
-Coming soon.
+![](../../../../document/function/Object/toObject/toObject-result-1.png?raw=true)
+
+
 
 ## Links

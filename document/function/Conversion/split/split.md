@@ -31,26 +31,21 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to split the string.
 
-<!-- Share a scenario, like a user requirements. -->
+### Step
 
-### Steps
+1. Call the function.
+    <br>
+    value : CL_JASON_CODE<br>
+    separator : _
+    
+    ![](./split-step-1.png?raw=true)
+    ![](./split-step-2.png?raw=true)
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
+ 
 ### Result
 
-Coming Soon.
-
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
+![](../../../../document/function/Conversion/split/split-result-1.png?raw=true)
 
 ## Links

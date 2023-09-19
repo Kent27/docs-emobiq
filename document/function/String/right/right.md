@@ -26,16 +26,24 @@ N/A
 
 Coming soon.
 
+
 ## Example
 
-Coming soon.
 
-### Steps
+The user wants to display a specified number of characters from the right hand side of a string.</br>
 
-Coming soon.
+### Step
+
+1. Call the function.<br>
+    string: AAAABB<br />
+    length: 4<br />
+
+   ![](../../../../document/function/String/right/right-step-1.png?raw=true)
 
 ### Result
 
-Coming soon.
+"AABB"
+
+
 
 ## Links

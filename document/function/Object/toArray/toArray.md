@@ -33,16 +33,27 @@ N/A
 
 Coming soon.
 
+
 ## Example
 
-Coming soon.
 
-### Steps
+The user wants to create an array data.
 
-Coming soon.
+### Step
+
+1. Call the function.
+    </br>
+    value1 : date<br />
+    value2 : name<br />
+    value3 : age<br />
+    value4 : tel<br />
+    
+    ![](../../../../document/function/Object/toArray/toArray-step-1.png?raw=true)
 
 ### Result
 
-Coming soon.
+![](../../../../document/function/Object/toArray/toArray-result-1.png?raw=true)
+
+
 
 ## Links

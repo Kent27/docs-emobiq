@@ -24,16 +24,26 @@ N/A
 
 Coming soon.
 
+
 ## Example
 
-Coming soon.
 
-### Steps
+The user wants get the index of character "H" in a given string.
+<br />
 
-Coming soon.
+### Step
+
+1. Call the function "findIndex".
+    <br />
+    string: AAABBBCDEcGH<br />
+    find: H
+    
+   ![](../../../../document/function/String/findIndex/findIndex-step-1.png?raw=true)
 
 ### Result
 
-Coming soon.
+The user will get the index of alphabet "H" = 11.
+
+
 
 ## Links

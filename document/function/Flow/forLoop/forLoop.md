@@ -31,28 +31,30 @@ Coming Soon.
 
 <!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
+
 ## Example
 
-Coming Soon.
 
-<!-- Share a scenario, like a user requirements. -->
+The user wants to set the loop condition to run which starting from 1 to 12.
 
-### Steps
+### Step
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
+1. Call the function "forLoop"and defines the            condition for the loop to run.
+   <br>
+   start: 1<br>
+   end : 12
+   
+   ![](../../../../document/function/Flow/forLoop/forLoop-step-1.png?raw=true)
+    
+2. Add a console and display the response from           console.
+   <br>
+   
+    ![](../../../../document/function/Flow/forLoop/forLoop-step-2.png?raw=true)
+    
 ### Result
 
-Coming Soon.
+![](../../../../document/function/Flow/forLoop/forLoop-result-1.png?raw=true)
 
-<!-- Explain the output.
 
-Format: ![]({image-path}?raw=true) -->
 
 ## Links

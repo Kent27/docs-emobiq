@@ -26,16 +26,24 @@ N/A
 
 Coming soon.
 
+
 ## Example
 
-Coming soon.
 
-### Steps
+The user wants to convert date string to DateTime.
+</br>
+date : 2018-04-12<br />
 
-Coming soon.
+### Step
+
+1. Call the function.
+
+    ![](../../../../document/function/Object/strToDate/strToDate-step-1.png?raw=true)
 
 ### Result
 
-Coming soon.
+![](../../../../document/function/Object/strToDate/strToDate-result-1.png?raw=true)
+
+
 
 ## Links

@@ -35,28 +35,34 @@ Coming Soon.
 
 <!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
+
 ## Example
 
-Coming Soon.
 
-<!-- Share a scenario, like a user requirements. -->
+The user wants to prove that the value 13 is greater than the value 1.</br>
 
-### Steps
+### Step
 
-Coming Soon.
+1. Call the function "greater" and set the               value.<br>
+   value1: 13<br/>
+   value2:  1<br/>
+  
+   ![](../../../../document/function/Flow/conditional/conditional-step-1.png?raw=true)
+   
+2. Add a console and set the value if the                condition is met then the program will execute    a     code from "yesCallback".<br>
+   value : greater<br/>
 
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
+   ![](../../../../document/function/Flow/conditional/conditional-step-2.png?raw=true)
+   
+3. Add a console and set the value if the                condition is not met so the program will              execute a code from "noCallback". <br>
+   value : not greater<br/>
+   
+   ![](../../../../document/function/Flow/conditional/conditional-step-3.png?raw=true)
 
 ### Result
 
-Coming Soon.
+"greater" 
 
-<!-- Explain the output.
 
-Format: ![]({image-path}?raw=true) -->
 
 ## Links

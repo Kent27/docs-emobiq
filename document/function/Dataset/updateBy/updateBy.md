@@ -38,28 +38,37 @@ Coming Soon.
 
 <!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
+
 ## Example
 
-Coming Soon.
 
-<!-- Share a scenario, like a user requirements. -->
+The user wants to update the code from E1234567 to E1234 in dataset "l_item".
 
-### Steps
+### Step
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
+1. Call the function "updateBy" and define the         dataset, by,operator and value.
+   <br>
+   dataset: l_item<br>
+   by: code<br>
+   operator: =<br>
+   value: E1234567<br>
+   
+   ![](../../../../document/function/Dataset/updateBy/updateBy-step-1.png?raw=true)
+ 
+ 2. Set toObject function to data and define the      value of object.
+    <br> data: toObject<br>
+         code: E1234<br>
+ 
+    ![](../../../../document/function/Dataset/updateBy/updateBy-step-2.png?raw=true)
+   
 ### Result
 
-Coming Soon.
+   ![](../../../../document/function/Dataset/updateBy/updateBy-result-1.png?raw=true)
+   ( Before update, the code is E1234567 )
+   
+   ![](../../../../document/function/Dataset/updateBy/updateBy-result-2.png?raw=true)
+   ( After update, the code changed to E1234 )
+   
 
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
 
 ## Links

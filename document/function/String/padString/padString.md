@@ -27,16 +27,28 @@ N/A
 
 Coming soon.
 
+
 ## Example
 
-Coming soon.
 
-### Steps
+The user wants to add padding to a string with maximum length of 10, with the original string at center.
+</br>
 
-Coming soon.
+### Step
+
+1. Call the function.<br/>
+    string: AB<br />
+    len: 10<br />
+    type: center<br />
+        
+   ![](../../../../document/function/String/padString/padString-step-1.png?raw=true)
 
 ### Result
 
-Coming soon.
+ ![](../../../../document/function/String/padString/padString-result-1.png?raw=true)
+ 
+ (4 spaces added on both of the left & right of "AB", total length of the string is now 10.)
+
+
 
 ## Links

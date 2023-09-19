@@ -27,28 +27,26 @@ Coming Soon.
 
 <!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
+
 ## Example
 
-Coming Soon.
 
-<!-- Share a scenario, like a user requirements. -->
+The user wants to check if either of the values is true.
 
-### Steps
+### Step
 
-Coming Soon.
+1. Call the function.
+    </br>
+    value1 : false <br />
+    value2 : false <br />
 
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
+    ![](../../../../document/function/Logical/or/or-step-1.png?raw=true)
+    
 ### Result
 
-Coming Soon.
+false <br>
+(Both values are false, so the result returns false.)
 
-<!-- Explain the output.
 
-Format: ![]({image-path}?raw=true) -->
 
 ## Links

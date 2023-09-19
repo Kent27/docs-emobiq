@@ -29,18 +29,25 @@ N/A
 
 Coming soon.
 
+
 ## Example
 
-Coming soon.
 
-### Steps
+The user wants to replace some words in a string.</br>
 
-Coming soon.
+### Step
+
+1. Call the function.<br>
+   string: I am a student<br />
+   replace: student<br />
+   replacement: worker<br />
+    
+   ![](../../../../document/function/String/replace/replace-step-1.png?raw=true)
 
 ### Result
 
-Coming soon.
+"I am a worker"
+
+
 
 ## Links
-
-[Regular Expression Guide]: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Cheatsheet>

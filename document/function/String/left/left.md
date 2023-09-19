@@ -26,16 +26,24 @@ N/A
 
 Coming soon.
 
+
 ## Example
 
-Coming soon.
 
-### Steps
+The user wants to display a specified number of characters from the left hand side of a string.
 
-Coming soon.
+### Step
+
+1. Call the function.<br />
+    string: 123456789<br />
+    length : 6<br />
+
+   ![](../../../../document/function/String/left/left-step-1.png?raw=true)
 
 ### Result
 
-Coming soon.
+"123456"
+
+
 
 ## Links

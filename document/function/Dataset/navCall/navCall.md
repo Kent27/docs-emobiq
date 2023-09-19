@@ -37,28 +37,39 @@ Coming Soon.
 
 <!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
+
 ## Example
 
-Coming Soon.
 
-<!-- Share a scenario, like a user requirements. -->
+The user wants to call the navCall Web Service.
 
-### Steps
+### Step
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
+1. Create NAV Connector in Services.<br>
+   Name: nav<br>
+   url: http://203.116.137.100:8047/DynamicsNAV90<br> 
+   company: CRONUS Australia Pty. Ltd.
+   user: chh\mobuser<br>
+   password: ********<br>
+   timeOut: 30000<br>
+   
+   ![](../../../../document/function/Dataset/navCall/navCall-step-1.png?raw=true)
+   
+   
+2. Call the function "navCall".
+   <br>
+   
+   ![](../../../../document/function/Dataset/navCall/navCall-step-2.png?raw=true)
+   
+  
+3. Add a console after callback function for       display response from console.   
+   
+   ![](../../../../document/function/Dataset/navCall/navCall-step-3.png?raw=true)
+ 
 ### Result
+   
+   ![](../../../../document/function/Dataset/navCall/navCall-result-1.png?raw=true)
 
-Coming Soon.
 
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
 
 ## Links

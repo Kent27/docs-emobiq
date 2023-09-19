@@ -24,16 +24,23 @@ N/A
 
 Coming soon.
 
+
 ## Example
 
-Coming soon.
 
-### Steps
+The user wants to identify the value is number.
+<br>
 
-Coming soon.
+### Step
 
+1. Call the function.
+
+    ![](../../../../document/function/Validation/isNumber/isNumber-step-1.png?raw=true)
+    
 ### Result
 
-Coming soon.
+true
+
+
 
 ## Links

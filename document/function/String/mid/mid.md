@@ -26,16 +26,26 @@ N/A
 
 Coming soon.
 
+
 ## Example
 
-Coming soon.
 
-### Steps
+The user wants to get a specified number of characters from a string.</br>
 
-Coming soon.
+### Step
+
+1. Call the function.
+    </br>
+    string: ABCDEFGHIJ<br />
+    start: 1<br />
+    length:2<br />
+    
+    ![](../../../../document/function/String/mid/mid-step-1.png?raw=true)
 
 ### Result
 
-Coming soon.
+"BC" (index in an array start from 0, therefore when the user specify start at 1, it would start from the second character of a string)
+
+
 
 ## Links

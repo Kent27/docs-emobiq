@@ -37,28 +37,41 @@ Coming Soon.
 
 <!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
+
 ## Example
 
-Coming Soon.
 
-<!-- Share a scenario, like a user requirements. -->
+The user wants to update the name from ABC to A1A2A3A4 and tel from 1234567 to 1111111111 in dataset "l_customer".
 
-### Steps
+### Step
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
+1. Call the function "updateByMulti" and define the dataset.
+   <br>
+   dataset: l_customer<br>
+   
+2. Set toArray and toObject function to filter and define the             value of object.
+   <br> filter: toArray --> toObject<br>
+        id: 25<br>
+        code: C12345<br>
+         
+    ![](../../../../document/function/Dataset/updateByMulti/updateByMulti-step-1.png?raw=true)
+ 
+    ![](../../../../document/function/Dataset/updateByMulti/updateByMulti-step-2.png?raw=true)
+    
+3. Set toObject function to data and define the value of object.
+   <br> name: A1A2A3A4<br>
+        tel: 1111111111<br>
+  
+   ![](../../../../document/function/Dataset/updateByMulti/updateByMulti-step-3.png?raw=true)
+   
 ### Result
 
-Coming Soon.
+   ![](../../../../document/function/Dataset/updateByMulti/updateByMulti-result-1.png?raw=true)
+   ( Before update, the name is ABC and tel is 1234567 )
+   
+   ![](../../../../document/function/Dataset/updateByMulti/updateByMulti-result-2.png?raw=true)
+   ( After update, the name changed to A1A2A3A4 and tel is 1111111111 )
+   
 
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
 
 ## Links

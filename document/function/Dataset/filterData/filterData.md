@@ -40,28 +40,31 @@ Coming Soon.
 
 <!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
+
 ## Example
 
-Coming Soon.
 
-<!-- Share a scenario, like a user requirements. -->
+The user wants to display the data which name=Memory DDR RAM 8GB in dataset "l_item".
 
-### Steps
+### Step
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
+1. Call the function "filterData" and define the dataset. 
+   <br>
+   dataset: l_item<br>
+  
+    ![](../../../../document/function/Dataset/filterData/filterData-step-1.png?raw=true)
+   
+2. Set toObject function to criteria1 and define by, op and          value.<br>
+   by: name<br>
+   op: =<br>
+   value: Memory DDR RAM 8GB
+   
+   ![](../../../../document/function/Dataset/filterData/filterData-step-2.png?raw=true)
+    
 ### Result
 
-Coming Soon.
+ ![](../../../../document/function/Dataset/filterData/filterData-result-1.png?raw=true)
 
-<!-- Explain the output.
 
-Format: ![]({image-path}?raw=true) -->
 
 ## Links

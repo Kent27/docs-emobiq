@@ -33,28 +33,41 @@ Coming Soon.
 
 <!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
+
 ## Example
 
-Coming Soon.
 
-<!-- Share a scenario, like a user requirements. -->
+The user wants to delete the dataset "l_cart" from local table.
 
-### Steps
+### Step
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
+1. Create a local table "l_cart" and add value     for table.
+   <br>
+   Fields: item_code<br>
+           item_name<br>
+           price<br>
+           quantity<br>
+   
+   ![](../../../../document/function/Dataset/clearData/clearData-step-1.png?raw=true)
+  
+   ![](../../../../document/function/Dataset/clearData/clearData-step-2.png?raw=true)
+  
+2. Call the function "clearData"and define the     dataset.
+   <br>
+   dataset: l_cart<br>
+   
+   ![](../../../../document/function/Dataset/clearData/clearData-step-3.png?raw=true)
+   
 ### Result
 
-Coming Soon.
+![](../../../../document/function/Dataset/clearData/clearData-result-1.png?raw=true)
 
-<!-- Explain the output.
+( Before call the function "clearData, the dataset "l_cart" still storing at local table. )
 
-Format: ![]({image-path}?raw=true) -->
+![](../../../../document/function/Dataset/clearData/clearData-result-2.png?raw=true)
+
+( After call the function "clearData, the dataset "l_cart" was been clear from local table. )
+
+
 
 ## Links

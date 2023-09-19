@@ -32,33 +32,27 @@ Coming Soon.
 
 <!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
+
 ## Example
 
-The user wants to display some information in a dialog box.
 
-<!-- Share a scenario, like a user requirements. -->
+The user wants to display an information dialog.
 
-### Steps
+### Step
 
-| No. | Description |  |
-| ------ | ------ | ------ |
-| 1. | ![](../infoDialog/infoDialog-step-1.png?raw=true) | Drag a button to a page in the mobile designer. Select the event `click` for the button and drag the `infoDialog` function to the event flow. |
-| 2. | ![](../infoDialog/infoDialog-step-2.png?raw=true) | Fill in the parameters of the function. |
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
+1. Call the function "infoDialog" and set the            value.
+   <br>
+   title: Message<br/>
+   content: Updated Successful.<br/>
+   timeOut: 30000<br/>
+   
+   ![](../../../../document/function/Dialog/infoDialog/infoDialog-step-1.png?raw=true)
 
 ### Result
+The following info dialog will be displayed and shows the information. It will be time out in 30 seconds. <br>
+   ![](../../../../document/function/Dialog/infoDialog/infoDialog-result-1.png?raw=true)
+   
+   
 
-| No. | Description |
-| ------ | ------ |
-| ![](../infoDialog/infoDialog-result-1.png?raw=true) | When the button is pressed, the infoDialog modal appears showing the information entered by the user. |
-
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
 
 ## Links

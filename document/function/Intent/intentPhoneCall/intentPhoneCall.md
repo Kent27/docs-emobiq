@@ -24,28 +24,27 @@ Coming Soon.
 
 <!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
+
 ## Example
 
-Coming Soon.
 
-<!-- Share a scenario, like a user requirements. -->
+The user wants to start a call.
+<br>
 
-### Steps
+### Step
 
-Coming Soon.
+1. Call the function.
 
-<!-- Show the steps and share some screenshots.
+    ![](../../../../document/function/Intent/intentPhoneCall/intentPhoneCall-step-1.png?raw=true)
+    
+2. Click open skype if use laptop/pc, click call if use phone.
 
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
+    ![](../../../../document/function/Intent/intentPhoneCall/intentPhoneCall-step-2.png?raw=true)
+    
 ### Result
 
-Coming Soon.
+![](../../../../document/function/Intent/intentPhoneCall/intentPhoneCall-result-1.png?raw=true)
 
-<!-- Explain the output.
 
-Format: ![]({image-path}?raw=true) -->
 
 ## Links

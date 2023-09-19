@@ -37,28 +37,30 @@ Coming Soon.
 
 <!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
+
 ## Example
 
-Coming Soon.
 
-<!-- Share a scenario, like a user requirements. -->
+The user wants to delete the id=7 from dataset "l_customer".
 
-### Steps
+### Step
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
+1. Call the function "deleteBy" and define the dataset,  by, and             value.
+   <br>
+   dataset: l_customer<br>
+   by: id<br>
+   value: 7<br>
+  
+   ![](../../../../document/function/Dataset/deleteBy/deleteBy-step-1.png?raw=true)
+   
 ### Result
 
-Coming Soon.
+![](../../../../document/function/Dataset/deleteBy/deleteBy-result-1.png?raw=true)
+( Before delete, id=7 is still display in the dataset "l_customer" )
 
-<!-- Explain the output.
+![](../../../../document/function/Dataset/deleteBy/deleteBy-result-2.png?raw=true)
+( After delete, id=7 was being removed )
+   
 
-Format: ![]({image-path}?raw=true) -->
 
 ## Links

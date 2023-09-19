@@ -27,28 +27,23 @@ Coming Soon.
 
 <!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
+
 ## Example
 
-Coming Soon.
 
-<!-- Share a scenario, like a user requirements. -->
+The user want send a Whatsapp message from current app to Whatsapp.
 
-### Steps
+### Step
 
-Coming Soon.
+1. Call the openExternalApp function in a button event.
 
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
+    ![](../../../../document/function/Device/openExternalApp/openExternalApp-step-1.png?raw=true)
+    
 ### Result
 
-Coming Soon.
+The Whatsapp will be opened, select who to send the message "1111" will be sent.
+![](../../../../document/function/Device/openExternalApp/openExternalApp-result-1.png?raw=true)
 
-<!-- Explain the output.
 
-Format: ![]({image-path}?raw=true) -->
 
 ## Links

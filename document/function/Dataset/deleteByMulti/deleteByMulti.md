@@ -36,28 +36,36 @@ Coming Soon.
 
 <!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
+
 ## Example
 
-Coming Soon.
 
-<!-- Share a scenario, like a user requirements. -->
+The user wants to delete the field id=25 and name=ABC from dataset "l_customer".
 
-### Steps
+### Step
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
+1. Call the function "deleteByMulti" and define the dataset.
+   <br>
+   dataset: l_customer<br>
+   
+2. Set toArray and toObject function to filter and define the         value of object.
+   <br> filter: toArray --> toObject<br>
+        id: 25<br>
+        name: A1A2A3A4<br>
+         
+    ![](../../../../document/function/Dataset/deleteByMulti/deleteByMulti-step-1.png?raw=true)
+ 
+    ![](../../../../document/function/Dataset/deleteByMulti/deleteByMulti-step-2.png?raw=true)
+    
 ### Result
 
-Coming Soon.
 
-<!-- Explain the output.
+  ![](../../../../document/function/Dataset/deleteByMulti/deleteByMulti-result-1.png?raw=true)
+  ( Before delete, the id=25; name= A1A2A3A4 is still store in the local table. )
+   
+  ![](../../../../document/function/Dataset/deleteByMulti/deleteByMulti-result-2.png?raw=true)
+  ( After delete, id=25; name= A1A2A3A4 was removed in local table.)
+   
 
-Format: ![]({image-path}?raw=true) -->
 
 ## Links

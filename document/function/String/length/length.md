@@ -25,16 +25,24 @@ N/A
 
 Coming soon.
 
+
 ## Example
 
-Coming soon.
 
-### Steps
+The user wants get the count of characters in a string. </br>
 
-Coming soon.
+### Step
+
+1. Call the function.
+    </br>
+    string: AAAAAA<br />
+    
+   ![](../../../../document/function/String/length/length-step-1.png?raw=true)
 
 ### Result
 
-Coming soon.
+The user gets the length of the string = 6.
+
+
 
 ## Links

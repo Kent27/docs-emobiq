@@ -33,28 +33,28 @@ Coming Soon.
 
 <!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
+
 ## Example
 
-Coming Soon.
 
-<!-- Share a scenario, like a user requirements. -->
+The user wants to display all the data in dataset "l_item".
 
-### Steps
+### Step
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
+1. Call the function "selectAll"and define the        dataset.
+   <br>
+   dataset: l_item
+  
+   ![](../../../../document/function/Dataset/selectAll/selectAll-step-1.png?raw=true)
+    
+2. Executes the callback function and add a console for    display the response from console.
+ 
+   ![](../../../../document/function/Dataset/selectAll/selectAll-step-2.png?raw=true)
+    
 ### Result
 
-Coming Soon.
+ ![](../../../../document/function/Dataset/selectAll/selectAll-result-1.png?raw=true)
 
-<!-- Explain the output.
 
-Format: ![]({image-path}?raw=true) -->
 
 ## Links

@@ -24,28 +24,22 @@ Coming Soon.
 
 <!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
+
 ## Example
 
-Coming Soon.
 
-<!-- Share a scenario, like a user requirements. -->
+The user wants to add a space between the strings.
 
-### Steps
+### Step
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
+1. Call the function.
+    
+    ![](../../../../document/function/SpecialCharacter/sc_space/sc_space-step-1.png?raw=true)
+ 
 ### Result
 
-Coming Soon.
+ A B
+ 
 
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
 
 ## Links

@@ -24,16 +24,23 @@ N/A
 
 Coming soon.
 
+
 ## Example
 
-Coming soon.
 
-### Steps
+The user wants to convert the letters from lower case to upper case.
 
-Coming soon.
+### Step
+
+1. Call the function.<br>
+   string: abc<br />
+    
+    ![](../../../../document/function/String/upperCase/upperCase-step-1.png?raw=true)
 
 ### Result
 
-Coming soon.
+"ABC"
+
+
 
 ## Links

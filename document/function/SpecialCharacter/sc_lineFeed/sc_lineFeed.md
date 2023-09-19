@@ -24,28 +24,22 @@ Coming Soon.
 
 <!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
+
 ## Example
 
-Coming Soon.
 
-<!-- Share a scenario, like a user requirements. -->
+The user wants to set line feed at the end of a string and start a new line.
 
-### Steps
+### Step
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
+1. Call the function.
+    
+    ![](../../../../document/function/SpecialCharacter/sc_lineFeed/sc_lineFeed-step-1.png?raw=true)
+ 
 ### Result
 
-Coming Soon.
+ ![](../../../../document/function/SpecialCharacter/sc_lineFeed/sc_lineFeed-result-1.png?raw=true)
+ 
 
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
 
 ## Links

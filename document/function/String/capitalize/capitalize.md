@@ -24,16 +24,24 @@ N/A
 
 Coming soon.
 
+
 ## Example
 
-Coming soon.
 
-### Steps
+The user wants to convert all the first letters to upper case.<br />
 
-Coming soon.
+### Step
+
+1. Call the function.
+   <br />
+    string: i am hungry<br />
+
+   ![](../../../../document/function/String/capitalize/capitalize-step-1.png?raw=true)
 
 ### Result
 
-Coming soon.
+"I Am Hungry"
+
+
 
 ## Links

@@ -27,28 +27,26 @@ Coming Soon.
 
 <!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
+
 ## Example
 
-Coming Soon.
 
-<!-- Share a scenario, like a user requirements. -->
+The user wants to check if value 1 AND value 2 are both true.
+</br>
 
-### Steps
+### Step
 
-Coming Soon.
+1. Call the function.
+    </br>
+    value1 : greater (value1:  3000 and value2:  1100)<br />
+    value2 : true<br />
 
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
+    ![](../../../../document/function/Logical/and/and-step-1.png?raw=true)
 
 ### Result
 
-Coming Soon.
+true ( Since 3000 is greater than 1100, value1 will return true. The result return true because both of the arguments are true.)
 
-<!-- Explain the output.
 
-Format: ![]({image-path}?raw=true) -->
 
 ## Links
