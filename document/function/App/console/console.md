@@ -34,7 +34,9 @@ The user wants to view the result in console of broswer for debuging purpose.
 
 1. Call the function.
 
-    ![](../../../../document/function/App/console/console-step-1.png?raw=true)
+    ![](./console-step-1.png)
+
+    ![](./console-step-2.png)
 
 ### Result
 
