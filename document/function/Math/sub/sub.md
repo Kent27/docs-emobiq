@@ -29,23 +29,17 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+1. Drag the `sub` function into the event flow.
 
-<!-- Share a scenario, like a user requirements. -->
+    ![](./sub-step-1.png)
 
-### Steps
+2. Enter the 2 values. For this example we are subtracting 7 from 10.
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
+    ![](./sub-step-2.png)
 
 ### Result
 
-Coming Soon.
+```3```
 
 <!-- Explain the output.
 

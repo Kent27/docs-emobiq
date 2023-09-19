@@ -28,25 +28,20 @@ Coming Soon.
 <!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
 ## Example
+ 
 
-Coming Soon.
+1. Drag the `multi` function into the event flow.
 
-<!-- Share a scenario, like a user requirements. -->
+    ![](./multi-step-1.png)
 
-### Steps
+2. Enter the 2 values to be multiplied together. For this example they are `3` and `4`.
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
+    ![](./multi-step-2.png)
 ### Result
 
-Coming Soon.
-
+```
+12
+```
 <!-- Explain the output.
 
 Format: ![]({image-path}?raw=true) -->
