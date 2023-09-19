@@ -41,13 +41,15 @@ The user view all the attribute/ details of a component.
     
 3. Call the function.
 
-    ![](../../../../document/function/App/getComponent/getComponent-step-2.png?raw=true)
+    ![](./getComponent-step-2.png?raw=true)
+
+    ![](./getComponent-step-3.png?raw=true)
 
 ### Result
 
 In the console, the details of component:
 
-![](../../../../document/function/App/getComponent/getComponent-result-1.png?raw=true)
+![](./getComponent-result-1.png?raw=true)
 
 
 ## Links
