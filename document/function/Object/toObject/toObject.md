@@ -26,32 +26,28 @@ N/A
 
 Coming soon.
 
-
 ## Example
 
-
-The user wants to create an object data.
+The user wants to create an object data and view it in the console.
 
 ### Step
 
-1. Call the function "toObject".
+1. Call the function `console`. Call the function `toObject` inside the `value` parameter of the `console` function.
   
-    ![](../../../../document/function/Object/toObject/toObject-step-1.png?raw=true)
+    ![](../toObject/toObject-step-1.png?raw=true)
   
 2. Add a key.<br>
    Key : name <br />
   
-    ![](../../../../document/function/Object/toObject/toObject-step-2.png?raw=true)
+    ![](../toObject/toObject-step-2.png?raw=true)
  
-3. Defines the values.<br>
+3. Assign a value to the key.<br>
     name : Lili
     
-    ![](../../../../document/function/Object/toObject/toObject-step-3.png?raw=true)
+    ![](../toObject/toObject-step-3.png?raw=true)
 
 ### Result
 
 ![](../../../../document/function/Object/toObject/toObject-result-1.png?raw=true)
-
-
 
 ## Links

@@ -40,8 +40,6 @@ The user wants to check if either of the values is true and print the result in 
 
     ![](../or/or-step-1.png?raw=true)
 
-2. Fill in the parameters of the `or` function.
-
     ![](../or/or-step-2.png?raw=true)
     
 ### Result

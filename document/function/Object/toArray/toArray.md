@@ -33,22 +33,22 @@ N/A
 
 Coming soon.
 
-
 ## Example
 
-
-The user wants to create an array data.
+The user wants to create a list of data and view it in the console.
 
 ### Step
 
-1. Call the function.
+1. Call the `console` function. Call the `toArray` function inside the `value` parameter of the `console` function.
     </br>
     value1 : date<br />
     value2 : name<br />
     value3 : age<br />
     value4 : tel<br />
     
-    ![](../../../../document/function/Object/toArray/toArray-step-1.png?raw=true)
+    ![](../toArray/toArray-step-1.png?raw=true)
+
+    ![](../toArray/toArray-step-2.png?raw=true)
 
 ### Result
 
