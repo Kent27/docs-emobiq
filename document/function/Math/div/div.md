@@ -30,26 +30,14 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+1. Drag the `div` function into the event flow.
 
-<!-- Share a scenario, like a user requirements. -->
+    ![](./div-step-1.png)
 
-### Steps
-
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
-### Result
-
-Coming Soon.
-
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
+| Values | Expected result | 
+| ---- | ---- | 
+| ![](../div/div-step-2.png) | 3 |
+| ![](../div/div-step-3.png) | 1.5 |
+| ![](../div/div-step-4.png) | 1 |
 
 ## Links

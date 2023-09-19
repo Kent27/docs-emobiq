@@ -23,32 +23,22 @@ N/A
 
 ## Video
 
-Coming Soon.
 
 <!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
 ## Example
 
-Coming Soon.
+1. Drag the `add` function into the event flow.
 
-<!-- Share a scenario, like a user requirements. -->
+    ![](./add-step-1.png)
 
-### Steps
+2. Enter the 2 values to be added together. For this example they are `1` and `2`.
 
-Coming Soon.
+    ![](./add-step-2.png)
 
-<!-- Show the steps and share some screenshots.
 
-1. .....
+### Results
 
-Format: ![]({image-path}?raw=true) -->
-
-### Result
-
-Coming Soon.
-
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
+```3```
 
 ## Links
