@@ -29,26 +29,20 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to check the if value 1 is equal to value 2.
 
-<!-- Share a scenario, like a user requirements. -->
+### Step
 
-### Steps
+1. Call the function.
+   </br>
+   value1 : 11<br />
+   value2 : 11<br />
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
+    ![](../../../../document/function/Comparation/equal/equal-step-1.png?raw=true)
 
 ### Result
 
-Coming Soon.
+true
 
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
 
 ## Links
