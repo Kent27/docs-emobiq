@@ -31,27 +31,23 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+User want to encode from string to json.
 
-<!-- Share a scenario, like a user requirements. -->
+### Step
 
-### Steps
+1. Call the function.
+   <br>
+   Name : Lili<br />
+   Gender : F<br />
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
+  ![](./jsonEncode-step-1.png?raw=true)
+  ![](./jsonEncode-step-2.png?raw=true)
+    
 ### Result
 
-Coming Soon.
+ ![](../../../../document/function/Conversion/jsonEncode/jsonEncode-result-1.png?raw=true)
+    
 
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
 
 ## Links
 
