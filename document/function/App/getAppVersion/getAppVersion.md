@@ -32,7 +32,9 @@ The user wants get version of the App.
 
 1. Call the function.
 
-    ![](../../../../document/function/App/getAppVersion/getAppVersion-step-1.png?raw=true)
+    ![](getAppVersion-step-1.png?raw=true)
+
+    ![](getAppVersion-step-2.png?raw=true)
 
 ### Result
 
