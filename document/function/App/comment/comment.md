@@ -34,7 +34,9 @@ The user wants to add a note while development
 
 1. Call Function "comment"
 
-     ![](../../../../document/function/App/comment/comment-Step-1.png?raw=true)
+     ![](./comment-step-1.png)
+
+     ![](./comment-step-2.png)
 
 
 ### Result
