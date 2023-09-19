@@ -28,13 +28,16 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to navigate to another page.
 
 <!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-Coming Soon.
+| No. | Description |  |
+| ------ | ------ | ------ |
+| 1. | ![](../gotoPage/gotoPage-step-1.png?raw=true) | Drag a button to a page in the mobile designer. Select the event `click` for the button and drag the `gotoPage` function to the event flow. |
+| 2. | ![](../gotoPage/gotoPage-step-2.png?raw=true) | Fill in the parameters of the function. |
 
 <!-- Show the steps and share some screenshots.
 
@@ -44,7 +47,7 @@ Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-Coming Soon.
+When the button is pressed, the page navigates to pgWelcome.
 
 <!-- Explain the output.
 
