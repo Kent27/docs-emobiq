@@ -26,14 +26,32 @@ Coming soon.
 
 ## Example
 
-Coming soon.
+### isArray: True
 
-### Steps
+1. Drag the `isArray` function into the event flow. 
 
-Coming soon.
+    ![](./isArray-step-1.png)
 
-### Result
+2. For value, use the function `toArray` to pass an array to the `isArray` function. 
 
-Coming soon.
+    ![](./isArray-step-2.png)
+
+    ![](./isArray-step-3.png)
+
+
+3. `isArray` will return `true` since the value is an array. 
+
+### isArray: False
+
+1. Drag the `isArray` function into the event flow. 
+
+    ![](./isArray-step-1.png)
+
+2. Pass the value `This is a string` to the function.
+
+    ![](./isArray-step-4.png)
+
+3. `isArray` will return `false` since the value is a string and not an array.
+
 
 ## Links
