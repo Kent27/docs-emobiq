@@ -30,23 +30,17 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
-
-<!-- Share a scenario, like a user requirements. -->
-
 ### Steps
 
-Coming Soon.
+1. Draw the `sc_esc` function into the event flow.
 
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
+    ![](./sc_esc-step-1.png)
 
 ### Result
 
-Coming Soon.
+```
+␛
+```
 
 <!-- Explain the output.
 
