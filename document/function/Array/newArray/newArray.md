@@ -35,11 +35,16 @@ The user wants to create a new array.
 1. Call the function"newArray" and set the         variable name.<br>
    var: listOfFruits<br />
     
-    ![](../../../../document/function/Array/newArray/newArray-step-1.png?raw=true)
+    ![](./newArray-step-1.png?raw=true)
+    
+    ![](./newArray-step-2.png?raw=true)
     
 2. Add a console and call the function "getVar"
 
-    ![](../../../../document/function/Array/newArray/newArray-step-2.png?raw=true)
+    ![](./newArray-step-3.png?raw=true)
+    
+    ![](./newArray-step-4.png?raw=true)
+  
     
 ### Result
 
