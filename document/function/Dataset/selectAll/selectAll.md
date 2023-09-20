@@ -46,7 +46,7 @@ The user wants to display all the data in dataset "l_item".
 
    ![](./selectAll-step-1.png?raw=true)
 
-   
+
    | | |
    | ---- | ---- | 
    | dataset | l_item |
@@ -56,11 +56,11 @@ The user wants to display all the data in dataset "l_item".
     
 2. Executes the callback function and add a console for    display the response from console.
  
-   ![](./selectAll-step-2.png?raw=true)
+   ![](./selectAll-step-3.png?raw=true)
     
 ### Result
 
- ![](./selectAll-result-3.png?raw=true)
+ ![](./selectAll-result-1.png?raw=true)
 
 
 

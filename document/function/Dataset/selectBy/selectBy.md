@@ -45,17 +45,23 @@ The user wants to display the data which id=1 in dataset "l_item".
 
 ### Step
 
-1. Call the function "selectBy"and define the         dataset, by and value. 
-   <br>
-   dataset: l_item<br>
-   by : id<br>
-   value: 1<br>
+1. Call the function "selectBy"
    
-    ![](../../../../document/function/Dataset/selectBy/selectBy-step-1.png?raw=true)
+    ![](./selectBy-step-1.png?raw=true)
+
+2. Specify the parameters: 
+
+    | | | 
+    | ---- | ---- | 
+    | dataset | l_item | 
+    | by | id |
+    | value | 1 |
+
+    ![](./selectBy-step-2.png?raw=true)
     
 ### Result
 
- ![](../../../../document/function/Dataset/selectBy/selectBy-result-1.png?raw=true)
+ ![](./selectBy-result-1.png?raw=true)
 
 
 
