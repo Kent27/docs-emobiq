@@ -26,9 +26,7 @@ N/A
 
 Coming soon.
 
-
 ## Example
-
 
 The user wants to display a specified number of characters from the left hand side of a string.
 
@@ -38,12 +36,12 @@ The user wants to display a specified number of characters from the left hand si
     string: 123456789<br />
     length : 6<br />
 
-   ![](../../../../document/function/String/left/left-step-1.png?raw=true)
+   ![](../left/left-step-1.png?raw=true)
+
+   ![](../left/left-step-2.png?raw=true)
 
 ### Result
 
-"123456"
-
-
+![](../left/left-result-1.png)
 
 ## Links
