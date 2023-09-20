@@ -26,24 +26,22 @@ N/A
 
 Coming soon.
 
-
 ## Example
 
-
-The user wants to display a specified number of characters from the right hand side of a string.</br>
+The user wants to display a specified number of characters from the right hand side of a string..</br>
 
 ### Step
 
-1. Call the function.<br>
-    string: AAAABB<br />
-    length: 4<br />
+1. Call the function `console`. Call the function `right` inside the `value` parameter of the `console` function.<br>
+    string: 123456789<br />
+    length : 6<br />
 
-   ![](../../../../document/function/String/right/right-step-1.png?raw=true)
+   ![](../right/right-step-1.png?raw=true)
+
+   ![](../right/right-step-2.png?raw=true)
 
 ### Result
 
-"AABB"
-
-
+![](../right/right-result-1.png)
 
 ## Links
