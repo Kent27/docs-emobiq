@@ -14,7 +14,7 @@ Determines whether the passed value is a number.
 
 | Description | Output Type |
 | ------ | ------ |
-| Returns true if value is a number otherwise false. | Boolean |
+| Returns true if value is a number, otherwise returns false. | Boolean |
 
 ## Callback
 
@@ -24,23 +24,21 @@ N/A
 
 Coming soon.
 
-
 ## Example
 
-
-The user wants to identify the value is number.
+The user wants to determine whether the value passed is a number.
 <br>
 
 ### Step
 
-1. Call the function.
+1. Call the function`console`. Call the function `isNumber` inside the `value` parameter of the `console` function.
 
-    ![](../../../../document/function/Validation/isNumber/isNumber-step-1.png?raw=true)
+    ![](../isNumber/isNumber-step-1.png?raw=true)
+
+    ![](../isNumber/isNumber-step-2.png?raw=true)
     
 ### Result
 
-true
-
-
+Console will return 'true'.
 
 ## Links

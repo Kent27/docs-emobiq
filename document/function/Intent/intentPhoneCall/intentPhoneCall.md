@@ -24,27 +24,25 @@ Coming Soon.
 
 <!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
-
 ## Example
-
 
 The user wants to start a call.
 <br>
 
 ### Step
 
-1. Call the function.
+1. Call the function `intentPhoneCall`.
 
-    ![](../../../../document/function/Intent/intentPhoneCall/intentPhoneCall-step-1.png?raw=true)
+    ![](../intentPhoneCall/intentPhoneCall-step-1.png?raw=true)
+
+    ![](../intentPhoneCall/intentPhoneCall-step-2.png?raw=true)
     
-2. Click open skype if use laptop/pc, click call if use phone.
+2. Open the Skype app if using laptop/pc, press call if using phone.
 
-    ![](../../../../document/function/Intent/intentPhoneCall/intentPhoneCall-step-2.png?raw=true)
+    ![](../intentPhoneCall/intentPhoneCall-step-3.png?raw=true)
     
 ### Result
 
-![](../../../../document/function/Intent/intentPhoneCall/intentPhoneCall-result-1.png?raw=true)
-
-
+![](../intentPhoneCall/intentPhoneCall-result-1.png?raw=true)
 
 ## Links
