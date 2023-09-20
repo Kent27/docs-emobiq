@@ -46,27 +46,39 @@ The user wants to update the code from E1234567 to E1234 in dataset "l_item".
 
 ### Step
 
-1. Call the function "updateBy" and define the         dataset, by,operator and value.
-   <br>
-   dataset: l_item<br>
-   by: code<br>
-   operator: =<br>
-   value: E1234567<br>
-   
-   ![](../../../../document/function/Dataset/updateBy/updateBy-step-1.png?raw=true)
+1. Call the function "updateBy".
+
+   ![](./updateBy-step-1.png?raw=true)
+
+2. Specify the parameters: 
+   | | | 
+   | ---- | ---- | 
+   | dataset | l_item | 
+   | by | code |
+   | operator | = |
+   | value | E1234567 |
+
+
+    ![](./updateBy-step-2.png?raw=true)
+
  
  2. Set toObject function to data and define the      value of object.
-    <br> data: toObject<br>
-         code: E1234<br>
- 
-    ![](../../../../document/function/Dataset/updateBy/updateBy-step-2.png?raw=true)
-   
+
+   | | | 
+   | ---- | ---- | 
+   | data | toObject | 
+   | code | E1234 | 
+
+   ![](./updateBy-step-3.png?raw=true)
+
+   ![](./updateBy-step-4.png?raw=true)
+
 ### Result
 
-   ![](../../../../document/function/Dataset/updateBy/updateBy-result-1.png?raw=true)
+   ![](./updateBy-result-1.png?raw=true)
    ( Before update, the code is E1234567 )
    
-   ![](../../../../document/function/Dataset/updateBy/updateBy-result-2.png?raw=true)
+   ![](./updateBy-result-2.png?raw=true)
    ( After update, the code changed to E1234 )
    
 
