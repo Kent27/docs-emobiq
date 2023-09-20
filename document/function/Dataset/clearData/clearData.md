@@ -37,36 +37,43 @@ Coming Soon.
 ## Example
 
 
-The user wants to delete the dataset "l_cart" from local table.
+The user wants to delete the dataset `lcart` from local table.
 
 ### Step
 
-1. Create a local table "l_cart" and add value     for table.
-   <br>
-   Fields: item_code<br>
-           item_name<br>
-           price<br>
-           quantity<br>
+1. Create a local table `lcart`.
    
-   ![](../../../../document/function/Dataset/clearData/clearData-step-1.png?raw=true)
+   ![](./clearData-step-1.png)
+
+2. Add some fields for the table: 
+
+   ```
+   item_code
+   item_name
+   price
+   quantity
+   ```
+
+   ![](./clearData-step-2.png)
   
-   ![](../../../../document/function/Dataset/clearData/clearData-step-2.png?raw=true)
-  
-2. Call the function "clearData"and define the     dataset.
-   <br>
-   dataset: l_cart<br>
+3. Call the "clearData" function and define the     dataset.
    
-   ![](../../../../document/function/Dataset/clearData/clearData-step-3.png?raw=true)
+   ![](./clearData-step-3.png)
+
+   ```
+   dataset: l_cart
+   ```
+   ![](./clearData-step-4.png)
    
 ### Result
 
-![](../../../../document/function/Dataset/clearData/clearData-result-1.png?raw=true)
+![](./clearData-result-1.png?raw=true)
 
-( Before call the function "clearData, the dataset "l_cart" still storing at local table. )
+Before calling the `clearData` function, the dataset `lcart` exists as a local table. )
 
-![](../../../../document/function/Dataset/clearData/clearData-result-2.png?raw=true)
+![](./clearData-result-2.png?raw=true)
 
-( After call the function "clearData, the dataset "l_cart" was been clear from local table. )
+After calling clearData, l_cart no longer exists. 
 
 
 
