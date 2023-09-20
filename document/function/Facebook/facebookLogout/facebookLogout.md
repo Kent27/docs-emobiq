@@ -1,4 +1,4 @@
-# facebookLogin
+# facebookLogout
 
 ### Description
 
