@@ -8,7 +8,7 @@ It searches for a specific element in an array and returns the index of the firs
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
 | string | The array/list where in the search would be done. | Array/List | - | - | Yes |
-| find | The value to find in the array/list. | Any | 10 | - | Yes |
+| find | The value to find in the array/list. | Any | - | - | Yes |
 
 ## Output
 
@@ -24,26 +24,24 @@ N/A
 
 Coming soon.
 
-
 ## Example
 
-
-The user wants get the index of character "H" in a given string.
+The user wants to get the index of character "H" in a passed string.
 <br />
 
 ### Step
 
-1. Call the function "findIndex".
+1. Call the function `console`. Call the function `findIndex` inside the `value` parameter of the `console` function.
     <br />
-    string: AAABBBCDEcGH<br />
+    string: aBcDeFgHiJ<br />
     find: H
     
-   ![](../../../../document/function/String/findIndex/findIndex-step-1.png?raw=true)
+   ![](../findIndex/findIndex-step-1.png?raw=true)
+
+   ![](../findIndex/findIndex-step-2.png?raw=true)
 
 ### Result
 
-The user will get the index of alphabet "H" = 11.
-
-
+The console should return '7', the index of 'H' in the string.
 
 ## Links
