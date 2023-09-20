@@ -34,7 +34,7 @@ The user wants to add padding to a string with maximum length of 10, with the or
 
 ### Step
 
-1. Call the function.<br/>
+1. Call the function `console`. Call the function `padString` inside the `value` parameter of the `console` function.<br/>
     string: AB<br />
     len: 10<br />
     type: center<br />
