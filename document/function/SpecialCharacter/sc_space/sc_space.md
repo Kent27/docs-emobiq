@@ -24,22 +24,24 @@ Coming Soon.
 
 <!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
-
 ## Example
-
 
 The user wants to add a space between the strings.
 
 ### Step
 
-1. Call the function.
+1. Call the function `console`. Call the function `concat` inside the `value` parameter of the `console` function.
     
-    ![](../../../../document/function/SpecialCharacter/sc_space/sc_space-step-1.png?raw=true)
+    ![](../sc_space/sc_space-step-1.png?raw=true)
+
+2. Call the function `sc_space` inside the `string2` and `string4` parameters of the `concat` function. Fill in the `string1`, `string3` and `string5` parameters with the values to print.
  
+    ![](../sc_space/sc_space-step-2.png?raw=true)
+
+    ![](../sc_space/sc_space-step-3.png?raw=true)
+
 ### Result
 
- A B
- 
-
+ ![](../sc_space/sc_space-result-1.png)
 
 ## Links

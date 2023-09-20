@@ -27,19 +27,22 @@ Coming Soon.
 
 ## Example
 
-
 The user wants to set line feed at the end of a string and start a new line.
 
 ### Step
 
-1. Call the function.
+1. Call the function `console`. Call the function `concat` inside the `value` parameter of the `console` function.
     
-    ![](../../../../document/function/SpecialCharacter/sc_lineFeed/sc_lineFeed-step-1.png?raw=true)
+    ![](../sc_lineFeed/sc_lineFeed-step-1.png?raw=true)
+
+2. Call the function `sc_lineFeed` inside the `string1` and `string3` parameters of the `concat` function. Fill in the `string2` and `string4` parameters with the sentences to print.
  
+    ![](../sc_lineFeed/sc_lineFeed-step-2.png?raw=true)
+
+    ![](../sc_lineFeed/sc_lineFeed-step-3.png?raw=true)
+
 ### Result
 
  ![](../../../../document/function/SpecialCharacter/sc_lineFeed/sc_lineFeed-result-1.png?raw=true)
  
-
-
 ## Links
