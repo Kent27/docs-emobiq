@@ -27,27 +27,28 @@ N/A
 
 Coming soon.
 
-
 ## Example
 
-
-The user wants to add padding to a string with maximum length of 10, with the original string at center.
+The user wants to add padding to a string with maximum length of 10, with the original string at the center.
 </br>
 
 ### Step
 
-1. Call the function.<br/>
+1. Call the function `console`. Call the function `padString` inside the `value` parameter of the `console` function.<br/>
     string: AB<br />
     len: 10<br />
     type: center<br />
-        
-   ![](../../../../document/function/String/padString/padString-step-1.png?raw=true)
+    char: 1<br />
+
+    ![](../padString/padString-step-1.png?raw=true)
+
+    ![](../padString/padString-step-2.png?raw=true)
 
 ### Result
 
- ![](../../../../document/function/String/padString/padString-result-1.png?raw=true)
+ ![](../padString/padString-result-1.png?raw=true)
  
- (4 spaces added on both of the left & right of "AB", total length of the string is now 10.)
+ There are 4 characters '1' added on both the left & right side of "AB", making the total length of the string 10.
 
 
 

@@ -29,25 +29,23 @@ N/A
 
 Coming soon.
 
-
 ## Example
-
 
 The user wants to replace some words in a string.</br>
 
 ### Step
 
-1. Call the function.<br>
-   string: I am a student<br />
-   replace: student<br />
-   replacement: worker<br />
+1. Call the function `console`. Call the function `replace` inside the `value` parameter of the `console` function.<br>
+   string: I am studying.<br />
+   replace: studying<br />
+   replacement: working<br />
     
-   ![](../../../../document/function/String/replace/replace-step-1.png?raw=true)
+   ![](../replace/replace-step-1.png?raw=true)
+
+   ![](../replace/replace-step-2.png?raw=true)
 
 ### Result
 
-"I am a worker"
-
-
+![](../replace/replace-result-1.png)
 
 ## Links

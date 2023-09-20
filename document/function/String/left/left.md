@@ -32,7 +32,7 @@ The user wants to display a specified number of characters from the left hand si
 
 ### Step
 
-1. Call the function.<br />
+1. Call the function `console`. Call the function `left` inside the `value` parameter of the `console` function.<br />
     string: 123456789<br />
     length : 6<br />
 

@@ -26,26 +26,24 @@ N/A
 
 Coming soon.
 
-
 ## Example
 
-
-The user wants to get a specified number of characters from a string.</br>
+The user wants to get a specific number of characters from a string, starting from the index specified.</br>
 
 ### Step
 
-1. Call the function.
+1. Call the function `console`. Call the function `mid` inside the `value` parameter of the `console` function.
     </br>
     string: ABCDEFGHIJ<br />
     start: 1<br />
-    length:2<br />
+    length: 3<br />
     
-    ![](../../../../document/function/String/mid/mid-step-1.png?raw=true)
+    ![](../mid/mid-step-1.png?raw=true)
+
+    ![](../mid/mid-step-2.png?raw=true)
 
 ### Result
 
-"BC" (index in an array start from 0, therefore when the user specify start at 1, it would start from the second character of a string)
-
-
+![](../mid/mid-result-1.png)
 
 ## Links
