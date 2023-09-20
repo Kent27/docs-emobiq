@@ -25,24 +25,22 @@ N/A
 
 Coming soon.
 
-
 ## Example
 
-
-The user wants get the count of characters in a string. </br>
+The user wants to get the total number of characters in a string. </br>
 
 ### Step
 
-1. Call the function.
+1. Call the function `console`. Call the function `length` inside the `value` parameter of the `console` function.
     </br>
-    string: AAAAAA<br />
+    string: ABCDEF <br />
     
-   ![](../../../../document/function/String/length/length-step-1.png?raw=true)
+   ![](../length/length-step-1.png?raw=true)
+
+   ![](../length/length-step-2.png?raw=true)
 
 ### Result
 
-The user gets the length of the string = 6.
-
-
+The console returns '6', which is the length of the string.
 
 ## Links
