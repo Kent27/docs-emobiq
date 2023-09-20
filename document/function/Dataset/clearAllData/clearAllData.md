@@ -33,19 +33,21 @@ The user wants to delete all the dataset in a project.
 ### Step
 
 1. Call the function.
-   <br>
    
-   ![](../../../../document/function/Dataset/clearAllData/clearAllData-step-1.png?raw=true)
+   ![](./clearAllData-step-1.png?raw=true)
    
 ### Result
 
-![](../../../../document/function/Dataset/clearAllData/clearAllData-result-1.png?raw=true)
-( Before call the function "clearAllData" there have Lcustomer and l_cart in this project.)
+![](./clearAllData-result-1.png?raw=true)
 
-![](../../../../document/function/Dataset/clearAllData/clearAllData-result-2.png?raw=true)
+Before calling the function `clearAllData`, the
+L_customer and l_cart both exist as local tables.
 
-![](../../../../document/function/Dataset/clearAllData/clearAllData-result-3.png?raw=true)
-( After call the function "clearAllData" the two table have been removed.)
+![](./clearAllData-result-2.png?raw=true)
+
+![](./clearAllData-result-3.png?raw=true)
+
+After calling the `clearAllData`, both tables have been removed.
 
 
 
