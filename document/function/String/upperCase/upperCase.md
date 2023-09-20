@@ -24,23 +24,21 @@ N/A
 
 Coming soon.
 
-
 ## Example
 
-
-The user wants to convert the letters from lower case to upper case.
+The user wants to convert all the letters in the string from lower case to upper case.
 
 ### Step
 
-1. Call the function.<br>
+1. Call the function `console`. Call the function `upperCase` inside the `value` parameter of the `console` function.<br>
    string: abc<br />
     
-    ![](../../../../document/function/String/upperCase/upperCase-step-1.png?raw=true)
+    ![](../upperCase/upperCase-step-1.png?raw=true)
+
+    ![](../upperCase/upperCase-step-2.png?raw=true)
 
 ### Result
 
-"ABC"
-
-
+![](../upperCase/upperCase-result-1.png?raw=true)
 
 ## Links
