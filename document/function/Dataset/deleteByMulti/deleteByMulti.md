@@ -47,23 +47,27 @@ The user wants to delete the field id=25 and name=ABC from dataset "l_customer".
 1. Call the function "deleteByMulti" and define the dataset.
    <br>
    dataset: l_customer<br>
+
+    ![](./deleteByMulti-step-1.png?raw=true)
+
    
 2. Set toArray and toObject function to filter and define the         value of object.
    <br> filter: toArray --> toObject<br>
         id: 25<br>
         name: A1A2A3A4<br>
          
-    ![](../../../../document/function/Dataset/deleteByMulti/deleteByMulti-step-1.png?raw=true)
  
-    ![](../../../../document/function/Dataset/deleteByMulti/deleteByMulti-step-2.png?raw=true)
+    ![](./deleteByMulti-step-2.png?raw=true)
+    ![](./deleteByMulti-step-3.png?raw=true)
+    ![](./deleteByMulti-step-4.png?raw=true)
     
 ### Result
 
 
-  ![](../../../../document/function/Dataset/deleteByMulti/deleteByMulti-result-1.png?raw=true)
+  ![](./deleteByMulti-result-1.png?raw=true)
   ( Before delete, the id=25; name= A1A2A3A4 is still store in the local table. )
    
-  ![](../../../../document/function/Dataset/deleteByMulti/deleteByMulti-result-2.png?raw=true)
+  ![](./deleteByMulti-result-2.png?raw=true)
   ( After delete, id=25; name= A1A2A3A4 was removed in local table.)
    
 

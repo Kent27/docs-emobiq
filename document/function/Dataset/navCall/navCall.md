@@ -45,30 +45,37 @@ The user wants to call the navCall Web Service.
 
 ### Step
 
-1. Create NAV Connector in Services.<br>
-   Name: nav<br>
-   url: http://203.116.137.100:8047/DynamicsNAV90<br> 
-   company: CRONUS Australia Pty. Ltd.
-   user: chh\mobuser<br>
-   password: ********<br>
-   timeOut: 30000<br>
-   
-   ![](../../../../document/function/Dataset/navCall/navCall-step-1.png?raw=true)
+1. Create a NAV Connector in Services with the follow parameters. 
+
+   | Field | Value |
+   | ---- | ---- | 
+   | Name | nav | 
+   | Url | http://203.116.137.100:8047/DynamicsNAV90 |
+   | Company | CRONUS Australia Pty. Ltd. |
+   | User | chh\mobuser |
+   | Password | ******** |
+   | Timeout | 30000 |
+
+  
+   ![](./navCall-step-1.png?raw=true)
    
    
 2. Call the function "navCall".
    <br>
    
-   ![](../../../../document/function/Dataset/navCall/navCall-step-2.png?raw=true)
+   ![](./navCall-step-2.png?raw=true)
+
+   ![](./navCall-step-3.png?raw=true)
    
   
 3. Add a console after callback function for       display response from console.   
    
-   ![](../../../../document/function/Dataset/navCall/navCall-step-3.png?raw=true)
+   ![](./navCall-step-4.png?raw=true)
+   
  
 ### Result
    
-   ![](../../../../document/function/Dataset/navCall/navCall-result-1.png?raw=true)
+   ![](./navCall-result-1.png?raw=true)
 
 
 
