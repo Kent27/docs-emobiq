@@ -58,7 +58,7 @@ Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-![](../btPrinterDisconnect/btPrinterDisconnect-result-1.jpg?raw=true)
+If the printer is idle longer than the timeout duration passed, the printer will be disconnected and the success infoDialog will appear. If the printer is not disconnected successfully, the error infoDialog will appear.
 
 <!-- Explain the output.
 

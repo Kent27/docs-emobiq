@@ -10,11 +10,11 @@ Sends data to a printer to print the required document.
 | ------ | ------ | ------ | ------ | ------ | ------ |
 | text | The data to print. | String/Text | - | - | Yes |
 
-## Output?
+## Output
 
 N/A
 
-## Callback?
+## Callback
 
 ### callback
 
