@@ -59,3 +59,5 @@ Coming Soon.
 Format: ![]({image-path}?raw=true) -->
 
 ## Links
+
+* [iStampz website](http://istampz.com)
