@@ -11,11 +11,11 @@ Connects a bluetooth printer to the device.
 | printerID | The id of the printer to connent. | String/Text | - | - | Yes |
 | extra | Extra parameters stored and passed to callback. | Any | - | - | No |
 
-## Output?
+## Output
 
 N/A
 
-## Callback?
+## Callback
 
 ### callback
 
@@ -33,13 +33,29 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to connect a printer to their device.
 
 <!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-Coming Soon.
+1. Drag a combobox and button component to a page in the mobile designer. Call the function `btPrinterConnect` in the button component. 
+
+    ![](../btPrinterConnect/btPrinterConnect-step-1.png?raw=true)
+
+2. Call the function `componentValue` in the `printerId` parameter of the `btPrinterConnect` function. Select the combobox component in the `component` parameter of the `componentValue` function to view the printers connected.
+
+    ![](../btPrinterConnect/btPrinterConnect-step-2.png?raw=true)
+
+    ![](../btPrinterConnect/btPrinterConnect-step-3.png?raw=true)
+
+3. Call the function `infoDialog` in the callbacks of the `btPrinterConnect` function.
+
+    ![](../btPrinterConnect/btPrinterConnect-step-4.png?raw=true)
+
+    ![](../btPrinterConnect/btPrinterConnect-step-5.png?raw=true)
+
+    ![](../btPrinterConnect/btPrinterConnect-step-6.png?raw=true)
 
 <!-- Show the steps and share some screenshots.
 
@@ -49,7 +65,7 @@ Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-Coming Soon.
+![](../btPrinterConnect/btPrinterConnect-result-1.jpg?raw=true)
 
 <!-- Explain the output.
 
