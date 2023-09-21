@@ -30,24 +30,23 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
 
-<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-Coming Soon.
+1. First, we will need to have a snippet to display or hide. Create one if you no already have one. In this example, we will be using this snippet named `spImage`.
 
-<!-- Show the steps and share some screenshots.
+    ![](./displaySnippet-step-1.png)
 
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
+2. Create a button, and add the `displaySnippet` function to the event flow. 
+   
+    ![](displaySnippet-step-2.png)
 
 ### Result
 
-Coming Soon.
+Clicking the button will display the snippet. 
 
+![](./displaySnippet-result-1.gif)
 <!-- Explain the output.
 
 Format: ![]({image-path}?raw=true) -->
