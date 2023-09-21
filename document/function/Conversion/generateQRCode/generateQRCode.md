@@ -62,6 +62,6 @@ Coming Soon.
 
 ### Result
 
-![](./gnerateQRCode-result-1.gif)
+![](./generateQRCode-result-1.gif)
 
 ## Links
