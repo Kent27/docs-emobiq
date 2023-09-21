@@ -32,13 +32,25 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to print a document from the device.
 
 <!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-Coming Soon.
+1. Call the function `btPrinterPrint` in a button component. 
+
+    ![](../btPrinterPrint/btPrinterPrint-step-1.png?raw=true)
+
+    ![](../btPrinterPrint/btPrinterPrint-step-2.png?raw=true)
+
+2. Call the function `infoDialog` in the callbacks of the `btPrinterPrint` function to view the status.
+
+    ![](../btPrinterPrint/btPrinterPrint-step-3.png?raw=true)
+
+    ![](../btPrinterPrint/btPrinterPrint-step-4.png?raw=true)
+
+    ![](../btPrinterPrint/btPrinterPrint-step-5.png?raw=true)
 
 <!-- Show the steps and share some screenshots.
 
@@ -48,7 +60,7 @@ Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-Coming Soon.
+If the document is printed successfully, the success infoDialog will appear, otherwise the error infoDialog will appear.
 
 <!-- Explain the output.
 

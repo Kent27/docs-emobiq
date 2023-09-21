@@ -36,13 +36,27 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to create a connection and view the socket input if it is successful.
 
 <!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-Coming Soon.
+1. Drag a button and label component to a page in the mobile designer. Call the function `socketConnect` in the button component. 
+
+    ![](../socketConnect/socketConnect-step-1.png?raw=true)
+
+    ![](../socketConnect/socketConnect-step-2.png?raw=true)
+
+2. Call the function `console` in the callbacks of the `socketConnect` function. Select the parameter type `input`.
+
+    ![](../socketConnect/socketConnect-step-3.png?raw=true)
+
+3. Call the function `setComponentValue` and select the label component in the `component` parameter. Set the `value` parameter type to `input`.
+
+    ![](../socketConnect/socketConnect-step-4.png?raw=true)
+
+    ![](../socketConnect/socketConnect-step-5.png?raw=true)
 
 <!-- Show the steps and share some screenshots.
 
@@ -52,7 +66,9 @@ Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-Coming Soon.
+If the socket connection is successful, the host name will be shown in the label component.
+
+![](../socketConnect/socketConnect-result-1.jpg)
 
 <!-- Explain the output.
 
