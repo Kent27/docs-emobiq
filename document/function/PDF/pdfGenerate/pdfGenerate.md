@@ -38,23 +38,43 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
-
-<!-- Share a scenario, like a user requirements. -->
+In this example, we will generate a PDF from HTML and return the PDF file to the user. 
 
 ### Steps
 
-Coming Soon.
+1. First we add a button component onto the canvas, and name it `btnGeneratePDFFromHTML`.
 
-<!-- Show the steps and share some screenshots.
+    ![](./pdfGenerate-step-1.png)
 
-1. .....
+2. Then we also add a label named `lblResult` which will display the PDF file once it is generated. 
+3. 
+    ![](./pdfGenerate-step-2.png)
 
-Format: ![]({image-path}?raw=true) -->
+4. We click on the `btnGeneratePDFFromHTML` button from step 1 and select "Actions". We add the `pdfGenerate` function first. We add a  `setComponentValue` to the flow, for when pdfGenerate returns `true`. 
+
+    ![](./pdfGenerate-step-3.png)
+
+5. For pdfGenerate function, open the inspector and add the following parameters: 
+
+    ![](./pdfGenerate-step-4.png)
+
+    | | |
+    | ---- | ---- | 
+    | type | html | 
+    | value | ```<html><body style="font-size:120%">This is the pdf content</body></html> ```| 
+    | result | share | 
+
+6. For setComponentValue function, set the component to the label lblResult we created in step 2. 
+
+    ![](./pdfGenerate-step-5.png)
+
 
 ### Result
 
-Coming Soon.
+When the user clicks on the button, it will generate a PDF with the text "This is the pdf content".
+
+![](./pdfGenerate-result-1.jpg)
+
 
 <!-- Explain the output.
 
