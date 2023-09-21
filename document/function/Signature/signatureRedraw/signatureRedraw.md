@@ -29,23 +29,21 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
 
-<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-Coming Soon.
+1. Add both a signature component and a button to the page. 
 
-<!-- Show the steps and share some screenshots.
+    ![](./signatureRedraw-step-1.png)
 
-1. .....
+2. Select the button component and add `signatureRedraw` to the event flow. Enter the signature component's name `Signature207` in the "component" field. 
 
-Format: ![]({image-path}?raw=true) -->
+    ![](./signatureRedraw-step-2.png)
 
 ### Result
 
-Coming Soon.
+Clicking the button will clear the signature component. 
 
 <!-- Explain the output.
 
