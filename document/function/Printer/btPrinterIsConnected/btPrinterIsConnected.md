@@ -8,11 +8,11 @@ Checks whether a printer is connected to the device.
 
 N/A
 
-## Output?
+## Output
 
 N/A
 
-## Callback?
+## Callback
 
 ### yesCallback
 
@@ -30,13 +30,23 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to check whether a printer is connected to their device.
 
 <!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-Coming Soon.
+1. Call the function `btPrinterIsConnected` in a button component. 
+
+    ![](../btPrinterIsConnected/btPrinterIsConnected-step-1.png?raw=true)
+
+2. Call the function `infoDialog` in the callbacks of the `btPrinterIsConnected` function.
+
+    ![](../btPrinterDisconnect/btPrinterDisconnect-step-2.png?raw=true)
+
+    ![](../btPrinterIsConnected/btPrinterIsConnected-step-3.png?raw=true)
+
+    ![](../btPrinterIsConnected/btPrinterIsConnected-step-4.png?raw=true)
 
 <!-- Show the steps and share some screenshots.
 
@@ -46,7 +56,7 @@ Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-Coming Soon.
+If the printer is connected to the device, the success infoDialog will appear, otherwise the error infoDialog will appear.
 
 <!-- Explain the output.
 

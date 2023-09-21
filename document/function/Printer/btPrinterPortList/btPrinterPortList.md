@@ -8,11 +8,11 @@ Returns a list of all the bluetooth printer ports.
 
 N/A
 
-## Output?
+## Output
 
 N/A
 
-## Callback?
+## Callback
 
 ### callback
 
