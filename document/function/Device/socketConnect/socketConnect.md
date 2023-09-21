@@ -48,7 +48,7 @@ The user wants to create a connection and view the socket input if it is success
 
     ![](../socketConnect/socketConnect-step-2.png?raw=true)
 
-2. Call the function `console` in the callbacks of the `socketConnect` function. Select the parameter type `input`.
+2. Call the function `console` in the callbacks of the `socketConnect` function. Select the parameter type `input` for the `value` parameter.
 
     ![](../socketConnect/socketConnect-step-3.png?raw=true)
 
