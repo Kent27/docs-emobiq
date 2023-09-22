@@ -30,31 +30,34 @@ Coming Soon.
 
 <!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
-
 ## Example
 
-
-The user want display the image by choosing it from gallery/phone storage.
+The user wants to display an image from their gallery/phone storage.
 
 ### Step
 
-1. Draw a image component "Image653", a button component "imageChooser". 
+1. Drag an image, label and button component. Rename the label component to 'Result' and the button component to 'Image Chooser'.
 
-    ![](../../../../document/function/Device/imageChooser/imageChooser-step-1.png?raw=true)
+    ![](../imageChooser/imageChooser-step-1.png?raw=true)
     
-2. In button event, add imageChooser function as below: 
+2. Call the function `imageChooser` in the button. Call the function `console` in the callbacks of the `imageChooser` function. Select the parameter type `input` for the `value` parameter.
 
-    ![](../../../../document/function/Device/imageChooser/imageChooser-step-2.png?raw=true)
+    ![](../imageChooser/imageChooser-step-2.png?raw=true)
 
-3. In callback, add a setComponentValue function by giving component as "Image653" & value as an input.
+3. In the callbacks, call the function `setComponentValue`. For the success callback, select the image component in the `component` parameter. For the error callback, select the label component in the `component` parameter. Set the `value` parameter type to `input`.
 
-    ![](../../../../document/function/Device/imageChooser/imageChooser-step-3.png?raw=true)
+    ![](../imageChooser/imageChooser-step-3.png?raw=true)
+
+    ![](../imageChooser/imageChooser-step-4.png?raw=true)
+
+    ![](../imageChooser/imageChooser-step-5.png?raw=true)
 
 ### Result
 
-The image choosen will be displayed in image component.
-![](../../../../document/function/Device/imageChooser/imageChooser-result-1.png?raw=true)
+The image chosen will be displayed in the image component if it exists. If image does not exist, the label component will show the error. 
 
+![](../imageChooser/imageChooser-result-1.jpg?raw=true)
 
+![](../imageChooser/imageChooser-result-2.jpg?raw=true)
 
 ## Links

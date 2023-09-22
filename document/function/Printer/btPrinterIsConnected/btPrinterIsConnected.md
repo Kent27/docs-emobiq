@@ -42,7 +42,7 @@ The user wants to check whether a printer is connected to their device.
 
 2. Call the function `infoDialog` in the callbacks of the `btPrinterIsConnected` function.
 
-    ![](../btPrinterDisconnect/btPrinterDisconnect-step-2.png?raw=true)
+    ![](../btPrinterIsConnected/btPrinterIsConnected-step-2.png?raw=true)
 
     ![](../btPrinterIsConnected/btPrinterIsConnected-step-3.png?raw=true)
 
