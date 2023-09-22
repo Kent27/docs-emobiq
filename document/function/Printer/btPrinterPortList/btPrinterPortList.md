@@ -30,13 +30,21 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to connect to view the list of printers available.
 
 <!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-Coming Soon.
+1. Call the function `btPrinterPortList` in a button component. 
+
+2. Call the function `setComboOptions` in the callback and `infoDialog` in the errCallback of the `btPrinterPortList` function.
+
+    ![](../btPrinterPortList/btPrinterPortList-step-1.png?raw=true)
+
+    ![](../btPrinterPortList/btPrinterPortList-step-2.png?raw=true)
+
+    ![](../btPrinterPortList/btPrinterPortList-step-3.png?raw=true)
 
 <!-- Show the steps and share some screenshots.
 
@@ -46,7 +54,11 @@ Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-Coming Soon.
+1. Press the Generate Printer List button. 
+    
+2. If the printer list is generated, the printers will be shown in the combobox. If the printer list is not generated, the error dialog will appear.
+
+    ![](../btPrinterPortList/btPrinterPortList-result-1.jpg?raw=true)
 
 <!-- Explain the output.
 
