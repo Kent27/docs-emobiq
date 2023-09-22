@@ -35,26 +35,23 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
 
-<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-Coming Soon.
+1. First ensure that you have established a socket connection. See `socketConnect`.
 
-<!-- Show the steps and share some screenshots.
+    ![](./socketSend-step-1.png)
 
-1. .....
+2. Enter the details of data to be sent
 
-Format: ![]({image-path}?raw=true) -->
+
+    ![](./socketSend-step-2.png)
+
+
 
 ### Result
 
-Coming Soon.
-
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
+You can specify a function to be called when successful, and another one to be called if it is unsuccessful. See `Callback`. 
 
 ## Links
