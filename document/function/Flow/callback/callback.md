@@ -33,26 +33,15 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
-
-<!-- Share a scenario, like a user requirements. -->
-
 ### Steps
 
-Coming Soon.
+1. First we add the `callback` function with "value" of the `console` function. Then we add the value we wish to pass to the console function, which in this case is the string "This is a callback".
 
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
+    ![](./callback-step-1.png)
+    ![](./callback-step-2.png)
 
 ### Result
 
-Coming Soon.
-
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
+![](./callback-result-1.png)
 
 ## Links
