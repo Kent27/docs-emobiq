@@ -36,18 +36,33 @@ Coming Soon.
 
 ### Steps
 
-Coming Soon.
+1. First we will create an existing array with the `setVar` function. 
+    
+    For "var" we will use the name `sampleArr`. 
 
-<!-- Show the steps and share some screenshots.
+    For "value", we will use the `toObject` function to pass the name and email values.
 
-1. .....
+    ![](./pushObject-step-1.png)
 
-Format: ![]({image-path}?raw=true) -->
+2. Next, we will use the `pushObject` function to add an object to our existing `sampleArr` created in step 1. 
+
+    | Field | Value | 
+    | ---- | ---- | 
+    | var | sampleArr | 
+    | key | gender | 
+    | value | M | 
+
+    ![](./pushObject-step-2.png)
+
+3. Finally, we use the `console` function to verify the contents of our new `sampleArr` array. 
+
+    ![](./pushObject-step-3.png)
 
 ### Result
 
-Coming Soon.
+We should expect to see this in the console. 
 
+![](./pushObject-result-1.png)
 <!-- Explain the output.
 
 Format: ![]({image-path}?raw=true) -->
