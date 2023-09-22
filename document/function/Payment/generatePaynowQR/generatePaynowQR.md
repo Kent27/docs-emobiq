@@ -47,26 +47,31 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
-
-<!-- Share a scenario, like a user requirements. -->
-
 ### Steps
 
-Coming Soon.
+1. First we add 2 components to the page: 
+   1. A button to generate the QR code
+   2. `imgQR`, an image placeholder for the QR code once generated.
 
-<!-- Show the steps and share some screenshots.
+    ![](./generatePaynowQR-step-1.png)
 
-1. .....
+2. Select the "Generate QR Local" button and add these 2 functions to the event flow:
 
-Format: ![]({image-path}?raw=true) -->
+    ![](./generatePaynowQR-step-2.png)
+
+3. Specify the parameters for the QR code. 
+
+
+4. For the `setComponentFunction`, we set the "component" value to "imgQR", the image placeholder created in step 1. 
+
+    ![](./generatePaynowQR-step-4.png)
+
+    For 'value', we add a subflow with the function "objectAttr" like so: 
+
+    ![](./generatePaynowQR-step-5.png)
 
 ### Result
 
-Coming Soon.
-
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
+![](./generatePaynowQR-result-1.gif)
 
 ## Links
