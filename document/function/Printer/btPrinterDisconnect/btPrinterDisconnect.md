@@ -60,6 +60,14 @@ Format: ![]({image-path}?raw=true) -->
 
 If the printer is idle longer than the timeout duration passed, the printer will be disconnected and the success infoDialog will appear. If the printer is not disconnected successfully, the error infoDialog will appear.
 
+1. Select the printer to disconnect from the combobox. 
+    
+    ![](../btPrinterConnect/btPrinterConnect-result-1.jpg)
+
+2. Press the Disconnect button. If the printer is disconnected successfully, the success infoDialog will appear. If the printer is not disconnected successfully, the error dialog will appear.
+
+    ![](../btPrinterConnect/btPrinterConnect-result-2.jpg)
+
 <!-- Explain the output.
 
 Format: ![]({image-path}?raw=true) -->

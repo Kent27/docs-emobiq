@@ -65,7 +65,13 @@ Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-If the printer is connected to the device successfully, it will show in the combobox and the success infoDialog will appear. If the printer is not connected successfully, it will not show in the combobox and the error dialog will appear.
+1. Select the printer to connect to from the combobox. 
+    
+    ![](../btPrinterConnect/btPrinterConnect-result-1.jpg?raw=true)
+
+2. Press the Connect button. If the printer is connected to the device successfully, the success infoDialog will appear. If the printer is not connected successfully, the error dialog will appear.
+
+    ![](../btPrinterConnect/btPrinterConnect-result-2.jpg?raw=true)
 
 <!-- Explain the output.
 

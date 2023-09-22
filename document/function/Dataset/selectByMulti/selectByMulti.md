@@ -8,10 +8,10 @@ Retrieves the specified records from multiple fields in a dataset.
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| dataset | The name of the local table to remove the records from. | String/Text | - | - | Yes |
-| first? | ? | String/Text | - | - | No |
-| filter | The filters for the field and value to remove. | Array/List | - | - | Yes |
-| orFilter | Additional filters for the field and value to remove. | Array/List | - | - | No |
+| dataset | The name of the local table to select the records from. | String/Text | - | - | Yes |
+| first |  | String/Text | - | - | No |
+| filter | The filters for the field and value to select. | Array/List | - | - | Yes |
+| orFilter | Additional filters for the field and value to select. | Array/List | - | - | No |
 | extra | Extra parameters stored and passed to callback. | Any | - | - | No |
 
 ## Output
