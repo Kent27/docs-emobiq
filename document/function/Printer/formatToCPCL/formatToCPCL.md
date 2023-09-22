@@ -8,7 +8,7 @@ Formats a text to CPCL printer language.
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| text | The text to print. | String/Text? | - | - | Yes |
+| text | The text to print. | String/Text | - | - | Yes |
 
 ## Output
 

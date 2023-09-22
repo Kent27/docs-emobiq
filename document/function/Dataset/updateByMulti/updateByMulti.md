@@ -9,7 +9,7 @@ Updates records from multiple fields in a dataset.
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
 | dataset | The name of the local table to update the records from. | String/Text | - | - | Yes |
-| first? | ? | String/Text | - | - | No |
+| first |  | String/Text | - | - | No |
 | filter | The filters for the field and value to update. | Array/List | - | - | Yes |
 | orFilter | Additional filters for the field and value to update. | Array/List | - | - | No |
 | data | The data to update the records with. | Object | - | - | Yes |
@@ -21,7 +21,7 @@ Updates records from multiple fields in a dataset.
 | ------ | ------ |
 | Returns the updated list of records from the local table. | Array/List |
 
-## Callback?
+## Callback
 
 ### callback
 
