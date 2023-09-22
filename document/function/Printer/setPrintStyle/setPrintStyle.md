@@ -36,13 +36,19 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to format the text to print and view the format generated in the console.
 
 <!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-Coming Soon.
+1. Call the function `console` in a button component. Call the function `setPrintStyle` inside the `value` parameter of the `console` function.
+
+    ![](../setPrintStyle/setPrintStyle-step-1.png)
+
+2. Fill in the parameters of the `setPrintStyle` function.
+
+    ![](../setPrintStyle/setPrintStyle-step-2.png)
 
 <!-- Show the steps and share some screenshots.
 
@@ -52,7 +58,7 @@ Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-Coming Soon.
+![](../setPrintStyle/setPrintStyle-result-1.png)
 
 <!-- Explain the output.
 
