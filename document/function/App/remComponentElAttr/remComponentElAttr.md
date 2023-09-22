@@ -44,6 +44,8 @@ Coming Soon.
 
 
     ![](./remComponentElAttr-step-2.png)
+
+
 <!-- Show the steps and share some screenshots.
 
 1. .....
@@ -53,6 +55,7 @@ Format: ![]({image-path}?raw=true) -->
 ### Result
 
 Label991 will be shown, since the "hidden" attribute is removed. 
+
 <!-- Explain the output.
 
 Format: ![]({image-path}?raw=true) -->
