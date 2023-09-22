@@ -38,13 +38,23 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
 
 <!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-Coming Soon.
+1. Drag the `selectByMulti` function into the event flow.
+    
+    ![](./selectByMulti-step-1.png)
+
+2. Specify the "dataset" to select from, which in our example will be "l_data". 
+
+    ![](./selectByMulti-step-2.png)
+
+3. Under the "filter" field, use `toArray` then  `toObject` to specify the fields to filter on. 
+
+    ![](./selectByMulti-step-3.png)
+
 
 <!-- Show the steps and share some screenshots.
 
@@ -54,8 +64,9 @@ Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-Coming Soon.
+Returns the record where _id=3 and name=John
 
+![](./selectByMulti-result-1.png)
 <!-- Explain the output.
 
 Format: ![]({image-path}?raw=true) -->
