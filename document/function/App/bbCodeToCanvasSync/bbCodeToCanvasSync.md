@@ -55,13 +55,21 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+The user wants to generate a canvas and convert it to CPCL printing language to print it.
 
 <!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-Coming Soon.
+1. Set the data to be printed using the `setVar` function. In this example, we use the `forLoop` and store the result in the variable set.
+
+    ![](../bbCodeToCanvasSync/bbCodeToCanvasSync-step-1.png)
+
+2. Call the function `bbCodeToCanvasSync` and call the function `getVar` in the `text` parameter of the function to generate a canvas using the stored value.
+
+2. Call the function `btPrinterPrint` in the callback of the `bbCodeToCanvasSync`. Call the function `canvasToCPCL` in the `text` parameter of the `btPrinterPrint` function to convert the canvas to CPCL printing language before printing.
+
+    ![](../bbCodeToCanvasSync/bbCodeToCanvasSync-step-2.png?raw=true)
 
 <!-- Show the steps and share some screenshots.
 
@@ -70,8 +78,8 @@ Coming Soon.
 Format: ![]({image-path}?raw=true) -->
 
 ### Result
-
-Coming Soon.
+    
+1. The canvas generated will be printed.
 
 <!-- Explain the output.
 

@@ -31,7 +31,7 @@ Coming Soon.
 
 ### Steps
 
-1. In this example, we will connect to a bluetooth printer, use `canvasToCPL` to convert a canvas to CPCL which will be sent to the printer for printing.
+1. In this example, we will connect to a bluetooth printer, use `canvasToCPCL` to convert a canvas to CPCL which will be sent to the printer for printing.
 
     ![](./canvasToCPCL-step-1.png)
 
