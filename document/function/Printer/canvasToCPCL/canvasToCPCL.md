@@ -2,7 +2,7 @@
 
 ## Description
 
-Converts a canvas to CPCL printer language.
+Converts a canvas to CPCL (Comtec Printer Control Language), a programming language used by printers.
 
 ## Input / Parameter
 
@@ -29,26 +29,35 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
-
-<!-- Share a scenario, like a user requirements. -->
-
 ### Steps
 
-Coming Soon.
+1. In this example, we will connect to a bluetooth printer, use `canvasToCPL` to convert a canvas to CPCL which will be sent to the printer for printing.
 
-<!-- Show the steps and share some screenshots.
+    ![](./canvasToCPCL-step-1.png)
 
-1. .....
+2. For `btPrinterConnect`, enter the `printerId` of the bluetooth printer.
 
-Format: ![]({image-path}?raw=true) -->
+3. For `canvasGenerateFrom`, enter the details of the image or PDF to be converted to canvas. In this example we are using a base64 string of an image. 
+
+    | Field | Value | 
+    | ---- | ---- | 
+    | type | base64 |
+    | value | *(base64-encoded string of your image)* |
+    | fileType | image | 
+
+    ![](./canvasToCPCL-step-2.png)
+
+4. For `btPrinterPrint`, under the "text" field, add a function `canvasToCPCL` to convert the canvas format into CPCL (a language used by thermal printers).
+
+    ![](./canvasToCPCL-step-3.png)
+
 
 ### Result
 
-Coming Soon.
+Image will be printed by the connected bluetooth printer. 
 
-<!-- Explain the output.
+![](./canvasToCPCL-result-1.jpg)
 
-Format: ![]({image-path}?raw=true) -->
+
 
 ## Links
