@@ -36,8 +36,14 @@ Coming Soon.
 
 ### Steps
 
-Coming Soon.
+1. Add a button to the page, and add the `remComponentElAttr` to the event flow. 
 
+    ![](./remComponentElAttr-step-1.png)
+
+2. Specify the component and element attribute to remove. 
+
+
+    ![](./remComponentElAttr-step-2.png)
 <!-- Show the steps and share some screenshots.
 
 1. .....
@@ -46,8 +52,7 @@ Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-Coming Soon.
-
+Label991 will be shown, since the "hidden" attribute is removed. 
 <!-- Explain the output.
 
 Format: ![]({image-path}?raw=true) -->
