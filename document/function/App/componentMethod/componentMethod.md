@@ -33,28 +33,25 @@ Coming Soon.
 
 ## Example
 
-The user wants delete a row the data inside the local table. 
+The user wants delete a row of data inside a local table. 
 
 ### Step
-1. Make sure local table is added to Services, and consist of some data.
+1. Make sure a local table is added to Services, and consists of some data.
  
-     ![](../../../../document/function/App/componentMethod/componentMethod-Step-1.png?raw=true)
+     ![](./componentMethod-Step-1.png?raw=true)
 
-2. Call Function "ComponentMethod"
+2. Call the function "ComponentMethod", and enter the parameters. In this example, we are using the `deleteBy` function, which we would enter in the "method" field.
  
-     ![](../../../../document/function/App/componentMethod/componentMethod-Step-2.png?raw=true)
+     ![](./componentMethod-Step-2.png?raw=true)
      
-3. fill up the function
+     For arguments, we are passing the values "_id" and "2" into "toArray" and back to "componentMethod".
 
-     ![](../../../../document/function/App/componentMethod/componentMethod-Step-3.png?raw=true)
+     ![](./componentMethod-Step-3.png?raw=true)
      
-4. run the function and result is the row with ID : ABC123 is deleted 
+3. This will select the row where "_id" is equals to "2" in the "l_data" local table, and delete it. 
+  ### Result
 
-![](../../../../document/function/App/componentMethod/componentMethod-Step-4.png?raw=true)
-### Result
-
-Coming Soon.
-
+The specified row will be removed from the local table. 
 <!-- Explain the output.
 
 Format: ![]({image-path}?raw=true) -->
