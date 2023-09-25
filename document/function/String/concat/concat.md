@@ -1,47 +1,40 @@
-# Concat
+# concat
 
-### Description
+## Description
 
-Concatenate, group or joining two or more expressions together into a single string.
+Combining separate pieces of text or characters to create a larger, unified text or string.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| string1 | The first value to combine. | String/Text | - | - | No |
+| string2 | The second value to combine. | String/Text | - | - | No |
+| string3 | The third value to combine. | String/Text | - | - | No |
+| string4 | The fourth value to combine. | String/Text | - | - | No |
+| string5 | The fifth value to combine. | String/Text | - | - | No |
+| string6 | The sixth value to combine. | String/Text | - | - | No |
+| string7 | The seventh value to combine. | String/Text | - | - | No |
+| string8 | The eight value to combine. | String/Text | - | - | No |
+| string9 | The ninth value to combine. | String/Text | - | - | No |
+| string10 | The tenth value to combine. | String/Text | - | - | No |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | string1 | Characters, words and number. | String | No __*__ |
-| 2 | string2 | Characters, words and number. | String | No __*__ |
-| 3 | string3 | Characters, words and number. | String | No __*__ |
-| 4 | string4 | Characters, words and number. | String | No __*__ |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the concatenated/unified text or string. | String/Text |
 
-__\* Note:__  At least two fields must have value in order for this function to work.
+## Callback
 
-### Scenario / Use Case
+N/A
 
-The user wants to concatenate the Address, Postal Code and City.</br>
+## Video
 
-### Step
+## Example
 
-1. Call the function 'concat' in the console.<br>
-    string1  : Address<br />
-    string2  : PostalCode<br />
-    string3  : City<br />
+| Screenshot | Expected results | 
+| ---- | ---- | 
+| ![](concat-step-1.png)  | `The quick brown fox jumped over the lazy dog again.` | 
 
-   ![](../../../../document/function/String/concat/concat-step-1.png?raw=true)
-
-### Result
-
-"AddressPostalCodeCity"
-
-### Video
-
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

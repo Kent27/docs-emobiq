@@ -1,41 +1,46 @@
-# Length
+# length
 
-### Description
+## Description
 
-Count the number of characters in the string.
+Count the total number of characters in the text.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| string | The value to be counted. | String/Text | - | - | Yes |
+| byLanguageFormat | To follow the language format. Usually this matters for languages that doesn't use alphabet. | Boolean | false | - | No |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | string| Characters, number and words. | String | Yes  |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the total number of the characters. | Number |
 
-### Scenario / Use Case
+## Callback
 
-The user wants get the count of characters in a string. </br>
+N/A
+
+## Video
+
+Coming soon.
+
+## Example
+
+The user wants to get the total number of characters in a string. </br>
 
 ### Step
 
-1. Call the function.
+1. Call the function `console`. Call the function `length` inside the `value` parameter of the `console` function.
     </br>
-    string: AAAAAA<br />
+    string: ABCDEF <br />
     
-   ![](../../../../document/function/String/length/length-step-1.png?raw=true)
+   ![](../length/length-step-1.png?raw=true)
+
+   ![](../length/length-step-2.png?raw=true)
 
 ### Result
 
-The user gets the length of the string = 6.
+The console returns '6', which is the length of the string.
 
-### Video
-
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

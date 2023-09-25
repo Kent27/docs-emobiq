@@ -1,37 +1,96 @@
 # Function Name
 
--
+## Description
 
-### Description	
+Explains the function. What it does and what is it used for?
 
-Explain the function.
-
-### Flowchart	
-
-Diagram of what the function.
-
-### Input / Parameters	
+## Input / Parameter
 
 Display and explain the values passed to the function in a table form.
 
-### Scenario / Use Case
+Example below:
 
-Explain the case study.
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| component | The name of the component. | String/Text | - | - | Partial (Yes if no 'componentId'.) |
+| componentId | The id of the component. | String/Text | - | - | Partial (Yes if no 'component'.) |
+| text | The text with a specific format to be drawn in the canvas. See Text Format after this table. | String/Text | - | - | No |
+| font | The name of the font to be used. | String/Text | monospace | monospace, ocrb | No | 
+| canvasWidth | The width of the canvas. | Number | 576 | - | No | 
 
-### Step
+Text Format
 
-Steps to use the function in number format.
-Include screenshots.
+- Bold: ```[b]```The text to apply bold.```[/b]```
+- Italic: ```[i]```The text to apply italic.```[/i]```
+- Image: ```[img x={number} y={number} width={number} height={number}]```The image to be rendered, a base64 or url.```[/img]```
+- Font: ```[font={monospace|ocrb}]```The text to apply the font.```[/font]```
+- Size: ```[size={number}]```The text to apply the size.```[/size]```
+- Linespace: ```[linespace={number}]```The text to apply the linespace.```[/linespace]```
+- Alignment: ```[alignment={left|right}]```The text to apply the alignment, where it will start.```[/alignment]```
+- Underline: ```[u]```The text to apply underline.```[/u]```
+- Strikethrough: ```[s]```The text to apply strikethrough.```[/s]```
+
+## Output
+
+Display and explain the output of the function.
+
+Example below:
+
+| Description | Output Type |
+| ------ | ------ |
+| Returns the base64 value. | Object |
+
+### Object
+
+| Key | Description | Output Type |
+| ------ | ------ | ------ |
+| filePath | The base64 value. | String/Text |
+
+## Callback
+
+Display and explain the callbacks available for the function.
+
+Example below:
+
+### successCallback
+
+Explain what this callback is for?
+<!-- A successCallback is executed when a function runs successfully. It takes the result returned by the function as its parameter. ? -->
+
+| Description | Output Type |
+| ------ | ------ |
+| Returns the base64 value. | Object |
+
+#### Object
+
+| Key | Description | Output Type |
+| ------ | ------ | ------ |
+| filePath | The base64 value. | String/Text |
+
+## Video
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Share a scenario, like a user requirements.
+
+### Steps
+
+Show the steps and share some screenshots.
+
+1. .....
+
+<!-- Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-Screenshot the final result in the phone/emulator.
+Explain the output.
 
+<!-- Format: ![]({image-path}?raw=true) -->
 
-### Video
+## Links
 
-Video Link.
+Additional information through links.
 
-### Notes
-
-Extra stuff / usage suggestion.
+- [E-Learing]({url-link})

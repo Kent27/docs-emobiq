@@ -1,44 +1,60 @@
-# Copy
+# copy
 
-### Description
+## Description
 
-This function is to copy file/folder to another path
+Copy a file/folder to another path.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Data Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| storage | The size of the file. | Number | - | - | Yes |
+| folderPath | The path to store the file. | String/Text | - | - | Yes | 
+| fileName | The name of the file. | String/Text | - | - | Yes | 
+| copyFile | The path to copy the file from. | String/Text | - | - | Yes | 
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | Storage | Size of the file  | Number  | Yes  |
-| 2 | folderPath | Path to store the file | String | Yes  |
-| 3 | fileName |  Name of the file | String | Yes  |
-| 4 | copyFile | Path of the file | String | Yes  |
+N/A
 
-### Scenario / Use Case
+## Callback?
 
-The user wants to copy a file.
-<br>
+### callback
 
-### Step
+The function to be executed when the file is copied successfully.
 
-1. Call the function.
+### errorCallback
 
-    ![](../../../../document/function/File/Copy/copy-step-1.png?raw=true)
-    
-    ![](../../../../document/function/File/Copy/copy-step-2.png?raw=true)
-    
+The function to be executed when the file is not copied successfully.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

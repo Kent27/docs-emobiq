@@ -1,41 +1,51 @@
-# Open Link
-### Description
+# openLink
 
-To open a link on mobile web browser
+## Description
 
-### Flowchart
+Opens a link in a new tab in a mobile web browser.
 
-- N/A
+## Input / Parameter
 
-### Input / Parameters
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| link | The link to be opened. | String/Text | - | - | Yes |
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | Link | add the link | String | yes |
+## Output
 
+N/A
 
-### Scenario / Use Case
+## Callback
 
-user wants to open a link in mobile web browser 
+N/A
 
-### Step
+## Video
 
-1. Call Function "openLink"
+Coming Soon.
 
-     ![](../../../../document/function/App/openlink/openLink-Step-1.png?raw=true)
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
-2. Fill up the input parameter
+## Example
 
-	![](../../../../document/function/App/openlink/openLink-Step-2.png?raw=true)
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-a link will be open in the mobile browser 
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

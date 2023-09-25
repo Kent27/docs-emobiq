@@ -1,42 +1,53 @@
-# Avg
+# avg
 
-### Description
+## Description
 
-Get the average value of an array.
+Get the average value of all the elemnents in an array. An array can be created using the toArray function.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| values | An array of values. | Array/List | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | values | Array | Array | Yes  |
-| 2 | value1-10 | Number | Integer | No __*__  |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the average value of the elements in the array. | Number |
 
-* Note: At least two fields must have value in order for this function to work.
+## Callback
 
-### Scenario / Use Case
+N/A
 
-The user wants to get the average value.
+## Video
 
-### Step
+Coming Soon.
 
-1. Call the function.
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
-    ![](../../../../document/function/Array/avg/avg-step-1.png?raw=true)
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-10
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

@@ -1,47 +1,58 @@
 # componentValue
 
-### Description
+## Description
 
-Get the value of the component.
+Returns the value of the component specified by the user. The component value can be displayed in another component using the [`setComponentValue`](./setComponentValue) function.
 
-### Flowchart
+## Input / Parameter
 
-![Flowchart](../../../../document/function/App/componentValue/componentValue-flowchart-1.png?raw=true)
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| component | The name of the component that the value is retrieved from. | String/Text | - | - | Partial (Yes if no 'componentId'.) |
+| componentId | The id of the component that the value is retrieved from. | String/Text | - | - | Partial (Yes if no 'component'.) |
 
-### Input / Parameters
+__\* Note:__ Either component or componentId must have value in order for this function to work.
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | component | The name of the component. | String | No __*__ | 
-| 2 | componentId | The id of the component | String | No __*__ |
-| 2 | value | The value | String | Yes |
+## Output
 
-__\* Note:__ Either No 1 or No 2 must have value in order for this function to work.
+| Description | Output Type |
+| ------ | ------ |
+| Returns the value of the component specified. | String/Text |
 
-### Scenario / Use Case
+## Callback
 
-The user wants to get the value from a text box component and display it in a label.
+N/A
 
-### Step
+## Video
 
-1. Drag and drop the following components: an edit text "txtName", a label "lblValue" and a button "btnGetValue" in a page.
 
-    ![](../../../../document/function/App/componentValue/componentValue-step-1.png?raw=true)
+## Example
 
-2. In the button 'click' event call the "setComponentValue" function and in the value parameter call "componentValue" function.
+In this example we will get the component value of an input field using `componentValue` and print it to the console. 
 
-    ![](../../../../document/function/App/componentValue/componentValue-step-2.png?raw=true)
+
+### Steps
+
+1. First we drag an input box onto the page. We will name it "InputBox" with the value "This is an input field"
+
+![](componentValue-step-1.png)
+
+2. We want to get the value of "InputBox" and display it in the browser console with the help of the `console` helper function. 
+   
+3. Drag `componentValue` into the event flow, and specify the name of the component, which in this case is "InputBox".
+
+![](componentValue-step-2.png)
+
 
 ### Result
 
-The value in edit text will be display in the caption of the label.
+- The value of "InputBox" will be displayed in the browser console.
 
-![](../../../../document/function/App/componentValue/componentValue-result-1.png?raw=true)
+![](componentValue-step-3.png)
 
-### Video
 
-[![Video](../../../../document/function/App/componentValue/componentValue-video-1.png?raw=true)](https://www.youtube.com/watch?v=yZepFLILR4E)
+## Links
 
-### Notes
+See also: 
 
-- N/A
+* [`setComponentValue`](./setComponentValue)

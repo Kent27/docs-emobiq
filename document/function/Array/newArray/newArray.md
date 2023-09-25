@@ -1,20 +1,32 @@
 ﻿# newArray
 
-### Description
+## Description
 
-Create a new array.
+Creates an empty array.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| var | The name of the new array. | String/Text | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | var | The name of the variable. | String | Yes |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the new empty array. | Array/List |
 
-### Scenario / Use Case
+## Callback
+
+N/A
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
 
 The user wants to create a new array.
 
@@ -23,11 +35,16 @@ The user wants to create a new array.
 1. Call the function"newArray" and set the         variable name.<br>
    var: listOfFruits<br />
     
-    ![](../../../../document/function/Array/newArray/newArray-step-1.png?raw=true)
+    ![](./newArray-step-1.png?raw=true)
+    
+    ![](./newArray-step-2.png?raw=true)
     
 2. Add a console and call the function "getVar"
 
-    ![](../../../../document/function/Array/newArray/newArray-step-2.png?raw=true)
+    ![](./newArray-step-3.png?raw=true)
+    
+    ![](./newArray-step-4.png?raw=true)
+  
     
 ### Result
 
@@ -35,12 +52,4 @@ User create a new array successfully.<br>
 
 ![](../../../../document/function/Array/newArray/newArray-result-1.png?raw=true)
 
-### Video
-
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

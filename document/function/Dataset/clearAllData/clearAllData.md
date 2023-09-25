@@ -1,44 +1,54 @@
 ﻿# clearAllData
 
-### Description
+## Description
 
-Delete all the dataset in local table.
+Removes all the local tables in a project, excluding the datasets specified.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| except | The datasets that should not be removed. | String/Text | - | - | No |
 
-### Input / Parameters
+## Output
 
-- N/A
+N/A
 
-### Scenario / Use Case
+## Callback
+
+N/A
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+
+## Example
+
 
 The user wants to delete all the dataset in a project.
 
 ### Step
 
 1. Call the function.
-   <br>
    
-   ![](../../../../document/function/Dataset/clearAllData/clearAllData-step-1.png?raw=true)
+   ![](./clearAllData-step-1.png?raw=true)
    
 ### Result
 
-![](../../../../document/function/Dataset/clearAllData/clearAllData-result-1.png?raw=true)
-( Before call the function "clearAllData" there have Lcustomer and l_cart in this project.)
+![](./clearAllData-result-1.png?raw=true)
 
-![](../../../../document/function/Dataset/clearAllData/clearAllData-result-2.png?raw=true)
+Before calling the function `clearAllData`, the
+L_customer and l_cart both exist as local tables.
 
-![](../../../../document/function/Dataset/clearAllData/clearAllData-result-3.png?raw=true)
-( After call the function "clearAllData" the two table have been removed.)
+![](./clearAllData-result-2.png?raw=true)
 
-### Video
+![](./clearAllData-result-3.png?raw=true)
 
-- N/A
+After calling the `clearAllData`, both tables have been removed.
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
 
-### Notes
 
-- N/A
+## Links

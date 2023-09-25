@@ -1,49 +1,63 @@
 # imageChooser
 
-### Description
+## Description
 
-Select image from phone storage.
+Selects an image from user's phone storage.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| multiple | The image(s) to choose. | Array/List | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required | Example |
-| ------ | ------ | ------ |------ | ------ | ------ |
-| 1 | quality | Quality of the saved image, expressed as a range of 0-100, where 100 is typically full resolution with no loss from file compression. | Integer | Yes | 50
-| 2 | height | Height in pixels to scale image. Must be used with width. Aspect ratio remains constant. | Integer | No |
-| 3 | width | Width in pixels to scale image. Must be used with height. Aspect ratio remains constant. | Integer | No |
+N/A
 
-### Scenario / Use Case
+## Callback
 
-The user want display the image by choosing it from gallery/phone storage.
+### callback
+
+The setComponentValue function will be executed to show the image chosen in the image component if it exists.
+
+### errorCallback
+
+The function to be executed if the image component does not exist.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+The user wants to display an image from their gallery/phone storage.
 
 ### Step
 
-1. Draw a image component "Image653", a button component "imageChooser". 
+1. Drag an image, label and button component. Rename the label component to 'Result' and the button component to 'Image Chooser'.
 
-    ![](../../../../document/function/Device/imageChooser/imageChooser-step-1.png?raw=true)
+    ![](../imageChooser/imageChooser-step-1.png?raw=true)
     
-2. In button event, add imageChooser function as below: 
+2. Call the function `imageChooser` in the button. Call the function `console` in the callbacks of the `imageChooser` function. Select the parameter type `input` for the `value` parameter.
 
-    ![](../../../../document/function/Device/imageChooser/imageChooser-step-2.png?raw=true)
+    ![](../imageChooser/imageChooser-step-2.png?raw=true)
 
-3. In callback, add a setComponentValue function by giving component as "Image653" & value as an input.
+3. In the callbacks, call the function `setComponentValue`. For the success callback, select the image component in the `component` parameter. For the error callback, select the label component in the `component` parameter. Set the `value` parameter type to `input`.
 
-    ![](../../../../document/function/Device/imageChooser/imageChooser-step-3.png?raw=true)
+    ![](../imageChooser/imageChooser-step-3.png?raw=true)
+
+    ![](../imageChooser/imageChooser-step-4.png?raw=true)
+
+    ![](../imageChooser/imageChooser-step-5.png?raw=true)
 
 ### Result
 
-The image choosen will be displayed in image component.
-![](../../../../document/function/Device/imageChooser/imageChooser-result-1.png?raw=true)
+The image chosen will be displayed in the image component if it exists. If image does not exist, the label component will show the error. 
 
-### Video
+![](../imageChooser/imageChooser-result-1.jpg?raw=true)
 
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+![](../imageChooser/imageChooser-result-2.jpg?raw=true)
 
-### Notes
-
-- N/A
+## Links

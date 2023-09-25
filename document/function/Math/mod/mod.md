@@ -1,43 +1,54 @@
-# Mod
+# mod
 
-### Description
+## Description
 
-Get the remainder of two numbers after division.
+Get the remainder of two numbers after dividing them.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| value1 | The dividend, or the number to be divided. | Number | - | - | Yes |
+| value2 | The divisor, or the number to divide the first value by. | Number | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | value1 | Dividend | Integer | Yes  |
-| 2 | value2 | Divisor | Integer | Yes  |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the remainder of the two values. | Number |
 
-### Scenario / Use Case
+## Callback
 
-The user wants to get the remainder value of the division.<br />
+N/A
 
-### Step
+## Video
 
-1. Call the function.<br>
-    value1: 80<br />
-    value2: 15<br />
-    
-    ![](../../../../document/function/Math/mod/mod-step-1.png?raw=true)
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-The remainder of the division = 5
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-
-### Notes
-
-- N/A
+## Links

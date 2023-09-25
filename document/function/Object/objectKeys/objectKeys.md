@@ -1,49 +1,39 @@
 ﻿# objectKeys
 
-### Description
+## Description
 
-Creates an array of the keys available from the object.
+Given an object of key-value pairs, the `objectKeys` function will return an array of the keys.
 
-### Flowchart
+## Input / Parameter
+    
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| object | Object with key-value pairs | Object | - | - | Yes |
 
-- N/A 
+## Output   
 
-### Input / Parameters
+| Description | Output Type |
+| ------ | ------ |
+| Returns a list of all keys in the object | Array/List |
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | object | The name of the function. | Object | Yes  |
-| 2 | tel | The name of the object. | String | No |
-| 3 | age | The name of the object. | Integer | No |
+## Callback
 
-### Scenario / Use Case
+N/A
 
-The user wants to create an array which returns the keys from the object.
-</br>
-object : toObject<br />
-tel : 222222<br />
-age : 34<br />
+## Video
 
-### Step
+Coming Soon.
 
-1. Call the function.
+## Example
 
-    ![](../../../../document/function/Object/objectKeys/objectKeys-step-1.png?raw=true)
+![](objectKeys-step-1.png)
 
-2. Set the key value.
+Given the above object, `objectKeys` function will return this list:
 
-    ![](../../../../document/function/Object/objectKeys/objectKeys-step-2.png?raw=true)
+```JS
+["name", "email", "age", "tel"]
+```
 
-### Result
+## Links
 
-![](../../../../document/function/Object/objectKeys/objectKeys-result-1.png?raw=true)
-
-### Video
-
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+* See also `objectValues` and `objectAttr`

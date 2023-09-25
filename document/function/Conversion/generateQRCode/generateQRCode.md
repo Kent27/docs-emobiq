@@ -1,57 +1,67 @@
 # generateQRCode
 
-### Description
+## Description
 
-Create a trademark for a type of matrix barcode. 
+Creates an image for a type of matrix barcode (QR Code).
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| type | Not currently in use by the function. | String/Text | - | - | No |
+| value | The value to be attached to the QR code. | String/Text | - | - | Yes |
+| logo | An image base64 or URL of an image to be appended to the QR Code. | String/Text | - | - | No |
+| extra | The value to be included to the 'callback' as a system value under 'extra'. | Any | - | - | No |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required | Example |
-| ------ | ------ | ------ |------ | ------ | ------ |
-| 1 | type | Type of QR Code |  | Yes  | <href><http://www.qrcode.com/en/codes/>"
-| 2 | value | Value for QR Code |  | Yes  |
-| 3 | imageSize | Size of image | Number | Yes  |
-| 4 | method | Method |  | Yes  |
-| 5 | local | If the value is true, it will generate the code from mobile and otherwise it will generate from internet. | Boolean | No |
-| 6 | extra |  |  | No | 
+N/A
 
-### Scenario / Use Case
+## Callback
 
-The user wants to generate a QR Code.
+### callback
 
-### Step
+It is executed after the function completeled generating the matrix barcode (QR Code).
 
-1. Call the function.
-   <br>
-   type : qr <br />
-   value : ABCD <br />
-   imageSize : 200 <br />
-   method : post <br />
+| Description | Output Type |
+| ------ | ------ |
+| Returns the image base64 value. | String/Text |
 
-   ![](../../../../document/function/Conversion/generateQRcode/generateQRcode-step-1.png?raw=true)
-   
-   ![](../../../../document/function/Conversion/generateQRcode/generateQRcode-step-2.png?raw=true)
-   
-2. Add a console for display the response from console.
-    
-   ![](../../../../document/function/Conversion/generateQRcode/generateQRcode-step-3.png?raw=true)
- 
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+### Steps
+
+1. First we add 2 components to the page: 
+   1. A button to generate the QR code
+   2. `imgQR`, an image placeholder for the QR code once generated.
+
+    ![](./generateQRCode-step-1.png)
+
+2. Select the "Generate QR Local" button and add these 2 functions to the event flow:
+
+    ![](./generateQRCode-step-2.png)
+
+3. For `generateQRCode` function, the parameters are: 
+
+    ![](./generateQRCode-step-3.png)
+
+4. For the `setComponentFunction`, we set the "component" value to "imgQR", the image placeholder created in step 1. 
+
+    ![](./generateQRCode-step-4.png)
+
+    For 'value', we add a subflow with the function "objectAttr" like so: 
+
+    ![](./generateQRCode-step-5.png)
+
+
 ### Result
-    
-![](../../../../document/function/Conversion/generateQRcode/generateQRcode-result-1.png?raw=true)
-   
-![](../../../../document/function/Conversion/generateQRcode/generateQRcode-result-2.png?raw=true)
-   
-### Video
 
-- N/A
+![](./generateQRCode-result-1.gif)
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

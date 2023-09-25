@@ -1,48 +1,62 @@
-# Download
+# download
 
-### Description
+## Description
 
-This function is to download file from another sources.
+Download a file from another source.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Data Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| storage | The size of the file. | Number | - | - | Yes |
+| folderPath | The path to store the file. | String/Text | - | - | Yes | 
+| fileName | The name of the file. | String/Text | - | - | Yes | 
+| url | The url of the file. | String/Text | - | - | Yes | 
+| headers | The HTTP headers required to download the file. | String/Text | - | - | No | 
+| extra | Additional data to be used in the callbacks. | Any | - | - | No | 
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | Storage | Size of the file  | Number  | Yes  |
-| 2 | folderPath | Path to store the file | String | Yes  |
-| 3 | fileName |  Name of the file | String | Yes  |
-| 4 | url | url of the file | String | Yes  |
-| 5 | headers || String | No  |
-| 6 | extra || String | No |
+N/A
 
-### Scenario / Use Case
+## Callback?
 
-The user wants to download a file.
-<br>
+### callback
 
-### Step
+The function to be executed when the file is downloaded successfully.
 
-1. Call the function.
+### errorCallback
 
-    ![](../../../../document/function/File/Download/download-step-1.png?raw=true)
-    
-    ![](../../../../document/function/File/Download/download-step-2.png?raw=true)
-    
-    ![](../../../../document/function/File/Download/download-step-3.png?raw=true)
-    
+The function to be executed when the file is not downloaded successfully.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

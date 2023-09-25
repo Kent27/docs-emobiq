@@ -1,43 +1,44 @@
-﻿# Add
+﻿# add
 
-### Description
+## Description
 
-Addition of two numbers.
+Addition of two numbers. The output will return the sum of the two numbers.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| value1 | The first number to add. | Number | - | - | Yes |
+| value2 | The second number to add. | Number | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | value1 | Number | Integer | Yes  |
-| 2 | value2 | Number | Integer | Yes  |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the sum of the two values. | Number |
 
-### Scenario / Use Case
+## Callback
 
-The user wants to add two values and get the total result.<br />
+N/A
 
-### Step
-
-1. Call the function.<br>
-    value1:  1<br />
-    value2: 10<br /> 
-    
-    ![](../../../../document/function/Math/add/add-step-1.png?raw=true)
-
-### Result
-
-11
-
-### Video
-
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+## Video
 
 
-### Notes
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
-- N/A
+## Example
+
+1. Drag the `add` function into the event flow.
+
+    ![](./add-step-1.png)
+
+2. Enter the 2 values to be added together. For this example they are `1` and `2`.
+
+    ![](./add-step-2.png)
+
+
+### Results
+
+```3```
+
+## Links

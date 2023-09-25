@@ -1,21 +1,42 @@
-# Insert 
+# insert 
 
-### Description
+## Description
 
-Insert a data in a local table.
+Inserts values specified by the user into a local table.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| dataset | The name of the local table to be insert data to. | String/Text | - | - | Yes |
+| dt | The values to be inserted in the local table. | Object | - | - | Yes |
+| extra | Extra parameters stored and passed to callback. | Any | - | - | No |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | dataset | Name of the dataset in local table to be insert. | String | Yes  |
-| 2 | dt | Object name | Object | Yes |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the updated local table as a list. | Array/List |
 
-### Scenario / Use Case
+## Callback?
+
+### callback
+
+The function to be executed if the local table is updated with the new records successfully.
+
+### errCallback
+
+The function to be executed if the local table is not updated with the new records successfully.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+
+## Example
+
 
 The user wants to insert the id=23 into the dataset "l_customer".
 
@@ -44,12 +65,6 @@ The user wants to insert the id=23 into the dataset "l_customer".
 ![](../../../../document/function/Dataset/insert/insert-result-2.png?raw=true)
 ( After insert, the id=23 successful add into the dataset "l_customer" )
    
-### Video
 
-- N/A
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

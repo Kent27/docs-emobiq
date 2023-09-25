@@ -1,14 +1,10 @@
 # sageCall
 
-### Description
+## Description
 
 Is a function that are needed when user want to use sage table.
 
-### Flowchart
-
-- N/A 
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required |
 | ------ | ------ | ------ |------ | ------ |
@@ -18,7 +14,13 @@ Is a function that are needed when user want to use sage table.
 | 4 | data | This contains the main parameter in the function being called. | Object | No |
 | 5 | extra |  |  | No |
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 The user wants to use Sage table.
 
@@ -55,12 +57,6 @@ The user wants to use Sage table.
    
 ![](../../../../document/function/Dataset/sageCall/sageCall-result-1.png?raw=true)
 
-### Video
-
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
+## Links
 
 - N/A

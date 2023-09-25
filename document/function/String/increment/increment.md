@@ -1,43 +1,41 @@
-# Increment
+# increment
 
-### Description
+## Description
 
-Addition of a number with another number.
+Increment the passed value based on the passed incremental value. This works for both text and numbers.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| string | The value to be incremented. | String/Text, Number | - | - | Yes |
+| by | The value to be added. | Number | - | - | Yes |
+| useBase36 | Identify whether to use base36 value. Use 'true' if numbers, use 'false' if text and numbers. | Boolean | true | - | No |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | string | Number | Integer | Yes  |
-| 2 | by | Number | Integer | Yes  |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the incremented value. | String/Text, Number |
 
-### Scenario / Use Case
+## Callback
 
-The user wants to increase the number by a value.
+N/A
 
-### Step
+## Video
 
-1. Call the function.
-    </br>
-    string: 1<br />
-    by: 5
-    
-   ![](../../../../document/function/String/increment/increment-step-1.png?raw=true)
+Coming soon.
+
+## Example
+
+Coming soon.
+
+### Steps
+
+Coming soon.
 
 ### Result
 
-"6"
+Coming soon.
 
-### Video
-
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

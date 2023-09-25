@@ -1,14 +1,10 @@
 # watchPosition
 
-### Description
+## Description
 
 Return the location details (GPS coordinate) of the device if detect changes.
 
-### Flowchart
-
-- N/A
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required | Example |
 | ------ | ------ | ------ |------ | ------ | ------ |
@@ -17,7 +13,13 @@ Return the location details (GPS coordinate) of the device if detect changes.
 | 3 | enableHighAccuracy | Enable High Accuracy | Boolean | No |
 | 4 | enableHighAccuracy | Enable High Accuracy | Boolean | No |
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 Users want to get the current location of mobile device if the location are changed.
 
@@ -45,6 +47,6 @@ User will see the result below in console (the latlng will have different value)
 - N/A
 <!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
 
-### Notes
+## Links
 
 - N/A

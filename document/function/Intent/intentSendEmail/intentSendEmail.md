@@ -1,43 +1,48 @@
 # intentSendEmail
 
-### Description
+## Description
 
-This function is to start an email.
+This function will start an email on the user's device's default email application. 
 
-### Flowchart
+## Input / Parameters
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| email | Recipient's email address | String | - | - | Yes | 
+| subject | Title of email | String | - | - | Yes |
+| body | Body of email | String | - | - | No |  
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required | 
-| ------ | ------ | ------ |------ | ------ |
-| 1 | email | receipient email | String | Yes | 
-| 2 | subject | title of the email | String | Yes |
-| 3 | body | message to send | String | No |  
+Opens the default email application on user's device with the fields populated by input.
 
-### Scenario / Use Case
+## Callback
+
+## Video 
+
+
+## Example
 
 The user wants to start an email
 <br>
 
-### Step
+### Steps
 
-1. Call the function.
+Using `intentSendEmail` with the parameters
 
-    ![](../../../../document/function/Intent/intentSendEmail/intentSendEmail-step-1.png?raw=true)
-    
-    
+|  | value |
+| ---- | ---- | 
+| email | test@gmail.com|
+| subject | Test | 
+| body | Hello World | 
+
 ### Result
+
+If user is on a MacOS device, they will see this: 
 
 ![](../../../../document/function/Intent/intentSendEmail/intentSendEmail-result-1.png?raw=true)
 
-### Video
 
-- N/A
+## Links
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+Coming Soon.

@@ -1,39 +1,54 @@
 # generateRandomNumber
 
-### Description
+## Description
 
-Generate a random number by providing a range of numbers.
+Generates a random number from a range of numbers provided by the user.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| min | The smallest value in the range. | Number | - | - | Yes |
+| max | The largest value in the range. | Number | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required | Example |
-| ------ | ------ | ------ |------ | ------ | ------ |
-| 1 | min | Minimum | Integer | Yes | 1, 2, 3, …
-| 2 | max | Maximum | Integer | Yes | 1, 2, 3, …
+| Description | Output Type |
+| ------ | ------ |
+| Returns the random number generated. | Number |
 
+## Callback
 
-### Scenario / Use Case
+N/A
 
-The user wants get a random number within the minimum & maximum of the given integer.
+## Video
 
-### Step
+Coming Soon.
 
-1. Call the function.
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
-    ![](generateRandomNumber-step-1.png?raw=true)
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-User get a random number eg 59
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-- N/A
+## Links

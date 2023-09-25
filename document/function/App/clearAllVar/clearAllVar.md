@@ -1,20 +1,32 @@
 # clearAllVar
 
-### Description
+## Description
 
-Remove all the global variable. 
+Removes all global variables in the app excluding the variables specified. 
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| except | The variables that should not be deleted. | String/Text | - | - | No |
 
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
+## Output
 
-### Input / Parameters
+N/A
 
-- N/A
+Note: The global variables will be updated to remove all of them.
 
-### Scenario / Use Case
+## Callback
+
+N/A
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
 
 The user wants to remove all global variable in app.
 
@@ -28,11 +40,4 @@ The user wants to remove all global variable in app.
 
 All the variables will be removed.
 
-### Video
-
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)
--->
-
-### Notes
-- N/A
+## Links

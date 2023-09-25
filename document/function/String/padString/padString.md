@@ -1,61 +1,55 @@
 # padString
 
-### Description
+## Description
 
-This function returns a padded string (add padding to the original string) with a specified maximum length. No action is taken if the length of original string exceeds the maximum length. The user can specify the position of the original string (left, right or center).
+Generates a padded text. A padded text has additional characters added to either its beginning, end, or both sides to achieve a desired length or formatting.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| string | The value to be padded. | String/Text | - | - | Yes |
+| len | The length of the new padded text. | Number | 0 | - | Yes |
+| type | The location of the 'string' within the new padded text. | String/Text | right | right, left, center | Yes |
+| char | The value to use as padding. | String/Text | ' ' | - | No |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required | Example | 
-| ------ | ------ | ------ |------ | ------ | ------ |
-| 1 | string | Character, number and words. | String | Yes| - |
-| 2 | len | Maximum length of the return string.  | Integer  | Yes | - |
-| 3 | type | Postion of the original string in the return padded string. | String  | Yes | left, center or right |
-| 4 | char | Optional string of one or more characters to use as padding. | String | No | - |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the padded value. | String/Text |
 
-### Scenario / Use Case
+## Callback
 
-The user wants to add padding to a string with maximum length of 10, with the original string at center.
+N/A
+
+## Video
+
+Coming soon.
+
+## Example
+
+The user wants to add padding to a string with maximum length of 10, with the original string at the center.
 </br>
 
 ### Step
 
-1. Call the function.<br/>
+1. Call the function `console`. Call the function `padString` inside the `value` parameter of the `console` function.<br/>
     string: AB<br />
     len: 10<br />
     type: center<br />
-        
-   ![](../../../../document/function/String/padString/padString-step-1.png?raw=true)
+    char: 1<br />
+
+    ![](../padString/padString-step-1.png?raw=true)
+
+    ![](../padString/padString-step-2.png?raw=true)
 
 ### Result
 
- ![](../../../../document/function/String/padString/padString-result-1.png?raw=true)
+ ![](../padString/padString-result-1.png?raw=true)
  
- (4 spaces added on both of the left & right of "AB", total length of the string is now 10.)
+ There are 4 characters '1' added on both the left & right side of "AB", making the total length of the string 10.
 
-### Video
 
-- N/A
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
- The user also can set the parameter as:<br/>
- string: AB<br>
- len: 10<br />
- type: center<br />
- char: aa<br />
-    
-  ![](../../../../document/function/String/padString/padString-step-2.png?raw=true)
- 
- 
- Result:
- 
-  ![](../../../../document/function/String/padString/padString-result-2.png?raw=true)
-  
-  (In this result, you can see that the char "aa" will used as padding character and display on both side of the string "AB" with the total length is 10. Do note that "aa" here considered as length = 1.)
+## Links

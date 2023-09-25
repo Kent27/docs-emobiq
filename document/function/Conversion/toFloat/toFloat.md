@@ -1,20 +1,32 @@
 # toFloat
 
-### Description
+## Description
 
-Convert a value to a float type.
+Converts a passed value to a float type.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| value | The value to convert to a float. | Any | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | value | number | Decimal | Yes  |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the passed value as a float. | Number |
 
-### Scenario / Use Case
+## Callback
+
+N/A
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
 
 User want to convert a value to float type.
 
@@ -29,13 +41,5 @@ User want to convert a value to float type.
 ### Result
 
 12.2222(toFloat function parses a string and returns a floating point number.)
-    
-### Video
 
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

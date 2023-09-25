@@ -1,18 +1,20 @@
 # HNSPushNotification
 
-### Description
+## Description
 
 Receive notifaction from other devices.
 
-### Flowchart
+## Input / Parameters
 
 - N/A
 
-### Input / Parameters
+## Output
 
-- N/A
+## Callback
 
-### Scenario / Use Case
+## Video
+
+## Example
 
 User want to receive notification from other users.
 
@@ -31,6 +33,6 @@ User want to receive notification from other users.
 - N/A
 <!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
 
-### Notes
+## Links
 
 - N/A

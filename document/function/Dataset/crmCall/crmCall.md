@@ -1,14 +1,10 @@
 # crmCall
 
-### Description
+## Description
 
 Is a business management software (ERP) designed for small and medium-sized enterprises. As an ERP solution, it aims to automate key business functions in financials, operations, and human resources.
 
-### Flowchart
-
-- N/A 
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required |
 | ------ | ------ | ------ |------ | ------ |
@@ -17,7 +13,13 @@ Is a business management software (ERP) designed for small and medium-sized ente
 | 3 | data | This contains the main parameter in the function being called. | Object | Yes |
 | 4 | extra |  |  |  |
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 The user wants to call the sapB1Call Web Service.
 
@@ -55,12 +57,6 @@ The user wants to call the sapB1Call Web Service.
    
 ![](../../../../document/function/Dataset/sapB1Call/sapB1Call-result-1.png?raw=true)
 
-### Video
-
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
+## Links## Notes
 
 - N/A

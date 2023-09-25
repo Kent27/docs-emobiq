@@ -1,51 +1,98 @@
-
 # barcodeScanner
 
-### Description
+## Description
 
-Activate barcode scanner using camera of device.
+Activates a barcode scanner using the camera of the device.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| showFlipCameraButton | Show flip camera button. Supported on iOS and Android. | Boolean | true | true, false | No |
+| showTorchButton | Show torch button. Supported on iOS and Android. | Boolean | true | true, false | No |
+| torchOn | Launch with the torch switched on (if available). Supported on Android only. | Boolean | false | true, false | No |
+| prompt | Prompt text. Supported on Android only. | String/Text | - | - | No |
+| resultDuration | Display scanned text for X ms. 0 suppresses it entirely, default 1500. Supported on Android only. | Number | 500? | - | No |
 
-### Input / Parameters
+## Output
 
+<<<<<<< HEAD
+N/A
+=======
 | No | Name | Description | Data Type | Required |
 | ------ | ------ | ------ |------ | ------ |
-| 1 | showFlipCameraButton | Show flip camera button. Supported on iOS and Android | Boolean | No |
-| 2 | showTorchButton | Show torch button. Supported on iOS and Android | Boolean | No |
-| 3 | torchOn | Launch with the torch switched on (if available). Supported on Android only. | Boolean | No |
-| 4 | prompt | Prompt text. Supported on Android only. | String | No |
-| 5 | resultDuration | Display scanned text for X ms. 0 suppresses it entirely, default 1500. Supported on Android only. | Number | No |
+| 1 | callback | Success Callback | functionList | Yes | 
+| 2 | errCallback | Error Callback | functionList | Yes | 
+>>>>>>> EP-686-server-fixes
 
-### Scenario / Use Case
+## Callback
 
-The user want scan barcode and display in a dialog.
+<<<<<<< HEAD
+### callback
+=======
+- N/A
+>>>>>>> EP-686-server-fixes
 
-### Step
+The function to be executed if the barcode scanner is activated successfully.
 
-1. Call the barcodeScanner function in a button event.
+<<<<<<< HEAD
+### errorCallback
 
-    ![](../../../../document/function/Device/barcodeScanner/barcodeScanner-step-1.png?raw=true)
+The function to be executed if the barcode scanner is not activated successfully.
 
-2. In callback, add infoDialog function. 
+## Video
 
-    ![](../../../../document/function/Device/barcodeScanner/barcodeScanner-step-2.png?raw=true)
-    
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+The user wants to scan a barcode and display the value in a dialog.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+1. Drag a button to a page in the mobile designer. Select the event click and drag the barcodeScanner function to the event flow.
+
+    ![](../barcodeScanner/barcodeScanner-step-1.png?raw=true)
+
+    ![](../barcodeScanner/barcodeScanner-step-2.png?raw=true)
+
+2. Drag the function to be executed when the barcode scanner is activated successfully. In this example, we are using the infoDialog function. Fill in the parameters of the function.
+
+    ![](../barcodeScanner/barcodeScanner-step-3.png?raw=true)
+
+    ![](../barcodeScanner/barcodeScanner-step-4.png?raw=true)
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
-When press on button, the barcode scanner will be activated. <br />
-![](../../../../document/function/Device/barcodeScanner/barcodeScanner-result-1.png?raw=true)
+When the button is pressed, the barcode scanner will be activated. After scanning the barcode, the value will be displayed in a dialog box.
 
-After scanned the barcode, the value will be displayed in a dialog box. <br />
-![](../../../../document/function/Device/barcodeScanner/barcodeScanner-result-2.png?raw=true)
+<!-- Explain the output.
+=======
+- N/A
 
-### Video
+### Result
 
 - N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+>>>>>>> EP-686-server-fixes
+
+Format: ![]({image-path}?raw=true) -->
+
+<<<<<<< HEAD
+## Links
+=======
+- N/A
 
 ### Notes
 
 - N/A
+>>>>>>> EP-686-server-fixes

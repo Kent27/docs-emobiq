@@ -1,40 +1,44 @@
 ﻿# isNumber
+`
+## Description
 
-### Description
+Determines whether the passed value is a number.
 
-The method determines whether the specified value is a number or not.
+## Input / Parameter
 
-### Flowchart
+| Name | Description | Input Type | Default | Options | Required |`
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| value | The value to be checked. | Any | - | - | Yes |
 
-- N/A 
+## Output
 
-### Input / Parameters
+| Description | Output Type |
+| ------ | ------ |
+| Returns true if value is a number, otherwise returns false. | Boolean |
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | value | Number | Integer | Yes  |
+## Callback
 
-### Scenario / Use Case
+N/A
 
-The user wants to identify the value is number.
+## Video
+
+Coming soon.
+
+## Example
+
+The user wants to determine whether the value passed is a number.
 <br>
 
 ### Step
 
-1. Call the function.
+1. Call the function`console`. Call the function `isNumber` inside the `value` parameter of the `console` function.
 
-    ![](../../../../document/function/Validation/isNumber/isNumber-step-1.png?raw=true)
+    ![](../isNumber/isNumber-step-1.png?raw=true)
+
+    ![](../isNumber/isNumber-step-2.png?raw=true)
     
 ### Result
 
-true
+Console will return 'true'.
 
-### Video
-
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

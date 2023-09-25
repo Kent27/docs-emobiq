@@ -1,18 +1,30 @@
 # getAppVersion
 
-### Description
+## Description
 
-The build version of the App.
+Retrieves the build version of the app.
 
-### Flowchart
+## Input / Parameters
 
-- N/A
+N/A
 
-### Input / Parameters
+## Output
 
-- N/A
+| Description | Output Type |
+| ------ | ------ |
+| Returns the app version. | Number |
 
-### Scenario / Use Case
+## Callback
+
+N/A
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
 
 The user wants get version of the App.
 
@@ -20,17 +32,16 @@ The user wants get version of the App.
 
 1. Call the function.
 
-    ![](../../../../document/function/App/getAppVersion/getAppVersion-step-1.png?raw=true)
+    ![](getAppVersion-step-1.png?raw=true)
+
+    ![](getAppVersion-step-2.png?raw=true)
 
 ### Result
 
 App version number eg 1.0
 
-### Video
-
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
 ### Notes
 - the app version will only increased if user click on relase build. 
 - user can use functions: console -> getAppVersion to get the version of the app
+
+## Links
