@@ -1,7 +1,3 @@
 # Ignore Files
-<<<<<<< HEAD
-# Used so that the folder would be created because it is needed
-=======
->>>>>>> EP-686-server-fixes
 .DS_Store
 *.mov
