@@ -1,36 +1,49 @@
 # clearExternalAppData
 
-### Description
+## Description
 
+Used to clear external app data.
 
+## Input / Parameter
 
-### Flowchart
+N/A
 
-- N/A
+## Output
 
-### Input / Parameters
+N/A
 
-- N/A
+## Callback
 
-### Scenario / Use Case
+N/A
 
+## Video
 
+Coming Soon.
 
-### Step
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
-1. Call the exitApp function. 
+## Example
 
-    ![](../../../../document/function/Device/clearExternalAppData/clearExternalAppData-step-1.png?raw=true)
-    
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
-The mobile app will be closed.
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

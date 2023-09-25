@@ -1,21 +1,33 @@
-# Push
+# push
 
-### Description
+## Description
 
-Add new value into an array.
+Adds a new value to an array. An array has to be created using the newArray function first, before using the push function to add values to the array.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| var | The name of the array to add a new value to. | String/Text | - | - | Yes |
+| value | The value to be added to the array. | String/Text | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | var | The name of the variable. | String | Yes |
-| 1 | value | Value of the variable. | String | Yes |
+| Description | Output Type |
+| ------ | ------ |
+| The updated array of values. | Array/List |
 
-### Scenario / Use Case
+## Callback
+
+N/A
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
 
 The user wants to add new value into the array.
 
@@ -49,12 +61,4 @@ The user wants to add new value into the array.
 
 ![](../../../../document/function/Array/push/push-result-1.png?raw=true)
 
-### Video
-
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

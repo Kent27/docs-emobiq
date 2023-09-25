@@ -1,40 +1,39 @@
-# Trim
+# trim
 
-### Description
+## Description
 
-Remove whitespace from both sides of a string.
+Get rid of any extra spaces at the beginning or end of a text, ensuring a clean and trimmed version of the text.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| string | The value to be trimmed. | String/Text | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | string | Characters, number or words. | String | Yes |
+| Description | Output Type |
+| ------ | ------ |
+| Returns trimmed value. | String/Text |
 
-### Scenario / Use Case
+## Callback
 
-The user wants to make the words trim and neat.</br>
+N/A
 
-### Step
+## Video
 
-1. Call the function.<br>
-   string:(space)ABB  C  DE(space)<br />
-    
-   ![](../../../../document/function/String/trim/trim-step-1.png?raw=true)
+Coming soon.
+
+## Example
+
+Coming soon.
+
+### Steps
+
+Coming soon.
 
 ### Result
 
-(no space)ABB  C  DE(no space)
+Coming soon.
 
-### Video
-
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

@@ -1,41 +1,53 @@
-# Sqrt
+# sqrt
 
-### Description
+## Description
 
 Get the square root of a number.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| value | The number to return the square root of. | Number | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | value | Number | Integer | Yes  |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the square root value. | Number |
 
-### Scenario / Use Case
+## Callback
 
-The user wants to get the square root of a number.<br />
+N/A
 
-### Step
+## Video
 
-1. Call the function.<br>
-    value: 64<br />
-    
-   ![](../../../../document/function/Math/sqrt/sqrt-step-1.png?raw=true)
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-8
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-
-### Notes
-
-- N/A
+## Links

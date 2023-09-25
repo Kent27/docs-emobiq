@@ -1,42 +1,54 @@
 # valueFromURL
 
-### Description
+## Description
 
-Get the value of parameter in URL.
+Get the value of a URL parameter.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| url | The Uniform Resource Locator. | String/Text | - | - | Yes |
+| parameter | The URL parameter (whose value is set dynamically in a page's URl) to return. | String/Text | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | url | Uniform Resource Locator | String | Yes | 
-| 2 | parameter | URL Parameters are parameters whose values are set dynamically in a page's URL | String | Yes |
+| Description | Output Type |
+| ------ | ------ |
+| The URL parameter specified. | String/Text |
 
+## Callback
 
-### Scenario / Use Case
+N/A
 
-The user want to get value of parameter "appID" in a given URL. <br />
+## Video
 
+Coming Soon.
 
-### Step
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
-1. Call the function. <br>
-<b>url</b>: https://emobiq.com/edit/?appid=documentationTesting#/design <br />
-<b>parameter</b>: appid <br />
+## Example
 
-    ![](../../../../document/function/Browser/valueFromURL/valueFromURL-step-1.png?raw=true)
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-The console return the value "documentationTesting", which is the appID for the URL.
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-- N/A
+## Links

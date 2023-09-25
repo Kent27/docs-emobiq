@@ -1,41 +1,45 @@
 # getVar
 
-### Description
+## Description
 
-Get the value of a global variable.
+Returns the value of a global variable.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| var | The name of the variable. | String/Text | - | - | Yes |
+| default | The default value of the variable. | String/Text | - | - | No |
 
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
+## Output
 
-### Input / Parameters
+| Description | Output Type |
+| ------ | ------ |
+| Returns the value of the global variable if there is a value, returns the `default` value otherwise. | String/Text |
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | var | Name of variable | String | Yes |
-| 2 | default | Default Value | String | No | 
+## Callback
 
-### Scenario / Use Case
+N/A
 
-The user wants to get the value of a variable.
+## Video
 
-### Step
+## Example
 
-1. Call the function.
+### Steps
 
-    ![](../../../../document/function/App/getVar/getVar-step-1.png?raw=true)
+1. Drag the `getVar` function into the event flow panel. (*Note: The `console` function is used here for ease of demostrating the output.)
+
+2. Specify the variable name that you would like to access.
+
+![](getVar-step-1.png)
+
 
 ### Result
 
-In console, user can the string "Single". If user variable "vSingle" have no value, it will display "No Value".
+| Variable exists | Variable does not exist | 
+| ---- | ---- | 
+| If the specified global variable has previously been set (see [`setVar`](./setvar)), the function will return the variable's value: ("1.0.0" in this example) <br /> ![](getVar-step-2.png) | If the specified global variable does not exist, the function will return the value in `default`:  <br /> ![](getVar-step-3.png) |
 
-### Video
+## Links
 
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)
--->
-
-### Notes
-- N/A
+* See also [`setVar`](./setvar)

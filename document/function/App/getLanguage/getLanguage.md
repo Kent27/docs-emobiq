@@ -1,18 +1,30 @@
 # getLanguage
 
-### Description
+## Description
 
-Get the language of the app default is English.
+Returns the language of the app. The default language is set to English.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+N/A
 
-### Input / Parameters
+## Output
 
-- N/A
+| Description | Output Type |
+| ------ | ------ |
+| Returns the language of the app. | String/Text |
 
-### Scenario / Use Case
+## Callback
+
+N/A
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
 
 The user wants get the language of the app.
 
@@ -26,10 +38,7 @@ The user wants get the language of the app.
 
 Language of the app eg English. 
 
-### Video
-
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
 ### Notes
 - user can use functions: setLangugage -> getLanguage to change the language of app provided the language mapping is done.
+
+## Links

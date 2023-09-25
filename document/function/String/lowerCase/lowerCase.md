@@ -1,40 +1,39 @@
-﻿# Lower Case
+﻿# lowerCase
 
-### Description
+## Description
 
-Convert the letters from upper case to lower case.
+Converts all characters in a text to lowercase.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| string | The value to be converted. | String/Text | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | string | Character and words. | String | Yes |
+| Description | Output Type |
+| ------ | ------ |
+| Returns converted value. | String/Text |
 
-### Scenario / Use Case
+## Callback
 
-The user wants to convert the letters from upper case to lower case.</br>
+N/A
 
-### Step
+## Video
 
-1. Call the function.<br>
-    string: AbC<br />
+Coming soon.
 
-   ![](../../../../document/function/String/lowerCase/lowerCase-step-1.png?raw=true)
+## Example
+
+Coming soon.
+
+### Steps
+
+Coming soon.
 
 ### Result
 
-"abc"
+Coming soon.
 
-### Video
-
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

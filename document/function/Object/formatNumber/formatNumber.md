@@ -1,52 +1,37 @@
 # formatNumber
 
-### Description
+## Description
 
-Change format number.
+Converts a number into a specific desired format, such as adding commas for thousands separators or specifying decimal places.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| value | The number to be formatted. | Number | 0 | - | Yes |
+| decimals | The number of decimal places. | Number | 0 | - | No |
+| decimalSep | Decimals separator. | String/Text | , | - | No |
+| thousandSep | Thousands separator. | String/Text | - | - | No |
 
-### Input / Parameters
+## Output   
 
-| No | Name | Description | Data Type | Required | Example |
-| ------ | ------ | ------ |------ | ------ | ------ |
-| 1 | value | Number | Integer | Yes  |
-| 2 | decimals | Number | Integer | Yes  |
-| 3 | decimalSep | The decimal separator.| String | No | '.' , ','
-| 4 | thousandSep | The thousands separator. | String | No |'.' , ','
+| Description | Output Type |
+| ------ | ------ |
+| Returns the formatted number. | Number |
 
-### Scenario / Use Case
+## Callback
 
-User want to change format number.
-</br>
+N/A
 
-### Step
+## Video
 
-1. Call the function.
-    </br>
-    value : 40000 <br />
-    decimals : 2 <br />
-    decimalSep : . <br />
-    thousandSep : , <br />
-    
-   ![](../../../../document/function/Object/formatNumber/formatNumber-step-1.png?raw=true)
-    
-### Result
+Coming soon.
 
-40,000.00
+## Example
 
-### Video
+| Function inputs | Expected result |
+| ---- | ----: | 
+| ![](formatNumber-eg-1.png) | `1 000.23` | 
+| ![](formatNumber-eg-2.png) | `-95,123.0` | 
 
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
-
-
-
-
+## Links

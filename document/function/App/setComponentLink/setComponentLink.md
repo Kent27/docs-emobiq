@@ -1,44 +1,55 @@
 # setComponentLink
 
-### Description
+## Description
 
-Add a hyperlink to a component. 
+Allows user to add a hyperlink to a component which can be clicked to open the link in a new tab in the web browser. 
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| component | The name of the component. | String/Text | - | - | Partial (Yes if no 'componentId'.) |
+| componentId | The id of the component. | String/Text | - | - | Partial (Yes if no 'component'.) |
+| link | The url of the website to open when the component is clicked. | String/Text | - | - | Yes |
 
-### Input / Parameters
+__\* Note:__ Either component or componentId must have value in order for this function to work.
 
-| No | Name | Description | Data Type | Required | Example |
-| ------ | ------ | ------ |------ | ------ | ------ |
-| 1 | component | The name of the component. | String | No __*__ | 
-| 2 | componentId | The id of the component | String | No __*__ |
-| 3 | link | The url of website | String | Yes |
+## Output
 
-__\* Note:__ Either No 1 or No 2 must have value in order for this function to work.
+N/A
 
-### Scenario / Use Case
+## Callback
 
-The user wants to get the value from a text box component and display it in a label.
+N/A
 
-### Step
+## Video
 
-1. Draw a label component & button component
+Coming Soon.
 
-    ![](../../../../document/function/App/setComponentLink/setComponentLink-step-1.png?raw=true)
-    
-2. Call the function.
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
-    ![](../../../../document/function/App/setComponentLink/setComponentLink-step-2.png?raw=true)
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-User will be redirect to https://emobiq.com after click on the label.
+Coming Soon.
 
-### Video
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+<!-- Explain the output.
 
-### Notes
-- N/A
+Format: ![]({image-path}?raw=true) -->
+
+## Links

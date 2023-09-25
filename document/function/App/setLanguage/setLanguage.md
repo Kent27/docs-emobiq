@@ -1,21 +1,32 @@
 # setLanguage
 
-### Description
+## Description
 
-Set the default language of the app based on the languages setup in language settings.
+Allows users to set a default language for the app from the pre-defined languages in language settings.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| lang | The name of the language to be set as default. | String/Text | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | lang | Name of the language. | String | Yes | 
+N/A
 
+Note: The component will be updated to show the translated text in the language specified by the user.
 
-### Scenario / Use Case
+## Callback
+
+N/A
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
 
 The user override the default language (English) of their App.
 
@@ -44,11 +55,8 @@ The word "Language" will be changed to "语言选择". <br />
 
 ![](../../../../document/function/App/setLanguage/setLanguage-result-1.png?raw=true)
 
-### Video
-
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
 ### Notes
 
 - In the language setting, the word used for mapping is case sensitive.
+
+## Links

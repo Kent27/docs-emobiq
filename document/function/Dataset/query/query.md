@@ -1,21 +1,23 @@
 # Query  
 
-### Description
+## Description
 
 A query is a request for data or information from a database table or combination of tables.
 
-### Flowchart
-
-- N/A 
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required | Example |
 | ------ | ------ | ------ |------ | ------ | ------ |
 | 1 | dataset | Name of the dataset to be read in local table. | String | Yes |
 | 2 | query | A request for data or information from a database table.  | String | Yes | <a href:></a> </a> https://www.javatpoint.com/mysql-queries</a>
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 The user wants to update the data for table tbl_sqllite_customer by using the query.
 
@@ -56,11 +58,7 @@ The user wants to update the data for table tbl_sqllite_customer by using the qu
 
 
 
-### Video
-
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+## Links
 
 ### Notes
 

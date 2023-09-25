@@ -1,51 +1,63 @@
 ﻿# setTimeout
 
-### Description
+## Description
 
-Calls a function or evaluates an expression after a specified number of milliseconds.
+Calls a function or evaluates an expression after a specified number of seconds.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| timeout | The time before a function is executed, in milliseconds. | Number | 0 | - | No |
+| persistent | To identify whether this should still be executed outside the current active page. | Boolean | false | true, false | No |
+| extra | The value to be included to the 'callback' as a system value under 'extra'. | Any | - | - | No |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | timeout | Time. | Time | Yes  |
+N/A
 
-### Scenario / Use Case
+## Callback
 
-The user wants to display the infoDialog after 1 second.
+### yesCallback
+
+The function to be executed after the timeout.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+The user wants to display the infoDialog after 3 seconds.
 
 ### Step
 
-1. Call the function "setTimeout"and set the             value for timeout.
+1. Call the function `setTimeout` to a button component with event `click` and enter the duration of the timeout.
    <br>
-   timeout: 1000<br>
+   timeout: 3000<br>
   
-    ![](../../../../document/function/Flow/setTimeout/setTimeout-step-1.png?raw=true)
+    ![](../setTimeout/setTimeout-step-1.png?raw=true)
+
+    ![](../setTimeout/setTimeout-step-2.png?raw=true)
     
-2. Execute the callback coding and call the              function "infoDialog" to display a infoDialog         after 1 seconds.
+2. Call the function `infoDialog` in the callback of the `setTimeout` function to display a infoDialog after 3 seconds.
    <br>
    title: Message<br>
    content: Done<br>
    disableTimer: true<br>
    
-    ![](../../../../document/function/Flow/setTimeout/setTimeout-step-2.png?raw=true)
+    ![](../setTimeout/setTimeout-step-3.png?raw=true)
+
+    ![](../setTimeout/setTimeout-step-4.png?raw=true)
     
 ### Result
 
-![](../../../../document/function/Flow/setTimeout/setTimeout-result-1.png?raw=true)
+When the button is pressed, the infoDialog will appear after 3 seconds.
 
-It will display the infoDialog after 1 seconds.
+![](../setTimeout/setTimeout-result-1.png?raw=true)
 
-### Video
 
-- N/A
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

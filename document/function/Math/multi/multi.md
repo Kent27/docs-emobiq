@@ -1,44 +1,49 @@
-﻿# Multi
+﻿# multi
 
-### Description
+## Description
 
-Multiplication of two numbers.
+Multiplication of two numbers. The output will return the product of the two numbers.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| value1 | The first number to multiply. | Number | - | - | Yes |
+| value2 | The second number to multiply. | Number | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | value1 | Number | Integer | Yes  |
-| 2 | value2 | Number | Integer | Yes  |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the product of the two values. | Number |
 
-### Scenario / Use Case
+## Callback
 
-The user wants to multiple two value and get the total result.<br />
+N/A
 
-### Step
+## Video
 
-1. Call the function.
-    <br />
-    value1: 2<br />
-    value2: 2<br />
-    
-    ![](../../../../document/function/Math/multi/multi-step-1.png?raw=true)
+Coming Soon.
 
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+ 
+
+1. Drag the `multi` function into the event flow.
+
+    ![](./multi-step-1.png)
+
+2. Enter the 2 values to be multiplied together. For this example they are `3` and `4`.
+
+    ![](./multi-step-2.png)
 ### Result
 
-4
+```
+12
+```
+<!-- Explain the output.
 
-### Video
+Format: ![]({image-path}?raw=true) -->
 
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-
-### Notes
-
-- N/A
+## Links

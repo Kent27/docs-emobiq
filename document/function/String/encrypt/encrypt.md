@@ -1,46 +1,44 @@
 # encrypt
 
-### Description
+## Description
 
-Convert/encrypt information or data into a code.
+Encrypt the passed value.
 
-### Flowchart
+See 'decrypt' function for the decrypt function.
 
-- N/A 
+## Input / Parameter
 
-### Input / Parameters
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| type | The type of encryption to use for the encryption. | String/Text | aes | aes, aes256 | Yes |
+| key | The key to use for the encryption. | String/Text | - | - | Yes |
+| iv | The vector to use for the encryption. | String/Text | - | - | Partial (Yes if type is 'aes256'.) |
+| value | The value to be encrypted. | String/Text | - | - | Yes |
 
-| No | Name | Description | Data Type | Required | Example |
-| ------ | ------ | ------ |------ | ------ | ----- |
-| 1 | type |  Advanced Encryption Standard. | String | No | aes and aes256 |
-| 2 | key | The key you want to encrypt. | String | Yes |
-| 3 | iv | An initialization vector (IV) is an arbitrary number that can be used along with a secret key for data encryption. | Integer | Yes |
-| 4 | value | The value need to be encrypt. | String | Yes |
+## Output
 
-### Scenario / Use Case
+| Description | Output Type |
+| ------ | ------ |
+| Returns the encrypted value. | String/Text |
 
-The user wants to encrypt the data into code.
+## Callback
 
-### Step
+N/A
 
-1. Call the function "encrypt" and define the value for type, key, iv and value.<br>
-    type: aes256<br />
-    key: sw234<br />
-     iv: 2<br />
-    value: 12121212<br />
-    
-    ![](../../../../document/function/String/encrypt/encrypt-step-1.png?raw=true)
+## Video
+
+Coming soon.
+
+## Example
+
+Coming soon.
+
+### Steps
+
+Coming soon.
 
 ### Result
 
-U2FsdGVkX1/urYvHdAM71G0H/+wOf7+04Q3JqqIjQ2g=
+Coming soon.
 
-### Video
-
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

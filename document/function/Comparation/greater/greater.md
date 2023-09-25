@@ -1,43 +1,51 @@
-# Greater
+# greater
 
-### Description
+## Description
 
-The greater than comparison operator. The result will return true or false.
+The greater than comparison operator. It checks whether the first value is greater than the second value. The result will return boolean values, true or false.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| value1 | The first value to check. | Number | - | - | Yes |
+| value2 | The second value to check against. | Number | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | value1 | First value | Any | Yes  |
-| 2 | value2 | Second value | Any | Yes   |
+| Description | Output Type |
+| ------ | ------ |
+| Returns true if the first value is greater than the second value, returns false otherwise. | Boolean |
 
-### Scenario / Use Case
+## Callback
+
+N/A
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
 
 The user wants to check if value 1 is greater than value 2.
 
 ### Step
 
 1. Call the function.
-   <br>
+    ![](./greater-step-1.png?raw=true)
+
+
+2. 
    value1 : 18<br />
    value2 : 10<br />
+    ![](./greater-step-2.png?raw=true)
 
-    ![](../../../../document/function/Comparation/greater/greater-step-1.png?raw=true)
 
 ### Result
 
 true
 
-### Video
 
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

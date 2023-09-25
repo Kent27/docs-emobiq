@@ -1,37 +1,50 @@
 
 # barcodeScanTrigger
 
-### Description
+## Description
 
+Trigger the barcode scanner.
 
+## Input / Parameter
 
-### Flowchart
+N/A
 
-- N/A
+## Output
 
-### Input / Parameters
+N/A
 
+## Callback
 
+N/A
 
-### Scenario / Use Case
+## Video
 
+Coming Soon.
 
-### Step
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
-1. Call the function
+## Example
 
-    ![](../../../../document/function/Device/barcodeScanTrigger/barcodeScanTrigger-step-1.png?raw=true)
+Coming Soon.
 
-    
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
+Coming Soon.
 
+<!-- Explain the output.
 
-### Video
+Format: ![]({image-path}?raw=true) -->
 
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

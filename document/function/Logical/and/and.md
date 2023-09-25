@@ -1,44 +1,56 @@
-# And
+# and
 
-### Description
+## Description
 
-Boolean returns value true if both operands is true and returns false otherwise. 
+'and' operator is a boolean operator that returns true if both operands are true and returns false otherwise. 
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| value1 | The first boolean value to check. | Boolean | - | - | Yes |
+| value2 | The second boolean value to check. | Boolean | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | value1 | True or false | Boolean | Yes  |
-| 2 | value2 | True or false | Boolean | Yes  |
+| Description | Output Type |
+| ------ | ------ |
+| Returns true if both operators are true, returns false otherwise. | Boolean |
 
-### Scenario / Use Case
+## Callback
 
-The user wants to check if value 1 AND value 2 are both true.
+N/A
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+The user wants to check if value 1 and value 2 are both true and return the result in the console.
 </br>
 
 ### Step
 
-1. Call the function.
+1. Call the function `and` inside the `console` function.
     </br>
     value1 : greater (value1:  3000 and value2:  1100)<br />
     value2 : true<br />
 
-    ![](../../../../document/function/Logical/and/and-step-1.png?raw=true)
+    ![](../and/and-step-1.png?raw=true)
+
+2. Call the function `greater` inside the parameter `value1` and set `value2` to 'true'.
+
+    ![](../and/and-step-2.png?raw=true)
+
+    ![](../and/and-step-3.png?raw=true)
+
+    ![](../and/and-step-4.png?raw=true)
 
 ### Result
 
-true ( Since 3000 is greater than 1100, value1 will return true. The result return true because both of the arguments are true.)
+The console will print 'true' since `value1` will return 'true' (3000 is greater than 1100) which matches the input for `value2` (true).
 
-### Video
-
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

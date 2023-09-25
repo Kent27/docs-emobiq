@@ -1,38 +1,53 @@
 # openInternalBrowser
 
-### Description
+## Description
 
-Change the current page to another page.
+Opens a url within the page the user is on.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| url | The url to open within the page. | String/Text | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required | Example |
-| ------ | ------ | ------ |------ | ------ | ------ |
-| 1 | p | Name of the page | String | Yes | pgLogin
+N/A
 
+Note: The page will be updated to show the url passed by the user.
 
-### Scenario / Use Case
+## Callback
 
-The user wants redirect from a page to another page.
+N/A
 
-### Step
+## Video
 
-1. Call the function.
+Coming Soon.
 
-    ![](gotoPage_result.png?raw=true)
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-User will be redirected to the page defined eg Login Page.
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-- N/A
+## Links

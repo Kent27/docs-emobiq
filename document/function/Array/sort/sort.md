@@ -1,47 +1,55 @@
-﻿# Sort
+﻿# sort
 
-### Description
+## Description
 
-Sort an array of values in descending order.
+Sort the values in an array in descending order.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| values | The array of values to sort. | Array/List | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | values | Array | Array | Yes  |
+### Default Output
 
-### Scenario / Use Case
+| Description | Output Type |
+| ------ | ------ |
+| The array sorted in descending order. | Array/List |
 
-The user wants to sort the value inside array in descending order.
+## Callback
 
-### Step
+N/A
 
-1. Call the function "sort"
+## Video
 
-    ![](../../../../document/function/Array/sort/sort-step-1.png?raw=true)
+Coming Soon.
 
-2. Define the value of array</br>
-    value1  : 1<br />
-    value2  : 2<br />
-    value3  : 3<br />
-    value4  : 3<br />
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
-    ![](../../../../document/function/Array/sort/sort-step-2.png?raw=true)
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-![](../../../../document/function/Array/sort/sort-result-1.png?raw=true)
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

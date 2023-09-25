@@ -1,54 +1,41 @@
 ﻿# setObjectAttr
 
-### Description
+## Description
 
-Set an attribute with its value of an object.
+Allows users to set the attribute/property value of an object.
 
-### Flowchart
-
-- N/A 
-
-### Input / Parameters
-
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | object | The object. | Object | Yes  |
-| 2 | attr | The name of the attribute. | String | Yes | 
-| 3 | value | The value of the attribute. | String | Yes |
-
-### Scenario / Use Case
-
-The user wants to set an attribute with its value of an object.
-
-### Step
-
-1. Set the variable "vObj", set toObject                function to value & define GENDER & AGE.<br     />
-   GENDER : Female<br>
-   AGE : 28
-
-   ![](../../../../document/function/Object/setObjectAtt/setObjectAtt-step-1.png?raw=true)
-
-2. Call the Function.<br />
-   var : getVar->vObj <br />
-   attr : name <br />
-   value : Lili <br />
-
-    ![](../../../../document/function/Object/setObjectAtt/setObjectAtt-step-2.png?raw=true) 
+## Input / Parameter
     
-3. Add a console and call the function "getVar".
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| object | The object to set the attribute. | Object | - | - | Yes |
+| attr | The name of the attribute to be updated. | String/Text | - | - | Yes |
+| value | The value to be assigned to the attribute. | Any | - | - | Yes |
 
-    ![](../../../../document/function/Object/setObjectAtt/setObjectAtt-step-3.png?raw=true) 
+## Output   
+
+N/A
+
+Note: It will update the object, you can use object 'objectAttr' function to see the changes.
+
+## Callback
+
+N/A
+
+## Video
+
+Coming soon.
+
+## Example
+
+Coming soon.
+
+### Steps
+
+Coming soon.
 
 ### Result
 
-![](../../../../document/function/Object/setObjectAtt/setObjectAtt-result-1.png?raw=true)
+Coming soon.
 
-### Video
-
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

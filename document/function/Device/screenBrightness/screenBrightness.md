@@ -1,22 +1,24 @@
 
 # screenBrightness
 
-### Description
+## Description
 
 Adjust brightness of a mobile device.
 
-### Flowchart
-
-- N/A
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required | Example |
 | ------ | ------ | ------ |------ | ------ | ------ |
 | 1 | level | brightness level | Float | Yes | float 0-1 is a brightness level, -1 represents a system default |
 | 2 | keepScreenOn | Prevents sleep | Boolean | Yes | |
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 The user want adjust the screnn brightness of mobile.
 
@@ -35,6 +37,6 @@ The mobile device brightness level will be changed.
 - N/A
 <!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
 
-### Notes
+## Links
 
 - N/A

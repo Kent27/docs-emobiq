@@ -1,21 +1,23 @@
 # getLocation
 
-### Description
+## Description
 
 Get the current location details (GPS coordinate) of the device.
 
-### Flowchart
-
-- N/A
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required | Example |
 | ------ | ------ | ------ |------ | ------ | ------ |
 | 1 | timeout | Connection time out period in millisecond | Integer | Yes | 1000, 2000, ...
 | 2 | enableHighAccuracy | Enable High Accuracy | Boolean | No |
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 Users want to detect current location from current device.
 
@@ -46,10 +48,9 @@ longitude: 101.63117249999999 <br />
 speed: null <br />
 timestamp: 1554082377187 __}__
 
-### Video
 
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+## Links
+
 
 ### Notes
 

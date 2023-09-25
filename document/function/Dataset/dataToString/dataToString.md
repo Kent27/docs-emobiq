@@ -1,41 +1,45 @@
-﻿# dataToString
+# dataToString
+
+## Description
+
+This reads and return all the values stored in the local table in a `JSON` format.
+
+## Input / Parameter
+
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| dataset | Name of the dataset to be read in local table. | String/Text | - | - | Yes |
 
 
-### Description
+## Output
 
-This reads and return all the values stored in the local table in an json format.
+Example below:
 
-### Flowchart
+| Description | Output Type |
+| ------ | ------ |
+| Returns the string of JSON object. | String |
 
-- N/A 
 
-### Input / Parameters
+## Callback
 
-| No | Name | Description | Data Type | Required 
-| ------ | ------ | ------ |------ | ------ |
-| 1 | dataset | Name of the dataset to be read in local table. | String | Yes |
+## Video
 
-### Scenario / Use Case
+## Example
 
-The user wants to return all the values stored in the local table in an json format.</br>
+Share a scenario, like a user requirements.
 
-### Step
+### Steps
 
-1. Call the function "dataToString"and set the        dataset.<br>
-   dataset: l_customer<br>
-   
-    ![](../../../../document/function/Dataset/dataToString/dataToString-step-1.png?raw=true)
+Show the steps and share some screenshots.
+
+1. .....
+
+<!-- Format: ![]({image-path}?raw=true) -->
 
 ### Result
-![](../../../../document/function/Dataset/dataToString//dataToString-result-1.png?raw=true)
 
+Explain the output.
 
-### Video
+<!-- Format: ![]({image-path}?raw=true) -->
 
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

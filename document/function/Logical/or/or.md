@@ -1,44 +1,49 @@
-# Or
+# or
 
-### Description
+## Description
 
-Boolean returns value true if either or both operands is true and returns false otherwise.
+'or' operator is a boolean operator that returns true if either operand is true and returns false otherwise. 
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| value1 | The first boolean value to check. | Boolean | - | - | Yes |
+| value2 | The second boolean value to check. | Boolean | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | value1 | True or false | Boolean | Yes  |
-| 2 | value2 | True or false | Boolean | Yes  |
+| Description | Output Type |
+| ------ | ------ |
+| Returns true if either operator is true, returns false otherwise. | Boolean |
 
-### Scenario / Use Case
+## Callback
 
-The user wants to check if either of the values is true.
+N/A
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+The user wants to check if either of the values is true and print the result in the console.
 
 ### Step
 
-1. Call the function.
+1. Call the `console` function. Call the `or` function inside the `value` parameter of the `console` function.
     </br>
     value1 : false <br />
     value2 : false <br />
 
-    ![](../../../../document/function/Logical/or/or-step-1.png?raw=true)
+    ![](../or/or-step-1.png?raw=true)
+
+    ![](../or/or-step-2.png?raw=true)
     
 ### Result
 
-false <br>
-(Both values are false, so the result returns false.)
+The console will print false since neither value of the `or` function is true.
 
-### Video
-
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

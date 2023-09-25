@@ -1,40 +1,44 @@
-﻿# Upper Case
+﻿# upperCase
 
-### Description
+## Description
 
-Convert the letters from lower case to upper case.
+Converts all characters in a text to uppercase.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| string | The value to be converted. | String/Text | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | string | Character and words. | String | Yes |
+| Description | Output Type |
+| ------ | ------ |
+| Returns converted value. | String/Text |
 
-### Scenario / Use Case
+## Callback
 
-The user wants to convert the letters from lower case to upper case.
+N/A
+
+## Video
+
+Coming soon.
+
+## Example
+
+The user wants to convert all the letters in the string from lower case to upper case.
 
 ### Step
 
-1. Call the function.<br>
+1. Call the function `console`. Call the function `upperCase` inside the `value` parameter of the `console` function.<br>
    string: abc<br />
     
-    ![](../../../../document/function/String/upperCase/upperCase-step-1.png?raw=true)
+    ![](../upperCase/upperCase-step-1.png?raw=true)
+
+    ![](../upperCase/upperCase-step-2.png?raw=true)
 
 ### Result
 
-"ABC"
+![](../upperCase/upperCase-result-1.png?raw=true)
 
-### Video
-
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

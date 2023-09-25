@@ -1,52 +1,57 @@
 # chartPopulateGaugeData
 
-### Description
+## Description
 
-Gauge chart, also known as dial chart or speedometer chart which uses a single needle to show information as a reading on a dial. This chart type is often used in executive dashboard reports to show key business indicators.
+A gauge chart, also known as dial chart or speedometer chart, uses a single needle to show information as a reading on a dial. This chart type is often used in executive dashboard reports to show key business indicators.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| component | The name of the Chart component to take details from. | String/Text | - | - | Yes |
+| componentId | The id of the Chart component to take details from. | String/Text | - | - | No | 
+| height | The height of the chart. | Number | - | - | No |
+| dataCaptions | The legend for each data. | Array/List | - | - | No | 
+| data | The data values for each legend. | Array/List | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | component | The name of the component that the details will be taken from. | String | Yes |
-| 2 | componentId | The id of the component that the details will be taken from. | String | No |
-| 3 | height | Height | Number | No |
-| 4 | dataCaptions | dataCaptions | Array | No |
-| 5 | data | Number | Array | Yes |
+N/A
 
-### Scenario / Use Case
+Note: The Chart component will be updated with the gauge chart parameters specified.
 
-The user wants to create a Gauge Chart.
+## Callback
 
-### Step
+N/A
 
-1. Call the function "chartPopulateGaugeData" and define the value for      component, height, dataCaptions, and data. 
-   <br>
-   <ul>
-   <li>component: chData</li>
-   <li>height: 200</li>
-   <li>dataCaptions: Speed</li>
-  
-   ![](../../../../document/function/Chart/chartPopulateGaugeData/chartPopulateGaugeData-step-1.png?raw=true)
-   
-   <li>data: 50</li>
-   
-   ![](../../../../document/function/Chart/chartPopulateGaugeData/chartPopulateGaugeData-step-2.png?raw=true)
- 
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
- ![](../../../../document/function/Chart/chartPopulateGaugeData/chartPopulateGaugeData-result-1.png?raw=true)
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

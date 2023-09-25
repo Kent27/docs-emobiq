@@ -1,21 +1,23 @@
 ﻿# insertData
 
-### Description
+## Description
 
 Insert or add value in a staging database.
 
-### Flowchart
-
-- N/A 
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required |
 | ------ | ------ | ------ |------ | ------ |
 | 1 | dataset | Name of the dataset in stagging table where the record will be inserted. | String | Yes  |
 | 2 | param | Object name | Object | Yes |
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 The user wants to insert the data into staging table.
 
@@ -66,12 +68,6 @@ The user wants to insert the data into staging table.
  
   ![](../../../../document/function/Dataset/insertData/insertData-result-2.png?raw=true)
  
-### Video
-
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
+## Notes
 
 - N/A

@@ -1,20 +1,28 @@
 # reload
 
-### Description
+## Description
 
-Refresh/ reload the current page.
+Refreshes the current page to show any changes.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+N/A
 
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
+## Output
 
-### Input / Parameters
+N/A
 
-- N/A
+## Callback
 
-### Scenario / Use Case
+N/A
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
 
 The user wants to reload the current page.
 
@@ -28,11 +36,5 @@ The user wants to reload the current page.
 
 The page will be reloaded.
 
-### Video
 
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)
--->
-
-### Notes
-- N/A
+## Links

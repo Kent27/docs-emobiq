@@ -1,50 +1,54 @@
-# Join
+# join
 
-### Description
+## Description
 
-Combine all array element into a string.
+Combines all array elements into a single string (text).
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| value | The array to combine the elements of. | Array/List | - | - | Yes |
+| separator | The separator to include between each array element when they are being joined. | String/Text | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required | Example |
-| ------ | ------ | ------ |------ | ------ | ------ |
-| 1 | value | Array. | Array | Yes |
-| 2 | separator | The separator value for the array. | - | Yes  |( ){ } , [ ]	, ";"	, "." , ","  ,":"
+| Description | Output Type |
+| ------ | ------ |
+| Returns a single string containing all the array elements separated by the specified separator. | String/Text |
 
-### Scenario / Use Case
+## Callback
 
-User want to combine all the array elements into 1 string.
+N/A
 
-### Step
+## Video
 
-1. Call the function "join"and call the                  "toArray" and set the separator.
-   <br>
-   value : toArray<br>
-   separator : ,
-    
-    ![](../../../../document/function/Conversion/join/join-step-1.png?raw=true)
-    
-2. Define the value for toArray.<br>
-   value1: 1<br>
-   value2: 2<br>
-   value3: 3<br>
+Coming Soon.
 
-    ![](../../../../document/function/Conversion/join/join-step-2.png?raw=true)
- 
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
-1,2,3
-    
-### Video
+Coming Soon.
 
-- N/A
+<!-- Explain the output.
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

@@ -1,39 +1,52 @@
 # toBoolean  
 
-### Description
+## Description
 
-Convert a value to a boolean type.
+Converts a passed value to a boolean type.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| value | The value to convert to a boolean. | Any | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | value | number and string | String | Yes  |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the passes value as a boolean. | Boolean |
 
-### Scenario / Use Case
+## Callback
 
-The user wants to convert a value to boolean.
+N/A
 
-### Step
- 
-1. Put the function inside the console for display the response from console.
- 
-    ![](../../../../document/function/Conversion/toBoolean/toBoolean-step-3.png?raw=true)
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+1. Drag `toBoolean` function into the event flow. 
+
+    ![](./toBoolean-step-1.png)
+
 
 ### Result
 
-false (if the value is 0, then it will return false. )
-    
-### Video
+| Values | Expected result | 
+| ---- | ---- | 
+| ![](./toBoolean-step-2.png) | `false` |
+| ![](./toBoolean-step-3.png) | `true|
 
-- N/A
+<!-- Explain the output.
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

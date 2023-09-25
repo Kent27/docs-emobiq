@@ -1,46 +1,60 @@
-# Delete
+# delete
 
-### Description
+## Description
 
-This function is to delete a file.
+Delete a file.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Data Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| storage | Size of the file. | Number | - | - | Yes |
+| all | Delete all files? | Boolean | - | - | No | 
+| folderPath | Path of the file to delete. | String/Text | - | - | Yes | 
+| fileName | Name of the file to delete. | String/Text | - | - | Yes | 
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | Storage | Size of the file  | Number  | Yes  |
-| 2 | All |   |  | No  |
-| 3 | folderPath | Path to store the file | String | Yes  |
-| 4 | fileName |  Name of the file | String | Yes  |
+N/A
 
-### Scenario / Use Case
+## Callback?
 
-The user wants to delete a file.
-<br>
+### callback
 
-### Step
+The function to be executed when the file is deleted successfully.
 
-1. Call the function.
+### errorCallback
 
-    ![](../../../../document/function/File/Delete/delete-step-1.png?raw=true)
-    
-    ![](../../../../document/function/File/Delete/delete-step-2.png?raw=true)
-    
-    ![](../../../../document/function/File/Delete/delete-step-3.png?raw=true)
-    
+The function to be executed when the file is not deleted successfully.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

@@ -1,21 +1,24 @@
 ﻿# deleteData 
 
-### Description
+## Description
 
 Delete a record from a staging database.
 
-### Flowchart
 
-- N/A 
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required |
 | ------ | ------ | ------ |------ | ------ |
 | 1 | dataset | Name of the dataset in staging table which will be deleted. | String | Yes  |
 | 2 | _id | Value from the staging database and used for identify which record will be updated. | Integer | Yes  |
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 The user wants to delete the data from staging table.
 
@@ -58,12 +61,4 @@ The user wants to delete the data from staging table.
  ![](../../../../document/function/Dataset/deleteData/deleteData-result-3.png?raw=true)
 ( The row for tel:34345678, name: 111, add:abc have been remove successfully.)
 
-### Video
-
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links
