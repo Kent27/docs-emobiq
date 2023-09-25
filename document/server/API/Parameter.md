@@ -29,11 +29,11 @@ There are two types available:
     * **json**: Read the body as a JSON. You can specify **Parameter**, **Description**, **Type** and **Required** in the similar manner as setting up Query.
     ![Parameter body](Parameter-body.png)
 4. Inside Action Flow, you can read the contents coming from Query and Body by selecting the desired parameter types.
-    * Select **query** to read all contents of the Query as an object.
+    * Select **query** to read all contents of the Query as an object.\
     ![Parameter flo query](Parameter-flow-query.png)
-    * Select **queryField** to read a single value of the Query. You'll need to specify the key to read.
+    * Select **queryField** to read a single value of the Query. You'll need to specify the key to read.\
     ![Parameter flow queryField](Parameter-flow-queryfield.png)
-    * Select **body** to read all contents of the Body. For type **text**, the value will be a string, while for **json**, the value will be an object.
+    * Select **body** to read all contents of the Body. For type **text**, the value will be a string, while for **json**, the value will be an object.\
     ![Parameter flow body](Parameter-flow-body.png)
-    * Select **bodyField** to read a single value of the Body by its key. Note that this is only applicable for body type **json**.
+    * Select **bodyField** to read a single value of the Body by its key. Note that this is only applicable for body type **json**.\
     ![Parameter flow bodyField](Parameter-flow-bodyfield.png)
