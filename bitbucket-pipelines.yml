@@ -1,0 +1,17 @@
+# Workflow Configurations
+clone:
+  enabled: false
+
+pipelines:
+  branches:
+    dev:
+      - step:
+          name: Deploy To Dev Server
+          deployment: dev
+          trigger: automatic
+          script:
+            - ssh $SSH "
+                set -e;
+                cd $PATH_FOLDER;
+                git pull origin dev;
+              "

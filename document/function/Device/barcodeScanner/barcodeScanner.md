@@ -16,14 +16,26 @@ Activates a barcode scanner using the camera of the device.
 
 ## Output
 
+<<<<<<< HEAD
 N/A
+=======
+| No | Name | Description | Data Type | Required |
+| ------ | ------ | ------ |------ | ------ |
+| 1 | callback | Success Callback | functionList | Yes | 
+| 2 | errCallback | Error Callback | functionList | Yes | 
+>>>>>>> EP-686-server-fixes
 
 ## Callback
 
+<<<<<<< HEAD
 ### callback
+=======
+- N/A
+>>>>>>> EP-686-server-fixes
 
 The function to be executed if the barcode scanner is activated successfully.
 
+<<<<<<< HEAD
 ### errorCallback
 
 The function to be executed if the barcode scanner is not activated successfully.
@@ -65,7 +77,22 @@ Format: ![]({image-path}?raw=true) -->
 When the button is pressed, the barcode scanner will be activated. After scanning the barcode, the value will be displayed in a dialog box.
 
 <!-- Explain the output.
+=======
+- N/A
+
+### Result
+
+- N/A
+>>>>>>> EP-686-server-fixes
 
 Format: ![]({image-path}?raw=true) -->
 
+<<<<<<< HEAD
 ## Links
+=======
+- N/A
+
+### Notes
+
+- N/A
+>>>>>>> EP-686-server-fixes
