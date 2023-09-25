@@ -21,8 +21,8 @@ As shown in the image above, the header consists of:
 - Download button to download the built files
 - Help button which will open the Help Modal that contains general instructions for using the Server platform
 
-<img src="general-build.png" alt="drawing" width="350"/>  
-<img src="general-download.png" alt="drawing" width="350"/>  
+![Build](general-build.png?raw=true)
+![Download](general-download.png?raw=true)
   
 ***
 
