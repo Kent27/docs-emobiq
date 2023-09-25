@@ -1,47 +1,59 @@
 ﻿# toArray
 
-### Description
+## Description
 
-Create an array data.
+Creates an array/list of the passed data.
 
-### Flowchart
+## Input / Parameter
+    
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| value1 | The first value to add in the array/list. | Any | - | - | No |
+| value2 | The second value to add in the array/list. | Any | - | - | No |
+| value3 | The third value to add in the array/list. | Any | - | - | No |
+| value4 | The fourth value to add in the array/list. | Any | - | - | No |
+| value5 | The fifth value to add in the array/list. | Any | - | - | No |
+| value6 | The sixth value to add in the array/list. | Any | - | - | No |
+| value7 | The seventh value to add in the array/list. | Any | - | - | No |
+| value8 | The eight value to add in the array/list. | Any | - | - | No |
+| value9 | The ninth value to add in the array/list. | Any | - | - | No |
+| value10 | The tenth value to add in the array/list. | Any | - | - | No |
 
-- N/A 
+## Output   
 
-### Input / Parameters
+| Description | Output Type |
+| ------ | ------ |
+| Returns the created array with the passed data. | Array/List |
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | value1 | Characters, number and words. | String | No __*__ |
-| 2 | value2......value10 | Characters, number and words. | String | No __*__ |
+## Callback
 
-__\* Note:__ At least one field from value1 to value10 must have value in order for this function to work.
+N/A
 
-### Scenario / Use Case
+## Video
 
-The user wants to create an array data.
+Coming soon.
+
+## Example
+
+The user wants to create a list of data and view it in the console.
 
 ### Step
 
-1. Call the function.
+1. Call the `console` function. Call the `toArray` function inside the `value` parameter of the `console` function.
     </br>
     value1 : date<br />
     value2 : name<br />
     value3 : age<br />
     value4 : tel<br />
     
-    ![](../../../../document/function/Object/toArray/toArray-step-1.png?raw=true)
+    ![](../toArray/toArray-step-1.png?raw=true)
+
+    ![](../toArray/toArray-step-2.png?raw=true)
 
 ### Result
 
 ![](../../../../document/function/Object/toArray/toArray-result-1.png?raw=true)
 
-### Video
 
-- N/A
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

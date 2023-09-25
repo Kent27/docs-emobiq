@@ -1,43 +1,53 @@
-# Absolute
+# absolute
 
-### Description
+## Description
 
-Absolute is used to return the absolute value (non-negative value) of a number.
+Absolute is used to return the absolute value (non-negative value) of a number. If the value is a negative number, the output returned will be the non-negative value, otherwise, the same value will be returned.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| value | The number to return the absolute of. | Number | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | value | Number. | Number | Yes |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the absolute value. | Number |
 
-### Scenario / Use Case
+## Callback
 
-The user wants to convert the number to an absolute number.
+N/A
 
-### Step
+## Video
 
-1. Add a console and call the function "absolute", set a negative number as value.
-   </br>
-   value : -5<br>
+Coming Soon.
 
-   ![](../../../../document/function/Math/absolute/absolute-step-1.png?raw=true)
- 
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
- "5" <br>
- (The number has been converted to an absolute value.)
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

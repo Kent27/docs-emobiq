@@ -1,18 +1,20 @@
 # HNSPublishMessage
 
-### Description
+## Description
 
 To send notifaction to other users and include some messages.
 
-### Flowchart
+## Input / Parameters
 
 - N/A
 
-### Input / Parameters
+## Output
 
-- N/A
+## Callback
 
-### Scenario / Use Case
+## Video
+
+## Example
 
 The user want to notify other users.
 
@@ -31,6 +33,6 @@ The user want to notify other users.
 - N/A
 <!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
 
-### Notes
+## Links
 
 - N/A

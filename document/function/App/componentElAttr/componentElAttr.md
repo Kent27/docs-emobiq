@@ -1,24 +1,36 @@
 # componentElAttr
 
-### Description
+## Description
 
-Get the element attribute of the component.
+Returns the element attribute of a component, such as name, value etc.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| component | The name of the component to get attribute from | String/Text | - | - | Partial (Yes if no 'componentId'.) |
+| componentId | The id of the component to get attribute from | String/Text | - | - | Partial (Yes if no 'component'.) |
+| attr | The attribute of the component. | String/Text | - | - | Yes |
 
-### Input / Parameters
+__\* Note:__ Either component or componentId must have value in order for this function to work.
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | component | The name of the component | String | No __*__ | 
-| 2 | componentId | The id of the component | String | No __*__ |
-| 2 | attr | The attribute of component | String | Yes |
+## Output
 
-__\* Note:__ Either No 1 or No 2 must have value in order for this function to work.
+| Description | Output Type |
+| ------ | ------ |
+| Returns the element attribute of the component specified. | String/Text |
 
-### Scenario / Use Case
+## Callback
+
+N/A
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
 
 The user wants to get the value from a text box component.
 
@@ -26,20 +38,18 @@ The user wants to get the value from a text box component.
 
 1. Draw a edit text "txtA", a button "componentElAttr".
 
-    ![](../../../../document/function/App/componentElAttr/componentElAttr-step-1.png?raw=true)
+    ![](./componentElAttr-step-1.png?raw=true)
 
 2. In button event, add a "console" then a "componentElAttr" function.
 
-    ![](../../../../document/function/App/componentElAttr/componentElAttr-step-2.png?raw=true)
+    ![](./componentElAttr-step-2.png?raw=true)
+
+    ![](./componentElAttr-step-3.png)
+
 
 ### Result
 
 The value in edit text will be displayed in console.
 
-### Video
 
-- N/A
-
-### Notes
-
-- N/A
+## Links

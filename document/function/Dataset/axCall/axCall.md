@@ -1,14 +1,10 @@
 ﻿# axCall 
 
-### Description
+## Description
 
 Axcall is the general purpose AX.25, NET/ROM and Rose connection program. 
 
-### Flowchart
-
-- N/A 
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required |
 | ------ | ------ | ------ |------ | ------ |
@@ -16,7 +12,13 @@ Axcall is the general purpose AX.25, NET/ROM and Rose connection program.
 | 2 | ent | The Web Service name to be called. | String | Yes  |
 | 3 | data | This contains the  parameter in the function being called. | Object | Yes |
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 The user wants to call the axCall Web Service.
 
@@ -55,12 +57,5 @@ The user wants to call the axCall Web Service.
 
 ![](../../../../document/function/Dataset/axCall/axCall-result-1.png?raw=true)
 
-### Video
 
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

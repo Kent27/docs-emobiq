@@ -1,42 +1,55 @@
 # getLanguageList
 
-### Description
+## Description
 
 Get the list of languages predefined in language settings.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+N/A
 
-### Input / Parameters
+## Output
 
-- N/A
+N/A
 
-### Scenario / Use Case
+## Callback
 
-User want to get the list of languages in the App.
+### callback
 
-### Step
+The function to be executed when the language list is successfully obtained.
 
-1. Call the function.
+| Description | Output Type |
+| ------ | ------ |
+| Returns the list of languages in the language settings. | Array/List |
 
-    ![](../../../../document/function/App/getLanguageList/getLanguageList-step-1.png?raw=true)
-    
-2. In callback add a console -> input function to view the result
+## Video
 
-    ![](../../../../document/function/App/getLanguageList/getLanguageList-step-2.png?raw=true)
-    
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
-User get the list of language in an array.
- 
-![](../../../../document/function/App/getLanguageList/getLanguageList-result-1.png?raw=true)
-    
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-- N/A
+## Links

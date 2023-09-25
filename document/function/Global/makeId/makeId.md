@@ -1,35 +1,39 @@
 # makeId
 
-### Description
+## Description
 
-Generate unique ID or number.
+Generates a unique ID or number.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+N/A
 
-### Input / Parameters
+## Output
 
-- N/A
+| Description | Output Type |
+| ------ | ------ |
+| Returns the unique ID, which is a series of numbers. | Number |
 
-### Scenario / Use Case
+## Callback
 
-The user wants generate a unique ID before store data into a table.
+N/A
 
-### Step
+## Video
 
-1. Call the function.
+Coming Soon.
 
-    ![](makeId-step-1.png?raw=true)
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+| No. | Description |  |
+| ------ | ------ | ------ |
+| 1. | ![](../makeId/makeId-step-1.png?raw=true) | Drag a button to a page in the mobile designer. Select the event `click` for the button and drag the `console` function to the event flow. |
+| 2. | ![](../makeId/makeId-step-2.png?raw=true) | Select the `function` parameter input type for the value parameter. |
+| 3. | ![](../makeId/makeId-step-3.png?raw=true) |Drag the `makeId` function to the node in the subflow. |
 
 ### Result
 
-User will get a series of number eg 1534990333586678.
+When the button is pressed, the console will show the unique id generated. A new unique id is returned everytime the button is pressed.
 
-### Video
-
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-- N/A
+## Links

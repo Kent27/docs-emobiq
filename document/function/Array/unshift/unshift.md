@@ -1,59 +1,55 @@
-﻿# Unshift
+﻿# unshift
 
-### Description
+## Description
 
-Adds new items to the beginning of an array, and returns the new length.
+Adds new elements to the beginning of an array and returns the updated array.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| var | The name of the array to add new elements to. The return will affect the variable. | String/Text | - | - | Partial (Yes if no 'data'.) |
+| data | The array to add new elements to.  | Array/List | - | - | Partial (Yes if no 'var'.) |
+| value | Element to be added to the array. | String/Text | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | var | The name of the variable. | String | Yes |
-| 2 | value | String | String | Yes | 
+| Description | Output Type |
+| ------ | ------ |
+| The updated array with the items added. | Array/List |
 
-### Scenario / Use Case
+## Callback
 
-The user wants to adds new items to the beginning of an array.
+N/A
 
-### Step
+## Video
 
-1. Call the function "newArray" and "push" (We assumed that the new       array and the value of array have been created.)
-   </br>
-   var: listOfFruits<br />
-   value : Apple<br>
-   value : Orange<br>    
-   
-   ![](../../../../document/function/Array/unshift/unshift-step-1.png?raw=true)
-   
-   ![](../../../../document/function/Array/unshift/unshift-step-2.png?raw=true)
-   
-   ![](../../../../document/function/Array/unshift/unshift-step-3.png?raw=true)
+Coming Soon.
 
-2. Call the function"unshift" and set the value.
-   </br>
-   var: listOfFruits<br />
-   value: Papaya<br>
- 
-   ![](../../../../document/function/Array/unshift/unshift-step-4.png?raw=true)
-   
-3. Add a console for display the input.
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
-   ![](../../../../document/function/Array/unshift/unshift-step-5.png?raw=true)
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-["Papaya", "Apple", "Orange"]
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

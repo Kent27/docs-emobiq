@@ -1,14 +1,11 @@
 ﻿# rawCall 
 
-### Description
+## Description
 
 Directly access or call any REST API Web Service.
 
-### Flowchart
 
-- N/A 
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required |
 | ------ | ------ | ------ |------ | ------ |
@@ -21,7 +18,13 @@ Directly access or call any REST API Web Service.
 | 7 | file | This contains the file parameters in the function being called. | Object | No |
 | 8 | extra |  |  | No |
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 The user wants to call the RAW(REST) Web Service.
 
@@ -58,12 +61,8 @@ The user wants to call the RAW(REST) Web Service.
 
 ![](../../../../document/function/Dataset/rawCall/rawCall-result-1.png?raw=true)
 
-### Video
 
-- N/A
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
+## Notes
 
 - N/A

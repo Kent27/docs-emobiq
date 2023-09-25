@@ -1,48 +1,54 @@
-# Component Element
+# componentElement
 
+## Description
 
-### Description
+Retrieve HTML code for a selected component for developer's reference. Use with the 'console' function to view the HTML code in the console.
 
-To allow developers to identify the HTML code for the component selected
+## Input / Parameter
 
-### Flowchart
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| component | The name of the component to retrieve HTML code from. | String/Text | - | - | Partial (Yes if no 'componentId'.) |
+| componentId | The id of the component to retrieve HTML code from. | String/Text | - | - | Partial (Yes if no 'component'.) |
 
-- N/A
+## Output
 
-### Input / Parameters
+| Description | Output Type |
+| ------ | ------ |
+| The HTML code of the selected component. | String/Text |
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | Component | - | String | yes |
-| 2 | Component Id | - | String | yes |
+## Callback
 
+N/A
 
-### Scenario / Use Case
+## Video
 
-The user wants to identify the html code for selected component
+Coming Soon.
 
-### Step
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
-1. Call Function "Console"
-2. Call Function "ComponentElement"
+## Example
 
-     ![](../../../../document/function/App/componentElement/componentElement-Step-1.png?raw=true)
+Coming Soon.
 
-3. fill up the input parameters
+<!-- Share a scenario, like a user requirements. -->
 
-	![](../../../../document/function/App/componentElement/componentElement-Step-2.png?raw=true)
+### Steps
 
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-result can be seen in the console of the web browser.
+Coming Soon.
 
-![](../../../../document/function/App/componentElement/componentElement-Results-1.png?raw=true)
+<!-- Explain the output.
 
-### Video
+Format: ![]({image-path}?raw=true) -->
 
-- N/A
-
-### Notes
-
-- N/A
+## Links

@@ -1,45 +1,67 @@
 ﻿# selectAll
 
-### Description
+## Description
 
-Get all data from a local table.
+Retrieves all data from a local table.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| dataset | The name of the local table. | String/Text | - | - | Yes |
+| extra | Extra parameters stored and passed to callback. | Any | - | - | No |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | dataset | Name of the dataset in local table. | String | Yes  |
+| Description | Output Type |
+| ------ | ------ |
+| Returns all the fields in the local table. | Array/List |
 
-### Scenario / Use Case
+## Callback?
+
+### callback
+
+The function to be executed if all data is retrieved from the local table successfully.
+
+### errCallback
+
+The function to be executed if all data is not retrieved from the local table successfully.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+
+## Example
+
 
 The user wants to display all the data in dataset "l_item".
 
 ### Step
 
 1. Call the function "selectAll"and define the        dataset.
-   <br>
-   dataset: l_item
+   
+
+   ![](./selectAll-step-1.png?raw=true)
+
+
+   | | |
+   | ---- | ---- | 
+   | dataset | l_item |
   
-   ![](../../../../document/function/Dataset/selectAll/selectAll-step-1.png?raw=true)
+   
+   ![](./selectAll-step-2.png?raw=true)
     
 2. Executes the callback function and add a console for    display the response from console.
  
-   ![](../../../../document/function/Dataset/selectAll/selectAll-step-2.png?raw=true)
+   ![](./selectAll-step-3.png?raw=true)
     
 ### Result
 
- ![](../../../../document/function/Dataset/selectAll/selectAll-result-1.png?raw=true)
+ ![](./selectAll-result-1.png?raw=true)
 
-### Video
 
-- N/A
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

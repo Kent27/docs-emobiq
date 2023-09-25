@@ -1,26 +1,40 @@
 # setComboOptions
 
-### Description
+## Description
 
-Set the value / options for combo box.
+Allows users to set the values or options for a combo box component.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| combo | The name of the combo box component. | String/Text | - | - | Partial (Yes if no 'comboId'.) |
+| comboId | The id of the combo box component. | String/Text | - | - | Partial (Yes if no 'combo'.) | 
+| data | The list of options. | Array/List | - | - | Yes |
+| valueField | The attribute name of the value inputs. | String/Text | - | - | Yes |
+| valueSeparator | The separator used to separate the value. | String/Text | - | - | No |
+| displayField | The attribute name of the dropdown values. | String/Text | - | - | Yes |
+| displaySeparator | The separator used to separate the display. | String/Text | - | - | No |
 
-### Input / Parameters
+__\* Note:__ Either combo or comboId must have value in order for this function to work.
 
-| No | Name | Description | Data Type | Required | Example |
-| ------ | ------ | ------ |------ | ------ | ------ |
-| 1 | combo | The name of the component. | String | No __*__ | 
-| 2 | comboId | The id of the component | String | No __*__ |
-| 3 | data | The list of data (an array of object) | Array/JsonArray | Yes | __[__ <br /> {__"code":"1","name":"abc"__}__, __{__"code":"2","name":"dfe"__} <br /> __]__
-| 4 | valueField | The id of the component | String | Yes |
-| 5 | displayField | The id of the component | String | Yes |
+## Output
 
-__\* Note:__ Either No 1 or No 2 must have value in order for this function to work.
+N/A
 
-### Scenario / Use Case
+Note: The component will be updated to show the combo box options.
+
+## Callback
+
+N/A
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
 
 The user want to make a not visible component to visible.
 
@@ -51,11 +65,5 @@ The combo box "ComboBox617" have the display values of "abc" & "dfe" & the value
 
 ![](../../../../document/function/App/setComboOptions/setComboOptions-result-1.png?raw=true)
 
-### Video
 
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

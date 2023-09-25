@@ -1,58 +1,53 @@
-# Pop
+# pop
 
-### Description
+## Description
 
-Delete value inside an array.
+Deletes the last value inside an array. An array has to be created using the newArray function and values have to be added using the push function first, before using the pop function to delete the last element in the array.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| var | The name of the array to delete the last element from. | String/Text | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | var | The name of the variable. | String | Yes |
+| Description | Output Type |
+| ------ | ------ |
+| The updated array of values. | Array/List |
 
-### Scenario / Use Case
+## Callback
 
-The user wants to remove the value in an array.
+N/A
 
-### Step
+## Video
 
-1. Call the function "newArray" and "push" (We     assumed that the new array and the value of     array have been created.)
-   </br>
-   var: listOfFruits<br />
-   value : jackfruit<br>
-   value : mango<br>
-   value : banana<br>
+Coming Soon.
 
-   ![](../../../../document/function/Array/pop/pop-step-1.png?raw=true)
-    
-2. Call the "pop" function. <br>
-   var: listOfFruits<br />
-    
-   ![](../../../../document/function/Array/pop/pop-step-2.png?raw=true)
-    
-3.  Add a console to view the remaining value in the array.<br>
-	var: listOfFruits<br />
-  
-    ![](../../../../document/function/Array/pop/pop-step-3.png?raw=true)
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-"banana" has been deleted from the array. <br />
-The remaining value as shown below:
+Coming Soon.
 
-   ![](../../../../document/function/Array/pop/pop-step-4.png?raw=true)
-	
+<!-- Explain the output.
 
-### Video
+Format: ![]({image-path}?raw=true) -->
 
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

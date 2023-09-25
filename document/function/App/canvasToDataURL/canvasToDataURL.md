@@ -1,20 +1,33 @@
 # canvasToDataURL
 
-### Description
+## Description
 
-Convert the value in signature component to dataURL eg data:__[__&lt;mediatype&gt;__]__[_;base64_]_,&lt;data&gt; 
+Converts the value in a signature component to dataURL.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| canvas | The name of the component. | String/Text | - | - | Yes |
+| componentId | The id of the component. | String/Text | - | - | No |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required | Example |
-| ------ | ------ | ------ |------ | ------ | ------ |
-| 1 | canvas | The name of signature component. | String | Yes | 
+| Description | Output Type |
+| ------ | ------ |
+| Returns the dataURL of the signature. | String/Text |
 
-### Scenario / Use Case
+## Callback
+
+N/A
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
 
 The user want get the value of signature component and send to the server for processing.
 
@@ -33,6 +46,10 @@ The user want get the value of signature component and send to the server for pr
 3. Call the function by adding a console -> canvasToDataURL in button event.
 
     ![](../../../../document/function/App/canvasToDataURL/canvasToDataURL-step-3.png?raw=true)
+
+4. Use the name of the signature component inside the function parameters.
+
+    ![](./canvasToDataURL-step-4.png)
     
 ### Result
 
@@ -40,11 +57,4 @@ In the console of browser, user can see the dataURL of signature component.
 
 ![](../../../../document/function/App/canvasToDataURL/canvasToDataURL-result-1.png?raw=true)
 
-### Video
-
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

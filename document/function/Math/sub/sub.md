@@ -1,44 +1,48 @@
-﻿# Sub
+﻿# sub
 
-### Description
+## Description
 
-Substract two numbers.
+Substract two numbers. The output will return the difference between the two values.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| value1 | The number to be subtracted from. | Number | - | - | Yes |
+| value2 | The number to subtract from the first value. | Number | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | value1 | Number | Integer | Yes  |
-| 2 | value2 | Number | Integer | Yes  |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the difference between the two values. | Number |
 
-### Scenario / Use Case
+## Callback
 
-The user wants to substract two values and get the total result.<br />
+N/A
 
-### Step
+## Video
 
-1. Call the function.
-    <br />
-    value1 : 10<br />
-    value2 :  5<br />
-    
-    ![](../../../../document/function/Math/sub/sub-step-1.png?raw=true)
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+1. Drag the `sub` function into the event flow.
+
+    ![](./sub-step-1.png)
+
+2. Enter the 2 values. For this example we are subtracting 7 from 10.
+
+    ![](./sub-step-2.png)
 
 ### Result
 
-5
+```3```
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-
-### Notes
-
-- N/A
+## Links

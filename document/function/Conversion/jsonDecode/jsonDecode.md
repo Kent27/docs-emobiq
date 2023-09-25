@@ -1,21 +1,40 @@
 # jsonDecode
 
+## Description
 
-### Description
+Decodes a [JSON][JSON] string to an object format.
 
-Decode a JSON string.
+See 'jsonEncode' function for the json encoding function.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| string | The value to decode. | String/Text | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | object | The Object. | Object | Yes  |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the object specified. | Object |
 
-### Scenario / Use Case
+### Object
+
+| Key | Description | Output Type |
+| ------ | ------ | ------ |
+| (key) | The dynamic key specfied in the [JSON][JSON] string. | String/Text |
+
+## Callback
+
+N/A
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
 
 User want to decode json strings.
 <br>
@@ -26,18 +45,15 @@ Name : Lili<br />
 
 1. Call the function.
 
-   ![](../../../../document/function/Conversion/jsonDecode/jsonDecode-step-1.png?raw=true)
+   ![](./jsonDecode-step-1.png?raw=true)
+
+   ![](./jsonDecode-step-2.png?raw=true)
+
    
 ### Result
 
-![](../../../../document/function/Conversion/jsonDecode/jsonDecode-result-1.png?raw=true)
-   
-### Video
+![](./jsonDecode-result-1.png?raw=true)
 
-- N/A
+## Links
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+[JSON]: <https://www.json.org/json-en.html>

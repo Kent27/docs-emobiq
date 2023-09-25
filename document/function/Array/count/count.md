@@ -1,20 +1,32 @@
-﻿# Count
+﻿# count
 
-### Description
+## Description
 
-Counts all elements in an array.
+Counts the number of elements in an array. An array can be created using the toArray function.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| values | The array of values. | Array/List | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | values | Array | Array | Yes |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the total number of elements in the array. | Number |
 
-### Scenario / Use Case
+## Callback
+
+N/A
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
 
 The user wants to count all the data in an array.
 
@@ -36,12 +48,5 @@ The user wants to count all the data in an array.
 
 4
 
-### Video
 
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

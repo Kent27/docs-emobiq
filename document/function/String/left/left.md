@@ -1,42 +1,47 @@
-﻿# Left
+﻿# left
 
-### Description
+## Description
 
-Extracts a specified number of characters start from the left hand side of a string.
+Extract a specified number of characters from the left side of a text.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| string | The value where the extraction would happen. | String/Text | - | - | Yes |
+| length | The number of characters to extract. | Number | 0 | - | Yes |
+| byLanguageFormat | To follow the language format. Usually this matters for languages that doesn't use alphabet. | Boolean | false | - | No |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | string | Characters, number or words. | String | Yes  |
-| 2 | length | Number of character needed. | Integer | Yes |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the extracted text. | String/Text |
 
-### Scenario / Use Case
+## Callback
+
+N/A
+
+## Video
+
+Coming soon.
+
+## Example
 
 The user wants to display a specified number of characters from the left hand side of a string.
 
 ### Step
 
-1. Call the function.<br />
+1. Call the function `console`. Call the function `left` inside the `value` parameter of the `console` function.<br />
     string: 123456789<br />
     length : 6<br />
 
-   ![](../../../../document/function/String/left/left-step-1.png?raw=true)
+   ![](../left/left-step-1.png?raw=true)
+
+   ![](../left/left-step-2.png?raw=true)
 
 ### Result
 
-"123456"
+![](../left/left-result-1.png)
 
-### Video
-
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

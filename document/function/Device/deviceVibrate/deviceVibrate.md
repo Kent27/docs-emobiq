@@ -1,39 +1,39 @@
-
 # deviceVibrate
 
-### Description
+## Description
 
 Activate vibration of mobile device.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Data Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| duration | The duration of vibration in milliseconds. | Number | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | duration | Duration of vibration in miliseconds | Number | Yes |
+N/A
 
-### Scenario / Use Case
+## Callback
 
-The user want trigger mobile vibration function.
+N/A
+
+## Video
+
+Coming Soon.
+
+## Example
+
+The user wants to trigger the mobile vibration function.
 
 ### Step
 
-1. Call the deviceVibrate function in a button event.
+| No. | Description |  |
+| ------ | ------ | ------ |
+| 1. | ![](../deviceVibrate/deviceVibrate-step-1.png?raw=true) | Drag a button to a page in the mobile designer. Select the event `click` for the button and drag the `deviceVibrate` function to the event flow. Fill in the parameters of the function. |
 
-    ![](../../../../document/function/Device/deviceVibrate/deviceVibrate-step-1.png?raw=true)
-    
 ### Result
 
-The mobile device will be vibrated for 2s.
+When the button is pressed, the mobile device will vibrate for 2s.
 
-### Video
-
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

@@ -1,47 +1,46 @@
 # dateDiff 
 
-### Description
+## Description
 
-Get the difference between two dates.
+Calculates the difference between two dates, measuring the duration or interval between them in terms of days, weeks, months, etc.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| value1 | The start date, this becomes the subtrahend. | String/Text | (Current-Date) | - | Yes |
+| value2 | The end date, this becomes the minuend. | String/Text | (Current-Date) | - | Yes |
+| interval | The value to be checked. | String/Text | days | years, months, weeks, days, hours, minutes, seconds | No |
 
-### Input / Parameters
+## Output   
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | value1 | First date value. | Date | Yes |
-| 2 | value2 | Second date value | Date | Yes |
-| 3 | interval | a period between two events or times | Boolean | No | 
+| Description | Output Type |
+| ------ | ------ |
+| Returns the difference between two dates in terms of days. Will be negative if `value2` is an early date than `value1` | Number/Integer |
 
-### Scenario / Use Case
+## Callback
 
-User want to calculate the difference between two dates.
-</br>
-### Step
+N/A
 
-1. Call the function "dateDiff" and "strToDate" and set the    date.
-   </br>
-   date: 2018/08/20<br />
-   
-   ![](../../../../document/function/Object/dateDiff/dateDiff-step-1.png?raw=true)
+## Video
 
-2. Call the function "strToDate" and set      the date which diffrent from first         date.<br>
-   date: 2018/08/24<br />
-   
-   ![](../../../../document/function/Object/dateDiff/dateDiff-step-2.png?raw=true)
+Coming soon.
+
+## Example
+
+### Steps
+
+1. Using the dates `2023-01-01` and `1970-01-01`
+
+![](dateDiff-step-1.png)
 
 ### Result
 
-4 (2018-08-20 - 2018-08-24)
+Will return the value: 
 
-### Video
+```
+-19358
+```
 
-- N/A
 
-
-### Notes
-
-- N/A
+## Links

@@ -1,23 +1,35 @@
-
 # openExternalApp
 
-### Description
+## Description
 
-Open another mobile app and passing the data to the app.
+Opens an external mobile app and passes the data specified to that app.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| path | The path of the mobile app. | String/Text | - | - | Yes |
+| data | The data to be passed to the mobile app. | String/Text | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | path | Mobile app path | String | Yes |
-| 2 | data | Data | String | Yes |
+N/A
+
+Note: The app will be updated to show the data to be passed in the external mobile app.
+
+## Callback
+
+N/A
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
 
-### Scenario / Use Case
+## Example
+
 
 The user want send a Whatsapp message from current app to Whatsapp.
 
@@ -32,11 +44,6 @@ The user want send a Whatsapp message from current app to Whatsapp.
 The Whatsapp will be opened, select who to send the message "1111" will be sent.
 ![](../../../../document/function/Device/openExternalApp/openExternalApp-result-1.png?raw=true)
 
-### Video
 
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
 
-### Notes
-
-- N/A
+## Links

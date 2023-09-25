@@ -1,39 +1,53 @@
-# Not
+# not
 
-### Description
+## Description
 
-NOT operator is a Boolean operator that returns TRUE or 1 when the operand is FALSE or 0, and returns FALSE or 0 when the operand is TRUE or 1. Essentially, the operator reverses the logical value associated with the expression on which it operates.
+'not' operator is a Boolean operator that returns true when the operand is false, and returns false when the operand is true. Essentially, the operator reverses the logical value associated with the expression on which it operates.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| value1 | The input to be checked against. | Boolean | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | value | Boolean | Boolean | Yes |
+| Description | Output Type |
+| ------ | ------ |
+| Returns true if operator is false, returns false otherwise. | Boolean |
 
-### Scenario / Use Case
+## Callback
 
-The user wants to reverse a "false" logical value and make it to "true".
+N/A
 
-### Step
+## Video
 
-1. Add a console and call the function. Set the value to "false".<br>
-   value : false<br />
-   ![](../../../../document/function/Logical/not/not-step-1.png?raw=true)
-    
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
-When it is NOT "false", the function will reverse the logical value and return "true" as result.
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

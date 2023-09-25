@@ -1,41 +1,43 @@
 ﻿# decodeBase64String
 
-### Description
+## Description
 
-Convert a base64 to string.
+Decode an encoded base64 string or text, by replacing the instances of certain characters that was changed to the original utf-8 encoding characters.
 
-### Flowchart
+See 'encodeBase64String' function for the base64 encoding function.
 
-- N/A 
+## Input / Parameter
 
-### Input / Parameters
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| string | The value to be decoded. | String/Text | - | - | Yes |
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | string | Character, number and words. | String | Yes  |
+## Output
 
-### Scenario / Use Case
+| Description | Output Type |
+| ------ | ------ |
+| Returns the decoded value. | String/Text |
 
-The user wants to decode a base64 string to string.<br />
+Note: This will produce error/stop the application when the text passed is an invalid base64 encoded text.
 
-### Step
+## Callback
 
-1. Call the function.<br>
-    string : QUE=<br />
-    
-   ![](../../../../document/function/String/decodeBase64String/decodeBase64String-step-1.png?raw=true)
+N/A
+
+## Video
+
+Coming soon.
+
+## Example
+
+Coming soon.
+
+### Steps
+
+Coming soon.
 
 ### Result
 
-"AA"
+Coming soon.
 
-### Video
-
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-
-### Notes
-
-- N/A
+## Links

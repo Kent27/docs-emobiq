@@ -1,47 +1,51 @@
 # setVar
 
-### Description
+## Description
 
-Create a global variable along with its value.
+Creates a global variable with a value associated to it.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| var | The name of the variable to create. | String/Text | - | - | Yes |
+| value | The value associated to the variable. | String/Text | - | - | Yes |
 
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
+## Output
 
-### Input / Parameters
+| Description | Output Type |
+| ------ | ------ |
+| Returns the value of the variable created. | String/Text |
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | var | Name of variable | String | Yes |
-| 2 | value | Value | String | Yes | 
+## Callback
 
-### Scenario / Use Case
+N/A
 
-The user wants to create a global variable that can be accessed or used in any function in the app.
+## Video
 
-### Step
+Coming Soon.
 
-1. Call the function, create a variable of single value.
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
-    ![](../../../../document/function/App/setVar/setVar-step-1.png?raw=true)
+## Example
 
-2. Call the function, create a variable of an object.
+### Steps
 
-    ![](../../../../document/function/App/setVar/setVar-step-2.png?raw=true)
+1. Drag the `setVar` function into the flow window. ![](setVar-step-1.png)
+2. Create a variable called `version` with the value `1.0.0`  ![](setVar-step-2.png) 
+3. This will create a global variable called "version" containing the value "1.0.0" that can be accessed by other components or on other pages of your app.
 
 ### Result
 
-In console, user can type emobiqApp._GVar to view all the global variable.
+The value of the global variable `version` can be accessed by using the [`getVar`](./getvar) function. 
 
-![](../../../../document/function/App/setVar/setVar-result-1.png?raw=true)
+![](setVar-step-3.png) 
 
-### Video
+Using the above flow will display the value `1.0.0` in the browser console.
 
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)
--->
+![](setVar-step-4.png) 
 
-### Notes
-- N/A
+
+## Links
+
+* See also [`getVar`](./getvar)

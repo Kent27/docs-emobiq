@@ -1,78 +1,57 @@
 # chartPopulatePieData
 
-### Description
+## Description
 
-A pie chart is a circular statistical graphic which is divided into slices, in which each slice of the pie represents a part of the whole.
+A pie chart is a circular statistical graph which is divided into slices, where each slice of the pie represents a part of the whole.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| component | The name of the Chart component to take details from. | String/Text | - | - | Yes |
+| componentId | The id of the Chart component to take details from. | String/Text | - | - | No | 
+| dataCaptions | The legend for each data. | Array/List | - | - | No | 
+| data | The data values for each legend. | Array/List | - | - | Yes |
+| dataColors | The colors to be set for each legend. | Array/List | - | - | No |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | component | The name of the component that the details will be taken from. | String | Yes |
-| 2 | componentId | The id of the component that the details will be taken from. | String | No |
-| 3 | dataCaptions | dataCaptions | Array | No |
-| 4 | data | Number | Array | Yes |
-| 5 | dataColors | dataColors | Array | No |
+N/A
 
-### Scenario / Use Case
+Note: The Chart component will be updated with the pie chart parameters specified.
 
-The user wants to create a Pie Chart.
+## Callback
 
-### Step
+N/A
 
-1. Call the function "chartPopulatePieData" and define the value for component, dataCaptions, and data.
-   <br>
-   <ul>
-   <li>component: chData</li>
-  
-   ![](../../../../document/function/Chart/chartPopulatePieData/chartPopulatePieData-step-1.png?raw=true)
-   
-   <li>dataCaptions: toArray -></li> 
-                            <ul>
-                            <li>value1: Kevin </li>
-                            <li>value2: Ann  </li>
-                            <li>value3: Audrey  </li>
-                            <li>value4: Nadine </li> 
-                            </ul>
-   
-   ![](../../../../document/function/Chart/chartPopulatePieData/chartPopulatePieData-step-2.png?raw=true)
-   
-   </li><li>data: toArray -></li> 
-                          <ul>
-                          <li>value1: toArray </li>
-                          <ul>
-                          <li>value1: 5 </li>
-                          </ul>
-                          <li>value2: toArray </li>
-                          <ul>
-                          <li>value1: 9 </li>
-                          </ul>
-                          <li>value3: toArray </li>
-                          <ul>
-                          <li>value1: 8 </li>
-                          </ul>
-                          <li>value4: toArray </li>
-                          <ul>
-                          <li>value1: 3 </li>
-                          </ul>
-                          </ul>
-  
-   ![](../../../../document/function/Chart/chartPopulatePieData/chartPopulatePieData-step-3.png?raw=true)
-    
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
- ![](../../../../document/function/Chart/chartPopulatePieData/chartPopulatePieData-result-1.png?raw=true)
- 
-### Video
+Coming Soon.
 
-- N/A
+<!-- Explain the output.
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

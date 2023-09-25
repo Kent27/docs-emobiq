@@ -1,37 +1,52 @@
 # deviceManufacturer
 
-### Description
+## Description
 
 Get the manufacturer of a device.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+N/A
 
-### Input / Parameters
+## Output
 
-- N/A
+N/A
 
-### Scenario / Use Case
+## Callback
 
-The user want display manufacturer of a device in an info dialog.
+N/A
 
-### Step
+## Video
 
-1. Add a infoDialog, call the manufacturer function. 
+Coming Soon.
 
-    ![](../../../../document/function/Device/deviceManufacturer/deviceManufacturer-step-1.png?raw=true)
-    
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+The user wants to display the device manufacturer in a dialog modal.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+| No. | Description |  |
+| ------ | ------ | ------ |
+| 1. | ![](../deviceManufacturer/deviceManufacturer-step-2.png?raw=true) | Drag a button to a page in the mobile designer. Select the event `click` for the button and drag the `infoDialog` function to the event flow. Fill in the parameters of the function. For the parameter `content`, select the parameter type `function`. |
+| 2. | ![](../deviceManufacturer/deviceManufacturer-step-3.png?raw=true) | Drag the `deviceManufacturer` function to the node in the subflow for the `content` parameter. |
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
-The manufacturer of the device will be shown. <br />
-![](../../../../document/function/Device/deviceManufacturer/deviceManufacturer-result-1.png?raw=true)
+When the button is pressed, the infoDialog will appear to show the device manufacturer.
 
-### Video
+<!-- Explain the output.
 
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

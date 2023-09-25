@@ -1,39 +1,54 @@
-
 # deviceBeep
 
-### Description
+## Description
 
-Activate beep sound of mobile device.
+Activate the beep sound of mobile device.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Data Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| times | The number of beeps. | Number | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | duration | Number of beep | Number | Yes |
+N/A
 
-### Scenario / Use Case
+## Callback
 
-The user want trigger mobile beep sound.
+N/A
 
-### Step
+## Video
 
-1. Call the deviceBeep function in a button event.
+Coming Soon.
 
-    ![](../../../../document/function/Device/deviceBeep/deviceBeep-step-1.png?raw=true)
-    
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+The user wants to activate the beep sound in their mobile device.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+| No. | Description |  |
+| ------ | ------ | ------ |
+| 1. | ![](../deviceBeep/deviceBeep-step-1.png?raw=true) |Drag a button to a page in the mobile designer. Select the event `click` for the button and drag the function `deviceBeep` to the event flow. |
+| 2. | ![](../deviceBeep/deviceBeep-step-2.png?raw=true) | Fill in the parameter with the number of times the mobile should beep. |
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
-The mobile device beeping for 3 times.
+When the button is pressed, the mobile device will beep 3 times.
 
-### Video
+<!-- Explain the output.
 
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

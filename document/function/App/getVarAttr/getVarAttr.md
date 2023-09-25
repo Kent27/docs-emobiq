@@ -1,24 +1,34 @@
 # getVarAttr
 
-### Description
+## Description
 
-Get the attribute value of an object / array variable.
+Returns the attribute value of an object or array variable.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| var | The name of the variable. | String/Text | - | - | Yes |
+| attr | The attribute of the variable to be obtained. | String/Text | - | - | Yes |
+| default | The default value of the variable. | String/Text | - | - | Yes |
 
-<!--![Flowchart](componentValue-flowchart.png?raw=true)-->
+## Output
 
-### Input / Parameters
+| Description | Output Type |
+| ------ | ------ |
+| Returns the attribute value of the object if there is a value, returns default value passed by the user otherwise. | String/Text |
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | var | Name of variable | String | Yes |
-| 2 | value | Value | String | Yes | 
-| 2 | default | Default value | String | Yes | 
+## Callback
 
-### Scenario / Use Case
+N/A
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
 
 The user wants to use a value of an attribute from global variable which had been declared.
 
@@ -26,17 +36,15 @@ The user wants to use a value of an attribute from global variable which had bee
 
 1. Assuming you have followed the "setVar" fuction in help document, call the function.
 
-    ![](../../../../document/function/App/getVarAttr/getVarAttr-step-1.png?raw=true)
+    ![](./getVarAttr-step-1.png?raw=true)
+    ![](./getVarAttr-step-2.png?raw=true)
 
 ### Result
 
 In console, user can the string "CodeABC". If user variable "vObject" have no value, it will display "No Value".
 
-### Video
+<!-- Explain the output.
 
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)
--->
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-- N/A
+## Links

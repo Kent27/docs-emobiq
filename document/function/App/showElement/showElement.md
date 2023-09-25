@@ -1,41 +1,44 @@
 # showElement
 
-### Description
+## Description
 
-Make a component visible / display on screen.
+Makes a component visible on the screen.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| component | The name of the component. | String/Text | - | - | Partial (Yes if no 'componentId'.) |
+| componentId | The id of the component. | String/Text | - | - | Partial (Yes if no 'component'.) |
 
-### Input / Parameters
+__\* Note:__ Either component or componentId must have value in order for this function to work.
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | component | The name of the component. | String | No __*__ | 
-| 2 | componentId | The id of the component | String | No __*__ |
+## Output
 
-__\* Note:__ Either No 1 or No 2 must have value in order for this function to work.
+N/A
 
-### Scenario / Use Case
+Note: The component will be updated to be shown on the screen.
 
-The user want to make a not visible component to visible.
+## Callback
 
-### Step
+N/A
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
 
 1. Call the function
 
-    ![](../../../../document/function/App/showElement/showElement-step-1.png?raw=true)
+    ![](./showElement-step-1.png?raw=true)
+    ![](./showElement-step-2.png?raw=true)
 
 ### Result
 
 A component will be shown in the mobile screen.
 
-### Video
 
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

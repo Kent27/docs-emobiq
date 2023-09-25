@@ -1,46 +1,38 @@
 ﻿# objectValues
 
-### Description
+## Description
 
-Creates an array of the values available from the object.
+Creates an array/list of the attribute/property values of an object.
 
-### Flowchart
-
-- N/A 
-
-### Input / Parameters
-
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | object | The object. | Object | Yes  |
-
-### Scenario / Use Case
-
-The user wants to create an array which returns the values from the object.
-
-### Step
-
-1. Call the function.
-
-    ![](../../../../document/function/Object/objectValues/objectValues-step-1.png?raw=true)
-
-2. Set the object value.<br>
-    object : toObject<br />
-    AGE : 34<br />
-    tel : 22222222<br />
+## Input / Parameter
     
-    ![](../../../../document/function/Object/objectValues/objectValues-step-2.png?raw=true)
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| object | The object to get the attribute/property values. | Object | - | - | Yes |
 
-### Result
+## Output   
 
-![](../../../../document/function/Object/objectValues/objectValues-result-1.png?raw=true)
+| Description | Output Type |
+| ------ | ------ |
+| Returns the array/list of the attribute/property values. | Array/List |
 
-### Video
+## Callback
 
-- N/A
+N/A
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+## Video
 
-### Notes
 
-- N/A
+## Example
+
+![](objectValues-step-1.png)
+
+Given the above object, `objectValues` function will return this list:
+
+```JS
+["John", "john@example.com", "23", "123456"]
+```
+
+## Links
+
+* See also `objectKeys` and `objectAttr`

@@ -1,25 +1,38 @@
 # setComponentAttr
 
-### Description
+## Description
 
-Set the attribute of a component.
+Allows users to set a value to an attribute of a component.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| component | The name of the component. | String/Text | - | - | Partial (Yes if no 'componentId'.) |
+| componentId | The id of the component. | String/Text | - | - | Partial (Yes if no 'component'.) |
+| attr | The attribute of the component. | String/Text | - | - | Yes |
+| value | The value of the attribute. | String/Text | - | - | Yes |
 
-### Input / Parameters
+__\* Note:__ Either component or componentId must have value in order for this function to work.
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | component | The name of the component | String | No __*__ | 
-| 2 | componentId | The id of the component | String | No __*__ |
-| 3 | attr | The attribute of component | String | Yes |
-| 4 | value | The value of attribute | String | Yes |
+## Output
 
-__\* Note:__ Either No 1 or No 2 must have value in order for this function to work.
+N/A 
 
-### Scenario / Use Case
+Note: The component will be updated to show the value assigned to the attribute.
+
+## Callback
+
+N/A
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
 
 The user override a specific atrribute of a component.
 
@@ -31,7 +44,9 @@ The user override a specific atrribute of a component.
     
 3. Call the function
 
-    ![](../../../../document/function/App/setComponentAttr/setComponentAttr-step-2.png?raw=true)
+    ![](./setComponentAttr-step-2.png?raw=true)
+    
+    ![](./setComponentAttr-step-3.png?raw=true)
 
 ### Result
 
@@ -39,11 +54,4 @@ The attribute "value" of the edit text "txtTest" will have the value of "abc".
 
 ![](../../../../document/function/App/setComponentAttr/setComponentAttr-result-1.png?raw=true)
 
-### Video
-
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- User can use console -> getComponent to see all the attributes of a component.
+## Links
