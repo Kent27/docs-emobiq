@@ -1,3 +1,6 @@
-# Ignore Files
+# Ignore Files
 .DS_Store
 *.mov
+
+# IDE Settings
+.idea
