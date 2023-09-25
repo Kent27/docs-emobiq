@@ -1,38 +1,50 @@
 
 # barcodeScanDisable
 
-### Description
+## Description
 
-Disable barcode scanner.
+Disable the barcode scanner.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+N/A
 
-### Input / Parameters
+## Output
 
+N/A
 
+## Callback
 
-### Scenario / Use Case
+N/A
 
-User want to disable barcode scanner.
+## Video
 
-### Step
+Coming Soon.
 
-1. Call the function
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
-    ![](../../../../document/function/Device/barcodeScanDisable/barcodeScanDisable-step-1.png?raw=true)
+## Example
 
-    
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
+Coming Soon.
 
+<!-- Explain the output.
 
-### Video
+Format: ![]({image-path}?raw=true) -->
 
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

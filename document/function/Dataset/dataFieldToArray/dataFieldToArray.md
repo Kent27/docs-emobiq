@@ -1,21 +1,23 @@
 ﻿# dataFieldToArray
 
-### Description
+## Description
 
 Return all values of the field that stored in the local table in an array format.
 
-### Flowchart
-
-- N/A 
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required |
 | ------ | ------ | ------ |------ | ------ |
 | 1 | dataset | Name of the dataset to be read in local table. | String | Yes  |
 | 2 | field | The field name to be returned. | String | Yes  |
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 The user wants to display all the data in an array format from local table.
 
@@ -33,12 +35,6 @@ The user wants to display all the data in an array format from local table.
 
  ![](../../../../document/function/Dataset/dataFieldToArray/dataFieldToArray-result-1.png?raw=true)
 
-### Video
-
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
+## Links
 
 - N/A

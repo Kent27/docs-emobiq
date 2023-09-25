@@ -1,46 +1,43 @@
-# Div
+# div
 
-### Description
+## Description
 
-Division of two numbers.
+Division of two numbers. The output will return the quotient of the two values.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| value1 | The dividend, or the number to be divided. | Number | - | - | Yes |
+| value2 | The divisor, or the number to divide the first value by. | Number | - | - | Yes |
+| integer | Decide whether to return the output as an integer (quotient rounded off to the nearest whole number) or a decimal. | Boolean | false | true, false | No |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | value1 | Dividend. | Integer | Yes  |
-| 2 | value2 | Divisor. | Integer | Yes  |
-| 3 | integer | Determine whether the result of the division to be an integer(whole number) or can be a fraction. | Boolean | No|
+| Description | Output Type |
+| ------ | ------ |
+| Returns the quotient. | Number |
 
-### Scenario / Use Case
+## Callback
 
-The user wants to divide two numbers and get the total result.<br />
+N/A
 
-### Step
+## Video
 
-1. Call the function.
-    <br />
-    value1: 11<br />
-    value2:  2<br />
-    integer: false
-    
-    ![](../../../../document/function/Math/div/div-step-1.png?raw=true)
+Coming Soon.
 
-### Result
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
-Result of the division = 5.5
+## Example
 
-### Video
+1. Drag the `div` function into the event flow.
 
-- N/A
+    ![](./div-step-1.png)
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+| Values | Expected result | 
+| ---- | ---- | 
+| ![](../div/div-step-2.png) | 3 |
+| ![](../div/div-step-3.png) | 1.5 |
+| ![](../div/div-step-4.png) | 1 |
 
-
-### Notes
-
-- N/A
+## Links

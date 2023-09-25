@@ -1,36 +1,61 @@
 # HNSPushMessageByUserId
 
-### Description
+## Description
 
+Sends a push notification message by the userID.
 
+## Input / Parameter
 
-### Flowchart
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| pushNotif | The name of the push notification. | String/Text | - | - | Yes |
+| userId | The user id to send push message to. | String/Text | - | - | Yes |
+| title | The title of the push notification. | String/Text | - | - | No |
+| message | The message for the push notification. | String/Text | - | - | No |
+| data | The data for the push notification. | Array/List | - | - | No |
 
-- N/A
+## Output
 
-### Input / Parameters
+N/A
 
-- N/A
+## Callback
 
-### Scenario / Use Case
+### callback
 
+The function to be executed if the push notification message is sent successfully.
 
+### errorCallback
 
-### Step
+The function to be executed if the push notification message is not sent successfully.
 
-1. Call the function. <br />
-    
-    ![](../../../../document/function/Device/HNSPushNotification/push-notify-step-1.png?raw=true)
-    
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
-- N/A
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

@@ -1,46 +1,44 @@
 # decrypt
 
-### Description
+## Description
 
-The conversion of encrypted data into its original form.
+Decrypt the encrypted passed value.
 
-### Flowchart
+See 'encrypt' function for the encrypt function.
 
-- N/A 
+## Input / Parameter
 
-### Input / Parameters
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| type | The type of encryption used for the encryption. | String/Text | aes | aes, aes256 | Yes |
+| key | The key to be used for the decryption. | String/Text | - | - | Yes |
+| iv | The vector used for the decryption. | String/Text | - | - | Partial (Yes if type is 'aes256'.) |
+| value | The value to be decrypted. | String/Text | - | - | Yes |
 
-| No | Name | Description | Data Type | Required | Example |
-| ------ | ------ | ------ |------ | ------ | ----- |
-| 1 | type |  Advanced Encryption Standard. | String | No | aes / aes256 |
-| 2 | key | The key you want to decrypt. | String | Yes |
-| 3 | iv | An initialization vector (IV) is an arbitrary number that can be used along with a secret key for data encryption. | Integer | Yes |
-| 4 | value | The value need to be decrypt. | String | Yes |
+## Output
 
-### Scenario / Use Case
+| Description | Output Type |
+| ------ | ------ |
+| Returns the decrypted value. | String/Text |
 
-The user wants decrypt the code into data.
+## Callback
 
-### Step
+N/A
 
-1. Call the function "decrypt" and define the value for type, key,    iv and value.<br>
-   type: aes256<br />
-   key: sw234<br />
-   iv: 2<br />
-   value: U2FsdGVkX19zGcohyGZ2fjig<br />
-    
-   ![](../../../../document/function/String/decrypt/decrypt-step-1.png?raw=true)
+## Video
+
+Coming soon.
+
+## Example
+
+Coming soon.
+
+### Steps
+
+Coming soon.
 
 ### Result
 
-12121212
+Coming soon.
 
-### Video
-
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

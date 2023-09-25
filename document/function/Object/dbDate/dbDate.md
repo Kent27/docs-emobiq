@@ -1,43 +1,42 @@
 # dbDate
 
-### Description
+## Description
 
-Get the current date.
+Retrieves the current date and enables adding a specific duration or increment to a date.
 
-### Flowchart
+## Input / Parameter
+    
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| withTime | If time is included in the result | Boolean | false | - | Yes |
+| add | The duration to be added in the current date. | Number | 0 | - | No |
+| type | The duration type of 'add'. | String/Text | days | days, hours, minutes, seconds  | No |
 
-- N/A 
+## Output   
 
-### Input / Parameters
+| Description | Output Type |
+| ------ | ------ |
+| Returns the calculated date or datetime. | String/Text |
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | withTime | True or false. | Boolean | No | 
-| 2 | add | Number of days | Integer | No |
+## Callback
 
-### Scenario / Use Case
+N/A
 
-User want to get the current date.
-</br>
+## Video
 
-### Step
+Coming soon.
 
-1. Call the function.
-    </br>
-    withTime : true <br />
+## Example
 
-    ![](../../../../document/function/Object/dbDate/dbDate-step-1.png?raw=true)
 
-### Result
+Assuming current datetime is 01-Jan-2023 10:00AM. The table below lists some sample inputs and the expected output by the `dbDate` function.
 
-2018-08-24 15:40:38
+| Function inputs | Expected result in `console` | Explanation | 
+| ------ | ------ | ------ | 
+| ![](./dbDate-eg-1.png) | `2023-01-02 10:00:00` | 1 day after today, with timestamp |
+| ![](./dbDate-eg-2.png) | `2023-01-02` | 1 day after today, without timestamp | 
+| ![](./dbDate-eg-3.png) | `2023-01-01 10:10:00` | 10 minutes after current time (10AM) | 
+| ![](./dbDate-eg-4.png) | `2023-04-11` | 100 days after today, without timestamp
 
-### Video
 
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

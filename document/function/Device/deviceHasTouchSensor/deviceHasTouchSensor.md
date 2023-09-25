@@ -1,41 +1,59 @@
 # deviceHasTouchSensor
 
-### Description
+## Description
 
-Active touch sensor (fingerprint) of a mobile device.
+Activates the touch sensor (fingerprint) feature of a mobile device.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+N/A
 
-### Input / Parameters
+## Output
 
-- N/A
+N/A
 
-### Scenario / Use Case
+## Callback
 
-The user want activate touch sensor of their device.
+### callback
 
-### Step
+The function to be executed if the touch sensor is activated successfuly.
 
-1. Call the deviceHasTouchSensor function in a button event.
+### errorCallback
 
-    ![](../../../../document/function/Device/deviceHasTouchSensor/deviceHasTouchSensor-step-1.png?raw=true)
+The function to be executed if the touch sensor is not activated successfully.
 
-2. In callback, add infoDialog function. 
+## Video
 
-    ![](../../../../document/function/Device/deviceHasTouchSensor/deviceHasTouchSensor-step-2.png?raw=true)
-    
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+The user wants to activate the touch sensor feature of their mobile device.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+| No. | Description |  |
+| ------ | ------ | ------ |
+| 1. | ![](../deviceHasTouchSensor/deviceHasTouchSensor-step-1.png?raw=true) | Drag a button to a page in the mobile designer. Select the event `click` for the button and drag the function `deviceHasTouchSensor` to the event flow. |
+| 2. | ![](../deviceHasTouchSensor/deviceHasTouchSensor-step-2.png?raw=true) | Drag the function to be executed when the touch sensor is activated successfully. In this example, we are using the `infoDialog` function. |
+| 3. | ![](../deviceHasTouchSensor/deviceHasTouchSensor-step-3.png?raw=true) | Fill in the parameters of the function. |
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
-Info dialog will be prompted as below:  <br />
-![](../../../../document/function/Device/deviceHasTouchSensor/deviceHasTouchSensor-result-1.png?raw=true)
+When the button is pressed, the infoDialog will appear to confirm that the touch sensor has been activated.
 
-### Video
+<!-- Explain the output.
 
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- The mobile device must have touch sensor and user must setup the fingerprint in their device settings.
+## Links

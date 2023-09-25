@@ -1,37 +1,38 @@
 # deviceSerial
 
-### Description
+## Description
 
 Get the serial number of a device.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+N/A
 
-### Input / Parameters
+## Output
 
-- N/A
+N/A
 
-### Scenario / Use Case
+## Callback
 
-The user want display device serial number in an info dialog.
+N/A
+
+## Video
+
+Coming Soon.
+
+## Example
+
+The user wants to display the device serial number in an info dialog.
 
 ### Step
 
-1. Add a infoDialog, call the deviceSerial function. 
-
-    ![](../../../../document/function/Device/deviceSerial/deviceSerial-step-1.png?raw=true)
+| No. | Description |  |
+| ------ | ------ | ------ |
+| 1. | ![](../deviceSerial/deviceSerial-step-1.png?raw=true) | Drag a button to a page in the mobile designer. Select the event `click` for the button and drag the `infoDialog` function to the event flow. Fill in the parameters of the function. For the parameter `content`, select the parameter type `function`. |
+| 2. | ![](../deviceSerial/deviceSerial-step-2.png?raw=true) | Drag the `deviceSerial` function to the node in the subflow for the `content` parameter. |
     
 ### Result
 
-The serial number of the device will be shown. <br />
-![](../../../../document/function/Device/deviceSerial/deviceSerial-result-1.png?raw=true)
+When the button is pressed, the infoDialog will appear to show the  serial number of the device.
 
-### Video
-
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

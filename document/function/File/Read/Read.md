@@ -1,43 +1,58 @@
-# Read
+# read
 
-### Description
+## Description
 
-This function is to read a file.
+Read a file.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Data Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| file | The name of the file. | String/Text | - | - | Yes |
+| extra | Additional data to be used in the callbacks. | Any | - | - | No | 
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | file | file name | String  | Yes  |
-| 2 | extra |  | String  | No  |
+N/A
 
-### Scenario / Use Case
+## Callback?
 
-The user wants to read a file.
-<br>
+### callback
 
-### Step
+The function to be executed when the file is read successfully.
 
-1. Call the function.
+### errorCallback
 
-    ![](../../../../document/function/File/Read/read-step-1.png?raw=true)
-    
-    ![](../../../../document/function/File/Read/read-step-2.png?raw=true)
-    
-    
+The function to be executed when the file is not read successfully.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

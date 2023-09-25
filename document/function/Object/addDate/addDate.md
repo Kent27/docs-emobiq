@@ -1,44 +1,37 @@
 # addDate
 
-### Description
+## Description
 
-Add days to the specific date.
+Adds a specific duration or increment to a date, returns a string of the new date in the format YYYY-MM-DD.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| date | The date to be modified. Supports most date formats, for example *1970-01-01* and *1 Jan 1970*  | Date Object | *The current day's date* | - | Yes |
+| add | The duration to be added. | Number | 0 | - | Yes |
+| type | The duration type of 'add'. | String/Text | days | days, hours, minutes, seconds | No |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | date | A date value. | Date | Yes | 
-| 2 | add | Number of days | Number | Yes |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the modified date in the format `YYYY-MM-DD` | String/Text |
 
-### Scenario / Use Case
+## Callback
 
-The user want to add days to the specific date.
-</br>
+N/A
 
-### Step
+## Video
 
-1. Call the function.
-   </br>
-   date: 2018/08/20<br />
-   add : 4<br />
 
-    ![](../../../../document/function/Object/addDate/addDate-step-1.png?raw=true)
+## Example
 
-### Result
+### Steps
+![](./addDate-step-2.png)
 
-2018-08-24
+### Results
+Using the `addDate` function with the above parameters will return a string with the value `1970-01-06` which is 5 days after `1970-01-01`.
 
-### Video
 
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

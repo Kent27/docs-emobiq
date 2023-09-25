@@ -1,49 +1,59 @@
 ﻿# setInterval
 
-### Description
+## Description
 
-Allows to run a function regularly with the interval between the runs.
+Runs a function regularly with the specified interval between each run.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| delay | The duration between each run. | Number | - | - | Yes |
+| timeout | The duration the output appears for. | Number | - | - | Yes |
+| persistent | Interval repeated or not? | Boolean | false | true, false | No |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | delay | The delay time. | Time | Yes  |
-| 2 | timeout | Time | Time | Yes  |
+N/A
 
-### Scenario / Use Case
+## Callback?
 
-The user wants to display the value "11" every 2 seconds and the timeout is 4 seconds.
+### callback
 
-### Step
+The function to be executed using the interval set.
 
-1. Call the function "setInterval" and set the            delay and timeout in milliseconds.
-   <br>
-   delay: 2000<br>
-   timeout: 4000<br>
-  
-   ![](../../../../document/function/Flow/setInterval/setInterval-step-1.png?raw=true)
-    
-2. Add a console and set the value for get the response from    console.
-   <br>
-   value: 11<br>
-   
-   ![](../../../../document/function/Flow/setInterval/setInterval-step-2.png?raw=true)
-    
+| Description | Output Type |
+| ------ | ------ |
+| Returns the output of the function executed. | N/A |
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
-The value "11" will display every 2 seconds and the timeout is 4 seconds.
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

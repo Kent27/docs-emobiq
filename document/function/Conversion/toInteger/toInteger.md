@@ -1,20 +1,32 @@
 # toInteger  
 
-### Description
+## Description
 
-Convert a value to a integer type.
+Converts a passed value to an integer type.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| value | The value to convert to an integer. | Any | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | value | number | Integer | Yes  |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the passed value as an integer. | Number |
 
-### Scenario / Use Case
+## Callback
+
+N/A
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
 
 The user wants to convert a value to integer.
 
@@ -29,13 +41,6 @@ The user wants to convert a value to integer.
 ### Result
 
 122
-    
-### Video
 
-- N/A
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

@@ -1,52 +1,54 @@
 #  pullToRefresh
 
-### Description
+## Description
 
-Pull the panel and reload the screen.
+Pull a panel component to trigger a screen to reload.
 
-### Flowchart
+## Input / Parameters
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| class | The style class of the component that is pulled to trigger refresh. | String/Text | - | - | Yes |
+| maxTime | The maximum time to load the screen. | Number | - | - | No |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required | 
-| ------ | ------ | ------ |------ | ------ | 
-| 1 | class | Style class. | String | Yes | 
-| 2 | maxTime | Maximum time. | Integer | No | 
+N/A
 
+## Callback
 
-### Scenario / Use Case
+### onRefresh
 
-The user want do some operations / processing by pulling the panel.
+The function to be executed when the screen is successfully refreshed.
 
-### Step
+## Video
 
-1.  In page event "Load",  add pullToRefresh function.
+Coming Soon.
 
-    ![](../../../../document/function/App/pullToRefresh/pullToRefresh-step-1.png?raw=true)
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
-2.  In onRefresh, add an infoDialog.
+## Example
 
-    ![](../../../../document/function/App/pullToRefresh/pullToRefresh-step-2.png?raw=true)
+Coming Soon.
 
-3.  Draw a panel and set the background to red.
+<!-- Share a scenario, like a user requirements. -->
 
-    ![](../../../../document/function/App/pullToRefresh/pullToRefresh-step-3.png?raw=true) 
+### Steps
 
-4.  Define "pull" for Style Class on Panel Inspector.
+Coming Soon.
 
-    ![](../../../../document/function/App/pullToRefresh/pullToRefresh-step-4.png?raw=true)
-    
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
+
 ### Result
 
-After user pull on red color panel, the pullToRefresh function will be triggered.
-![](pullToRefresh-result-5.png?raw=true)
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-### Notes
-
-- N/A
+## Links

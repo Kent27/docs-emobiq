@@ -1,14 +1,10 @@
 ﻿# soapCall  
 
-### Description
+## Description
 
 Directly access or call a SOAP Web Service.
 
-### Flowchart
-
-- N/A 
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required |
 | ------ | ------ | ------ |------ | ------ |
@@ -16,7 +12,20 @@ Directly access or call a SOAP Web Service.
 | 2 | function | The function from the Web Service to be executed. | String | Yes  |
 | 3 | data | This contains the main parameter in the function being called. | Object | No |
 
-### Scenario / Use Case
+## Output
+
+Coming soon.
+
+## Callback
+
+Coming soon.
+
+## Video
+
+Coming soon.
+
+
+## Example
 
 The user wants to call the SOAP Web Service.
 
@@ -60,12 +69,7 @@ The user wants to call the SOAP Web Service.
 
 ![](../../../../document/function/Dataset/soapCall/soapCall-result-1.png?raw=true)  
   
-### Video
 
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
+## Notes
 
 - N/A

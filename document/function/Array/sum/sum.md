@@ -1,51 +1,53 @@
-﻿# Sum
+﻿# sum
 
-### Description
+## Description
 
-Get the sum of the values in an array.
+Get the sum of all the values in an array. An array can be created using the toArray function.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| values | An array of values. | Array/List | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | values | Array | Array | Yes  |
-| 2 | value1-10 | Number | Integer | No __*__ | 
+| Description | Output Type |
+| ------ | ------ |
+| The total value of all the values in the array. | Number |
 
-* Note: At least two fields must have value in order for this function to work.
+## Callback
 
-### Scenario / Use Case
+N/A
 
-The user wants to sum all the values inside the array and get the total result.
+## Video
 
-### Step
+Coming Soon.
 
-1. Call the function "sum"
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
-    ![](../../../../document/function/Array/sum/sum-step-1.png?raw=true)
+## Example
 
-2. Call the function"toArray" and set the value.
-   </br>
-   value1  : 11<br />
-   value2  : 21<br />
-   value3  : 11<br />
-   value4  : 11<br />
+Coming Soon.
 
-   ![](../../../../document/function/Array/sum/sum-step-2.png?raw=true)
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-54
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

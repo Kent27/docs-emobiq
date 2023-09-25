@@ -1,22 +1,45 @@
 # deleteBy
 
-### Description
+## Description
 
-Remove a specific record from an object.
+Removes specified records from a dataset.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| dataset | The name of the local table to remove the record from. | String/Text | - | - | Yes |
+| by | The name of the field to remove the record from. | String/Text | - | - | Yes |
+| operator | The operator to use to determine the records to remove. | String/Text | = | =, >, <, >=, <=, !=, like, ilike | No |
+| value | The records to be removed from the local table. | String/Text | - | - | Yes |
+| first? | ? | String/Text | - | - | No |
+| extra | Extra parameters stored and passed to callback. | Any | - | - | No |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | dataset | Name of the dataset in local table. | String | Yes  |
-| 2 | by | Object name | String | Yes |
-| 3 | value | The object value. | String | Yes |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the updated local table as a list. | Array/List |
 
-### Scenario / Use Case
+## Callback?
+
+### callback
+
+The function to be executed if the specified records are removed successfully.
+
+### errorCallback
+
+The function to be executed if the specified records are not removed successfully.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+
+## Example
+
 
 The user wants to delete the id=7 from dataset "l_customer".
 
@@ -38,12 +61,6 @@ The user wants to delete the id=7 from dataset "l_customer".
 ![](../../../../document/function/Dataset/deleteBy/deleteBy-result-2.png?raw=true)
 ( After delete, id=7 was being removed )
    
-### Video
 
-- N/A
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

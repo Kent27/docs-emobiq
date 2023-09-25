@@ -1,19 +1,21 @@
 
 # barcodeScanEvent
 
-### Description
+## Description
 
+Activates the barcode scanner?
 
+## Input / Parameter
 
-### Flowchart
+N/A
 
-- N/A
+## Output
 
-### Input / Parameters
+## Callback
 
+## Video
 
-
-### Scenario / Use Case
+## Example
 
 
 
@@ -33,6 +35,6 @@
 - N/A
 <!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
 
-### Notes
+## Links
 
 - N/A

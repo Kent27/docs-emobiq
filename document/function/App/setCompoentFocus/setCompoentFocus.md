@@ -1,50 +1,58 @@
-# setCompoentFocus
+# setComponentFocus
 
-### Description
+## Description
 
-Set focus on a component.
+Highlights a specific text in a component.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| component | The name of the component. | String/Text | - | - | Partial (Yes if no 'componentId'.) |
+| componentId | The id of the component. | String/Text | - | - | Partial (Yes if no 'component'.) |
+| selectAllText | Highlight all the words in the component. | Boolean | false | true, false | No |
+| hideKeyboard | Hide or display keyboard. | Boolean | false | true, false | No |
 
-### Input / Parameters
+__\* Note:__ Either component or componentId must have value in order for this function to work.
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ | 
-| 1 | component | The name of the component | String | No __*__ | 
-| 2 | componentId | The id of the component | String | No __*__ |
-| 3 | selectAllText | Highlight all the words in component | Boolean | No |
-| 4 | hideKeyboard | Display of keyboard | Boolean | No |
+## Output
 
-__\* Note:__ Either No 1 or No 2 must have value in order for this function to work.
+N/A
 
+Note: The component will be updated to show the highlighted text in the edit component.
 
-### Scenario / Use Case
+## Callback
 
-The user want to set focus on a component and highlight all the words in a component. For example highlighting all the word in a edit text.
+N/A
 
-### Step
+## Video
 
-1. Draw an edit text "txtTest", a button "setComponenFocus".
+Coming Soon.
 
-    ![](../../../../document/function/App/setCompoentFocus/setCompoentFocus-step-1.png?raw=true)
-    
-2. Call the function.
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
 
-    ![](../../../../document/function/App/setCompoentFocus/setCompoentFocus-step-2.png?raw=true)
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-The words "aaa" in the edit text will be selected.
+Coming Soon.
 
-![](../../../../document/function/App/setCompoentFocus/setCompoentFocus-result-1.png?raw=true)
+<!-- Explain the output.
 
-### Video
+Format: ![]({image-path}?raw=true) -->
 
-- N/A
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

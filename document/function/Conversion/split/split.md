@@ -1,20 +1,35 @@
-# Split
+# split
 
-### Description
+## Description
 
-Break the strings into parts.
+Breaks a single string into multiple smaller strings using a separator.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| value | The string to break into smaller parts. | String/Text | - | - | Yes |
+| separator | The separator to break the string by. | String/Text | - | - | Yes |
 
-### Input / Parameters
+<!-- Example: ( ), { }, [ ], ";", ".", ",", ":" -->
 
-| No | Name | Description | Data Type | Required | Example |
-| ------ | ------ | ------ |------ | ------ | ------ |
-| 1 | value | Characters, number and words. | String | Yes  |
-| 2 | separator |Separates two or more things apart. | - | Yes  |( ){ } , [ ]	, ";"	, "." , ","  ,":"
-### Scenario / Use Case
+## Output
+
+| Description | Output Type |
+| ------ | ------ |
+| Returns an array containing the multiple smaller strings. | Array/List |
+
+## Callback
+
+N/A
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
 
 The user wants to split the string.
 
@@ -25,18 +40,12 @@ The user wants to split the string.
     value : CL_JASON_CODE<br>
     separator : _
     
-    ![](../../../../document/function/Conversion/split/split-step-1.png?raw=true)
+    ![](./split-step-1.png?raw=true)
+    ![](./split-step-2.png?raw=true)
+
  
 ### Result
 
 ![](../../../../document/function/Conversion/split/split-result-1.png?raw=true)
-    
-### Video
 
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

@@ -1,44 +1,48 @@
 # intentPhoneCall
 
-### Description
+## Description
 
-This function is to start a call.
+This function is used to start a call.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| phone | The phone number to call. | String/Text | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required | 
-| ------ | ------ | ------ |------ | ------ |
-| 1 | phone | phone number | String | Yes | 
+N/A
 
-### Scenario / Use Case
+## Callback
+
+N/A
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
 
 The user wants to start a call.
 <br>
 
 ### Step
 
-1. Call the function.
+1. Call the function `intentPhoneCall`.
 
-    ![](../../../../document/function/Intent/intentPhoneCall/intentPhoneCall-step-1.png?raw=true)
+    ![](../intentPhoneCall/intentPhoneCall-step-1.png?raw=true)
+
+    ![](../intentPhoneCall/intentPhoneCall-step-2.png?raw=true)
     
-2. Click open skype if use laptop/pc, click call if use phone.
+2. Open the Skype app if using laptop/pc, press call if using phone.
 
-    ![](../../../../document/function/Intent/intentPhoneCall/intentPhoneCall-step-2.png?raw=true)
+    ![](../intentPhoneCall/intentPhoneCall-step-3.png?raw=true)
     
 ### Result
 
-![](../../../../document/function/Intent/intentPhoneCall/intentPhoneCall-result-1.png?raw=true)
+![](../intentPhoneCall/intentPhoneCall-result-1.png?raw=true)
 
-### Video
-
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

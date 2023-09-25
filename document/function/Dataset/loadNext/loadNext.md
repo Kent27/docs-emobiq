@@ -1,22 +1,37 @@
 ﻿# loadNext
 
-### Description
+## Description
 
-Loads the following next records of the table or dataset.
+Loads the subsequent records in a dataset after loadData function was run.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| dataset | The name of the local table to be loaded. | String/Text | - | - | Yes |
+| datasetDisplay? | The values to displayed from the local table. | Boolean | false | true, false | No |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | dataset | The dataset name of the table to be loaded. | String | Yes  |
-| 2 | datasetDisplay | |  | No |
-| 3 | beforeCallback |  |  | No |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the list of subsequent records from the dataset. | Array/List |
 
-### Scenario / Use Case
+## Callback?
+
+### beforeCallback
+
+The function to be executed if the subsequent records are loaded successfully.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+
+## Example
+
 
 The user wants to load the next of the data after a specific number of the data are loaded from dataset "l_customer".
 
@@ -39,12 +54,6 @@ The user wants to load the next of the data after a specific number of the data 
 
 ( When you call the function "loadNext", the rest of the data will be display it continuously. )
 
-### Video
 
-- N/A
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

@@ -1,45 +1,58 @@
 # componentAttr
 
-### Description
+## Description
 
-Get the attribute of the component.
+Returns the attribute of a component, such as its name, dimensions etc.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| component | The name of the component to get attribute from. | String/Text | - | - | Partial (Yes if no 'componentId'.) |
+| componentId | The id of the component to get attribute from. | String/Text | - | - | Partial (Yes if no 'component'.) |
+| attr | The attribute of the component. | String/Text | - | - | Yes |
 
-### Input / Parameters
+__\* Note:__ Either component or componentId must have value in order for this function to work.
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | component | The name of the component | String | No __*__ | 
-| 2 | componentId | The id of the component | String | No __*__ |
-| 2 | attr | The attribute of component | String | Yes |
+## Output
 
-__\* Note:__ Either No 1 or No 2 must have value in order for this function to work.
+| Description | Output Type |
+| ------ | ------ |
+| Returns the attribute of the component. | String/Text |
 
-### Scenario / Use Case
+## Callback
 
-The user wants to get the width attribute value of a button component.
+N/A
 
-### Step
+## Video
 
-1. Draw a button component "btnComponentAttr"
 
-    ![](../../../../document/function/App/componentAttr/componentAttr-step-1.png?raw=true)
+## Example
 
-2. In button click event, add a "console" then a "componentAttr" function.
+In this example we will get the name attribute of an input box component using `componentAttr` and print it to the console. 
 
-    ![](../../../../document/function/App/componentAttr/componentAttr-step-2.png?raw=true)
+
+### Steps
+
+1. First we drag an input box onto the page. We will name it "InputBox" with the value "This is an input field"
+
+![](componentAttr-step-1.png)
+
+2. We want to get the 'name' attribute of "InputBox" and display it in the browser console with the help of the `console` helper function. 
+   
+3. Drag `componentAttr` into the event flow, and specify the name of the component, which in this case is "InputBox".
+
+![](componentAttr-step-2.png)
+
 
 ### Result
 
-The width value of button will be displayed eg 100%.
+- The `name` attribute of "InputBox" will be displayed in the browser console.
 
-### Video
+![](componentAttr-step-3.png)
 
-- N/A
+## Links
+See also: 
 
-### Notes
-
-- You can use getComponent function to view all the available attribute of a component.
+* [`setComponentAttr`](./setcomponentattr)
+* [`componentValue`](./componentvalue)

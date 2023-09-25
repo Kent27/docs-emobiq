@@ -1,46 +1,54 @@
-# Pow
+# pow
 
-### Description
+## Description
 
-Exponentiation of two numbers. The power (or exponent) of a number says how many times to use the number in a multiplication. But power can also mean the result of using an exponent.
+Exponentiation of two numbers. The output will return the base number raised to the power (or exponent) passed.
 
-### Flowchart
+## Input / Parameter
 
-- N/A 
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| base | The base number to be raised. | Number | - | - | Yes |
+| exponent | The number of powers to raise the base number to. | Number | - | - | Yes |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required |
-| ------ | ------ | ------ |------ | ------ |
-| 1 | base | The base number. | Integer | Yes  |
-| 2 | exponent | The exponent use to raise the base number. | Integer | Yes  |
+| Description | Output Type |
+| ------ | ------ |
+| Returns the base number raised to the power specified. | Number |
 
-### Scenario / Use Case
+## Callback
 
-The user wants to get the exponentiation of 2 numbers.
-<br />
+N/A
 
-### Step
+## Video
 
-1. Call the function.
-    <br />
-    base: 6<br />
-    exponent: 2<br />
-    
-    ![](../../../../document/function/Math/pow/pow-step-1.png?raw=true)
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
+
+Coming Soon.
+
+<!-- Share a scenario, like a user requirements. -->
+
+### Steps
+
+Coming Soon.
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}?raw=true) -->
 
 ### Result
 
-36 <br>
-(6 * 6 = 36)
+Coming Soon.
 
-### Video
+<!-- Explain the output.
 
-- N/A
+Format: ![]({image-path}?raw=true) -->
 
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-
-### Notes
-
-- N/A
+## Links

@@ -1,14 +1,10 @@
 # dynamicsGPCall
 
-### Description
+## Description
 
 Is a function that needed if user want to use a function from web services.
 
-### Flowchart
-
-- N/A 
-
-### Input / Parameters
+## Input / Parameters
 
 | No | Name | Description | Data Type | Required |
 | ------ | ------ | ------ |------ | ------ |
@@ -16,7 +12,13 @@ Is a function that needed if user want to use a function from web services.
 | 2 | function | The function from the Web Service to be executed. | String | Yes  |
 | 3 | data | This contains the main parameter in the function being called. | Object | Yes |
 
-### Scenario / Use Case
+## Output
+
+## Callback
+
+## Video
+
+## Example
 
 User wants to call the dynamicsGP Web Service.
 
@@ -50,12 +52,4 @@ User wants to call the dynamicsGP Web Service.
    
 ![](../../../../document/function/Dataset/dynamicsGPCall/dynamicsGPCall-result-1.png?raw=true)
 
-### Video
-
-- N/A
-
-<!--[![Video](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s)-->
-
-### Notes
-
-- N/A
+## Links

@@ -1,26 +1,42 @@
 #  sendMail
 
-### Description
+## Description
 
-Send in app email.
+Sends an email through the app.
 
-### Flowchart
+## Input / Parameter
 
-- N/A
+| Name | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| config | The configuration of the email to be sent. | Object | - | - | Yes |
+| from | The name of the sender. | Object | - | - | Yes |
+| to | The name of the recipient. | Array/List | - | - | Yes |
+| cc | The carbon copy. | Array/List | - | - | No |
+| bcc | The blind carbon copy. | Array/List | - | - | No |
+| data | The contents of the email. | Object | - | - | Yes |
+| attachment | The file(s) to be attached. | Array/List | - | - | No |
 
-### Input / Parameters
+## Output
 
-| No | Name | Description | Data Type | Required | 
-| ------ | ------ | ------ |------ | ------ | 
-| 1 | config | The configuration of email. | Object | Yes | 
-| 2 | from | The sender. | Object | Yes | 
-| 3 | to | The recipient. | Array | Yes | 
-| 4 | cc | The carbon copy. | Array | No | 
-| 5 | bcc | The blind carbon copy. | Array | No | 
-| 6 | data | The content of email. | Object | Yes | 
-| 7 | attachment | The file attachment | String??? | No | 
+N/A
 
-### Scenario / Use Case
+## Callback?
+
+### callback
+
+The function to be executed when the email is sent successfully.
+
+### errCallback
+
+The function to be executed when the email is not sent successfully.
+
+## Video
+
+Coming Soon.
+
+<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
+
+## Example
 
 The user want to send an email via the app.
 
@@ -59,10 +75,4 @@ The user want to send an email via the app.
 Email Received:
 ![](../../../../document/function/App/sendMail/sendMail-result-1.png?raw=true)
 
-### Video
-
-- N/A
-
-### Notes
-
-- N/A
+## Links
