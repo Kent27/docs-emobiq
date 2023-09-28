@@ -19,7 +19,7 @@ Reads the data from a dataset.
 
 ### fields (Object | List)
 
-Will contain a single object, or a list of one (1) or more objects which consist of
+Will contain a single object, or a list of one (1) or more objects which consist of:
 
 | Key | Description | Input Type | Required |
 | ------ | ------ | ------ | ------ |
@@ -29,7 +29,7 @@ Will contain a single object, or a list of one (1) or more objects which consist
 
 ### join (Object | List)
 
-Will contain a single object, or a list of one (1) or more objects (JoinFormat) which consist of
+Will contain a single object, or a list of one (1) or more objects (JoinFormat) which consist of:
 
 | Key | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
@@ -48,7 +48,7 @@ The format used for filtering in the parameter `filter`.
 
 #### data (List)
 
-Will contain a list of one (1) or more objects with the folowing structure (dataset, operator, value) and contain zero (0) or more objects with the same structure (FilterFormat only). This can be another FilterFormat to create grouped queries.
+The format for the parameter `data` in FilterFormat. Will contain a list of one (1) or more objects with the following structure (dataset, operator, value) and contain zero (0) or more objects with the same structure (FilterFormat only). This can be another FilterFormat to create grouped queries.
 
 | Key | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
@@ -63,7 +63,7 @@ Will contain a list of one (1) or more objects with the folowing structure (data
 
 ### sort (Object | List)
 
-Will contain a single object, or a list of one (1) or more objects which consist of
+Will contain a single object, or a list of one (1) or more objects which consist of:
 
 | Key | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
@@ -81,7 +81,7 @@ Will contain a single object, or a list of one (1) or more objects which consist
 
 | Key | Description | Output Type |
 | ------ | ------ | ------ |
-| success | Boolean value to denote whether the fucntion was executed successfully. | Text |
+| success | Boolean value to denote whether the function was executed successfully. | Text |
 | message | The message to print. | Text |
 | data | Any additional message or data to print. | Text |
 
@@ -107,30 +107,16 @@ The action performed if this function does not run successfully.
 
 Coming Soon.
 
-<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
-
 ## Example
 
 Coming Soon.
-
-<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
 Coming Soon.
 
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
 ### Result
 
 Coming Soon.
-
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
 
 ## Links

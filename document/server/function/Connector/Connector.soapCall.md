@@ -12,7 +12,7 @@ Performs a SOAP API call using a SOAP Connector.
 | header | An object or a list of objects of the SOAP header that will contain arbitrary key-value pairs to be sent as part of the request. | Object / List | - | - | No |
 | mimeHeader | The key-value pair of MIME headers (equivalent to HTTP headers) to be sent along with the request. | Object | - | - | No |
 | action | The name of the SOAP action to be called. | Text | - | - | Yes |
-| body | The content of the SOAP body.. | Object | - | - | No |
+| body | The content of the SOAP body. | Object | - | - | No |
 | attachment | The map of the key to the file path for attaching files to upload along with the body. | Object / List | - | - | No |
 | actionNamespace | The namespace of the SOAP action to be invoked. | Text | - | - | No |
 | sendAsMtom | To enable or disable MOM support to send the request. | Boolean | false | true, false | No |
@@ -34,7 +34,7 @@ Will contain a single object, or a list of one (1) or more objects of the SOAP h
 
 ### attachment (Object | List)
 
-Map of the key to the file path for attaching files to upload along with te body. Will contain a single object, or a list of one (1) or more objects which consist of
+Map of the key to the file path for attaching files to upload along with te body. Will contain a single object, or a list of one (1) or more objects which consist of:
 
 | Key | Description | Input Type | Required |
 | ------ | ------ | ------ | ------ |
@@ -51,7 +51,7 @@ Map of the key to the file path for attaching files to upload along with te body
 
 | Key | Description | Output Type |
 | ------ | ------ | ------ |
-| success | Boolean value to denote whether the fucntion was executed successfully. | Text |
+| success | Boolean value to denote whether the function was executed successfully. | Text |
 | message | The message to print. | Text |
 | data | Any additional message or data to print. | Text |
 
@@ -90,30 +90,16 @@ The action performed if this function runs successfully.
 
 Coming Soon.
 
-<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
-
 ## Example
 
 Coming Soon.
-
-<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
 Coming Soon.
 
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
 ### Result
 
 Coming Soon.
-
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
 
 ## Links

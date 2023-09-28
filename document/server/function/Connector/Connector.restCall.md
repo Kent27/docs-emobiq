@@ -22,16 +22,16 @@ Performs a rest API call using a Rest Connector.
 
 ### cookies (Object | List)
 
-Cookies of the API call. Will contain a single object, or a list of one (1) or more objects which consist of
+Cookies of the API call. Will contain a single object, or a list of one (1) or more objects which consist of:
 
 | Key | Description | Input Type | Required |
 | ------ | ------ | ------ | ------ |
-| name | Nmae of the cookie. | Text | No |
+| name | Name of the cookie. | Text | No |
 | value | Contains the value of the cookie. | Text | Yes |
 
 ### attachment (Object | List)
 
-The path to the selected file. Will contain a single object, or a list of one (1) or more objects which consist of
+The path to the selected file. Will contain a single object, or a list of one (1) or more objects which consist of:
 
 | Key | Description | Input Type | Required |
 | ------ | ------ | ------ | ------ |
@@ -48,7 +48,7 @@ The path to the selected file. Will contain a single object, or a list of one (1
 
 | Key | Description | Output Type |
 | ------ | ------ | ------ |
-| success | Boolean value to denote whether the fucntion was executed successfully. | Text |
+| success | Boolean value to denote whether the function was executed successfully. | Text |
 | message | The message to print. | Text |
 | data | Any additional message or data to print. | Text |
 
@@ -89,30 +89,16 @@ The action performed if this function runs successfully.
 
 Coming Soon.
 
-<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
-
 ## Example
 
 Coming Soon.
-
-<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
 Coming Soon.
 
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
 ### Result
 
 Coming Soon.
-
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
 
 ## Links
