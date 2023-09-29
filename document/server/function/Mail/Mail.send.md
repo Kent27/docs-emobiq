@@ -27,7 +27,7 @@ Sends an email through the SMTP server.
 
 ### to (Object | List)
 
-Will contain a single object, or a list of one (1) or more objects which consist of
+Will contain a single object, or a list of one (1) or more objects which consist of:
 
 | Key | Description | Input Type | Required |
 | ------ | ------ | ------ | ------ |
@@ -36,7 +36,7 @@ Will contain a single object, or a list of one (1) or more objects which consist
 
 ### cc (Object | List)
 
-Will contain a single object, or a list of zero (0) or more objects which consist of
+Will contain a single object, or a list of zero (0) or more objects which consist of:
 
 | Key | Description | Input Type | Required |
 | ------ | ------ | ------ | ------ |
@@ -45,7 +45,7 @@ Will contain a single object, or a list of zero (0) or more objects which consis
 
 ### bcc (Object | List)
 
-Will contain a single object, or a list of zero (0) or more objects which consist of
+Will contain a single object, or a list of zero (0) or more objects which consist of:
 
 | Key | Description | Input Type | Required |
 | ------ | ------ | ------ | ------ |
@@ -54,7 +54,7 @@ Will contain a single object, or a list of zero (0) or more objects which consis
 
 ### attachment (Object | List)
 
-Will contain a single object, or a list of zero (0) or more objects which consist of
+Will contain a single object, or a list of zero (0) or more objects which consist of:
 
 | Key | Description | Input Type | Required |
 | ------ | ------ | ------ | ------ |
@@ -71,7 +71,7 @@ Will contain a single object, or a list of zero (0) or more objects which consis
 
 | Key | Description | Output Type |
 | ------ | ------ | ------ |
-| success | Boolean value to denote whether the fucntion was executed successfully. | Text |
+| success | Boolean value to denote whether the function was executed successfully. | Text |
 | message | The message to print. | Text |
 | data | Any additional message or data to print. | Text |
 
@@ -93,30 +93,16 @@ Will contain a single object, or a list of zero (0) or more objects which consis
 
 Coming Soon.
 
-<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
-
 ## Example
 
 Coming Soon.
-
-<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
 Coming Soon.
 
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
 ### Result
 
 Coming Soon.
-
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
 
 ## Links
