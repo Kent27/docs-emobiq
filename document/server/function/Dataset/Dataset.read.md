@@ -19,7 +19,7 @@ Reads the data from a dataset.
 
 ### fields (Object | List)
 
-Will contain a single object, or a list of one (1) or more objects which consist of
+Will contain a single object, or a list of one (1) or more objects which consist of:
 
 | Key | Description | Input Type | Required |
 | ------ | ------ | ------ | ------ |
@@ -29,7 +29,7 @@ Will contain a single object, or a list of one (1) or more objects which consist
 
 ### join (Object | List)
 
-Will contain a single object, or a list of one (1) or more objects (JoinFormat) which consist of
+Will contain a single object, or a list of one (1) or more objects (JoinFormat) which consist of:
 
 | Key | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
@@ -37,9 +37,33 @@ Will contain a single object, or a list of one (1) or more objects (JoinFormat) 
 | dataset | The dataset to join to the main dataset. The default value for the dataset will be the main dataset selected in the ‘dataset’ parameter if left empty. | Text | - | - | No |
 | filter | The filters to be applied. | FilterFormat | - | - | Yes |
 
+### FilterFormat (Object)
+
+The format used for filtering in the parameter `filter`.
+
+| Key | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| operator | Query operators used to filter multiple times. | Text | And | Or, And | No |
+| data | Set of rules for another group of queries. | List | - | - | No |
+
+#### data (List)
+
+The format for the parameter `data` in FilterFormat. Will contain a list of one (1) or more objects with the following structure (dataset, operator, value) and contain zero (0) or more objects with the same structure (FilterFormat only). This can be another FilterFormat to create grouped queries.
+
+| Key | Description | Input Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| dataset1 | The dataset to filter or compare with another dataset. | Text | - | - | No |
+| field1 | The field in the first table to be filtered. | Text | - | - | Yes |
+| dataset | The dataset to filter. | Text | - | - | No |
+| field | The field to be filtered. | Text | - | - | Yes |
+| operator | Operators to be used for specific filtering. | Text | - | Equal, Not_Equal, Is_Null, Is_Not_Null, Greater_Than, Greater_Than_Or_Equal, Less_Than, Less_Than_Or_Equal, Like, Not_Like, In, Not_In, Between, Not_Between | Yes |
+| value | The value to perform the query, which depends on the operator. | Any | - | - | No |
+| dataset2 | The dataset to compare with the first dataset. | Text | - | - | No |
+| field2 | The matching field in the second table to be filtered. | Text | - | - | Yes |
+
 ### sort (Object | List)
 
-Will contain a single object, or a list of one (1) or more objects which consist of
+Will contain a single object, or a list of one (1) or more objects which consist of:
 
 | Key | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
@@ -57,7 +81,7 @@ Will contain a single object, or a list of one (1) or more objects which consist
 
 | Key | Description | Output Type |
 | ------ | ------ | ------ |
-| success | Boolean value to denote whether the fucntion was executed successfully. | Text |
+| success | Boolean value to denote whether the function was executed successfully. | Text |
 | message | The message to print. | Text |
 | data | Any additional message or data to print. | Text |
 
@@ -83,30 +107,16 @@ The action performed if this function does not run successfully.
 
 Coming Soon.
 
-<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
-
 ## Example
 
 Coming Soon.
-
-<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
 Coming Soon.
 
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
 ### Result
 
 Coming Soon.
-
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
 
 ## Links

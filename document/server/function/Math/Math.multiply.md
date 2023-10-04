@@ -2,7 +2,7 @@
 
 ## Description
 
-Multiplies the first value and the second value. 
+Multiplies the first and second value. 
 
 ## Input / Parameter
 
@@ -25,30 +25,16 @@ N/A
 
 Coming Soon.
 
-<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
-
 ## Example
 
 Coming Soon.
-
-<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
 Coming Soon.
 
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
 ### Result
 
 Coming Soon.
-
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
 
 ## Links

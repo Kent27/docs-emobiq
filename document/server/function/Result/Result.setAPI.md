@@ -8,6 +8,8 @@ Sets the result to be obtained for API.
 
 N/A
 
+Note: There can be multiple dynamic attributes with values associated with each attribute. The names for the attributes are obtained from the `Key` parameters that are added by the user in the `Result` tab.
+
 ## Output
 
 N/A
@@ -20,30 +22,16 @@ N/A
 
 Coming Soon.
 
-<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
-
 ## Example
 
 Coming Soon.
-
-<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
 Coming Soon.
 
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
 ### Result
 
 Coming Soon.
-
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
 
 ## Links

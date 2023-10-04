@@ -20,7 +20,7 @@ Prints a message to the console.
 
 | Key | Description | Output Type |
 | ------ | ------ | ------ |
-| success | Boolean value to denote whether the fucntion was executed successfully. | Text |
+| success | Boolean value to denote whether the function was executed successfully. | Text |
 | message | The message to print. | Text |
 | data | Any additional message or data to print. | Text |
 
@@ -32,30 +32,16 @@ N/A
 
 Coming Soon.
 
-<!-- Format: [![Video]({image-path}?raw=true)]({url-link}) -->
-
 ## Example
 
 Coming Soon.
-
-<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
 Coming Soon.
 
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}?raw=true) -->
-
 ### Result
 
 Coming Soon.
-
-<!-- Explain the output.
-
-Format: ![]({image-path}?raw=true) -->
 
 ## Links
