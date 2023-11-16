@@ -1,0 +1,4 @@
+# Data Processing
+
+Loading dataset from services, indexing data, key-value access, components, variables set and get
+Processing methods for all memory constructs
