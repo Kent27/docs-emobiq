@@ -1,0 +1,32 @@
+Help me create a documentation for my no-code platform memory. Bearing in mind that my platform follows the functional paradigm strongly:
+# Memory
+
+variables, local storage, connectors and tables, extra (for passing values from parent to child actions), component attributes, Heap(User level or system level allocation)
+scope of data (per page and global) - Environment for memory constructs
+persistent and non-persistent data
+Abstraction of memory models
+
+
+PPlatform name: eMOBIQ
+Functional Paradigm: Every logic in eMOBIQ is strictly built with functions only. Values can be passed from one function to another through result output, variables, or the 'extra' parameter.
+Memory Constructs: All variables are non-persistent, global and accessible by every page in the project. Local storage such as local table and sqlite are persistent memory constructs in the eMOBIQ service layer that can be globally modified and accessed using actions associated to local storage. Local storage is enabled by configuring connectors and tables in services. Other connectors and tables (apart from local table and sqlite) in eMOBIQ are temporary storage for data retrieved by external systems. 'extra' is a special construct given to functions to allow passing of values assigned to child functions, usually used to relay copy of values to child functions without the use of variables. Component attributes refer to the configurations for each component attribute, this can be read and modified at runtime using actions. ignore and remove heap allocation for now.
+Memory scope: All memory scope is somewhat like 'public' and can be accessed by using the right action interfaces to retrieve and modify the value. 'extra' is the exception, given that value assigned is only accessible for child functions.
+Data Persistence: only Local Storage is persistent, the rest are not.
+Abstraction of Memory: Local Storage exists in the 'service' layer in eMOBIQ and can be interfaced by related actions. Variables and component attributes are also modifiable using related actions.
+Memory Environment: Ignore this, or just mention everything is global. Concept of environment is likely only applicable to 'extra' whereby copy of values given to child functions are independent of each other if given to another child at the same level.
+
+
+
+
+Help me include examples for using actions to interact with memory constructs:
+
+For variables: setVar, getVar, clearAllVar, getVarAttr
+
+For Local Storage: 
+Local Table - insert, filterData, dataFromString, dataToString, dataFieldToArray, selectAll, selectBy, updateBy, updateByMulti
+sqlite - everything in local table + query, backupSqlite, restoreSqlite
+
+For general Connectors and Tables: loadData, ERP-specific call actions
+
+For components:
+componentAttr, componentElAttr, componentValue
