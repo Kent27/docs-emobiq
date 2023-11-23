@@ -1,0 +1,235 @@
+# Platform Interface
+
+## Introduction
+
+Welcome to the eMOBIQ Platform Interface User Guide. This document provides comprehensive information about the eMOBIQ Platform Interface, a user-friendly environment that allows you to manage various aspects of your project such as pages, snippets, layers, screens, and global configurations. This guide is divided into several sections, each dedicated to a specific part of the interface.
+
+## Table of Contents
+
+- [Interface Overview](#interface-overview)
+- [Detailed Sections](#detailed-sections)
+    - [eMOBIQ Home](#emobiq-home)
+        - [Page](#page)
+        - [Snippets](#snippets)
+        - [Layer](#layer)
+        - [Screen](#screen)
+        - [Global](#global)
+        - [Editor Interface Icons](#editor-interface-icons)
+    - [Global Configuration](#global-configuration)
+        - [Android Configuration](#android-configuration)
+        - [iOS Configuration](#ios-configuration)
+    - [Language](#language)
+    - [Publish](#publish)
+    - [Lock](#lock)
+    - [Services](#services)
+    - [Database](#database)
+    - [Build](#build)
+    - [Download](#download)
+    - [Tutorial](#tutorial)
+    - [Help](#help)
+    - [Save](#save)
+    - [Preview](#preview)
+
+## Interface Overview
+
+The eMOBIQ Platform Interface is divided into several sections:
+
+- **Home**: Manage your project pages, snippets, layers, screens, and global configurations.
+- **Global Configuration**: Manage your application's global settings.
+- **Language**: Define translations from English to your preferred language.
+- **Publish**: Publish your project on the eMOBIQ e-store.
+- **Lock**: Protect your published application from unauthorized access.
+- **Services**: Configure your application to connect with external systems.
+- **Database**: Access a visual interface to external databases.
+
+## Detailed Sections
+
+### eMOBIQ Home
+
+#### Page
+
+The Page section enables users to manage project pages by adding, duplicating, and deleting them. The selected page is displayed on the interface for easy editing. Users can utilize the Layer section to edit different components of the page.
+
+[Related: Designing Pages](path/to/other/document.md)
+
+#### Snippets
+
+The Snippets section enables users to manage snippets in a project by adding, duplicating, and deleting them. The selected snippet is displayed on the interface for easy editing. Users can utilize the Layer section to edit different components of the snippet.
+
+[Related: Using Snippets](path/to/other/document.md)
+
+#### Layer
+
+The Layer section allows users to manage components within a snippet or page. Users can add, duplicate, and delete components. Components are presented hierarchically, displaying parent-child relationships. Selected components are focused on the interface and editable through the properties and actions tab.
+
+[Related: Rendering Sequence](path/to/other/document.md)
+
+#### Screen
+
+The Screen section enables users to manage properties and actions of selected components. Users can customize styling properties and behavior under the properties tab, and add event triggers for interactive functionality in the actions tab.
+
+##### Properties
+
+The Properties section enables users to manage and configure the properties of a selected component. Within this section, users have the ability to customize all styling aspects and define default behavioral properties for the component. Additionally, users can tailor the styling properties to display differently on various types of devices.
+
+###### Styling Properties in 3 View Modes:
+
+- **Default Mode:** Base styling properties applied to all supported devices.
+- **Mobile Mode:** Styling properties specific to mobile devices.
+- **Tablet Mode:** Styling properties specific to tablet devices.
+
+[Related: Designing Pages](path/to/other/document.md)
+
+##### Action
+
+The Action section allows users to add event-driven functionality to components. Here, users configure the app logic and utilize the visual logic interface to build the component logic. By selecting the desired event trigger type and dragging actions from the action list, users can easily define the component's event logic. The section also includes an action inspector, enabling users to customize each action within the visual logic interface. This includes defining parameters to be passed for precise configuration.
+
+###### Inspector
+
+The Inspector allows users to configure selected actions in the visual logic interface. These configurations serve as inputs for each action, which then produces the corresponding outputs. Actions resemble traditional programming functions and their behavior is specified in the action reference.
+
+[Related: Action Reference](path/to/other/document.md)
+
+###### Parent (or Item) - Visual Logic Interface
+
+Description for the parent section...
+
+###### Event - Visual Logic Interface
+
+This selector enables users to select and configure events for the component. Multiple events with distinct behaviors can be assigned to a component. For detailed instructions on physically triggering each event, refer to the event reference documentation.
+
+[Related: Event Reference](path/to/other/document.md)
+
+#### Themes
+
+Description for the themes section...
+
+#### Global
+
+This section enables users to create and manage custom global functions within the project. Functions can be created and modified using the visual logic interface, and are readily available within the list of actions for easy integration.
+
+##### Global Functions
+
+In this interface, users can choose a global function from a list to modify. The selected function's implementation is displayed on the visual logic interface for easy editing.
+
+[Related: Creating Global Functions](path/to/other/document.md)
+
+#### Editor Interface Icons
+
+##### Add Page (icon)
+
+Allows user to conveniently create a page in the project.
+
+##### Page Wizard (icon)
+
+The Page Wizard initiates the page wizard interface for generating new pages. It offers a convenient and efficient method to create pages with template UIs tailored to specified requirements.
+
+[Related: Using Wizards](path/to/other/document.md)
+
+##### Function Wizard (icon)
+
+The Function Wizard initiates the function wizard interface for adding event-driven logic to a selected component. It offers a convenient and efficient method to construct commonly used logic flow based on specified requirements. The generated logic for the component can be viewed in the visual logic interface.
+
+[Related: Using Wizards](path/to/other/document.md)
+
+##### Media Library (icon)
+
+The Media Library feature enables users to upload and manage media resources for use within the project. These media files are stored alongside the compiled app
+
+ on the server and loaded as needed. Users can browse the media library for previously uploaded files or conveniently add new ones.
+
+[Related: Using Media](path/to/other/document.md)
+
+##### Upload APK (icon)
+
+Enables users to upload a pre-compiled APK file, including all Android permissions, as a new version of an existing application. A new version of the APK is generated using the project files in eMOBIQ, then merged with the uploaded APK.
+
+[Related: Publishing Android Apps](path/to/other/document.md)
+
+##### APK Build and Publish (icon)
+
+Enables users to create a build file in APK format for an Android app, allowing it to be published in Google Play or any other Android app store.
+
+[Related: Publishing Android Apps](path/to/other/document.md)
+
+##### IPA Build and Publish (icon)
+
+Enables users to create a build file in IPA format for an iOS app, allowing it to be published in the App Store.
+
+[Related: Publishing iOS Apps](path/to/other/document.md)
+
+### Global Configuration
+
+The Global Configuration section enables users to manage the application's global settings. These settings include those for Web, Android, and iOS devices. However, platform-specific settings, such as those for iOS, will only be applied to the corresponding platform.
+
+#### Android Configuration
+
+The Android Configuration section enables users to manage the Android-specific settings of the application. These settings include the Android package name, version, icons, and permissions.
+
+[Related: Android Configuration Guide](path/to/other/document.md)
+
+#### iOS Configuration
+
+The iOS Configuration section enables users to manage the iOS-specific settings of the application. These settings include the iOS bundle identifier, version, icons, and permissions.
+
+[Related: iOS Configuration Guide](path/to/other/document.md)
+
+## Language
+
+The Language section enables users to define translations for English text to their preferred language. Translations can be added, modified, or deleted through this interface. Each language is represented by its flag, and translations are entered for each text string in the project.
+
+[Related: Translating Apps](path/to/other/document.md)
+
+## Publish
+
+The Publish section enables users to publish their project on the eMOBIQ e-store. This interface allows users to provide necessary publishing information such as title, description, images, and language. Once the app is published, it is available for download and installation from the eMOBIQ e-store.
+
+[Related: Publishing Apps](path/to/other/document.md)
+
+## Lock
+
+The Lock section enables users to protect their published application from unauthorized access. Users can define authorized devices by MAC address, IP address, or by defining an authorization code.
+
+[Related: Protecting Your App](path/to/other/document.md)
+
+## Services
+
+The Services section enables users to configure the application to connect with external systems. External systems can include databases, web services, or any other systems that can be accessed through the Internet. The configuration for each service is unique, and is based on the service's requirements.
+
+[Related: Configuring Services](path/to/other/document.md)
+
+## Database
+
+The Database section enables users to access a visual interface to external databases. Databases can be defined and edited through the interface, enabling users to easily manage their data. This section allows users to define tables, fields, relationships, and to populate the database with data.
+
+[Related: Managing Databases](path/to/other/document.md)
+
+## Build
+
+The Build section enables users to create a build file for the application, allowing it to be installed on devices. Build files can be created for Android (APK), iOS (IPA), or Web (HTML5) applications.
+
+[Related: Creating Build Files](path/to/other/document.md)
+
+## Download
+
+The Download section enables users to download the compiled application and any related files, such as databases or media files.
+
+[Related: Downloading Apps](path/to/other/document.md)
+
+## Tutorial
+
+Provide a brief description of the tutorial section...
+
+## Help
+
+Provide a brief description of the help section...
+
+## Save
+
+The Save button enables users to save any changes made to the project. It is recommended to save frequently to avoid losing any work.
+
+## Preview
+
+The Preview button enables users to preview the current project in a simulator. This feature allows users to test the application before publishing or installing it on a device.
+
+[Related: Previewing Apps](path/to/other/document.md)
