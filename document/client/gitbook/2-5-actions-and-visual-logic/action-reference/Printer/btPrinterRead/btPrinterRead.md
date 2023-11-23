@@ -40,15 +40,11 @@ The user wants to read data from a bluetooth device.
 
     ![](./btPrinterRead-step-1.png)
 
+2. Call the function `infoDialog` in the callbacks of the `btPrinterRead` function to view the status.
+
     ![](./btPrinterRead-step-2.png)
 
     ![](./btPrinterRead-step-3.png)
-
-2. Call the function `infoDialog` in the callbacks of the `btPrinterRead` function to view the status.
-
-    ![](./btPrinterRead-step-4.png)
-
-    ![](./btPrinterRead-step-5.png)
 
 <!-- Show the steps and share some screenshots.
 
