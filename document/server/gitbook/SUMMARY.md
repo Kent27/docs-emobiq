@@ -115,6 +115,8 @@
   * [Result](./5-function/Result/README.md)
     * [Result.setAPI](./5-function/Result/Result.setAPI.md)
     * [Result.setUserDefined](./5-function/Result/Result.setUserDefined.md)
+  * [Text](./5-function/Text/README.md)
+    * [Text.combine](./5-function/Text/Text.combine.md)
   * [Validation](./5-function/Validation/README.md)
     * [Validation.isEmail](./5-function/Validation/Validation.isEmail.md)
     * [Validation.isList](./5-function/Validation/Validation.isList.md)
