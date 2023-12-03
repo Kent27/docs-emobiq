@@ -39,6 +39,7 @@
     * [Control.forLoop](./5-function/Control/Control.forLoop.md)
     * [Control.map](./5-function/Control/Control.map.md)
   * [Conversion](./5-function/Conversion/README.md)
+    * [Conversion.jsonToObject](./5-function/Conversion/Conversion.jsonToObject.md)
     * [Conversion.toBoolean](./5-function/Conversion/Conversion.toBoolean.md)
     * [Conversion.toList](./5-function/Conversion/Conversion.toList.md)
     * [Conversion.toNull](./5-function/Conversion/Conversion.toNull.md)
