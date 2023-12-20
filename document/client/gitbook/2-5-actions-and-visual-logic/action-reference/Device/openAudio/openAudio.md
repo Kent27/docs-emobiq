@@ -16,13 +16,7 @@ N/A
 
 ## Callback
 
-### callback
-
-The function to be executed when the audio was opened successfully.
-
-### errorCallback
-
-The function to be executed when the audio was not opened successfully.
+N/A
 
 ## Video
 
