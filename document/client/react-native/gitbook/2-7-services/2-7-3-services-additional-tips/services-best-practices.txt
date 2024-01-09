@@ -1,0 +1,23 @@
+I want to create a best-practices manual for the services section of my no-code platform in my documentation. Here are some considerations that i have gathered. Clean up all these information and present as a best practise documentation style:
+
+
+- Local table and SQLite table are both used for data management within your application, but they have some differences:
+Local table: A local table is a data structure that allows you to combine and manage data easily within your application. You can edit data within a local table using relevant actions. Local tables are typically used for storing and manipulating data that is specific to your application and does not require external integration.
+SQLite table: An SQLite table is a data structure that represents a specific data source and is used for integrating and interacting with SQLite databases. SQLite tables are read-only, meaning you cannot edit data directly within them. Instead, you can use functions and actions related to SQLite to query, insert, update, and delete data in the SQLite table.
+In summary, local tables are used for internal data management within your application, while SQLite tables are used for integrating and interacting with external SQLite databases.
+
+- use localStorage for small, simple data storage needs where querying and complex operations aren't required. For more complex applications with structured data, querying requirements, and a need for efficient storage, SQLite is the more powerful and flexible choice.
+
+- More things about:
+1. how to make the configurations more dynamic
+
+2. how should data from erp or external systems be processed efficiently (minimize API calls)
+
+3. how to handle errors and debug
+
+4. naming conventions
+
+5. Memory caching/storage - when to use what
+
+6. Data Validation and Transformation
+
