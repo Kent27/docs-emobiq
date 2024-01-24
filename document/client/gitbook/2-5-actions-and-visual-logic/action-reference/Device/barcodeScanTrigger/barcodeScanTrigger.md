@@ -7,11 +7,16 @@ Trigger the barcode scanner.
 
 ## Input / Parameter
 
-N/A
+| Name | Description | Data Type | Default | Options | Required |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| intentAction | The intent action to call. | String/Text | com.symbol.datawedge.api.ACTION | - | No |
+| intentExtras | The extra informations appened to the intent action call. | String/Text | com.symbol.datawedge.api.SOFT_SCAN_TRIGGER | - | No | 
 
 ## Output
 
 N/A
+
+Note: The barcode scanner would trigger the scanning. Default settings is for zebra.
 
 ## Callback
 
