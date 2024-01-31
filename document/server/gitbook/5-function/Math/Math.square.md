@@ -1,20 +1,20 @@
-# Math.sqrt
+# Math.square
 
 ## Description
 
-Returns the square root of a value.
+Returns the square of a value.
 
 ## Input / Parameter
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| value | The value to return the square root of. | Number | - | - | Yes |
+| value | The value to square. | Number | - | - | Yes |
 
 ## Output
 
 | Description | Output Type |
 | ------ | ------ |
-| The square root of the value. | Number |
+| The squared value. | Number |
 
 ## Callback
 
