@@ -1,22 +1,20 @@
-
-# barcodeScanTrigger
+# square
 
 ## Description
 
-Trigger the barcode scanner.
+A squared number is the result of a number raised to the power of 2, or a number multiplied by itself.
 
 ## Input / Parameter
 
-| Name | Description | Data Type | Default | Options | Required |
+| Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| intentAction | The intent action to call. | String/Text | com.symbol.datawedge.api.ACTION | - | No |
-| intentExtras | The extra informations appened to the intent action call. | String/Text | com.symbol.datawedge.api.SOFT_SCAN_TRIGGER | - | No | 
+| value | The number to return the square of. | Number | - | - | Yes |
 
 ## Output
 
-N/A
-
-Note: The barcode scanner would trigger the scanning. Default settings is for zebra.
+| Description | Output Type |
+| ------ | ------ |
+| Returns the squared value. | Number |
 
 ## Callback
 

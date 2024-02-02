@@ -1,22 +1,21 @@
-
-# barcodeScanTrigger
+# power
 
 ## Description
 
-Trigger the barcode scanner.
+Exponentiation of two numbers. The output will return the base number raised to the power (or exponent) passed.
 
 ## Input / Parameter
 
-| Name | Description | Data Type | Default | Options | Required |
+| Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| intentAction | The intent action to call. | String/Text | com.symbol.datawedge.api.ACTION | - | No |
-| intentExtras | The extra informations appened to the intent action call. | String/Text | com.symbol.datawedge.api.SOFT_SCAN_TRIGGER | - | No | 
+| base | The base number to be raised. | Number | - | - | Yes |
+| power | The number of powers to raise the base number to. | Number | - | - | Yes |
 
 ## Output
 
-N/A
-
-Note: The barcode scanner would trigger the scanning. Default settings is for zebra.
+| Description | Output Type |
+| ------ | ------ |
+| Returns the base number raised to the power specified. | Number |
 
 ## Callback
 

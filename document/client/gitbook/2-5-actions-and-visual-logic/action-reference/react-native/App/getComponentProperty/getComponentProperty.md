@@ -1,22 +1,21 @@
-
-# barcodeScanTrigger
+# getComponentProperty
 
 ## Description
 
-Trigger the barcode scanner.
+A function to get the attribute value of a component.
 
 ## Input / Parameter
 
-| Name | Description | Data Type | Default | Options | Required |
+| Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| intentAction | The intent action to call. | String/Text | com.symbol.datawedge.api.ACTION | - | No |
-| intentExtras | The extra informations appened to the intent action call. | String/Text | com.symbol.datawedge.api.SOFT_SCAN_TRIGGER | - | No | 
+| component | The name of the component. | String | - | - | Yes |
+| property | The attribute of the component. | String | - | - | Yes |
 
 ## Output
 
 N/A
 
-Note: The barcode scanner would trigger the scanning. Default settings is for zebra.
+Note: The component will be updated to show the changes. 
 
 ## Callback
 

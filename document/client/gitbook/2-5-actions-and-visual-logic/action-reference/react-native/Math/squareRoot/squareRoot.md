@@ -1,22 +1,20 @@
-
-# barcodeScanTrigger
+# squareRoot
 
 ## Description
 
-Trigger the barcode scanner.
+Get the square root of a number.
 
 ## Input / Parameter
 
-| Name | Description | Data Type | Default | Options | Required |
+| Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| intentAction | The intent action to call. | String/Text | com.symbol.datawedge.api.ACTION | - | No |
-| intentExtras | The extra informations appened to the intent action call. | String/Text | com.symbol.datawedge.api.SOFT_SCAN_TRIGGER | - | No | 
+| value | The number to return the square root of. | Number | - | - | Yes |
 
 ## Output
 
-N/A
-
-Note: The barcode scanner would trigger the scanning. Default settings is for zebra.
+| Description | Output Type |
+| ------ | ------ |
+| Returns the square root value. | Number |
 
 ## Callback
 
