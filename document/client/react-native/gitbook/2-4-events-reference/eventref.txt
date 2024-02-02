@@ -1,0 +1,17 @@
+To confirm:
+load done
+onResume done
+scrollTop done
+onScroll done 
+scrollBottom done
+press vs click done
+receiveMessage ????? webframe -> must check if its even allowed
+longPress done
+item_sortRelease done
+change done
+focus done
+lostFocus done
+afterLoad done
+error done
+changing done
+enter done
