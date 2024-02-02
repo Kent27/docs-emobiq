@@ -48,7 +48,7 @@ The user wants to scan a barcode and display the value in a dialog.
 
     ![](./barcodeScanner-step-2.png)
 
-2. Drag the function to be executed when the barcode scanner is activated successfully. In this example, we are using the infoDialog function. Fill in the parameters of the function.
+2. Drag the function to be executed when the barcode scanner is activated successfully and when it failed. In this example, we are using the Log.write function. Fill in the parameters of the function.
 
     ![](./barcodeScanner-step-3.png)
 
@@ -62,7 +62,7 @@ Format: ![]({image-path}) -->
 
 ### Result
 
-When the button is pressed, the barcode scanner will be activated. After scanning the barcode, the value will be displayed in a dialog box.
+When the button is pressed, the barcode scanner will be activated. After scanning the barcode, the value will be displayed in the console.
 
 <!-- Explain the output.
 
