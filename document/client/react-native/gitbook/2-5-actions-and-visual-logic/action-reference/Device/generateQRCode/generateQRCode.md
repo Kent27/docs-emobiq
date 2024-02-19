@@ -1,4 +1,4 @@
-# generateQRCode
+# Device.generateQRCode
 
 ## Description
 

@@ -1,4 +1,4 @@
-# barcodeScanner
+# Device.barcodeScanner
 
 ## Description
 

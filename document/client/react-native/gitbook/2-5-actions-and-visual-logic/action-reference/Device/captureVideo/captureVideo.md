@@ -1,4 +1,4 @@
-# captureVideo
+# Device.captureVideo
 
 ## Description
 
@@ -10,7 +10,17 @@ N/A
 
 ## Output
 
-Formatted Result
+| Description | Output Type |
+| ------ | ------ |
+| Returns the formatted information. | Object |
+
+### Object
+
+| Key | Description | Output Type |
+| ------ | ------ | ------ |
+| success | Boolean value to denote whether the function was executed successfully. | Text |
+| message | The message to print. | Text |
+| data | Any additional message or data to print. | Text |
 
 ## Callback
 
