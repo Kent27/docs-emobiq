@@ -1,4 +1,4 @@
-# redraw
+# clear
 
 ## Description
 
@@ -26,9 +26,9 @@ The user wants to clear their current signature canvas
 
 | No. | Description |  |
 | ------ | ------ | ------ |
-| 1. | ![](./redraw-step-1.png) | Drag a button component to a page in the mobile designer. |
-| 2. | ![](./redraw-step-2.png) | Select the event `press` and drag the `Signature.redraw` function to the event flow. |
-| 3. | ![](./redraw-step-3.png) | Fill in the parameters of the function. |
+| 1. | ![](./clear-step-1.png) | Drag a button component to a page in the mobile designer. |
+| 2. | ![](./clear-step-2.png) | Select the event `press` and drag the `Signature.clear` function to the event flow and fill in the parameter. |
+| 3. | ![](./clear-step-3.png) | Open preview and try to sign the Signature, and then click the Clear button to clear the canvas. |
 
 <!-- Show the steps and share some screenshots.
 
