@@ -2,7 +2,7 @@
 
 ## Description
 
-A function to clear the canvas and allow users to clear the signature.
+A function to clear the canvas and allow users to redraw the signature.
 
 ## Input / Parameter
 
