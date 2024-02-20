@@ -2,7 +2,7 @@
 
 ## Description
 
-Reads an existing file in the server and returns its content.
+Reads an existing file in the cache directory of the mobile phone and returns its content.
 
 ## Input / Parameter
 

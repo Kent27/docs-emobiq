@@ -2,7 +2,7 @@
 
 ## Description
 
-Removes an existing file in the server.
+Removes an existing file in the cache directory of the mobile phone.
 
 ## Input / Parameter
 

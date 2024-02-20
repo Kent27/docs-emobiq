@@ -2,7 +2,7 @@
 
 ## Description
 
-Creates a new file or overrides an existing file in the server.
+Creates a new file or overrides an existing file in the cache directory of the mobile phone.
 
 ## Input / Parameter
 
