@@ -1,4 +1,4 @@
-# captureImage
+# Device.captureImage
 
 ## Description
 
@@ -14,7 +14,17 @@ Activates the camera of the mobile device to capture image.
 
 ## Output
 
-Formatted Result
+| Description | Output Type |
+| ------ | ------ |
+| Returns the formatted information. | Object |
+
+### Object
+
+| Key | Description | Output Type |
+| ------ | ------ | ------ |
+| success | Boolean value to denote whether the function was executed successfully. | Text |
+| message | The message to print. | Text |
+| data | Any additional message or data to print. | Text |
 
 ## Callback
 

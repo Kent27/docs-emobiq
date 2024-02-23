@@ -1,4 +1,4 @@
-# generateBarcode
+# Device.generateBarcode
 
 ## Description
 
