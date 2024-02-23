@@ -1,4 +1,4 @@
-# mapSetZoom
+# Device.mapSetZoom
 
 ## Description
 
