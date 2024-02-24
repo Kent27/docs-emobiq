@@ -1,4 +1,4 @@
-# loop
+# Control.loop
 
 ## Description
 
@@ -8,9 +8,9 @@ Loop through a range of values or a list of elements
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| start | The starting point of the range of values to loop through. | Number | - | - | required if “end” has input OR if “data” has no input |
-| end | The ending point of the range of values to loop through. | Number | - | - | required if “start” has input OR if “data” has no input |
-| data | The list of elements to map. | Array | - | - | required if both “start” AND “end” has no input |
+| start | The starting point of the range of values to loop through. | Number | - | - | required if “data” has no input |
+| end | The ending point of the range of values to loop through. | Number | - | - | required if “data” has no input |
+| data | The list of elements to map. | Array | - | - | required if “start” OR “end” has no input |
 | extra | Additional data to be used in the callbacks. | Any | - | - | No | 
 
 ## Output
