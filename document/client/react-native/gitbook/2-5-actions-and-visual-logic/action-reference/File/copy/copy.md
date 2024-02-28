@@ -50,7 +50,7 @@ The user wants to copy a file (this example will only works after the user has c
 | ------ | ------ | ------ |
 | 1. | ![](./copy-step-1.png) | Drag a button component to a page in the mobile designer. |
 | 2. | ![](./copy-step-2.png) | Select the event `press` and drag the `File.copy` function to the event flow and fill in the parameter. |
-| 3. | ![](./copy-step-3.png) | Open the installed app on a device with a debugger on and try to press the Button, the copied file should be exist. |
+| 3. | ![](./copy-step-3.png) | Open the installed app on a device with a debugger on and try to press the Button, if the copied file exist user should be able to see the content on the console. |
 
 <!-- Show the steps and share some screenshots.
 
@@ -60,7 +60,7 @@ Format: ![]({image-path}) -->
 
 ### Result
 
-The newly copied file should be exist inside user device.
+Should be able to see the content of the newly copied file from user device.
 
 <!-- Explain the output.
 

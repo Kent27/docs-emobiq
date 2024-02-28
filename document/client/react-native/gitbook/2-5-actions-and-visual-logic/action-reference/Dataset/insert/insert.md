@@ -42,9 +42,9 @@ The user wants to insert rows of data to their local storage.
 
 | No. | Description |  |
 | ------ | ------ | ------ |
-| 1. | ![](./insert-step-1.png) | Drag a `Local Table` component into the services panel in the service page and then fill the fields. |
+| 1. | ![](./insert-step-1.png) | Drag a `Local Table` component into the services panel in the service page and then fill the fields. For `fields` field value add `name`and `title` as object key with Text type. |
 | 2. | ![](./insert-step-2.png) | Drag a button component to a page in the mobile designer. |
-| 3. | ![](./insert-step-3.png) | Select the event `press` and drag the `Dataset.insert` function to the event flow and fill in the parameter. |
+| 3. | ![](./insert-step-3.png) | Select the event `press` and drag the `Dataset.insert` function to the event flow and fill in the parameter, for the `data` param change it's type to a function / subflow and put `Conversion.toObject` inside it then add `name`, `title` as object key with `name_value`, `title_value` as it's value respectively. |
 | 4. | ![](./insert-step-4.png) | Open the preview and try to press the Button, new data should be added on local storage. |
 
 <!-- Show the steps and share some screenshots.
