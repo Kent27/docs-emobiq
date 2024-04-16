@@ -1,4 +1,4 @@
-# square
+# Math.square
 
 ## Description
 
@@ -28,26 +28,16 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+1. Drag the `Math.square` function into the event flow.
 
-<!-- Share a scenario, like a user requirements. -->
+    ![](./sqr-step-1.png)
 
-### Steps
+2. Enter the value to be squared. For this example we use 2.
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}) -->
+    ![](./sqr-step-2.png)
 
 ### Result
 
-Coming Soon.
-
-<!-- Explain the output.
-
-Format: ![]({image-path}) -->
+4
 
 ## Links

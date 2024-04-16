@@ -1,4 +1,4 @@
-# squareRoot
+# Math.squareRoot
 
 ## Description
 
@@ -28,26 +28,16 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+1. Drag the `Math.squareRoot` function into the event flow.
 
-<!-- Share a scenario, like a user requirements. -->
+    ![](./sqrt-step-1.png)
 
-### Steps
+2. Enter the value to be processed. For this example we use 4.
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}) -->
+    ![](./sqrt-step-2.png)
 
 ### Result
 
-Coming Soon.
-
-<!-- Explain the output.
-
-Format: ![]({image-path}) -->
+2
 
 ## Links

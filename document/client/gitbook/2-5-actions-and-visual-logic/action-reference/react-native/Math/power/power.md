@@ -1,4 +1,4 @@
-# power
+# Math.power
 
 ## Description
 
@@ -9,7 +9,7 @@ Exponentiation of two numbers. The output will return the base number raised to 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
 | base | The base number to be raised. | Number | - | - | Yes |
-| power | The number of powers to raise the base number to. | Number | - | - | Yes |
+| exponent | The number of powers to raise the base number to. | Number | - | - | Yes |
 
 ## Output
 
@@ -29,26 +29,16 @@ Coming Soon.
 
 ## Example
 
-Coming Soon.
+1. Drag the `Math.power` function into the event flow.
 
-<!-- Share a scenario, like a user requirements. -->
+    ![](./pow-step-1.png)
 
-### Steps
+2. Enter the 2 values to be processed. For this example they are `2` and `3`.
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}) -->
+    ![](./pow-step-2.png)
 
 ### Result
 
-Coming Soon.
-
-<!-- Explain the output.
-
-Format: ![]({image-path}) -->
+8
 
 ## Links
