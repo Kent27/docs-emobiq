@@ -16,29 +16,20 @@ A value of any type is converted to text type.
 | ------ | ------ |
 | Returns the converted value as text type. | Text |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
 ## Example
 
-The user wants to convert an object to string and print the result in the console.
-</br>
+In this example, we will convert an object to a string and print the result in the console.
 
 ### Step
 
 1. Call the function `Conversion.toText` inside the `Log.write` function, and then call the function `Conversion.toObject` inside `Conversion.toText`
-    </br>
-    value : {"age":"27","name":"Johnny"}
 
-    ![](./toText-step-1.png)
+2. Call the function `Conversion.toObject` inside the `Conversion.toText` function and enter the values for the object {name:Johnny, age:27}. (Refer to  [`toObject`](./toObject) for more information on using the `toObject` function.)
+
+![](./toText-step-1.png)
 
 ### Result
 
-The console will print `{"age":"27","name":"Johnny"}`.
+1. The console will print the value passed as a text. In this example, the value printed is `{"age":"27","name":"Johnny"}`.
 
-## Related Information
+![](./toText-result-1.png)

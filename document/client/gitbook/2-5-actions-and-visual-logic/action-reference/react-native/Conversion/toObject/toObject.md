@@ -18,31 +18,20 @@ Note: Dynamic input means that user can add the necessary input required as key-
 | ------ | ------ |
 | Returns the new object with the passed data. | Object |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
 ## Example
 
-The user wants to create an object and print the result in the console.
-</br>
+In this example, we will create an object and print the result in the console.
 
 ### Step
 
 1. Call the function `Conversion.toObject` inside the `Log.write` function.
-    </br>
-    value : {name: Johnny, age: 27}
 
-    ![](./toObject-step-1.png)
+2. Create the parameter(s) as required inside the `Conversion.toObject` and enter the value(s) for each parameter. In this example, we will create 2 parameters, 'name' and 'age' and enter the values {name: John, age: 27}.
+
+![](./toObject-step-1.png)
 
 ### Result
 
-The console will print an object as depicted below.
-</br>
-![](./toObject-step-2.png)
+1. The console will print an object as depicted below.
 
-## Links
+![](./toObject-result-1.png)

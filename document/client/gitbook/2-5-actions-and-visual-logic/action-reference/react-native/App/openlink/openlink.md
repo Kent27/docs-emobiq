@@ -24,38 +24,24 @@ Opens a link in a new tab in a mobile web browser.
 | message | The message to print. | Text |
 | data | Any additional message or data to print. | Text |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
-
 ## Example
 
-Coming Soon.
-
-<!-- Share a scenario, like a user requirements. -->
+In this example, we will use the `App.reload` function to open the link for the eMOBIQ dashboard in another tab.
 
 ### Steps
 
-Coming Soon.
+1. Drag a button component to the canvas and click on the 'Action' tab.
+2. Drag the `App.openlink` function to the event flow under the 'press' event.
 
-<!-- Show the steps and share some screenshots.
+![](./openlink-step-1.png)
 
-1. .....
+3. Under the inspector of the component, enter the link you want to open. In this example, we are using `https://main.emobiq.com/`, the link to the eMOBIQ dashboard.
 
-Format: ![]({image-path}) -->
+![](./openlink-step-2.png)
 
 ### Result
 
-Coming Soon.
+1. Save and preview the app.
+2. Click the button to open the dashboard in another tab.
 
-<!-- Explain the output.
-
-Format: ![]({image-path}) -->
-
-## Links
+![](./openlink-result-1.gif)

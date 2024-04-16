@@ -14,27 +14,18 @@ N/A
 | ------ | ------ |
 | Returns the value of type null. | Null |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
 ## Example
 
-The user wants to print `null` in the console.
-</br>
+In this example, we will use the `Conversion.toNull` function to print `null` in the console.
 
 ### Step
 
 1. Call the function `Conversion.toNull` inside the `Log.write` function.
-    </br>
-    ![](./toNull-step-1.png)
+
+![](./toNull-step-1.png)
 
 ### Result
 
-The console will print `null`.
+1. The console will print `null`.
 
-## Links
+![](./toNull-result-1.png)

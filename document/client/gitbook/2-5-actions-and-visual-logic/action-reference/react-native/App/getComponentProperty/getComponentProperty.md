@@ -8,26 +8,18 @@ Returns the attribute of a component, such as its name, dimensions etc.
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| component | The name of the component to get attribute from. | String/Text | - | - | Yes |
+| component | The name of the component to get property from. | String/Text | - | - | Yes |
 | property | The attribute of the component. | String/Text | - | - | Yes |
 
 ## Output
 
 | Description | Output Type |
 | ------ | ------ |
-| Returns the attribute of the component. | String/Text |
-
-## Callback
-
-N/A
-
-## Video
-
+| Returns the property of the component. | String/Text |
 
 ## Example
 
-In this example we will get the name attribute of an input box component using `App.getComponentProperty` and print it to the console. 
-
+In this example, we will get the name attribute of an input box component using `App.getComponentProperty` and print it to the console. 
 
 ### Steps
 
@@ -35,8 +27,7 @@ In this example we will get the name attribute of an input box component using `
 
 ![](./getComponentProperty-step-1.png)
 
-2. We want to get the 'name' attribute of "InputBox" and display it in the browser console with the help of the `console` helper function. 
-   
+2. We want to get the 'name' attribute of "InputBox" and display it in the browser console with the help of the `Log.write` helper function. 
 3. Drag `getComponentProperty` into the event flow, and specify the name of the component, which in this case is "InputBox".
 
 ![](./getComponentProperty-step-2.png)
@@ -44,6 +35,6 @@ In this example we will get the name attribute of an input box component using `
 
 ### Result
 
-- The `name` attribute of "InputBox" will be displayed in the browser console.
+1. The `name` attribute of "InputBox" will be displayed in the browser console.
 
-![](./getComponentProperty-step-3.png)
+![](./getComponentProperty-result-1.png)

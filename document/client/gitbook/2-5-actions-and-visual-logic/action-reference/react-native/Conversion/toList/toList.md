@@ -8,9 +8,16 @@ Creates a list using the values provided or creates a new list.
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| data | Takes all the values passed and returns them as a list. | List | - | - | Yes |
-
-* Note: DynamicList refers to being able to add multiple values as required.
+| value1 | The first value to add in the list. | Any | - | - | No |
+| value2 | The second value to add in the list. | Any | - | - | No |
+| value3 | The third value to add in the list. | Any | - | - | No |
+| value4 | The fourth value to add in the list. | Any | - | - | No |
+| value5 | The fifth value to add in the list. | Any | - | - | No |
+| value6 | The sixth value to add in the list. | Any | - | - | No |
+| value7 | The seventh value to add in the list. | Any | - | - | No |
+| value8 | The eight value to add in the list. | Any | - | - | No |
+| value9 | The ninth value to add in the list. | Any | - | - | No |
+| value10 | The tenth value to add in the list. | Any | - | - | No |
 
 ## Output
 
@@ -18,31 +25,19 @@ Creates a list using the values provided or creates a new list.
 | ------ | ------ |
 | Returns the new list with the passed data. | List |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
 ## Example
 
 The user wants to create an array of values and print the result in the console.
-</br>
 
 ### Step
 
 1. Call the function `Conversion.toList` inside the `Log.write` function.
-    </br>
-    value : 1, 2, 3
+2. Enter the value for the `Conversion.toList` function. In this example, we will enter 1, 2, 3.
 
-    ![](./toList-step-1.png)
+![](./toList-step-1.png)
 
 ### Result
 
-The console will print an array of numbers as depicted below.
-</br>
-![](./toList-step-2.png)
+1. The console will print an array of numbers as depicted below.
 
-## Links
+![](./toList-result-1.png)
