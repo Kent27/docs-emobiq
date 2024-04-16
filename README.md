@@ -7,14 +7,16 @@
 
 ### Guidelines
 
-- Embedding images, the path should be based on the root folder.
-- For all outputs that can be displayed in the console will use the `console` (Cordova) or `write` (React Native) function in the example provided for those functions. For these functions, the example will be documented in a table including the expected result and explanation.
-- For functions that require components to show output, the example will include the specific steps and results.
-- For the folder named **gitbook** make sure it follows gitbook format, the main thing to remember is to create a **README.md** file for folders that only contain folders and don't forget to update the **SUMMARY.md**.
-- Please follow the format {function-name}-{type}-{number}.png whenever you add a new image.
+- Examples
+    - For all outputs that can be displayed using the console, use the `console` (Cordova) or `write` (React Native, Server). 
+    - For functions that require components to show output, the example will include the specific steps and results.
+- Images
+    - Embedding images, the path should be based on the root folder.
+    - Please follow the format {function-name}-{type}-{number}.png whenever you add a new image.
 
 ### Notes
 
+- Deploying to gitbook requires running the scripts, make sure to do this first.
 - Main file video storage would be stored in this link [One Drive][One Drive Link] under the **'Videos'** folder, it's also following the naming convention similar to our folder structure.
 - All video links would be redirected in this [YouTube][YouTube Link] channel.
 
