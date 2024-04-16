@@ -68,13 +68,13 @@ Explain what this callback is for?
 | ------ | ------ | ------ |
 | filePath | The base64 value. | String/Text |
 
-## Video
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
-
 ## Example
 
 Share a scenario, like a user requirements.
+
+### Video
+
+<!-- Format: [![Video]({image-path})]({url-link}) -->
 
 ### Steps
 
