@@ -23,7 +23,6 @@ Text Format
 
 - Bold: ```[b]```The text to apply bold.```[/b]```
 - Italic: ```[i]```The text to apply italic.```[/i]```
-- Image: ```[img x={number} y={number} width={number} height={number}]```The image to be rendered, a base64 or url.```[/img]```
 - Font: ```[font={monospace|ocrb}]```The text to apply the font.```[/font]```
 - Size: ```[size={number}]```The text to apply the size.```[/size]```
 - Linespace: ```[linespace={number}]```The text to apply the linespace.```[/linespace]```
