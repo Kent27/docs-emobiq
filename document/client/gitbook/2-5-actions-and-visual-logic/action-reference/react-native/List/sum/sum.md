@@ -16,28 +16,20 @@ Sums all the numbers in a list.
 | ------ | ------ |
 | Returns the total value of the numbers in the list. | Number |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
 ## Example
 
-The user wants to get the sum of numbers in a list and print the result in the console.
-</br>
+In this example, we will get the sum of numbers in a list and print the result in the console.
 
 ### Step
 
-1. Call the function `List.sum` inside the `Log.write` function, and then Call the function `Conversion.toList` inside the `List.sum`.
-    </br>
+1. Call the function `List.sum` inside the `Log.write` function.
+2. Then call the function `Conversion.toList` inside the `List.sum` function.
+3. 3. Enter the data inside the `Conversion.toList` function. In this example, we will enter "3, 1, 5".
 
-    ![](./sum-step-1.png)
+![](./sum-step-1.png)
 
 ### Result
 
-The console will print `9`.
+1. The console will print the sum of all the values in the list. In this example, the value printed will be `9`.
 
-## Related Information
+![](./sum-result-1.png)

@@ -29,10 +29,6 @@ The action performed if the condition is true.
 
 The action performed if the condition is false.
 
-## Video
-
-Coming Soon.
-
 ## Example
 
 The user wants to print out a value based on a conditional, for the sake of example we will use `true` or `false` for the parameter `condition` directly, but you can use functions from the likes of `Logic` category for this.
@@ -48,5 +44,3 @@ Sample parameters are shown in the picture below.
 ### Result
 
 The console will print `YES`.
-
-## Related Information

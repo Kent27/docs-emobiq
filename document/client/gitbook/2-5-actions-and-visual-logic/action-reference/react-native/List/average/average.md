@@ -16,29 +16,20 @@ Returns the average value of all the numbers in a list.
 | ------ | ------ |
 | Returns the average value of the numbers in the list. | Number |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
 ## Example
 
-The user wants to get the average of numbers in a List and print the result in the console.
-</br>
+In this example, we we will get the average of numbers in a list and print the result in the console.
 
 ### Step
 
-1. Call the function `List.average` inside the `Log.write` function, and then Call the function `Conversion.toList` inside the `List.average`.
-</br>
-data : "3,1,5"
+1. Call the function `List.average` inside the `Log.write` function.
+2. Then call the function `Conversion.toList` inside the `List.average` function.
+3. Enter the data inside the `Conversion.toList` function. In this example, we will enter "3, 1, 5".
 
 ![](./average-step-1.png)
 
 ### Result
 
-The console will print `3`.
+1. The console will print the average value. In this example, the value printed will be `3`.
 
-## Related Information
+![](./average-result-1.png)

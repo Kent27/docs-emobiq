@@ -16,29 +16,19 @@ A value of any type is converted to boolean type.
 | ------ | ------ |
 | Returns the converted value as boolean type. | Boolean |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
 ## Example
 
-The user wants to convert string to Boolean and print the result in the console.
-</br>
+In this example, we will convert a string to boolean and print the result in the console.
 
 ### Step
 
 1. Call the function `Conversion.toBoolean` inside the `Log.write` function.
-    </br>
-    value : False
+2. Enter the value of the `Conversion.toBoolean` function. In this example, we will enter 'False'.
 
-    ![](./toBoolean-step-1.png)
+![](./toBoolean-step-1.png)
 
 ### Result
 
-The console will print 'false' since the `value` is 'False'.
+1. The console will print 'false' since the `value` is 'False'.
 
-## Links
+![](./toBoolean-result-1.png)

@@ -16,28 +16,20 @@ Counts the number of elements in a list.
 | ------ | ------ |
 | Returns the total number of the elements in the list. | Number |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
 ## Example
 
-The user wants to count the number of elements in a List and print the result in the console.
-</br>
+In this exmaple, we will count the number of elements in a list and print the result in the console.
 
 ### Step
 
-1. Call the function `List.count` inside the `Log.write` function, and then Call the function `Conversion.toList` inside the `List.count`.
-    </br>
+1. Call the function `List.count` inside the `Log.write` function.
+2. Then call the function `Conversion.toList` inside the `List.count` function.
+3. Enter the data inside the `Conversion.toList` function. In this example, we will enter "3, 1, 5".
 
-    ![](./count-step-1.png)
+![](./count-step-1.png)
 
 ### Result
 
-The console will print `3`.
+1. The console will print the number of elements in the list. In this example, the value printed will be `3`.
 
-## Related Information
+![](./count-result-1.png)

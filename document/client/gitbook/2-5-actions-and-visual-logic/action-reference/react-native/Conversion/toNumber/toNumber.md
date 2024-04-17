@@ -16,29 +16,19 @@ Any number or text is converted to number type.
 | ------ | ------ |
 | Returns the converted value as number type. | Number |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
 ## Example
 
-The user wants to convert string to Number and print the result in the console.
-</br>
+In this example, we will convert a string to number and print the result in the console.
 
 ### Step
 
 1. Call the function `Conversion.toNumber` inside the `Log.write` function.
-    </br>
-    value : 12
+2. Enter the value for the `Conversion.toNumber` function. In this example, we will enter 12.
 
-    ![](./toNumber-step-1.png)
+![](./toNumber-step-1.png)
 
 ### Result
 
-The console will print `12`.
+1. The console will print `12`.
 
-## Links
+![](./toNumber-result-1.png)
