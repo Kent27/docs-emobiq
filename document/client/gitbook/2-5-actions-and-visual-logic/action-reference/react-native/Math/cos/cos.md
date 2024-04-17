@@ -16,28 +16,20 @@ Get the cosine of an angle, in radians. The output will return a number between 
 | ------ | ------ |
 | Returns the cosine of an angle. | Number |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
-
 ## Example
 
-1. Drag the `Math.cos` function into the event flow.
+In this example, we will get the cosine of a value and print it in the console.
 
-    ![](./cos-step-1.png)
+### Steps
 
-2. Enter the value to be processed. For this example we use 45.
+1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Call the function `Math.cos` inside the `Log.write` function.
+3. Enter the value to get the cosine of.
 
-    ![](./cos-step-2.png)
+![](./cos-step-1.png)
 
 ### Result
 
-0.5253219888177297
+1. The console will print the cosine of the value passed.
 
-## Links
+![](./cos-result-1.png)

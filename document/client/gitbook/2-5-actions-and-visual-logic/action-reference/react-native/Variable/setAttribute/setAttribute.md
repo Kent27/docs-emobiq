@@ -26,29 +26,24 @@ Stores value into an attribute of an object variable in the application's local 
 | message | The message to print. | Text |
 | data | Any additional message or data to print. | Text |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
 ## Example
 
-Coming Soon.
+In this example, we will set the value of an object variable's attribute and check whether the variable attribute has been set successfully in the console.
 
 ### Steps
 
 1. Drag the `Variable.setAttribute` into the flow window. 
-2. Create a variable called `vObject` with the attribute `name` that has value `Johnny`
+2. Create a variable called `vObject` with the attribute `name` that has value `Johnny`.
+
 ![](./setAttribute-step-1.png)
+
 3. This will create a global variable called `vObject` (if it doesn't exist already) with attribute `name` containing the value `Johnny` that can be accessed by other components or on other pages of your app.
 
 ### Result
 
-The value of the attribute `name` of the global variable `vObject` can be accessed by using the `Variable.setAttribute`. 
-
-Using the above flow will display the value `Johnny` in the browser console.
+1. The value of the attribute `name` of the global variable `vObject` can be accessed by using the `Variable.getAttribute`. 
+2. Using the above flow will display the value `Johnny` in the browser console.
 
 ## Related Information
+
+* See also `Variable.getAttribute`

@@ -16,28 +16,18 @@ Get the square root of a number.
 | ------ | ------ |
 | Returns the square root value. | Number |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
-
 ## Example
 
-1. Drag the `Math.squareRoot` function into the event flow.
+In this example, we will get the squareroot of a value and print the result in the console.
 
-    ![](./sqrt-step-1.png)
+### Steps
 
-2. Enter the value to be processed. For this example we use 4.
+1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Call the function `Math.squareRoot` inside the `Log.write` function.
+3. Enter the value to get the squareroot of.
 
-    ![](./sqrt-step-2.png)
+![](./squareRoot-step-1.png)
 
 ### Result
 
-2
-
-## Links
+1. The console will print the value `2`.

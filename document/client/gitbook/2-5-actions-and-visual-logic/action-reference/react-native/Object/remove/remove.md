@@ -17,29 +17,23 @@ Removes a value from an object using a key.
 | ------ | ------ |
 | Returns the updated object. | Object |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
 ## Example
 
-The user wants to remove a key from an object and print the updated object in the console.
-</br>
+In this example, we will remove a key from an object and print the updated object in the console.
 
 ### Step
 
-1. Call the function `Object.remove` inside the `Log.write` function, and then Call the function `Conversion.toObject` inside the `Object.remove`.
-Sample parameters are shown in the picture below.
-    </br>
+1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Call the function `Object.remove` inside the `Log.write` function.
+3. Then call the function `Conversion.toObject` inside the `data` parameter of the `Object.remove` function.
+4. Sample parameters are shown in the picture below.
 
-    ![](./remove-step-1.png)
+![](./remove-step-1.png)
 
 ### Result
 
-The console will print `{name: 'John'}`.
+1. The console will print the updated object.
+2. For this example, the printed value will be `{name: 'John'}`.
 
-## Related Information
+![](./remove-result-1.png)
+

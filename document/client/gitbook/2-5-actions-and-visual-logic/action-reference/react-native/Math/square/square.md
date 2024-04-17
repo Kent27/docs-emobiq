@@ -30,5 +30,5 @@ In this example, we will square a value and print the result in the console.
 
 ### Result
 
-1. The console will print `4`.
+1. The console will print the value `4`.
 
