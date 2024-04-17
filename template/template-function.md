@@ -54,9 +54,7 @@ Example below:
 
 ### successCallback
 
-Explain what this callback is for?
-
-<!-- A successCallback is executed when a function runs successfully. It takes the result returned by the function as its parameter. ? -->
+Explain what this callback is for.
 
 | Description | Output Type |
 | ------ | ------ |
@@ -72,15 +70,19 @@ Explain what this callback is for?
 
 Share a scenario, like a user requirements.
 
+Example below:
+
+In this example, ...
+
 ### Video
 
 <!-- Format: [![Video]({image-path})]({url-link}) -->
 
 ### Steps
 
-Show the steps and share some screenshots.
+Show the steps and share some screenshots if necessary.
 
-1. .....
+1. ...
 
 <!-- Format: ![]({image-path}) -->
 

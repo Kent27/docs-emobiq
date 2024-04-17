@@ -4,11 +4,13 @@
 
 Generates a canvas by following a specific format, canvas are mainly used for printing.
 
+This does not include images, to include please refer to [bbCodeToCanvasSync](./../bbCodeToCanvasSync/bbCodeToCanvasSync.md).
+
 ## Input / Parameter
 
 | Name | Description | Data Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| text | The text with a specific format to be drawn in the canvas. See Text Format after this table. | String/Text | - | - | No |
+| text | The text with a specific format to be drawn in the canvas. See `Text Format` after this table. | String/Text | - | - | No |
 | font | The name of the font to be used. | String/Text | monospace | monospace, ocrb | No | 
 | size | The size of the font to be used with the suffix 'px' for pixel. | String/Text | 23px | - | No | 
 | canvasWidth | The width of the canvas. | Number | 576 | - | No | 
@@ -31,48 +33,4 @@ Text Format
 
 ## Output
 
-N/A
-
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
-
-## Example
-
-The user wants to generate a canvas and convert it to CPCL printing language to print it.
-
-<!-- Share a scenario, like a user requirements. -->
-
-### Steps
-
-1. Set the data to be printed using the `setVar` function. In this example, we use the `forLoop` and store the result in the variable set.
-
-    ![](./bbCodeToCanvasSync-step-1.png)
-
-2. Call the function `bbCodeToCanvas` and call the function `getVar` in the `text` parameter of the function to generate a canvas using the stored value.
-
-2. Call the function `btPrinterPrint` in the callback of the `bbCodeToCanvas`. Call the function `canvasToCPCL` in the `text` parameter of the `btPrinterPrint` function to convert the canvas to CPCL printing language before printing.
-
-    ![](./bbCodeToCanvasSync-step-2.png)
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}) -->
-
-### Result
-    
-1. The canvas generated will be printed.
-
-<!-- Explain the output.
-
-Format: ![]({image-path}) -->
-
-## Links
+A html canvas.

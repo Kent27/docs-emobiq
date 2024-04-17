@@ -7,6 +7,9 @@
 
 ### Guidelines
 
+- Structure
+    - If there is no value please remove the header except for the following: Description, Input/Parameter and Output. 
+    - For the three exceptions, if it is totally empty include N/A.
 - Examples
     - For all outputs that can be displayed using the console, use the `console` (Cordova) or `write` (React Native, Server). 
     - For functions that require components to show output, the example will include the specific steps and results.

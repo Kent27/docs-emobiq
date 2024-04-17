@@ -2,7 +2,11 @@
 
 ## Description
 
-An animation lets a component gradually change from one style to another. 
+An animation lets a component gradually change from one style to another.
+
+Currently, this function only animates an image downward and slowly fades away.
+
+Note: Only applicable for image component.
 
 ## Input / Parameter
 
@@ -17,42 +21,27 @@ An animation lets a component gradually change from one style to another.
 
 ## Output
 
-N/A
-
 Note: The component will be updated to show the changes. 
-
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
 
 ## Example
 
-Coming Soon.
-
-<!-- Share a scenario, like a user requirements. -->
+In this example, the image would move downward and slowly fade away upon clicking on it.
 
 ### Steps
 
-Coming Soon.
+1. Drag a new `image` component to the page, under it's properties, update the name to `imgAnimate`.
 
-<!-- Show the steps and share some screenshots.
+2. Click the action tab. Select the `click` event of the `image` component.
 
-1. .....
+3. In the event flow, drag the `animate` function. 
 
-Format: ![]({image-path}) -->
+4. Update the parameters in the inspector of the `animate` function. 
+
+    - component: imgAnimate
+    - startPositionY: 0
+    - endPositionY: 20
+    - rotationDegree: 45
 
 ### Result
 
-Coming Soon.
-
-<!-- Explain the output.
-
-Format: ![]({image-path}) -->
-
-## Links
+![](./animate-result-1.gif)
