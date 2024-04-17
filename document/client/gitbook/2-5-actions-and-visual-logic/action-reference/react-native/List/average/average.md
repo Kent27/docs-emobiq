@@ -30,6 +30,7 @@ In this example, we we will get the average of numbers in a list and print the r
 
 ### Result
 
-1. The console will print the average value. In this example, the value printed will be `3`.
+1. The console will print the average value. 
+2. In this example, the value printed will be `3`.
 
 ![](./average-result-1.png)

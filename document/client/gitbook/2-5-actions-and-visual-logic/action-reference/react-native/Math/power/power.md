@@ -17,28 +17,20 @@ Exponentiation of two numbers. The output will return the base number raised to 
 | ------ | ------ |
 | Returns the base number raised to the power specified. | Number |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
-
 ## Example
 
-1. Drag the `Math.power` function into the event flow.
+In this example, we will find the value of a base number raised to power specified and print it in the console.
 
-    ![](./pow-step-1.png)
+### Steps
 
-2. Enter the 2 values to be processed. For this example they are `2` and `3`.
+1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Call the function `Math.power` inside the `Log.write` function.
+3. Enter the values for the base and the power.
 
-    ![](./pow-step-2.png)
+![](./power-step-1.png)
 
 ### Result
 
-8
+1. The console will print `8`.
 
-## Links
+![](./power-result-1.png)

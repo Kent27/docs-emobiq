@@ -17,32 +17,20 @@ Substract two numbers. The output will return the difference between the two val
 | ------ | ------ |
 | Returns the difference between the two values. | Number |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
-
 ## Example
 
-1. Drag the `Math.subtract` function into the event flow.
+In this example, we will get the value of subtracting a value from another value and print it in the console.
 
-    ![](./sub-step-1.png)
+### Steps
 
-2. Enter the 2 values. For this example we are subtracting 7 from 10.
+1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Call the function `Math.subtract` inside the `Log.write` function.
+3. Enter the values to be subtracted.
 
-    ![](./sub-step-2.png)
+![](./subtract-step-1.png)
 
 ### Result
 
-```3```
+1. The console will print `3`.
 
-<!-- Explain the output.
-
-Format: ![]({image-path}) -->
-
-## Links
+![](./subtract-result-1.png)

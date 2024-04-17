@@ -16,28 +16,19 @@ Removes the last element in a list.
 | ------ | ------ |
 | Returns the updated list. | List |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
 ## Example
 
-The user wants to remove the last element in a list and print the updated list in the console.
-</br>
+In this example, we will remove the last element in a list and print the updated list in the console.
 
-### Step
+### Steps
 
-1. Call the function `List.removeLast` inside the `Log.write` function, and then Call the function `Conversion.toList` inside the `List.removeLast`.
-    </br>
+1. Call the function `List.removeLast` inside the `Log.write` function.
+2. Then call the function `Conversion.toList` inside the `List.removeLast` function.
 
-    ![](./removeLast-step-1.png)
+![](./removeLast-step-1.png)
 
 ### Result
 
-The console will print `[3, 1]`.
+1. The console will print `[3, 1]`.
 
-## Related Information
+![](./removeLast-result-1.png)

@@ -17,28 +17,19 @@ Inserts an element to the back of a list.
 | ------ | ------ |
 | Returns the updated list. | List |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
 ## Example
 
-The user wants to insert a value in the last index of a List and print the result in the console.
-</br>
+In this example, we will insert a value in the last index of a list and print the result in the console.
 
 ### Step
 
-1. Call the function `List.insertLast` inside the `Log.write` function, and then Call the function `Conversion.toList` inside the `List.insertLast`.
-    </br>
+1. Call the function `List.insertLast` inside the `Log.write` function.
+2. Then call the function `Conversion.toList` inside the `List.insertLast` function.
 
-    ![](./insertLast-step-1.png)
+![](./insertLast-step-1.png)
 
 ### Result
 
-The console will print `3,1,5,1`.
+1. The console will print `[3,1,5,1]`.
 
-## Related Information
+![](./insertLast-result-1.png)

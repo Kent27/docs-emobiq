@@ -9,10 +9,10 @@ Rounds up a number to the nearest whole number and returns the smallest integer 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
 | value | The number to round. | Number | - | - | Yes |
-| mode | The mode of rounding. | String | | CEILING, DOWN, FLOOR, HALF_DOWN, HALF_EVEN, HALF_UP, UP | HALF_UP | Yes |
-<br />
+| mode | The mode of rounding. | String | HALF_UP | CEILING, DOWN, FLOOR, HALF_DOWN, HALF_EVEN, HALF_UP, UP | Yes |
 
-### Rounding Types:
+
+### `mode` parameter options:
 
 **CEILING**: Rounds towards positive infinity. For positive numbers, it behaves like rounding up, meaning it moves to the nearest higher integer if there's a fractional part. For negative numbers, it effectively rounds towards zero by moving up to the next higher integer (or less negative number).
 
@@ -34,32 +34,21 @@ Rounds up a number to the nearest whole number and returns the smallest integer 
 | ------ | ------ |
 | Returns the rounded number. | Number |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
-
 ## Example
 
-1. Drag the `Math.round` function into the event flow.
+In this example, we will round the value `1.5` and print the result in the console.
 
-    ![](./round-step-1.png)
+### Steps
 
-2. Enter the 1 value to be rounded. For this example they are `1.5` and `CEILING` as the rounding type.
+1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Call the function `Math.round` inside the `Log.write` function.
+3. Enter the values for the value to be rounded and the mode to be used.
 
-    ![](./round-step-2.png)
+![](./round-step-1.png)
 
 ### Result
 
-2
+1. The console will print `2`.
 
-<!-- Explain the output.
+![](./round-result-1.png)
 
-Format: ![]({image-path}) -->
-
-## Links

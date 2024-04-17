@@ -16,22 +16,22 @@ Absolute is used to return the absolute value (non-negative value) of a number. 
 | ------ | ------ |
 | Returns the absolute value. | Number |
 
-## Callback
-
-N/A
-
 ## Example
 
-1. Drag the `Math.absolute` function into the event flow.
+In this example, we will get the absolute of a value and print it in the console.
 
-    ![](./abs-step-1.png)
+### Steps
 
-2. Enter the value to be processed. For this example it is -2.
+1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Call the function `Math.absolute` inside the `Log.write` function.
+3. Enter the value to get the absolute of.
 
-    ![](./abs-step-2.png)
+![](./absolute-step-1.png)
 
 ### Result
 
-2
+1. The console will print `2`.
 
-## Links
+![](./absolute-result-1.png)
+
+

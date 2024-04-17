@@ -17,29 +17,20 @@ Get the remainder of two numbers after dividing them.
 | ------ | ------ |
 | Returns the remainder of the two values. | Number |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
-
 ## Example
 
-1. Drag the `Math.modulo` function into the event flow.
+In this example, we will get the remainder after dividing two values and print it in the console.
 
-    ![](./mod-step-1.png)
+### Steps
 
-2. Enter the 2 values to be processed together. For this example they are `3` and `2`.
+1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Call the function `Math.modulo` inside the `Log.write` function.
+3. Enter the values for the dividend and the divisor.
 
-    ![](./mod-step-2.png)
+![](./modulo-step-1.png)
+
 ### Result
 
-```
-1
-```
+1. The console will print `1`.
 
-## Links
+![](./modulo-result-1.png)

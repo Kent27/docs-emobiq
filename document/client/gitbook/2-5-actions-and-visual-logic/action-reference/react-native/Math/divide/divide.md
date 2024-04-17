@@ -17,25 +17,20 @@ Division of two numbers. The output will return the quotient of the two values.
 | ------ | ------ |
 | Returns the quotient. | Number |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
-
 ## Example
 
-1. Drag the `Math.divide` function into the event flow.
+In this example, we will divide two values and print the result in the console.
 
-    ![](./div-step-1.png)
+### Steps
 
-| Values | Expected result | 
-| ---- | ---- | 
-| ![](./div-step-2.png) | 3 |
-| ![](./div-step-3.png) | 1.5 |
+1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Call the function `Math.divide` inside the `Log.write` function.
+3. Enter the values for the dividend and the divisor.
 
-## Links
+![](./divide-step-1.png)
+
+### Result
+
+1. The console will print `3`.
+
+![](./divide-result-1.png)

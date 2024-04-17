@@ -17,30 +17,20 @@ Multiplication of two numbers. The output will return the product of the two num
 | ------ | ------ |
 | Returns the product of the two values. | Number |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
-
 ## Example
- 
 
-1. Drag the `Math.multiply` function into the event flow.
+In this example, we will multiply two values and print the result in the console.
 
-    ![](./multi-step-1.png)
+### Steps
 
-2. Enter the 2 values to be multiplied together. For this example they are `3` and `4`.
+1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Call the function `Math.multiply` inside the `Log.write` function.
+3. Enter the values to be multiplied.
 
-    ![](./multi-step-2.png)
+![](./multiply-step-1.png)
+
 ### Result
 
-```
-12
-```
+1. The console will print `12`.
 
-## Links
+![](./multiply-result-1.png)

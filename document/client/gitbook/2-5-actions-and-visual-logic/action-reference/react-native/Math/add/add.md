@@ -17,28 +17,20 @@ Addition of two numbers. The output will return the sum of the two numbers.
 | ------ | ------ |
 | Returns the sum of the two values. | Number |
 
-## Callback
-
-N/A
-
-## Video
-
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
-
 ## Example
 
-1. Drag the `Math.add` function into the event flow.
+In this example, we will get the sum of two values and print it in the console.
 
-    ![](./add-step-1.png)
+### Steps
 
-2. Enter the 2 values to be added together. For this example they are `1` and `2`.
+1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Call the function `Math.add` inside the `Log.write` function.
+3. Enter the values to be added.
 
-    ![](./add-step-2.png)
-
+![](./add-step-1.png)
 
 ### Results
 
-```3```
+1. The console will print `3`.
 
-## Links
+![](./add-result-1.png)

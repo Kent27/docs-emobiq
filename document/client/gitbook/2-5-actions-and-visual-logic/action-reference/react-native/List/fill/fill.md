@@ -17,30 +17,21 @@ Fills a string of text into a list using a separator.
 | ------ | ------ |
 | Returns the list of separated strings of text. | List |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
 ## Example
 
-The user wants to turn a comma-separated string into a List and print the result in the console.
-</br>
+In this example, we will turn a comma-separated string into a list and print the result in the console.
 
 ### Step
 
-1. Call the function `List.fill` inside the `Log.write` function.
-    </br>
-    value : "1,2,3"
-    separator: ","
+1. Drag a button component to the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Call the function `List.fill` inside the `Log.write` function.
+3. Enter the parameters for the `List.fil` function. In this example, we will enter "1,2,3" for the `value` parameter and "," for the `separator` parameter.
 
-    ![](./fill-step-1.png)
+![](./fill-step-1.png)
 
 ### Result
 
-The console will print `['1', '2', '3']`.
+1. The console will print the list of separated strings of text.
+2. In this example, the printed value will be `['1', '2', '3']`.
 
-## Related Information
+![](./fill-result-1.png)

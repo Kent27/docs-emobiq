@@ -16,28 +16,19 @@ A squared number is the result of a number raised to the power of 2, or a number
 | ------ | ------ |
 | Returns the squared value. | Number |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
-
 ## Example
 
-1. Drag the `Math.square` function into the event flow.
+In this example, we will square a value and print the result in the console.
 
-    ![](./sqr-step-1.png)
+### Steps
 
-2. Enter the value to be squared. For this example we use 2.
+1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Call the function `Math.square` inside the `Log.write` function.
+3. Enter the value to be squared.
 
-    ![](./sqr-step-2.png)
+![](./square-step-1.png)
 
 ### Result
 
-4
+1. The console will print `4`.
 
-## Links
