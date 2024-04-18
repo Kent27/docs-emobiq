@@ -42,8 +42,12 @@ The function to be executed when the canvas is generated successfully.
 
 | Description | Output Type |
 | ------ | ------ |
-| Returns the a html canvas. | HTMLCanvas |
+| Returns the html canvas. | [HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas) |
 
 ### errCallback
 
 The function to be executed when the canvas is not generated.
+
+| Description | Output Type |
+| ------ | ------ |
+| Returns the error. | Text |

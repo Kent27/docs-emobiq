@@ -32,4 +32,6 @@ Text Format
 
 ## Output
 
-A html canvas.
+| Description | Output Type |
+| ------ | ------ |
+| Returns the html canvas. | [HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas) |

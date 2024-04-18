@@ -2,7 +2,7 @@
 
 ## Description
 
-Generate a new canvas based on an existing canvas, canvas are mainly used for printing.
+Generate base64 from an existing canvas, 
 
 ## Input / Parameter
 
@@ -21,40 +21,16 @@ N/A
 
 ### callback
 
-The function to be executed when the canvas is generated successfully.
+The function to be executed when converting the canvas to base64 was successful.
+
+| Description | Output Type |
+| ------ | ------ |
+| Returns the base64 of the canvas. | Text |
 
 ### errCallback
 
-The function to be executed when the canvas is not generated successfully.
+The function to be executed when converting the canvas to base64 was not successful.
 
-## Video
-
-Coming Soon.
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
-
-## Example
-
-Coming Soon.
-
-<!-- Share a scenario, like a user requirements. -->
-
-### Steps
-
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}) -->
-
-### Result
-
-Coming Soon.
-
-<!-- Explain the output.
-
-Format: ![]({image-path}) -->
-
-## Links
+| Description | Output Type |
+| ------ | ------ |
+| Returns the error. | Text |

@@ -2,7 +2,13 @@
 
 ## Description
 
-Converts the value in a signature component to dataURL.
+Converts a component to base64.
+
+Note: Not all components are supported, as of now only the following are supported:
+
+- Signature
+- Barcode
+- QRCode
 
 ## Input / Parameter
 
@@ -15,46 +21,4 @@ Converts the value in a signature component to dataURL.
 
 | Description | Output Type |
 | ------ | ------ |
-| Returns the dataURL of the signature. | String/Text |
-
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
-
-## Example
-
-The user want get the value of signature component and send to the server for processing.
-
-### Step
-
-1. Find the signature component. 
-
-    ![](./canvasToDataURL-step-1.png)
-    
-
-2. Draw a signature component "Signature",  a button "canvasToDatURL".
-
-    ![](./canvasToDataURL-step-2.png)
-    
-
-3. Call the function by adding a console -> canvasToDataURL in button event.
-
-    ![](./canvasToDataURL-step-3.png)
-
-4. Use the name of the signature component inside the function parameters.
-
-    ![](./canvasToDataURL-step-4.png)
-    
-### Result
-
-In the console of browser, user can see the dataURL of signature component.
-
-![](./canvasToDataURL-result-1.png)
-
-## Links
+| The base64 if it is converted, if it fails then 'false'. | Text/Boolean |
