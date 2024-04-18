@@ -16,28 +16,19 @@ Removes the first element in a list.
 | ------ | ------ |
 | Returns the updated list. | List |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
 ## Example
 
-The user wants to remove the first element in a list and print the updated list in the console.
-</br>
+In this example, we will remove the first element in a list and print the updated list in the console.
 
-### Step
+### Steps
 
-1. Call the function `List.removeFirst` inside the `Log.write` function, and then Call the function `Conversion.toList` inside the `List.removeFirst`.
-    </br>
+1. Call the function `List.removeFirst` inside the `Log.write` function.
+2. Then call the function `Conversion.toList` inside the `List.removeFirst` function.
 
-    ![](./removeFirst-step-1.png)
+![](./removeFirst-step-1.png)
 
 ### Result
 
-The console will print `[1, 5]`.
+1. The console will print `[1, 5]`.
 
-## Related Information
+![](./removeFirst-result-1.png)

@@ -14,29 +14,18 @@ Checks whether the value input is a list.
 
 N/A
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
 ## Example
 
-The user wants to check whether a list is valid and print the result in the console.
-</br>
+In this example, we will check whether a list is valid and print the result in the console.
 
-### Step
+### Steps
 
-1. Call the function `Conversion.isList` inside the `Log.write` function.
-    </br>
-    value : "not a list"
+1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Call the function `Validation.isList` inside the `Log.write` function.
+3. Enter the value for the list to be validated. In this example, we will enter the value "not a list".
 
-    ![](./isList-step-1.png)
+![](./isList-step-1.png)
 
 ### Result
 
-The console will print `false` since it is not a valid List.
-
-## Related Information
+1. The console will print `false` since it is not a valid List.

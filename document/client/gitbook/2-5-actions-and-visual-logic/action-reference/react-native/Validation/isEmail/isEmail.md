@@ -14,29 +14,18 @@ Checks whether the value input is a valid email.
 
 N/A
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
 ## Example
 
-The user wants to check whether an email is valid and print the result in the console.
-</br>
+In this example, we will check whether an email is valid and print the result in the console.
 
-### Step
+### Steps
 
-1. Call the function `Conversion.isEmail` inside the `Log.write` function.
-    </br>
-    value : "john@gmail.com"
+1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Call the function `Validation.isEmail` inside the `Log.write` function.
+3. Enter the value for the email to be validated. In this example, we will enter the value "john@gmail.com".
 
-    ![](./isEmail-step-1.png)
+![](./isEmail-step-1.png)
 
 ### Result
 
-The console will print `true` since it is a valid email by format.
-
-## Links
+1. The console will print `true` since it is a valid email by format.

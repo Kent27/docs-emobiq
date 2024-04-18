@@ -16,28 +16,20 @@ Get the sine of an angle, in radians. The output will return a number between -1
 | ------ | ------ |
 | Returns the sine of an angle. | Number |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
-
 ## Example
 
-1. Drag the `Math.sin` function into the event flow.
+In this example, we will get the sine of a value and print it in the console.
 
-    ![](./sin-step-1.png)
+### Steps
 
-2. Enter the value to be processed. For this example we use 45.
+1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Call the function `Math.sin` inside the `Log.write` function.
+3. Enter the value to get the sine of.
 
-    ![](./sin-step-2.png)
+![](./sin-step-1.png)
 
 ### Result
 
-0.8509035245341184
+1. The console will print the sine of the value passed.
 
-## Links
+![](./sin-result-1.png) 

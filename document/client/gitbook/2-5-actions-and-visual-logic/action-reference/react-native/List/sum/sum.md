@@ -30,6 +30,7 @@ In this example, we will get the sum of numbers in a list and print the result i
 
 ### Result
 
-1. The console will print the sum of all the values in the list. In this example, the value printed will be `9`.
+1. The console will print the sum of all the values in the list. 
+2. In this example, the value printed will be `9`.
 
 ![](./sum-result-1.png)

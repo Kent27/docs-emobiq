@@ -16,30 +16,22 @@ Returns the smallest value of the numbers in the passed array.
 | ------ | ------ |
 | Returns the smallest value in the array. | Number |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
-
 ## Example
 
-The user wants to get the smallest of the numbers in a list and print the result in the console.
-</br>
+In this example, we will get the smallest of the numbers in a list and print the result in the console.
 
 ### Step
 
-1. Call the function `List.min` inside the `Log.write` function, and then Call the function `Conversion.toList` inside the `List.min`.
-    </br>
+1. Drag a `button` component to the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Call the function `List.min` inside the `Log.write` function.
+3. Then call the function `Conversion.toList` inside the `List.min` function.
+4. Enter the values of the list to find the min from.
 
-    ![](./min-step-1.png)
+![](./min-step-1.png)
 
 ### Result
 
-The console will print `1`.
+1. The console will print the min value of the list.
+2. In this example, the value printed will be `1`.
 
-## Related Information
+![](./min-result-1.png)

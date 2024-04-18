@@ -25,33 +25,26 @@ Creates a global variable with a value associated to it.
 | message | The message to print. | Text |
 | data | Any additional message or data to print. | Text |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
-
 ## Example
+
+In this example, we will set the value of a global variable and check whether the variable has been set successfully in the console.
 
 ### Steps
 
-1. Drag the `Log.write` function and then inside the `value` parameter put in function `Variable.set` into the subflow window. 
-2. Create a variable called `version` with the value `1.0.0`
-![](./setVar-step-1.png)
-3. This will create a global variable called "version" containing the value "1.0.0" that can be accessed by other components or on other pages of your app.
+1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Call the function `Variable.set` inside the `value` parameter of the `Log.write` function. (*Note: The `Log.write` function is used here for ease of demostrating the output.)
+3. Create a variable called `version` with the value `1.0.0`
+
+![](./set-step-1.png)
+
+4. This will create a global variable called "version" containing the value "1.0.0" that can be accessed by other components or on other pages of your app.
 
 ### Result
 
-The value of the global variable `version` can be accessed by using the `Variable.get`. 
+1. The value of the global variable `version` can be accessed by using the function `Variable.get`. 
+2. Using the above flow will display the value `1.0.0` in the browser console.
 
-Using the above flow will display the value `1.0.0` in the browser console.
-
-![](./setVar-step-2.png) 
-
+![](./set-result-1.png) 
 
 ## Related Information
 

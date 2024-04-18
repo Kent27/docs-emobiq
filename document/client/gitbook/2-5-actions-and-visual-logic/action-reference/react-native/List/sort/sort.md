@@ -17,28 +17,21 @@ Sorts the elements in a list in ascending or descending order.
 | ------ | ------ |
 | Returns the sorted list. | List |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
 ## Example
 
-The user wants to sort a list and print the updated list in the console.
-</br>
+In this example, we will sort a list and print the updated list in the console.
 
 ### Step
 
-1. Call the function `List.sort` inside the `Log.write` function, and then Call the function `Conversion.toList` inside the `List.sort`. When `descending` is not specified it will be false by default.
-    </br>
+1. Drag a `button` component to the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Call the function `List.sort` inside the `Log.write` function.
+3. Then call the function `Conversion.toList` inside the `List.sort` function. Enter the value for `descending` parameter. (Note: When `descending` is not specified it will be false by default.)
 
-    ![](./sort-step-1.png)
+![](./sort-step-1.png)
 
 ### Result
 
-The console will print `[1, 3, 5]`.
+1. The console will print the list in the order that is specified.
+2. In this example, the value printed will be `[1, 3, 5]`, as the order of sorting is ascending.
 
-## Related Information
+![](./sort-result-1.png)

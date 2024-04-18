@@ -18,27 +18,24 @@ Retrieves value from an attribute of an object variable in the application's loc
 | ------ | ------ |
 | The stored variable's value from the attribute, or null if the value does not exist, variable is not an object and default value is not supplied. | Any |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
 ## Example
 
-The user wants to use a value of an attribute from global variable which had been declared.
+In this example, we will use a value of an attribute from global variable which had been declared.
 
 ### Steps
 
 1. Assuming you have followed the "Variable.setAttribute" fuction in help document, call the function.
 
-    ![](./getVarAttr-step-1.png)
-    ![](./getVarAttr-step-2.png)
+![](./getAttribute-step-1.png)
 
 ### Result
 
-In console, user can see the string `Johnny`. If user variable `vObject` have no value, it will display `unknown`.
+1. In console, user can see the string `Johnny`. If user variable `vObject` have no value, it will display `unknown`.
+
+| Variable exists | Variable does not exist | 
+| ---- | ---- | 
+| If the specified global variable attribute has previously been set (see [`setAttribute`](./setAttribute)), the function will return the variable attribute's value: ("Johnny" in this example) <br /> ![](./getAttribute-result-1.png) | If the specified global variable attribute does not exist, the function will return the value in `defaultValue`:  <br /> ![](./getAttribute-result-2.png) |
 
 ## Related Information
+
+* See also `Variable.setAttribute`

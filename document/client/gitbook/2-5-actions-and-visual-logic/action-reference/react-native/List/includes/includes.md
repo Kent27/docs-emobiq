@@ -15,28 +15,22 @@ Determines whether a list includes a certain value.
 
 N/A
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
 ## Example
 
-The user wants to check whether a value is included in a List and print the result in the console.
-</br>
+In this example, we will check whether a value is included in a list and print the result in the console.
 
 ### Step
 
-1. Call the function `List.includes` inside the `Log.write` function, and then Call the function `Conversion.toList` inside the `List.includes`.
-    </br>
+1. Drag a `button` component to the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Call the function `List.includes` inside the `Log.write` function.
+3. Then call the function `Conversion.toList` inside the `data` parameter of the `List.includes` function. Enter the value to be checked for in the list in the `value` parameter.
+4. Enter the values of the list to be passed in the `Conversion.toList` function.
 
-    ![](./includes-step-1.png)
+![](./includes-step-1.png)
 
 ### Result
 
-The console will print `true`.
+1. The console will print `true` if the value exists in the list and `false` if the value does not exist in the list.
+2. In this example, the value printed will be `true`.
 
-## Related Information
+![](./includes-result-1.png)

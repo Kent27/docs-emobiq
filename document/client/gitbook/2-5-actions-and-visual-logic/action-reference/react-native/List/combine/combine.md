@@ -17,28 +17,22 @@ Combines elements in a list into a string of text using a delimiter.
 | ------ | ------ |
 | Returns the concatenated string of text. | Text |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
 ## Example
 
-The user wants to turn a List into a comma-separated string and print the result in the console.
-</br>
+In this example, we will turn a list into a comma-separated string and print the result in the console.
 
 ### Step
 
-1. Call the function `List.combine` inside the `Log.write` function, and then Call the function `Conversion.toList` inside the `List.combine`.
-    </br>
+1. Drag a `button` component to the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Call the function `List.combine` inside the `Log.write` function.
+3. Then call the function `Conversion.toList` inside the `data` parameter of the `List.combine` function. Add a "," in the `delimiter` parameter.
+4. Enter the values of the list to concatenate into a string in the `Conversion.toList` function.
 
-    ![](./combine-step-1.png)
+![](./combine-step-1.png)
 
 ### Result
 
-The console will print `3,1,5`.
+1. The console will print the concatenated string of text.
+2. In this example, the value printed will be `3,1,5`.
 
-## Related Information
+![](./combine-result-1.png)

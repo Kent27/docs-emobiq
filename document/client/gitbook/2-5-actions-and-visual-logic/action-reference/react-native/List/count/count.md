@@ -30,6 +30,7 @@ In this exmaple, we will count the number of elements in a list and print the re
 
 ### Result
 
-1. The console will print the number of elements in the list. In this example, the value printed will be `3`.
+1. The console will print the number of elements in the list. 
+2. In this example, the value printed will be `3`.
 
 ![](./count-result-1.png)
