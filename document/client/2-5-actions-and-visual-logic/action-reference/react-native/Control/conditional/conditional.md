@@ -31,16 +31,29 @@ The action performed if the condition is false.
 
 ## Example
 
-The user wants to print out a value based on a conditional, for the sake of example we will use `true` or `false` for the parameter `condition` directly, but you can use functions from the likes of `Logic` category for this.
+In this example, we will pass a condition to check whether two values are equal using the `Logic.equal` function and print the result of the `Control.conditional` function in the console.
 
-### Step
+### Steps
 
-1. Call the function `Object.conditional`, and then Call the function `Log.write` on both `yes` and `no` callbacks. Both of the `Log.write` shall have parameter type of `input`.
-Sample parameters are shown in the picture below.
-    </br>
+1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Control.conditional` function to the event flow.
+2. Call the function `Logic.equal` in the `condition` parameter of the function. Enter the parameters of the `Logic.equal` function.
 
-    ![](./conditional-step-1.png)
+    ```js
+    value1: 20
+    value2: 20
+    ```
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./conditional-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
+
+3. Call the function `Log.write` in both `yesCallback` and `noCallback` parameters of the `Control.conditional` function. Change the parameter type of the `value` parameter to `input`. 
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./conditional-step-2.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
 
 ### Result
 
-The console will print `YES`.
+1. The console will print `YES`.

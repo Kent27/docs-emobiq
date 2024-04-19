@@ -26,7 +26,10 @@ In this example, we will get the squareroot of a value and print the result in t
 2. Call the function `Math.squareRoot` inside the `Log.write` function.
 3. Enter the value to get the squareroot of.
 
-![](./squareRoot-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./squareRoot-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 

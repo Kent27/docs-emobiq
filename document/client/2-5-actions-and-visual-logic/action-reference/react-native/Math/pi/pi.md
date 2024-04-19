@@ -23,10 +23,16 @@ In this example, we will call the `pi` function and print the value in the conso
 1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
 2. Call the function `Math.pi` inside the `Log.write` function.
 
-![](./pi-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./pi-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 
 1. The console will print the value of pi.
 
-![](./pi-result-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./pi-result-1.png"
+        style="width: 25%; padding: 5px;"/>
+    </div>

@@ -24,7 +24,10 @@ In this example, we will check whether an email is valid and print the result in
 2. Call the function `Validation.isEmail` inside the `Log.write` function.
 3. Enter the value for the email to be validated. In this example, we will enter the value "john@gmail.com".
 
-![](./isEmail-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./isEmail-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 

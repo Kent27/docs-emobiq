@@ -26,10 +26,16 @@ In this example, we will get the sine of a value and print it in the console.
 2. Call the function `Math.sin` inside the `Log.write` function.
 3. Enter the value to get the sine of.
 
-![](./sin-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./sin-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 
 1. The console will print the sine of the value passed.
 
-![](./sin-result-1.png) 
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./sin-result-1.png"
+        style="width: 25%; padding: 5px;"/>
+    </div>

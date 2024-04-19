@@ -26,12 +26,18 @@ In this example, we will get the absolute of a value and print it in the console
 2. Call the function `Math.absolute` inside the `Log.write` function.
 3. Enter the value to get the absolute of.
 
-![](./absolute-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./absolute-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 
 1. The console will print `2`.
 
-![](./absolute-result-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./absolute-result-1.png"
+        style="width: 10%; padding: 5px;"/>
+    </div>
 
 

@@ -27,10 +27,16 @@ In this example, we will get the angle using `Math.atan2` function and print it 
 2. Call the function `Math.atan2` inside the `Log.write` function.
 3. Enter the value to get the angle of.
 
-![](./atan2-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./atan2-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 
 1. The console will print the value of the angle in radians.
 
-![](./atan2-result-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./atan2-result-1.png"
+        style="width: 25%; padding: 5px;"/>
+    </div>

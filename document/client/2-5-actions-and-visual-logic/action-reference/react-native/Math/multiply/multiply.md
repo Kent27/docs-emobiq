@@ -27,10 +27,16 @@ In this example, we will multiply two values and print the result in the console
 2. Call the function `Math.multiply` inside the `Log.write` function.
 3. Enter the values to be multiplied.
 
-![](./multiply-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./multiply-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 
 1. The console will print `12`.
 
-![](./multiply-result-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./multiply-result-1.png"
+        style="width: 10%; padding: 5px;"/>
+    </div>

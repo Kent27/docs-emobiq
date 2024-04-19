@@ -28,11 +28,26 @@ In this example, we will turn a list into a comma-separated string and print the
 3. Then call the function `Conversion.toList` inside the `data` parameter of the `List.combine` function. Add a "," in the `delimiter` parameter.
 4. Enter the values of the list to concatenate into a string in the `Conversion.toList` function.
 
-![](./combine-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./combine-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 
 1. The console will print the concatenated string of text.
 2. In this example, the value printed will be `3,1,5`.
 
-![](./combine-result-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./combine-result-1.png"
+        style="width: 10%; padding: 5px;"/>
+    </div>
+
+## Links
+
+### Related Information
+
+See also:
+
+- Functions
+    - [Conversion.toList](/document/client/2-5-actions-and-visual-logic/action-reference/react-native/Conversion/toList/toList.md)

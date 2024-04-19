@@ -26,10 +26,16 @@ In this example, we will get the tangent of a value and print it in the console.
 2. Call the function `Math.tan` inside the `Log.write` function.
 3. Enter the value to get the tangent of.
 
-![](./tan-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./tan-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 
 1. The console will print the tangent of the value passed.
 
-![](./tan-result-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./tan-result-1.png"
+        style="width: 25%; padding: 5px;"/>
+    </div>

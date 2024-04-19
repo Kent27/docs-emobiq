@@ -27,16 +27,22 @@ In this example, we will use a value of an attribute from global variable which 
 1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
 2. Assuming you have followed the "Variable.setAttribute" fuction in help document, call the function.
 
-![](./getAttribute-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./getAttribute-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 
-1. In console, user can see the string `Johnny`. If user variable `vObject` have no value, it will display `unknown`.
+1. If the specified global variable attribute has previously been set (see [`setAttribute`](./setAttribute)), the function will return the variable attribute's value ("Johnny" in this example).
 
-| Variable exists | Variable does not exist | 
-| ---- | ---- | 
-| If the specified global variable attribute has previously been set (see [`setAttribute`](./setAttribute)), the function will return the variable attribute's value: ("Johnny" in this example) <br /> ![](./getAttribute-result-1.png) | If the specified global variable attribute does not exist, the function will return the value in `defaultValue`:  <br /> ![](./getAttribute-result-2.png) |
+2. If the specified global variable attribute does not exist, the function will return the value in `defaultValue`.
 
-## Related Information
+## Links
 
-* See also `Variable.setAttribute`
+### Related Information
+
+See also 
+
+- Functions
+    - [Variable.setAttribute](/document/client/2-5-actions-and-visual-logic/action-reference/react-native/Variable/setAttribute/setAttribute.md)
