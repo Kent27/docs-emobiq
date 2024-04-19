@@ -23,7 +23,7 @@ Will contain a single object, or a list of one (1) or more objects which consist
 
 | Key | Description | Input Type | Required |
 | ------ | ------ | ------ | ------ |
-| dataset | The dataset to select fields from. The default value for the dataset will be the main dataset selected in the ‘dataset’ parameter. | Text | No |
+| dataset | The dataset to select fields from. The default value for the dataset will be the main dataset selected in the ï¿½datasetï¿½ parameter. | Text | No |
 | field | The attribute (field) to be selected. | Text | Yes |
 | title | The new title (alias) of the field. | Text | No |
 
@@ -34,7 +34,7 @@ Will contain a single object, or a list of one (1) or more objects (JoinFormat) 
 | Key | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
 | type | The type of table join to execute. | Text | Inner_Join | Inner_Join, Left_Join, Right_Join | Yes |
-| dataset | The dataset to join to the main dataset. The default value for the dataset will be the main dataset selected in the ‘dataset’ parameter if left empty. | Text | - | - | No |
+| dataset | The dataset to join to the main dataset. The default value for the dataset will be the main dataset selected in the ï¿½datasetï¿½ parameter if left empty. | Text | - | - | No |
 | filter | The filters to be applied. | FilterFormat | - | - | Yes |
 
 ### FilterFormat (Object)
@@ -67,7 +67,7 @@ Will contain a single object, or a list of one (1) or more objects which consist
 
 | Key | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| dataset | The dataset to sort. The default value for the dataset will be the main dataset selected in the ‘dataset’ parameter. | Text | - | - | No |
+| dataset | The dataset to sort. The default value for the dataset will be the main dataset selected in the ï¿½datasetï¿½ parameter. | Text | - | - | No |
 | field | The attribute (field) of the dataset to sort. | Text | - | - | Yes |
 | order | The order to sort the rows in the field by. | Text | Ascending | Ascending, Descending | No |
 
@@ -103,20 +103,27 @@ The action performed if this function does not run successfully.
 | ------ | ------ |
 | Returns an error message. | Text |
 
-## Video
-
-Coming Soon.
-
 ## Example
 
-Coming Soon.
+The user wants to read `Local Table` data from their local storage, (this example will only works after the user has created the data using `Dataset.insert` function).
+
+<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-Coming Soon.
+| No. | Description |  |
+| ------ | ------ | ------ |
+| 1. | ![](./read-step-1.png) | Make sure the `Local Table` component that's being used in `Dataset.insert` function example is exist and filled on the services panel in the service page. For `fields` field value add `name`and `title` as object key with Text type. |
+| 2. | ![](./read-step-2.png) | Drag a button component to a page in the mobile designer. |
+| 3. | ![](./read-step-3.png) | Select the event `press` and drag the `Dataset.read` function to the event flow and fill in the parameter. Drag a `Log.write` as `Dataset.read` callback and use input on it's value param type. |
+| 4. | ![](./read-step-4.png) | Open the preview and try to press the Button, new data should be added on local storage. |
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}) -->
 
 ### Result
 
-Coming Soon.
-
-## Links
+Should be able to read the data from local storage.

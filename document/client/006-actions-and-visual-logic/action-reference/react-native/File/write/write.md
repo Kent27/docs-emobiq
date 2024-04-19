@@ -46,20 +46,26 @@ The action performed if this function does not run successfully.
 | ------ | ------ |
 | Returns an error message. | Text |
 
-## Video
-
-Coming Soon.
-
 ## Example
 
-Coming Soon.
+The user wants to create a file with text value inside it.
+
+<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-Coming Soon.
+| No. | Description |  |
+| ------ | ------ | ------ |
+| 1. | ![](./write-step-1.png) | Drag a button component to a page in the mobile designer. |
+| 2. | ![](./write-step-2.png) | Select the event `press` and drag the `File.write` function to the event flow and fill in the parameter. |
+| 3. | ![](./write-step-3.png) | Open the installed app on a device and try to press the Button, the file will be created and ready to use. |
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}) -->
 
 ### Result
 
-Coming Soon.
-
-## Links
+The file will be created in user device.

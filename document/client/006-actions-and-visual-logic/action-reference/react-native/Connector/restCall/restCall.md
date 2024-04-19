@@ -85,20 +85,19 @@ The action performed if this function runs successfully.
 | statusCode | The status code of the API call. | Number |
 | errorMessage | The error message for unsuccessful API call. | Text |
 
-## Video
-
-Coming Soon.
-
 ## Example
 
-Coming Soon.
+In this example, we will create a connection using the restCall function. 
 
 ### Steps
 
-Coming Soon.
+| No. | Description |  |
+| ------ | ------ | ------ |
+| 1. | ![](./restCall-step-1.png) | Drag a `REST Connector` component into the services panel in the service page and then fill the fields. |
+| 2. | ![](./restCall-step-2.png) | Drag a button component to a page in the mobile designer. |
+| 3. | ![](./restCall-step-3.png) | Select the event `press` and drag the `Connector.restCall` function to the event flow and fill in the parameter. |
+| 4. | ![](./restCall-step-4.png) | Open the preview and try to press the Button, the rest api call should be visibile on the inspector network tab. |
 
 ### Result
 
-Coming Soon.
-
-## Links
+The information of the API call should be returned.

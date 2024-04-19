@@ -30,7 +30,7 @@ Will contain a single object, or a list of one (1) or more objects of the SOAP h
 | role | Role name/URL for this header element. (For SOAP 1.2) | Text | No |
 | relay | Option to activate relay property in SOAP header. (For SOAP 1.2) | Boolean | No |
 | mustUnderstand | Option to activate mustUnderstand property in SOAP header. | Boolean | No |
-| value | Value for this header. Can be a single value (scalar), an object or a list of objects. Map keys prefixed with “_” will be treated as an attribute. | Any | No |
+| value | Value for this header. Can be a single value (scalar), an object or a list of objects. Map keys prefixed with ï¿½_ï¿½ will be treated as an attribute. | Any | No |
 
 ### attachment (Object | List)
 
@@ -77,7 +77,7 @@ The action performed if this function runs successfully.
 
 | Description | Output Type |
 | ------ | ------ |
-| Returns an object with the information of the SAOP call. | Object |
+| Returns an object with the information of the SOAP call. | Object |
 
 #### Object
 
@@ -86,20 +86,23 @@ The action performed if this function runs successfully.
 | errorMessage | The error message for unsuccessful SOAP call. | Text |
 | fault | The fault associated with the error. | Object |
 
-## Video
-
-Coming Soon.
-
 ## Example
 
-Coming Soon.
+In this example, we will create a connection using the soapCall function. 
 
 ### Steps
 
-Coming Soon.
+| No. | Description |  |
+| ------ | ------ | ------ |
+| 1. | ![](./soapCall-step-1.png) | Drag a `SOAP Connector` component into the services panel in the service page and then fill the fields. |
+| 2. | ![](./soapCall-step-2.png) | Drag a button component to a page in the mobile designer. |
+| 3. | ![](./soapCall-step-3.png) | Select the event `press` and drag the `Connector.soapCall` function to the event flow and fill in the parameter. |
+| 4. | ![](./soapCall-step-4.png) | For the `header` param change it's type to a function / subflow and put `Conversion.toList` inside it, and change `value1` and `value2` param type to a function / subflow. |
+| 5. | ![](./soapCall-step-5.png) | For `value1` value put `Conversion.toObject` inside it then add `localName`, `mustUnderstand`, `value` as object key with `Username`, `false`, `abcd` as it's value respectively. |
+| 6. | ![](./soapCall-step-6.png) | For `value2` value put `Conversion.toObject` inside it then add `localName`, `mustUnderstand`, `value` as object key with `Password`, `false`, `1234` as it's value respectively. |
+| 7. | ![](./soapCall-step-7.png) | For the `body` param change it's type to a function / subflow and put `Conversion.toObject` inside it, and then add `ubiNum` as object key with `1234` as it's value. |
+| 8. | ![](./soapCall-step-8.png) | Open the preview and try to press the Button, the soap call should be visibile on the inspector network tab. |
 
 ### Result
 
-Coming Soon.
-
-## Links
+The information of the SOAP call should be returned.

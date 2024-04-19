@@ -44,20 +44,26 @@ The action performed if this function does not run successfully.
 | ------ | ------ |
 | Returns an error message. | Text |
 
-## Video
-
-Coming Soon.
-
 ## Example
 
-Coming Soon.
+The user wants to remove a file from their device (this example will only works after the user has created a file using `File.write` function).
+
+<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-Coming Soon.
+| No. | Description |  |
+| ------ | ------ | ------ |
+| 1. | ![](./remove-step-1.png) | Drag a button component to a page in the mobile designer. |
+| 2. | ![](./remove-step-2.png) | Select the event `press` and drag the `File.remove` function to the event flow and fill in the parameter. |
+| 3. | ![](./remove-step-3.png) | Open the installed app on a device and try to press the Button, the selected file should be deleted |
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}) -->
 
 ### Result
 
-Coming Soon.
-
-## Links
+Should be able to remove a file from user device.

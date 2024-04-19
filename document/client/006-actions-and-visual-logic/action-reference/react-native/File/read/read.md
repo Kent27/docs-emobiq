@@ -45,20 +45,26 @@ The action performed if this function does not run successfully.
 | ------ | ------ |
 | Returns an error message. | Text |
 
-## Video
-
-Coming Soon.
-
 ## Example
 
-Coming Soon.
+The user wants to read the file content (this example will only works after the user has created a file using `File.write` function).
+
+<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 
-Coming Soon.
+| No. | Description |  |
+| ------ | ------ | ------ |
+| 1. | ![](./read-step-1.png) | Drag a button component to a page in the mobile designer. |
+| 2. | ![](./read-step-2.png) | Select the event `press` and drag the `File.read` function to the event flow and fill in the parameter. |
+| 3. | ![](./read-step-3.png) | Open the installed app on a device with a debugger on and try to press the Button, if the file exist user should be able to see the content on the console. |
+
+<!-- Show the steps and share some screenshots.
+
+1. .....
+
+Format: ![]({image-path}) -->
 
 ### Result
 
-Coming Soon.
-
-## Links
+Should be able to see the content of a file from user device.
