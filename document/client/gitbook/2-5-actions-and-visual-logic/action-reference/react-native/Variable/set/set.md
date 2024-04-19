@@ -46,6 +46,10 @@ In this example, we will set the value of a global variable and check whether th
 
 ![](./set-result-1.png) 
 
-## Related Information
+## Links
+
+### Related Information
 
 * See also `Variable.get`
+
+### Alternative Implementation
