@@ -17,38 +17,28 @@
 | ------ | ------ |
 | Returns true if either operator is true, returns false otherwise. | Boolean |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
-
 ## Example
 
-The user wants to check if either of the values is true and print the result in the console.
+In this example, we will check if either of the values passed is true and print the result in the console.
 </br>
 
 ### Step
 
-1. Call the function `Logic.or` inside the `Log.write` function.
+1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Call the function `Logic.or` inside the `Log.write` function.
     </br>
-    value1 : greater (value1:  3000 and value2:  1100)<br />
+    value1 : `greaterThan` function<br />
     value2 : false<br />
 
-2. Call the function `Logic.greaterThan` inside the parameter `value1`.
+![](./or-step-1.png)
+
+3. Call the function `Logic.greaterThan` inside the parameter `value1`.
     </br>
     value1 : 3000<br />
     value2 : 1100<br />
 
-    ![](./or-step-1.png)
-    ![](./or-step-2.png)
+![](./or-step-2.png)
 
 ### Result
 
-The console will print 'true' since `value1` will return 'true' (3000 is greater than 1100) although `value2` returns false.
-
-## Links
+1. The console will print `true` since `value1` will return 'true' (3000 is greater than 1100) although `value2` returns false.

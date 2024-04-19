@@ -11,7 +11,8 @@ Formats a date, time or datetime to follow certain standard date patterns (e.g. 
 | date | The reference date to be formatted. | Text | - | - | Yes |
 | currentFormat | The current date format of the date to be formatted. | Text | yyyy-MM-dd HH:mm:ss | yyyy-MM-dd HH:mm:ss, yyyy-MM-dd, HH:mm:ss, y, M, d, h, H, m, s, S, E, z | No |
 | newFormat | The new date format to update the current date format. | Text | yyyy-MM-dd HH:mm:ss | yyyy-MM-dd HH:mm:ss, y, M, d, h, H, m, s, S, E, z | No |
-<br /><br />
+
+
 ### Supported date pattern letters
 
 #### Years:
@@ -64,29 +65,21 @@ Remember, the format in parameter `currentFormat` should match the structure of 
 | Description | Output Type |
 | ------ | ------ |
 | Returns the formatted date with the correct pattern. | Text |
-<br />
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
 
 ## Example
 
-The user wants to change the format of a Date string.
+In this example, we will change the format of a date string and print the formatted date in the console.
 
 ### Step
 
-1. Call the function `Format.dateTime` inside the `Log.write` function.
-Sample parameters are shown in the picture below.
-    </br>
+1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Call the function `Format.dateTime` inside the `Log.write` function.
+3. Sample parameters are shown in the picture below.
 
-    ![](./dateTime-step-1.png)
+![](./dateTime-step-1.png)
 
 ### Result
 
-The console will print `14-02-2023`.
+1. The console will print the formatted date.
 
-## Related Information
+![](./dateTime-result-1.png)

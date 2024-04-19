@@ -12,7 +12,8 @@ Allows users to add days, hours, minutes and seconds to a certain date.
 | dateFormat | The date and/or time format to use. | Text | yyyy-MM-dd HH:mm:ss | yyy-MM-dd HH:mm:ss, yyyy-MM-dd, HH:mm:ss, y, M, d, h, H, m, s, S, E, z | No |
 | value | The value to be added to the date. | Number | - | - | Yes |
 | interval | The type of time interval to be added to the date. | Text | Days | Days, Years, Months, Weeks, Hours, Minutes, Seconds | No |
-<br />
+
+
 ### Supported date pattern letters
 
 #### Years:
@@ -58,30 +59,22 @@ Allows users to add days, hours, minutes and seconds to a certain date.
 | Description | Output Type |
 | ------ | ------ |
 | Returns the updated date including the type of time interval(s) selected. | Text |
-<br />
-
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
 
 ## Example
 
-The user wants to add 1 day to a Date.
+In this example, we will add 1 day to a date and print the updated date in the console.
 
 ### Step
 
-1. Call the function `DateTime.update` inside the `Log.write` function.
-Sample parameters are shown in the picture below.
-    </br>
+1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Call the function `DateTime.update` inside the `Log.write` function.
+3. Sample parameters are shown in the picture below.
 
-    ![](./update-step-1.png)
+![](./update-step-1.png)
 
 ### Result
 
-The console will print `2024-02-19`.
+1. The console will print the updated date.
 
-## Related Information
+![](./update-result-1.png)
+

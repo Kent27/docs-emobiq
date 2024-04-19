@@ -1,4 +1,4 @@
-# send
+# Mail.send
 
 ## Description
 
@@ -24,27 +24,35 @@ Sends an e-mail through SMTP server.
 
 ## Output
 
-Formatted Result
+| Description | Output Type |
+| ------ | ------ |
+| Returns the formatted information. | Object |
+
+### Object
+
+| Key | Description | Output Type |
+| ------ | ------ | ------ |
+| success | Boolean value to denote whether the function was executed successfully. | Text |
+| message | The message to print. | Text |
+| data | Any additional message or data to print. | Text |
 
 ## Callback
 
 ### callback
 
-The function to be executed when the email successfully sent.
+The function to be executed when the email is successfully sent.
 
 ### errorCallback
 
-The function to be executed when the email unsuccessfully sent.
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
+The function to be executed when the email is not successfully sent.
 
 ## Example
 
-The user wants to send an email.
-
-<!-- Share a scenario, like a user requirements. -->
+In this example, we will send an email to a recipient.
 
 ### Steps
+
+1. 
 
 | No. | Description |  |
 | ------ | ------ | ------ |
@@ -52,18 +60,6 @@ The user wants to send an email.
 | 2. | ![](./send-step-2.png) | Select the event `click` and drag the `Mail.send` function to the event flow. |
 | 3. | ![](./send-step-3.png) | Fill in the parameters of the function. |
 
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}) -->
-
 ### Result
 
-The email recipients should received an email from user
-
-<!-- Explain the output.
-
-Format: ![]({image-path}) -->
-
-## Links
+1. The email recipients should receive an email from the user.

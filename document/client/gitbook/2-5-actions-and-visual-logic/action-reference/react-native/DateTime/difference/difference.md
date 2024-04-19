@@ -67,28 +67,20 @@ Remember, the format in parameter `dateFormat1` should match the structure of `d
 | ------ | ------ |
 | Returns the difference in the date or datetime values based on the type of time interval(s) selected. | Number |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
 ## Example
 
-The user wants to get the total of Days difference between two date string.
+In this example, we will get the difference between 2 dates (in days) and print the result in the console.
 
 ### Step
 
-1. Call the function `DateTime.difference` inside the `Log.write` function.
-Sample parameters are shown in the picture below.
-    </br>
+1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Call the function `DateTime.difference` inside the `Log.write` function.
+3. Sample parameters are shown in the picture below.
 
-    ![](./difference-step-1.png)
+![](./difference-step-1.png)
 
 ### Result
 
-The console will print `7`.
+1. The console will print the difference between the two dates passed.
 
-## Related Information
+![](./difference-result-1.png)

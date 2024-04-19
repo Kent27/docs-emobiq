@@ -16,24 +16,15 @@
 | ------ | ------ |
 | Returns true if operator is false, returns false otherwise. | Boolean |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
-
 ## Example
 
-The user wants to check if either of the values is true and print the result in the console.
+In this example, we will return the reverse of the value passed and print the result in the console.
 </br>
 
 ### Step
 
-1. Call the function `Logic.not` inside the `Log.write` function.
+1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Call the function `Logic.not` inside the `Log.write` function.
     </br>
     value : true
 
@@ -41,6 +32,4 @@ The user wants to check if either of the values is true and print the result in 
 
 ### Result
 
-The console will print 'false' since `value` is 'true'.
-
-## Related Information
+1. The console will print 'false' since `value` is 'true'.

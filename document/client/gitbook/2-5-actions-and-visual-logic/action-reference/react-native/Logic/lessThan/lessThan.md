@@ -1,4 +1,4 @@
-# Less
+# Logic.lessThan
 
 ## Description
 
@@ -17,31 +17,21 @@ The less than comparison operator. It checks whether the first value is less tha
 | ------ | ------ |
 | Returns true if the first value is less than the second value, returns false otherwise. | Boolean |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
-
 ## Example
 
-The user wants to check if value 1 is less than value 11.
+In this example, we will check if the first value passed is less than the second value passed and print the result in the console.
 
 ### Step
 
-1. Call the function `Logic.lessThan` inside the `Log.write` function.
+1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Call the function `Logic.lessThan` inside the `Log.write` function.
     <br />
     value1 :  1<br />
-    value2 : 11<br /><br />
+    value2 : 11<br />
 
-    ![](./less-step-1.png)
+    ![](./lessThan-step-1.png)
     <br />
+
 ### Result
 
-true
-
-## Links
+1. The console will return `true`.

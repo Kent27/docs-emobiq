@@ -16,28 +16,20 @@ Retrieves the current date and/or time information.
 | ------ | ------ |
 | Returns the current date and/or time information. | Text |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
 ## Example
 
-The user wants to get the current Date.
+In this example, we will get the current date and print it in the console.
 
 ### Step
 
-1. Call the function `DateTime.get` inside the `Log.write` function.
-Sample parameters are shown in the picture below.
-    </br>
+1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Call the function `DateTime.get` inside the `Log.write` function.
+3. Sample parameters are shown in the picture below.
 
-    ![](./get-step-1.png)
+![](./get-step-1.png)
 
 ### Result
 
-The console will print the current Date, when this documentation was made the result was `2024-02-18`.
+1. The console will print the current date.
 
-## Related Information
+![](./get-result-1.png)
