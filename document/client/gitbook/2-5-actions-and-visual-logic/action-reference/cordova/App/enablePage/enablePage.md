@@ -2,7 +2,12 @@
 
 ## Description
 
-Enable the ability to click a page.
+Enable the ability to click on the application.
+
+### Platform Supported
+
+- Mobile
+- Web
 
 ## Input / Parameter
 
@@ -10,40 +15,16 @@ N/A
 
 ## Output
 
-N/A
+| Description | Output Type |
+| ------ | ------ |
+| Returns 'true'. | Boolean |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
-
-## Example
-
-Coming Soon.
-
-<!-- Share a scenario, like a user requirements. -->
-
-### Steps
-
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}) -->
-
-### Result
-
-Coming Soon.
-
-<!-- Explain the output.
-
-Format: ![]({image-path}) -->
+Note: The application would be enabled, which means you will be able to click anywhere in the app.
 
 ## Links
+
+### Related Information
+
+See also:
+
+- [App.disablePage](../disablePage/disablePage.md)
