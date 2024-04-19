@@ -35,7 +35,10 @@ In this example, we will set the value of an object variable's attribute and che
 1. Drag the function `Variable.setAttribute` into the event flow window. 
 2. Create a variable called `vObject` with the attribute `name` that has value `Johnny`.
 
-![](./setAttribute-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./setAttribute-step-1.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
 
 3. This will create a global variable called `vObject` (if it doesn't exist already) with attribute `name` containing the value `Johnny` that can be accessed by other components or on other pages of your app.
 
@@ -44,6 +47,11 @@ In this example, we will set the value of an object variable's attribute and che
 1. The value of the attribute `name` of the global variable `vObject` can be accessed by using the `Variable.getAttribute`. 
 2. Using the above flow will display the value `Johnny` in the browser console.
 
-## Related Information
+## Links
 
-* See also `Variable.getAttribute`
+### Related Information
+
+See also 
+
+- Functions
+    - [Variable.getAttribute](/document/client/2-5-actions-and-visual-logic/action-reference/react-native/Variable/getAttribute/getAttribute.md)

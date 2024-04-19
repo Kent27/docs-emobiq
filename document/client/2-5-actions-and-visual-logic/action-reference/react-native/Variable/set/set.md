@@ -35,7 +35,10 @@ In this example, we will set the value of a global variable and check whether th
 2. Call the function `Variable.set` inside the `value` parameter of the `Log.write` function. (*Note: The `Log.write` function is used here for ease of demostrating the output.)
 3. Create a variable called `version` with the value `1.0.0`
 
-![](./set-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./set-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 4. This will create a global variable called "version" containing the value "1.0.0" that can be accessed by other components or on other pages of your app.
 
@@ -44,7 +47,10 @@ In this example, we will set the value of a global variable and check whether th
 1. The value of the global variable `version` can be accessed by using the function `Variable.get`. 
 2. Using the above flow will display the value `1.0.0` in the browser console.
 
-![](./set-result-1.png) 
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./set-result-1.png"
+        style="width: 20%; padding: 5px;"/>
+    </div>
 
 ## Links
 
@@ -52,4 +58,5 @@ In this example, we will set the value of a global variable and check whether th
 
 See also:
 
--  [Variable.get](/document/client/gitbook/2-5-actions-and-visual-logic/action-reference/react-native/Variable/get/get.md)
+- Functions
+    -  [Variable.get](/document/client/gitbook/2-5-actions-and-visual-logic/action-reference/react-native/Variable/get/get.md)

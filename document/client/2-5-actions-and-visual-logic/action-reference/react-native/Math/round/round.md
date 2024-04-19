@@ -44,11 +44,17 @@ In this example, we will round the value `1.5` and print the result in the conso
 2. Call the function `Math.round` inside the `Log.write` function.
 3. Enter the values for the value to be rounded and the mode to be used.
 
-![](./round-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./round-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 
 1. The console will print `2`.
 
-![](./round-result-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./round-result-1.png"
+        style="width: 10%; padding: 5px;"/>
+    </div>
 

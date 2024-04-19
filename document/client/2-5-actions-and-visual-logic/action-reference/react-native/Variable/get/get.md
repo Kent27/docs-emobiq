@@ -27,14 +27,32 @@ In this example, we will get the value of a global variable and print it in the 
 2. Call the function `Variable.get` inside the `Log.write` function. (*Note: The `Log.write` function is used here for ease of demostrating the output.)
 3. Specify the variable name that you would like to access.
 
-![](./get-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./get-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 
-| Variable exists | Variable does not exist | 
-| ---- | ---- | 
-| If the specified global variable has previously been set (see [`set`](./set)), the function will return the variable's value: ("1.0.0" in this example) <br /> ![](./get-result-1.png) | If the specified global variable does not exist, the function will return the value in `defaultValue`:  <br /> ![](./get-result-2.png) |
+1. If the specified global variable has previously been set (see [`set`](./set)), the function will return the variable's value ("1.0.0" in this example).
 
-## Related Information
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./get-result-1.png"
+        style="width: 18%; padding: 5px;"/>
+    </div>
 
-* See also `Variable.set`
+2. If the specified global variable does not exist, the function will return the value in `defaultValue`.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./get-result-2.png"
+        style="width: 15%; padding: 5px;"/>
+    </div>
+
+## Links
+
+### Related Information
+
+See also:
+
+- Functions
+    -  [Variable.set](/document/client/2-5-actions-and-visual-logic/action-reference/react-native/Variable/set/set.md)

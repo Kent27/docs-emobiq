@@ -21,15 +21,11 @@ Formatted Result
 
 ### callback
 
-The function to be executed when the loop run successfully.
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
+The function to be executed when the loop runs successfully.
 
 ## Example
 
 The user wants to show a list of number on their console.
-
-<!-- Share a scenario, like a user requirements. -->
 
 ### Steps
 

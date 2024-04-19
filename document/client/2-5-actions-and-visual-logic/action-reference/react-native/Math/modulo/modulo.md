@@ -27,10 +27,16 @@ In this example, we will get the remainder after dividing two values and print i
 2. Call the function `Math.modulo` inside the `Log.write` function.
 3. Enter the values for the dividend and the divisor.
 
-![](./modulo-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./modulo-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 
 1. The console will print `1`.
 
-![](./modulo-result-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./modulo-result-1.png"
+        style="width: 10%; padding: 5px;"/>
+    </div>

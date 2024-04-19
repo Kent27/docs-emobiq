@@ -24,7 +24,10 @@ In this example, we will check whether a Number is valid and print the result in
 2. Call the function `Validation.isNumber` inside the `Log.write` function.
 3. Enter the value for the number to be validated. In this example, we will enter the value "12".
 
-![](./isNumber-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./isNumber-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 

@@ -27,10 +27,16 @@ In this example, we will divide two values and print the result in the console.
 2. Call the function `Math.divide` inside the `Log.write` function.
 3. Enter the values for the dividend and the divisor.
 
-![](./divide-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./divide-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 
 1. The console will print `3`.
 
-![](./divide-result-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./divide-result-1.png"
+        style="width: 10%; padding: 5px;"/>
+    </div>

@@ -27,10 +27,16 @@ In this example, we will find the value of a base number raised to power specifi
 2. Call the function `Math.power` inside the `Log.write` function.
 3. Enter the values for the base and the power.
 
-![](./power-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./power-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 
 1. The console will print `8`.
 
-![](./power-result-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./power-result-1.png"
+        style="width: 10%; padding: 5px;"/>
+    </div>

@@ -29,11 +29,26 @@ In this example, we will insert a new key and value to an object and print the u
 3. Then call the function `Conversion.toObject` inside the `data` parameter of the `Object.insert` function.
 4. Sample parameters are shown in the picture below.
 
-![](./insert-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./insert-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 
 1. The console will print the updated object.
 2. For this example, the value printed will be `{age: '27', name: 'John', job: 'Sales'}`.
 
-![](./insert-result-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./insert-result-1.png"
+        style="width: 40%; padding: 5px;"/>
+    </div>
+
+## Links
+
+### Related Information
+
+See also:
+
+- Functions
+    - [Conversion.toObject](/document/client/2-5-actions-and-visual-logic/action-reference/react-native/Conversion/toObject/toObject.md)

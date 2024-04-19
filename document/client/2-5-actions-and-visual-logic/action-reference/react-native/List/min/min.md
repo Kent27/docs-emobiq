@@ -1,4 +1,4 @@
-# min
+# List.min
 
 ## Description
 
@@ -27,11 +27,26 @@ In this example, we will get the smallest of the numbers in a list and print the
 3. Then call the function `Conversion.toList` inside the `List.min` function.
 4. Enter the values of the list to find the min from.
 
-![](./min-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./min-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 
 1. The console will print the min value of the list.
 2. In this example, the value printed will be `1`.
 
-![](./min-result-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./min-result-1.png"
+        style="width: 10%; padding: 5px;"/>
+    </div>
+
+## Links
+
+### Related Information
+
+See also:
+
+- Functions
+    - [Converison.toList](/document/client/2-5-actions-and-visual-logic/action-reference/react-native/Conversion/toList/toList.md)
