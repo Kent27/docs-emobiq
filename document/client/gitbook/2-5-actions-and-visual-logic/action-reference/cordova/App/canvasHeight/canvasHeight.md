@@ -4,6 +4,11 @@
 
 Retrieve the height of the canvas.
 
+### Platform Supported
+
+- Web
+- Mobile
+
 ## Input / Parameter
 
 | Name | Description | Data Type | Default | Options | Required |

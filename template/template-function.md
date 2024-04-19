@@ -138,5 +138,3 @@ Example below:
 Example below:
 
 - [Variable.get]({file-path})
-
-

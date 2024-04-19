@@ -4,6 +4,11 @@
 
 Converts a file data to a canvas, canvas are mainly used for printing.
 
+### Platform Supported
+
+- Web
+- Mobile
+
 ## Input / Parameter
 
 | Name | Description | Data Type | Default | Options | Required |
@@ -17,7 +22,7 @@ Converts a file data to a canvas, canvas are mainly used for printing.
 
 | Description | Output Type |
 | ------ | ------ |
-| Returns 'true' or 'false', if it was executed successfully. | Boolean |
+| Returns 'true' or 'false', based on the execution status. | Boolean |
 
 ## Callback
 

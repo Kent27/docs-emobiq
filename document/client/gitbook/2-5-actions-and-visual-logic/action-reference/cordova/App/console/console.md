@@ -2,45 +2,25 @@
 
 ## Description
 
-Using this function will display the output/result in the browser console. 
+Display the value passed in the [browser console](https://developer.chrome.com/docs/devtools/console).
+
+This is usually used for debugging or checking the error in the application.
+
+### Platform Supported
+
+- Mobile
+- Web
 
 ## Input / Parameter
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| value | The output to be shown in the browser console, such as characters, numbers or words. | String/Text | - | - | Yes |
+| value | The value to be shown in the browser console, such as characters, numbers or words. | Any | - | - | Yes |
 
 ## Output
 
 | Description | Output Type |
 | ------ | ------ |
-| Returns the value specified in the parameter. | String/Text |
+| Returns the value passed. | Any |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
-
-## Example
-
-The user wants to view the result in console of broswer for debuging purpose.
-
-### Step
-
-1. Call the function.
-
-    ![](./console-step-1.png)
-
-    ![](./console-step-2.png)
-
-### Result
-
-![](./console-result-1.png)
-
-
-## Links
+Note: The value would also be logged in the [browser console](https://developer.chrome.com/docs/devtools/console).

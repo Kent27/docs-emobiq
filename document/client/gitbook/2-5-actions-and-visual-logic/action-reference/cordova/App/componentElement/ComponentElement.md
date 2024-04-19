@@ -6,6 +6,11 @@ Retrieve the [html element](https://developer.mozilla.org/en-US/docs/Web/HTML/El
 
 To know the specific component element type, please check the specific component documentation.
 
+### Platform Supported
+
+- Web
+- Mobile
+
 ## Input / Parameter
 
 | Name | Description | Input Type | Default | Options | Required |

@@ -4,6 +4,11 @@
 
 Provides a note for developers to refer to inside the event flow.
 
+### Platform Supported
+
+- Web
+- Mobile
+
 ## Input / Parameter
 
 | Name | Description | Input Type | Default | Options | Required |

@@ -4,53 +4,49 @@
 
 Converts an image to base64 format.
 
+### Platform Supported
+
+- Mobile
+- Web
+
 ## Input / Parameter
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| image | The name of the image to be converted. | Object | - | - | Yes |
+| image | The image to be converted, it can be a asset icon name, local file path or url. If the image is a url must not block [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS). | Text/List | - | - | Yes |
 | extra | Extra parameters stored and passed to callback. | Any | - | - | No |
 
-<!-- | callBack | Callback functions with reference to parameter. | String/Text | - | - | Yes | -->
+## Output
 
-## Output?
+| Description | Output Type |
+| ------ | ------ |
+| Returns 'true' if the image was passed and if not it will return 'false'. | Boolean |
 
-N/A
-
-## Callback?
+## Callback
 
 ### callback
 
 The function to be executed when the image is successfully converted to base64 format.
 
-## Video
+#### Scenario 1
 
-Coming Soon.
+There is no parameter 'extra'.
 
-<!-- Format: [![Video]({image-path})]({url-link}) -->
+| Description | Output Type |
+| ------ | ------ |
+| The base64 of the image, it will return text or list based on the parameter 'image' passed.  | Text/List |
 
-## Example
+#### Scenario 2
 
-Coming Soon.
+There is a parameter 'extra'.
 
-<!-- Share a scenario, like a user requirements. -->
+| Description | Output Type |
+| ------ | ------ |
+| Contains the result and extra of the function. | Object |
 
-### Steps
+##### Object
 
-Coming Soon.
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}) -->
-
-### Result
-
-Coming Soon.
-
-<!-- Explain the output.
-
-Format: ![]({image-path}) -->
-
-## Links
+| Key | Description | Output Type |
+| ------ | ------ | ------ |
+| data | The base64 of the image, it will return text or list based on the parameter 'image' passed. | Text/List |
+| extra | The extra value. | Any |

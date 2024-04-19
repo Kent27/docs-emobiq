@@ -8,6 +8,11 @@ The component mentioned in this function refers to both page components and serv
 
 To know the attributes available, please check the specific component documentation.
 
+### Platform Supported
+
+- Web
+- Mobile
+
 ## Input / Parameter
 
 | Name | Description | Input Type | Default | Options | Required |

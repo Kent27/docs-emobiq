@@ -4,6 +4,11 @@
 
 Generate base64 from an existing canvas, 
 
+### Platform Supported
+
+- Web
+- Mobile
+
 ## Input / Parameter
 
 | Name | Description | Data Type | Default | Options | Required |
