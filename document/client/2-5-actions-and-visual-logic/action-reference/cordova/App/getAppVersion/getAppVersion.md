@@ -4,6 +4,11 @@
 
 Retrieves the build version of the app.
 
+### Platform Supported
+
+- Mobile
+- Web
+
 ## Input / Parameters
 
 N/A
