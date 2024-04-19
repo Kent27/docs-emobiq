@@ -14,8 +14,8 @@ Note: Not all components are supported, as of now only the following are support
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| canvas | The name of the component. | String/Text | - | - | Yes |
-| componentId | The id of the component. | String/Text | - | - | No |
+| canvas | The name of the component. | Text | - | - | Partial (Yes if no 'componentId'.) |
+| componentId | The id of the component. | Text | - | - | Partial (Yes if no 'canvas'.) |
 
 ## Output
 

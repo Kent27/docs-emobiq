@@ -11,6 +11,7 @@
     - If there is no value please remove the header except for the following: Description, Input/Parameter and Output. 
     - For the three exceptions, if it is totally empty include N/A.
 - Examples
+    - Try to create examples that can be seen in the application directly, don't rely on console/write.
     - For functions that require components to show output, the example will include the specific steps and results.
 - Images
     - Embedding images, the path should be based on the root folder.

@@ -8,7 +8,7 @@ Generate base64 from an existing canvas,
 
 | Name | Description | Data Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| canvas | An existing canvas to be copied over to the new canvas. | String/Text | - | - | Yes |
+| canvas | An existing canvas to be copied over to the new canvas. | Text | - | - | Yes |
 | canvasWidth | Width of the new canvas. | Number | 300 | - | No | 
 | canvasHeight | Height of the new canvas. | Number | 300 | - | No | 
 | extra | Additional data to be used in the callbacks. | Any | - | - | No | 

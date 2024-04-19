@@ -8,10 +8,10 @@ Converts a file data to a canvas, canvas are mainly used for printing.
 
 | Name | Description | Data Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| type | The data type of the file to be converted, basically what is the data type of the 'value'. | String/Text | base64 | base64 | No |
+| type | The data type of the file to be converted, basically what is the data type of the 'value'. | Text | base64 | base64 | No |
 | value | The data of the file to be converted. | Any | - | - | Yes | 
-| fileType | The file type of the file to be converted, basically what is the file type of the 'value'. | String/Text | image | image, pdf | No | 
-| documentSize | If the 'fileType' is 'pdf', this parameter is used to scale the size appropriately. | String/Text or Number | - | a4, {Any  Number} | No | 
+| fileType | The file type of the file to be converted, basically what is the file type of the 'value'. | Text | image | image, pdf | No | 
+| documentSize | If the 'fileType' is 'pdf', this parameter is used to scale the size appropriately. | Text or Number | - | a4, {Any  Number} | No | 
 
 ## Output
 
