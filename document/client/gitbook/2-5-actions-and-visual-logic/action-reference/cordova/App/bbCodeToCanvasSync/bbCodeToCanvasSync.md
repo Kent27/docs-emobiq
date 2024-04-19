@@ -4,6 +4,11 @@
 
 Generates a canvas by following a specific format including images, canvas are mainly used for printing.
 
+### Platform Supported
+
+- Web
+- Mobile
+
 ## Input / Parameter
 
 | Name | Description | Data Type | Default | Options | Required |

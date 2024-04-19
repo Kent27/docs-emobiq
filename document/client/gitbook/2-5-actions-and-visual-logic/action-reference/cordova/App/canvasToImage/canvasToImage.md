@@ -10,6 +10,11 @@ Note: Not all components are supported, as of now only the following are support
 - Barcode
 - QRCode
 
+### Platform Supported
+
+- Web
+- Mobile
+
 ## Input / Parameter
 
 | Name | Description | Data Type | Default | Options | Required |

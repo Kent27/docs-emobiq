@@ -4,6 +4,11 @@
 
 Resize an existing canvas, canvas are mainly used for printing.
 
+### Platform Supported
+
+- Web
+- Mobile
+
 ## Input / Parameter
 
 | Name | Description | Data Type | Default | Options | Required |

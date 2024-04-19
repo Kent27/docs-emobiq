@@ -4,6 +4,11 @@
 
 Removes all global variables data in the app excluding the variables specified.
 
+### Platform Supported
+
+- Web
+- Mobile
+
 ## Input / Parameter
 
 | Name | Description | Input Type | Default | Options | Required |

@@ -6,6 +6,11 @@ Generates a canvas by following a specific format, canvas are mainly used for pr
 
 This does not include images, to include please refer to [bbCodeToCanvasSync](./../bbCodeToCanvasSync/bbCodeToCanvasSync.md).
 
+### Platform Supported
+
+- Web
+- Mobile
+
 ## Input / Parameter
 
 | Name | Description | Data Type | Default | Options | Required |
@@ -35,3 +40,14 @@ Text Format
 | Description | Output Type |
 | ------ | ------ |
 | Returns the html canvas. | [HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas) |
+
+## Links
+
+### Related Information
+
+See also:
+- [Printer.canvasToCPCL](../../Printer/canvasToCPCL/canvasToCPCL.md)
+
+### Alternative Implementation
+
+- [App.bbCodeToCanvasSync](../bbCodeToCanvasSync/bbCodeToCanvasSync.md)

@@ -8,6 +8,11 @@ Currently, this function only animates an image downward and slowly fades away.
 
 Note: Only applicable for image component.
 
+### Platform Supported
+
+- Web
+- Mobile
+
 ## Input / Parameter
 
 | Name | Description | Data Type | Default | Options | Required |
