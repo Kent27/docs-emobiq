@@ -29,11 +29,18 @@ The user wants to show a list of number on their console.
 
 ### Steps
 
-| No. | Description |  |
-| ------ | ------ | ------ |
-| 1. | ![](./loop-step-1.png) | Drag a button component to a page in the mobile designer and open up the `Action` tab. |
-| 2. | ![](./loop-step-2.png) | Select the event `click` and drag the `Control.loop` function to the event flow. |
-| 3. | ![](./loop-step-3.png) | Fill in the parameters of the function. |
+1. Drag a button component to a page in the mobile designer and open up the `Action` tab.
+
+![](./loop-step-1.png)
+
+2. Select the event `click` and drag the `Control.loop` function to the event flow.
+
+![](./loop-step-2.png)
+
+3. Fill in the parameters of the function.
+
+| ![](./loop-step-3.png) | 
+
 | 4. | ![](./loop-step-4.png) | Drag the function to be executed if the loop function is successful to the node below the function. In this example, we are using the `Log.write` function and change the parameters dropdown to use `input` |
 | 5. | ![](./loop-step-5.png) | Check the console from preview. |
 
