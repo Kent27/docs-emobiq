@@ -25,12 +25,15 @@ In this example, we will check that the two values passed are not equal to each 
 
 1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
 2. Call the function `Logic.notEqual` inside the `Log.write` function.
-    </br>
-    value1 : 1<br />
-    value2 : 2<br />
 
-    ![](./notEqual-step-1.png)
-    <br />
+    ```js
+    value1: 1
+    value2: 2
+    ```
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./notEqual-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 

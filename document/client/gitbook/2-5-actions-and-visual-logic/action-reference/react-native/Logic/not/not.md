@@ -19,16 +19,19 @@
 ## Example
 
 In this example, we will return the reverse of the value passed and print the result in the console.
-</br>
 
 ### Step
 
 1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
 2. Call the function `Logic.not` inside the `Log.write` function.
-    </br>
-    value : true
 
-    ![](./not-step-1.png)
+    ```js
+    value: true
+    ```
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./not-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 

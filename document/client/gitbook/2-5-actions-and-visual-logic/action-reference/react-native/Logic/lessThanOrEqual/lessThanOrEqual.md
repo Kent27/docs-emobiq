@@ -25,10 +25,15 @@ In this example, we will check if the first value passed is less than or equal t
 
 1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
 2. Call the function `Logic.lessThanOrEqual` inside the `Log.write` function.
-    <br />
-    value1 :  1<br />
-    value2 : 11<br /><br />
-    ![](./lessThanOrEqual-step-1.png)
+    
+    ```js
+    value1: 1
+    value2: 11
+    ```
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./lessThanOrEqual-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 

@@ -20,24 +20,31 @@
 ## Example
 
 In this example, we will check if either of the values passed is true and print the result in the console.
-</br>
 
 ### Step
 
 1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
 2. Call the function `Logic.or` inside the `Log.write` function.
-    </br>
-    value1 : `greaterThan` function<br />
-    value2 : false<br />
 
-![](./or-step-1.png)
+    ```js
+    value1: `greaterThan` function
+    value2: false
+    ```
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./or-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 3. Call the function `Logic.greaterThan` inside the parameter `value1`.
-    </br>
-    value1 : 3000<br />
-    value2 : 1100<br />
 
-![](./or-step-2.png)
+    ```js
+    value1: 3000
+    value2: 1100
+    ```
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./or-step-2.png"
+        style="width: 45%; padding: 5px;"/>
+    </div>
 
 ### Result
 

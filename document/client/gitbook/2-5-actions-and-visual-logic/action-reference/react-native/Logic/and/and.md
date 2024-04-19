@@ -20,7 +20,6 @@
 ## Example
 
 In this example, we will check if the two values passed are both true and return the result in the console.
-</br>
 
 ### Step
 
@@ -45,7 +44,7 @@ In this example, we will check if the two values passed are both true and return
     ```
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./and-step-2.png" 
-        style="width: 45%; padding: 5px;">
+        style="width: 45%; padding: 5px;"/>
     </div>
 
 ### Result

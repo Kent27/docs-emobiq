@@ -25,12 +25,15 @@ In this example, we will check if the two values passed are equal and print the 
 
 1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
 2. Call the function `Logic.equal` inside the `Log.write` function.
-   </br>
-   value1 : 11<br />
-   value2 : 11<br />
 
-![](./equal-step-1.png)
-    <br />
+    ```js
+    value1: 11
+    value2: 11
+    ```
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./equal-step-1.png" 
+        style="width: 100%; padding: 5px;"/>
+    </div>    
 
 ### Result
 
