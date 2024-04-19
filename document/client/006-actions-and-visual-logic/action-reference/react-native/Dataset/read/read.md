@@ -116,7 +116,6 @@ The user wants to read `Local Table` data from their local storage, (this exampl
 | 1. | ![](./read-step-1.png) | Make sure the `Local Table` component that's being used in `Dataset.insert` function example is exist and filled on the services panel in the service page. For `fields` field value add `name`and `title` as object key with Text type. |
 | 2. | ![](./read-step-2.png) | Drag a button component to a page in the mobile designer. |
 | 3. | ![](./read-step-3.png) | Select the event `press` and drag the `Dataset.read` function to the event flow and fill in the parameter. Drag a `Log.write` as `Dataset.read` callback and use input on it's value param type. |
-| 4. | ![](./read-step-4.png) | Open the preview and try to press the Button, new data should be added on local storage. |
 
 <!-- Show the steps and share some screenshots.
 

@@ -56,7 +56,6 @@ The user wants to load the data from `Local Table` to be used in a flatlist comp
 | 3. | ![](./loadData-step-3.png) | Drag a flatlist component to a page in the mobile designer, and drag a label component into the newly created flatlist component. |
 | 4. | ![](./loadData-step-4.png) | Fill the flatlist component property in the page and fill the label component property in the flatlist component, make sure the label component field value match with the key of the data that being stored in the local storage. |
 | 5. | ![](./loadData-step-5.png) | Select the event `press` and drag the `Dataset.loadData` function to the event flow and fill in the parameter. |
-| 6. | ![](./loadData-step-6.png) | Open the preview and try to press the Button, the flatlist component should display the data from local storage. |
 
 <!-- Show the steps and share some screenshots.
 

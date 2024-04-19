@@ -34,8 +34,6 @@ The function to be executed if the subsequent records are loaded successfully.
 
 The user wants to load the next batch of data from `Local Table` to be used in a flatlist component, (this example will only works after the user has created the data using `Dataset.insert` function).
 
-<!-- Share a scenario, like a user requirements. -->
-
 ### Steps
 
 | No. | Description |  |
@@ -45,13 +43,6 @@ The user wants to load the next batch of data from `Local Table` to be used in a
 | 3. | ![](./loadNext-step-3.png) | Drag a flatlist component to a page in the mobile designer, and drag a label component into the newly created flatlist component. |
 | 4. | ![](./loadNext-step-4.png) | Fill the flatlist component property in the page and fill the label component property in the flatlist component, make sure the label component field value match with the key of the data that being stored in the local storage. |
 | 5. | ![](./loadNext-step-5.png) | Select the event `press` and drag the `Dataset.loadNext` function to the event flow and fill in the parameter. |
-| 6. | ![](./loadNext-step-6.png) | Open the preview and try to press the Button, the flatlist component should display the next batch of data from local storage. |
-
-<!-- Show the steps and share some screenshots.
-
-1. .....
-
-Format: ![]({image-path}) -->
 
 ### Result
 

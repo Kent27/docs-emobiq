@@ -81,7 +81,6 @@ The user wants to update `Local Table` data from their local storage, (this exam
 | 4. | ![](./update-step-4.png) | For the `filter` param change it's type to a function / subflow and put `Conversion.toObject` inside it then add `data` as object key, change it's type to a function / subflow and put `Conversion.toObject` inside it. |
 | 5. | ![](./update-step-5.png) | Inside `data` subflow put `Conversion.toObject` inside it then add `field`, `operator`, `value` as object key with `name`, `like`, `n%` as it's value respectively. |
 | 6. | ![](./update-step-6.png) | For the `data` param change it's type to a function / subflow and put `Conversion.toObject` inside it then add `title` as object key, with `new value` as it's value. |
-| 7. | ![](./update-step-7.png) | Open the preview and try to press the Button, data should be updated on local storage. |
 
 <!-- Show the steps and share some screenshots.
 
