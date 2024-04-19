@@ -18,30 +18,19 @@ Allows users to redirect from the current page they are on to another page.
 
 Note: The page will be updated to show the page selected by the user.
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
-
 ## Example
 
-The user wants to navigate to another page.
-
-<!-- Share a scenario, like a user requirements. -->
+In this example, we will navigate to the main page by clicking a button on the current page.
 
 ### Steps
 
-1. Drag a button to a page in the mobile designer. Select the event `click` for the button and drag the `Global.goToPage` function to the event flow. Choose the page from the dropdown of `page` field.
-<br /><br />
+1. Drag a `button` to a page in the mobile designer. Select the event `press` for the button and drag the `Global.goToPage` function to the event flow. 
+2. Choose the page to navigate to from the dropdown in the `page` parameter.
+
 ![](./gotoPage-step-1.png)
 
 ### Result
 
-When the button is pressed, the page navigates to pgWelcome.
+1. When the button is pressed, the page navigates to pgMain.
 
-## Related Information
+![](./goToPage-result-1.gif)

@@ -24,7 +24,8 @@ In this example, we will use a value of an attribute from global variable which 
 
 ### Steps
 
-1. Assuming you have followed the "Variable.setAttribute" fuction in help document, call the function.
+1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Assuming you have followed the "Variable.setAttribute" fuction in help document, call the function.
 
 ![](./getAttribute-step-1.png)
 

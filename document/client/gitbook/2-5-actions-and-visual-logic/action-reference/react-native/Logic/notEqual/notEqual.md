@@ -1,8 +1,8 @@
-# notEqual
+# Logic.notEqual
 
 ## Description
 
-The not equal to comparison operator. It checks that two values are not equal. The result will return boolean values, true or false.
+The 'not equal to' comparison operator. It checks that two values are not equal. The result will return boolean values, true or false.
 
 ## Input / Parameter
 
@@ -17,32 +17,21 @@ The not equal to comparison operator. It checks that two values are not equal. T
 | ------ | ------ |
 | Returns true if the two values are not equal, returns false otherwise. | Boolean |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
-
 ## Example
 
-The user wants to check if value 1 is not equal to value 2.
+In this example, we will check that the two values passed are not equal to each other and return the result in the console.
 
 ### Step
 
-1. Call the function `Logic.notEqual` inside the `Log.write` function.
+1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Call the function `Logic.notEqual` inside the `Log.write` function.
     </br>
     value1 : 1<br />
     value2 : 2<br />
 
     ![](./notEqual-step-1.png)
     <br />
+
 ### Result
 
-true
-
-
-## Links
+1. The console will return `true`.

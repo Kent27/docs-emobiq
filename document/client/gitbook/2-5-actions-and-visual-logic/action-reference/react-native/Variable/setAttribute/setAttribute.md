@@ -32,7 +32,7 @@ In this example, we will set the value of an object variable's attribute and che
 
 ### Steps
 
-1. Drag the `Variable.setAttribute` into the flow window. 
+1. Drag the function `Variable.setAttribute` into the event flow window. 
 2. Create a variable called `vObject` with the attribute `name` that has value `Johnny`.
 
 ![](./setAttribute-step-1.png)

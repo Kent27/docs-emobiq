@@ -19,28 +19,20 @@ Formats a number using certain separators to be read better.
 | ------ | ------ |
 | Returns the formatted number with decimal point and separators where needed. | Text |
 
-## Callback
-
-N/A
-
-## Video
-
-Coming Soon.
-
 ## Example
 
-The user wants to adjust a number's thousand and decimal separator.
+In this example, we will adjust a number's thousand and decimal separator and print the formatted number in the console.
 
 ### Step
 
-1. Call the function `Format.number` inside the `Log.write` function.
-Sample parameters are shown in the picture below.
-    </br>
+1. Drag a `button` component into the canvas and open the `Action` tab. Select the `press` event of the button and drag the `Log.write` function to the event flow.
+2. Call the function `Format.number` inside the `Log.write` function.
+3. Sample parameters are shown in the picture below.
 
-    ![](./number-step-1.png)
+![](./number-step-1.png)
 
 ### Result
 
-The console will print `1,000.1200`.
+1. The console will print the formatted number.
 
-## Related Information
+![](./number-result-1.png)
