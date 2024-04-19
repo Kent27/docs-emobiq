@@ -29,10 +29,16 @@ In this example, we will adjust a number's thousand and decimal separator and pr
 2. Call the function `Format.number` inside the `Log.write` function.
 3. Sample parameters are shown in the picture below.
 
-![](./number-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./number-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 
 1. The console will print the formatted number.
 
-![](./number-result-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./number-result-1.png"
+        style="width: 15%; padding: 5px;"/>
+    </div>

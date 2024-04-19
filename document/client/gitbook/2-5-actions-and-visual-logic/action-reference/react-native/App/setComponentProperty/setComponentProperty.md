@@ -25,16 +25,34 @@ In this example, we will set the placeholder attribute of the text input compone
 1. First, we drag a button and a text input onto the canvas.
 2. Select the button and under the 'Actions' tab, drag the `App.setComponentProperty` into the flow for the button. 
 
-![](./setComponentProperty-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./setComponentProperty-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 3. Under the inspector for this function, select the component whose property you would be changing, which in this example is `InputBox`.
 4. Enter the property to change and the value of the property to display. 
 
-![](./setComponentProperty-step-2.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./setComponentProperty-step-2.png"
+        style="width: 40%; padding: 5px;"/>
+    </div>
 
 ### Result
 
 1. Save and preview your app. 
 2. Now when you click the button, it will set the placeholder attribute of the text input component to 'Enter your input!'
 
-![](./setComponentProperty-result-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./setComponentProperty-result-1.png"
+        style="width: 40%; padding: 5px;"/>
+    </div>
+
+## Links 
+
+### Related Information
+
+See also:
+
+- Functions
+    - [App.getComponentProperty](/document/client/gitbook/2-5-actions-and-visual-logic/action-reference/react-native/App/getComponentProperty/getComponentProperty.md)

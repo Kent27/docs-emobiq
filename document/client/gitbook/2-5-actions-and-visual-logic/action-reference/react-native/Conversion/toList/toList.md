@@ -27,17 +27,23 @@ Creates a list using the values provided or creates a new list.
 
 ## Example
 
-The user wants to create an array of values and print the result in the console.
+In this example, we will create an array of values and print the result in the console.
 
 ### Step
 
 1. Call the function `Conversion.toList` inside the `Log.write` function.
 2. Enter the value for the `Conversion.toList` function. In this example, we will enter 1, 2, 3.
 
-![](./toList-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./toList-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 
 1. The console will print an array of numbers as depicted below.
 
-![](./toList-result-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./toList-result-1.png"
+        style="width: 40%; padding: 5px;"/>
+    </div>

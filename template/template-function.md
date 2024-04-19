@@ -126,7 +126,10 @@ See also:
 
 Example below:
 
-- [Variable.get]({file-path})
+- Components
+    - [Button]({file-path})
+- Functions
+    - [Variable.get]({file-path})
 
 ### Alternative Implementation
 

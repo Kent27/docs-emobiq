@@ -33,15 +33,24 @@ In this example, we will use the `App.reload` function to open the link for the 
 1. Drag a button component to the canvas and click on the 'Action' tab.
 2. Drag the `App.openlink` function to the event flow under the 'press' event.
 
-![](./openlink-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./openlink-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 3. Under the inspector of the component, enter the link you want to open. In this example, we are using `https://main.emobiq.com/`, the link to the eMOBIQ dashboard.
 
-![](./openlink-step-2.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./openlink-step-2.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
 
 ### Result
 
 1. Save and preview the app.
 2. Click the button to open the dashboard in another tab.
 
-![](./openlink-result-1.gif)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./openlink-result-1.gif"
+        style="width: 100%; padding: 5px;"/>
+    </div>

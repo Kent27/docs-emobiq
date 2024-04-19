@@ -40,17 +40,28 @@ In this example, we will hide and show a snippet with slide effect in the snippe
    
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./displaySnippet-step-3.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 50%; padding: 5px;"/>
     </div>
     
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./displaySnippet-step-4.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 50%; padding: 5px;"/>
     </div>
 
 ### Result
 
 1. Try clicking the hide button first and then the show button in either Preview or Compiled App. 
 
-![](./displaySnippet-result-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./displaySnippet-result-1.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
 
+## Links
+
+### Related Information
+
+See also:
+
+- Components
+    - [Snippet]()

@@ -50,6 +50,6 @@ In this example, we will set the value of a global variable and check whether th
 
 ### Related Information
 
-* See also `Variable.get`
+See also:
 
-### Alternative Implementation
+-  [Variable.get](/document/client/gitbook/2-5-actions-and-visual-logic/action-reference/react-native/Variable/get/get.md)

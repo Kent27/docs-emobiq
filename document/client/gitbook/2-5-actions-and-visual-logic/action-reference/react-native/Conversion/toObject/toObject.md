@@ -28,10 +28,16 @@ In this example, we will create an object and print the result in the console.
 
 2. Create the parameter(s) as required inside the `Conversion.toObject` and enter the value(s) for each parameter. In this example, we will create 2 parameters, 'name' and 'age' and enter the values {name: John, age: 27}.
 
-![](./toObject-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./toObject-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 
 1. The console will print an object as depicted below.
 
-![](./toObject-result-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./toObject-result-1.png"
+        style="width: 40%; padding: 5px;"/>
+    </div>

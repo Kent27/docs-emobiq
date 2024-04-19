@@ -77,10 +77,16 @@ In this example, we will get the difference between 2 dates (in days) and print 
 2. Call the function `DateTime.difference` inside the `Log.write` function.
 3. Sample parameters are shown in the picture below.
 
-![](./difference-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./difference-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 
 1. The console will print the difference between the two dates passed.
 
-![](./difference-result-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./difference-result-1.png"
+        style="width: 10%; padding: 5px;"/>
+    </div>

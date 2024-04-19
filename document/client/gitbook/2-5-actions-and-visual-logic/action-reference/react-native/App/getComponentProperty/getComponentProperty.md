@@ -23,18 +23,35 @@ In this example, we will get the name attribute of an input box component using 
 
 ### Steps
 
-1. First we drag an input box onto the page. We will name it "InputBox" with the value "This is an input field"
+1. First we drag an input box onto the page. We will name it "InputBox" with the value "This is an input field".
 
-![](./getComponentProperty-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./getComponentProperty-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 2. We want to get the 'name' attribute of "InputBox" and display it in the browser console with the help of the `Log.write` helper function. 
 3. Drag `getComponentProperty` into the event flow, and specify the name of the component, which in this case is "InputBox".
 
-![](./getComponentProperty-step-2.png)
-
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./getComponentProperty-step-2.png"
+        style="width: 75%; padding: 5px;"/>
+    </div>
 
 ### Result
 
 1. The `name` attribute of "InputBox" will be displayed in the browser console.
 
-![](./getComponentProperty-result-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./getComponentProperty-result-1.png"
+        style="width: 25%; padding: 5px;"/>
+    </div>
+
+## Links
+
+### Related Information
+
+See also:
+
+ - Functions
+    - [App.setComponentProperty](/document/client/gitbook/2-5-actions-and-visual-logic/action-reference/react-native/App/setComponentProperty/)

@@ -26,10 +26,16 @@ In this example, we will convert an object to a string and print the result in t
 
 2. Call the function `Conversion.toObject` inside the `Conversion.toText` function and enter the values for the object {name:Johnny, age:27}. (Refer to  [`toObject`](./toObject) for more information on using the `toObject` function.)
 
-![](./toText-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./toText-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 
 1. The console will print the value passed as a text. In this example, the value printed is `{"age":"27","name":"Johnny"}`.
 
-![](./toText-result-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./toText-result-1.png"
+        style="width: 25%; padding: 5px;"/>
+    </div>

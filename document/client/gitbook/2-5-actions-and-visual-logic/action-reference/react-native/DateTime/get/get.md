@@ -26,10 +26,16 @@ In this example, we will get the current date and print it in the console.
 2. Call the function `DateTime.get` inside the `Log.write` function.
 3. Sample parameters are shown in the picture below.
 
-![](./get-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./get-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 
 1. The console will print the current date.
 
-![](./get-result-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./get-result-1.png"
+        style="width: 15%; padding: 5px;"/>
+    </div>

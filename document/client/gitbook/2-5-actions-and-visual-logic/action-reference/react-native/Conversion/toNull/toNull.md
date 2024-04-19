@@ -22,10 +22,16 @@ In this example, we will use the `Conversion.toNull` function to print `null` in
 
 1. Call the function `Conversion.toNull` inside the `Log.write` function.
 
-![](./toNull-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./toNull-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 
 1. The console will print `null`.
 
-![](./toNull-result-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./toNull-result-1.png"
+        style="width: 15%; padding: 5px;"/>
+    </div>

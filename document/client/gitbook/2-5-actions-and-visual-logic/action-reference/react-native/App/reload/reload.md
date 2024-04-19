@@ -30,7 +30,10 @@ In this example, we will use the `App.reload` function to reload the current pag
 
 1. Call the function.
 
-![](./reload-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./reload-step-1.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
 
 ### Result
 

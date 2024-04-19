@@ -23,18 +23,36 @@ In this example, we will get the component value of an input field using `App.ge
 
 ### Steps
 
-1. First we drag an input box onto the page. We will name it "InputBox" with the value "This is an input field"
+1. First we drag an input box onto the page. We will name it "InputBox" with the value "This is an input field".
 
-![](./getComponentValue-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./getComponentValue-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 2. We want to get the value of "InputBox" and display it in the browser console with the help of the `Log.write` helper function. 
 3. Drag `App.getComponentValue` into the event flow, and specify the name of the component, which in this case is "InputBox".
 
-![](./getComponentValue-step-2.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./getComponentValue-step-2.png"
+        style="width: 75%; padding: 5px;"/>
+    </div>
 
 
 ### Result
 
 1. The value of "InputBox" will be displayed in the browser console.
 
-![](./getComponentValue-result-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./getComponentValue-result-1.png"
+        style="width: 30%; padding: 5px;"/>
+    </div>
+
+## Links
+
+### Related Information
+
+See also:
+
+- Functions
+    - [App.setComponentValue](/document/client/gitbook/2-5-actions-and-visual-logic/action-reference/react-native/App/setComponentValue/)

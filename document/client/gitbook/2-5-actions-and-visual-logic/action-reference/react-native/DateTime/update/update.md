@@ -70,11 +70,17 @@ In this example, we will add 1 day to a date and print the updated date in the c
 2. Call the function `DateTime.update` inside the `Log.write` function.
 3. Sample parameters are shown in the picture below.
 
-![](./update-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./update-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 
 1. The console will print the updated date.
 
-![](./update-result-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./update-result-1.png"
+        style="width: 15%; padding: 5px;"/>
+    </div>
 

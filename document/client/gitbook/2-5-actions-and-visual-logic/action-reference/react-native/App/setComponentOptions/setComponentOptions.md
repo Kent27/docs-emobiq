@@ -37,15 +37,24 @@ In this example, we have a button (in blue) that when clicked will populate the 
 
 1. First, we drag a button and a dropdown input onto the Editor.
 
-![](./setComponentOptions-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./setComponentOptions-step-1.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
 
 2. Select the button and under the 'Actions' tab, drag the `App.setComponentOptions` into the flow for the button. 
 
-![](./setComponentOptions-step-2.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./setComponentOptions-step-2.png"
+        style="width: 40%; padding: 5px;"/>
+    </div>
 
 3. Under the inspector for this function, select the component whose dropdown you would be populating, which in this example is `Dropdown411`, and then fill in valueField and displayField
 
-![](./setComponentOptions-step-3.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./setComponentOptions-step-3.png"
+        style="width: 40%; padding: 5px;"/>
+    </div>
 
 4. Add the function `Conversion.toList` in the 'data' parameter using the 'function' parameter type.
 
@@ -60,4 +69,11 @@ In this example, we have a button (in blue) that when clicked will populate the 
 1. Save and preview your app. 
 2. Now when you click the button, it will set the dropdown of Dropdown411.
 
+## Links
 
+### Related Information
+
+See also:
+
+- Components
+    - [Dropdown]()
