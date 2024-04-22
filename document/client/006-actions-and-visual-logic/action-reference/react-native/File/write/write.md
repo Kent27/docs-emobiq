@@ -50,21 +50,28 @@ The action performed if this function does not run successfully.
 
 The user wants to create a file with text value inside it.
 
-<!-- Share a scenario, like a user requirements. -->
-
 ### Steps
 
-| No. | Description |  |
-| ------ | ------ | ------ |
-| 1. | ![](./write-step-1.png) | Drag a button component to a page in the mobile designer. |
-| 2. | ![](./write-step-2.png) | Select the event `press` and drag the `File.write` function to the event flow and fill in the parameter. |
-| 3. | ![](./write-step-3.png) | Open the installed app on a device and try to press the Button, the file will be created and ready to use. |
+1. Drag a button component to a page in the mobile designer.
 
-<!-- Show the steps and share some screenshots.
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./write-step-1.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
 
-1. .....
+2. Select the event `press` and drag the `File.write` function to the event flow and fill in the parameter.
 
-Format: ![]({image-path}) -->
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./write-step-2.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
+
+3. Open the installed app on a device and try to press the Button, the file will be created and ready to use.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./write-step-3.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 
