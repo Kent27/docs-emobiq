@@ -37,7 +37,7 @@
 
     ```sh
     cd script
-    python3 run.py
+    {python3.10} run.py
     ```
 
 - Main file video storage would be stored in this link [One Drive][One Drive Link] under the **'Videos'** folder, it's also following the naming convention similar to our folder structure.
