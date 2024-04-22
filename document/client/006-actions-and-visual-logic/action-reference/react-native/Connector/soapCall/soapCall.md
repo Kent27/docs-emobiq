@@ -92,16 +92,61 @@ In this example, we will create a connection using the soapCall function.
 
 ### Steps
 
-| No. | Description |  |
-| ------ | ------ | ------ |
-| 1. | ![](./soapCall-step-1.png) | Drag a `SOAP Connector` component into the services panel in the service page and then fill the fields. |
-| 2. | ![](./soapCall-step-2.png) | Drag a button component to a page in the mobile designer. |
-| 3. | ![](./soapCall-step-3.png) | Select the event `press` and drag the `Connector.soapCall` function to the event flow and fill in the parameter. |
-| 4. | ![](./soapCall-step-4.png) | For the `header` param change it's type to a function / subflow and put `Conversion.toList` inside it, and change `value1` and `value2` param type to a function / subflow. |
-| 5. | ![](./soapCall-step-5.png) | For `value1` value put `Conversion.toObject` inside it then add `localName`, `mustUnderstand`, `value` as object key with `Username`, `false`, `abcd` as it's value respectively. |
-| 6. | ![](./soapCall-step-6.png) | For `value2` value put `Conversion.toObject` inside it then add `localName`, `mustUnderstand`, `value` as object key with `Password`, `false`, `1234` as it's value respectively. |
-| 7. | ![](./soapCall-step-7.png) | For the `body` param change it's type to a function / subflow and put `Conversion.toObject` inside it, and then add `ubiNum` as object key with `1234` as it's value. |
-| 8. | ![](./soapCall-step-8.png) | Open the preview and try to press the Button, the soap call should be visibile on the inspector network tab. |
+1. Drag a `SOAP Connector` component into the services panel in the service page and then fill the fields.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./soapCall-step-1.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
+
+2. Drag a button component to a page in the mobile designer.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./soapCall-step-2.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
+
+3. Select the event `press` and drag the `Connector.soapCall` function to the event flow and fill in the parameter.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./soapCall-step-3.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
+
+4. For the `header` param change it's type to a function / subflow and put `Conversion.toList` inside it, and change `value1` and `value2` param type to a function / subflow.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./soapCall-step-4.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
+
+5. For `value1` value put `Conversion.toObject` inside it then add `localName`, `mustUnderstand`, `value` as object key with `Username`, `false`, `abcd` as it's value respectively.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./soapCall-step-5.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
+
+6. For `value2` value put `Conversion.toObject` inside it then add `localName`, `mustUnderstand`, `value` as object key with `Password`, `false`, `1234` as it's value respectively.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./soapCall-step-6.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
+
+7. For the `body` param change it's type to a function / subflow and put `Conversion.toObject` inside it, and then add `ubiNum` as object key with `1234` as it's value.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./soapCall-step-7.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
+
+8. Open the preview and try to press the Button, the soap call should be visibile on the inspector network tab.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./soapCall-step-8.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 

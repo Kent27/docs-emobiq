@@ -50,11 +50,26 @@ The user wants to insert rows of data to their local storage.
 
 ### Steps
 
-| No. | Description |  |
-| ------ | ------ | ------ |
-| 1. | ![](./insert-step-1.png) | Drag a `Local Table` component into the services panel in the service page and then fill the fields. For `fields` field value add `name`and `title` as object key with Text type. |
-| 2. | ![](./insert-step-2.png) | Drag a button component to a page in the mobile designer. |
-| 3. | ![](./insert-step-3.png) | Select the event `press` and drag the `Dataset.insert` function to the event flow and fill in the parameter, for the `data` param change it's type to a function / subflow and put `Conversion.toObject` inside it then add `name`, `title` as object key with `name_value`, `title_value` as it's value respectively. |
+1. Drag a `Local Table` component into the services panel in the service page and then fill the fields. For `fields` field value add `name`and `title` as object key with Text type.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./insert-step-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
+
+2. Drag a button component to a page in the mobile designer.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./insert-step-2.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
+
+3. Select the event `press` and drag the `Dataset.insert` function to the event flow and fill in the parameter, for the `data` param change it's type to a function / subflow and put `Conversion.toObject` inside it then add `name`, `title` as object key with `name_value`, `title_value` as it's value respectively.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./insert-step-3.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 

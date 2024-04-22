@@ -91,12 +91,33 @@ In this example, we will create a connection using the restCall function.
 
 ### Steps
 
-| No. | Description |  |
-| ------ | ------ | ------ |
-| 1. | ![](./restCall-step-1.png) | Drag a `REST Connector` component into the services panel in the service page and then fill the fields. |
-| 2. | ![](./restCall-step-2.png) | Drag a button component to a page in the mobile designer. |
-| 3. | ![](./restCall-step-3.png) | Select the event `press` and drag the `Connector.restCall` function to the event flow and fill in the parameter. |
-| 4. | ![](./restCall-step-4.png) | Open the preview and try to press the Button, the rest api call should be visibile on the inspector network tab. |
+1. Drag a `REST Connector` component into the services panel in the service page and then fill the fields.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./restCall-step-1.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
+
+2. Drag a button component to a page in the mobile designer.
+    
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./restCall-step-2.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
+
+3. Select the event `press` and drag the `Connector.restCall` function to the event flow and fill in the parameter.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./restCall-step-3.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
+
+4. Open the preview and try to press the Button, the rest api call should be visibile on the inspector network tab.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./restCall-step-4.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 

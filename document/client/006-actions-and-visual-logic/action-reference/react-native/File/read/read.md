@@ -49,21 +49,28 @@ The action performed if this function does not run successfully.
 
 The user wants to read the file content (this example will only works after the user has created a file using `File.write` function).
 
-<!-- Share a scenario, like a user requirements. -->
-
 ### Steps
 
-| No. | Description |  |
-| ------ | ------ | ------ |
-| 1. | ![](./read-step-1.png) | Drag a button component to a page in the mobile designer. |
-| 2. | ![](./read-step-2.png) | Select the event `press` and drag the `File.read` function to the event flow and fill in the parameter. |
-| 3. | ![](./read-step-3.png) | Open the installed app on a device with a debugger on and try to press the Button, if the file exist user should be able to see the content on the console. |
+1. Drag a button component to a page in the mobile designer.
 
-<!-- Show the steps and share some screenshots.
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./read-step-1.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
 
-1. .....
+2. Select the event `press` and drag the `File.read` function to the event flow and fill in the parameter.
 
-Format: ![]({image-path}) -->
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./read-step-2.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
+
+3. Open the installed app on a device with a debugger on and try to press the Button, if the file exist user should be able to see the content on the console.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./read-step-3.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 

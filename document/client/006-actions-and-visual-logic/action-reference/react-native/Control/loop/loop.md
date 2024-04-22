@@ -41,19 +41,32 @@ In this example, we will loop through a range of numbers and print the values as
 
 1. Drag a button component to a page in the mobile designer and open up the `Action` tab.
 
-    ![](./loop-step-1.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./loop-step-1.png"
+        style="width: 1000%; padding: 5px;"/>
+    </div>
+
 
 2. Select the event `click` and drag the `Control.loop` function to the event flow.
 
-    ![](./loop-step-2.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./loop-step-2.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 3. Fill in the parameters of the function.
 
-    ![](./loop-step-3.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./loop-step-3.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 4. Drag the function to be executed if the loop function is successful to the node below the function. In this example, we are using the `Log.write` function and change the parameters dropdown to use `input`
 
-    ![](./loop-step-4.png)
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./loop-step-4.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 
