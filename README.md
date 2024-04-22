@@ -7,6 +7,20 @@
 
 ### Guidelines
 
+#### General
+
+- Folder Structure
+    - If you want to organize the folder structure use this format:
+        ```
+        # Format
+        {000}-{folder_name}
+
+        # Example
+        001-first-folder
+        ```
+
+#### Functions
+
 - Structure
     - If there is no value please remove the header except for the following: Description, Input/Parameter and Output. 
     - For the three exceptions, if it is totally empty include N/A.
@@ -20,6 +34,12 @@
 ### Notes
 
 - Deploying to gitbook requires running the scripts, make sure to do this first.
+
+    ```sh
+    cd script
+    python3 run.py
+    ```
+
 - Main file video storage would be stored in this link [One Drive][One Drive Link] under the **'Videos'** folder, it's also following the naming convention similar to our folder structure.
 - All video links would be redirected in this [YouTube][YouTube Link] channel.
 
