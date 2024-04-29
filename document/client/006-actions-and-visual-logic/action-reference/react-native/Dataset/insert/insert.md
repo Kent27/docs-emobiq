@@ -46,7 +46,7 @@ The action performed if this function does not run successfully.
 
 ## Example
 
-In this example, we will insert rows of data into a tablq in the local storage.
+In this example, we will insert rows of data into a table in the local storage.
 
 ### Steps
 
