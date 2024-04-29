@@ -37,26 +37,38 @@ The function to be executed when location is not obtained successfully.
 
 ## Example
 
-The user wants to get their locations data and use it as the coordinate value of setMapCenter function
-
-<!-- Share a scenario, like a user requirements. -->
+In this example, we will retrieve the device location data and use it as the coordinate value of the `setMapCenter` function.
 
 ### Steps
 
-| No. | Description |  |
-| ------ | ------ | ------ |
-| 1. | ![](./getLocation-step-1.png) | Make sure Map component is exist on the page and add a button component on that page |
-| 2. | ![](./getLocation-step-2.png) | Select the event `press` for the button and drag the function `Device.getLocation` to the event flow. |
-| 3. | ![](./getLocation-step-3.png) | Fill in the parameters of the function. |
-| 4. | ![](./getLocation-step-4.png) | Drag the the function to be executed if the location data successfully received to the node below the function. In this example, we are using the `Variable.set` to save the location data into a variable. |
-| 5. | ![](./getLocation-step-5.png) | Drag the the function `Device.setMapCenter` and Fill in the parameters of the function, use the location data from `Device.getLocation` by adding `Variable.getAttribute` on the `coordinate` field |
+1. Drag a `map` component and a `button` component to a page in the mobile designer.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./getLocation-step-1.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
+
+2. Select the event `press` for the button and drag the function `Device.getLocation` to the event flow. Fill in the parameters of the function.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./getLocation-step-2.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
+
+3. Drag the function to be executed if the location data is successfully received to the node below `Device.getLocation`. In this example, we are using the `Variable.set` function to save the location data into a variable.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./getLocation-step-3.png"
+        style="width: 75%; padding: 5px;"/>
+    </div>
+
+4. Drag the function `Device.setMapCenter` below `Variable.set` and fill in the parameters of the function. Use the location data from `Device.getLocation` by adding `Variable.getAttribute` to the `coordinate` field of the `Device.setMapCenter` function.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./getLocation-step-4.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
 
 ### Result
 
-The location data will be received and it's `latLng` or latitude longitude value will be used as the center of the Map component 
-
-<!-- Explain the output.
-
-Format: ![]({image-path}) -->
-
-## Links
+1. The location data will be received and it's `latLng` value (latitude and longitude) will be used as the center of the Map component.

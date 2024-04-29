@@ -36,34 +36,33 @@ The function to be executed if the camera captures an image successfully.
 
 The function to be executed if the camera does not capture an image successfully.
 
-## Video
-
-Coming Soon.
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
-
 ## Example
 
-The user wants to take a photo using their mobile device and view the photo in the image component.
-
-<!-- Share a scenario, like a user requirements. -->
+In this example, we will take a photo using a mobile device and view the photo in the image component.
 
 ### Steps
 
-| No. | Description |  |
-| ------ | ------ | ------ |
-| 1. | ![](./captureImage-step-1.png) | Drag an image and a button component to a page in the mobile designer. |
-| 2. | ![](./captureImage-step-2.png) | Select the event `click` for the button and drag the function `Device.captureImage` to the event flow. |
-| 3. | ![](./captureImage-step-3.png) | Fill in the parameters of the function. |
-| 4. | ![](./captureImage-step-4.png) | Drag the the function to be executed if the image is captured successfully to the node below the function. In this example, we are using the `App.setComponentValue` to set the image to the image component. |
-| 5. | ![](./captureImage-step-5.png) | Fill in the parameters of the function. |
+1. Drag an `image` and a `button` component to a page in the mobile designer.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./captureImage-step-1.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
+
+2. Select the event `press` for the button and drag the function `Device.captureImage` to the event flow. Fill in the parameters of the function.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./captureImage-step-2.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
+
+3. Drag the the function to be executed if the image is captured successfully to the node below the function. In this example, we are using the `App.setComponentValue` to set the image to the image component. Fill in the parameters of the function.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./captureImage-step-3.png"
+        style="width: 70%; padding: 5px;"/>
+    </div>
 
 ### Result
 
-The image captured will be shown in the image component.
-
-<!-- Explain the output.
-
-Format: ![]({image-path}) -->
-
-## Links
+1. The image captured will be shown in the image component.

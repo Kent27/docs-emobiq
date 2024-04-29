@@ -91,7 +91,7 @@ In this example, we will create a connection using the restCall function.
 
 ### Steps
 
-1. Drag a `REST Connector` component into the services panel in the service page and then fill the fields.
+1. Drag a `REST Connector` component into the services panel in the Services page and fill the fields.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./restCall-step-1.png"

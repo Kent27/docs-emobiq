@@ -32,38 +32,26 @@ The function to be executed when the video recording is generated successfully.
 
 The function to be executed when the video recording is not generated successfully.
 
-## Video
-
-Coming Soon.
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
-
 ## Example
 
 The user wants to create a video recording using their mobile device.
 
-<!-- Share a scenario, like a user requirements. -->
-
 ### Steps
 
-| No. | Description |  |
-| ------ | ------ | ------ |
-| 1. | ![](./captureVideo-step-1.png) | Drag a button component to a page in the mobile designer. Select the event `click` and drag the function `Device.captureVideo` to the event flow. |
-| 2. | ![](./captureVideo-step-2.png) | Drag the function to be executed if the video recording is successfully generated to the node below the function. In this example, we are using the `Log.write` function. |
-| 3. | ![](./captureVideo-step-3.png) | Fill in the parameters of the function. |
+1. Drag a button component to a page in the mobile designer. Select the event `press` and drag the function `Device.captureVideo` to the event flow.
 
-<!-- Show the steps and share some screenshots.
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./captureVideo-step-1.png"
+        style="width: 40%; padding: 5px;"/>
+    </div>
 
-1. .....
+2. Drag the function to be executed if the video recording is successfully generated to the node below the function. In this example, we are using the `Log.write` function. Fill in the parameters of the function.
 
-Format: ![]({image-path}) -->
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./captureVideo-step-2.png"
+        style="width: 80%; padding: 5px;"/>
+    </div>
 
 ### Result
 
-The path of the video file will be shown in the console.
-
-<!-- Explain the output.
-
-Format: ![]({image-path}) -->
-
-## Links
+1. The path of the video file will be shown in the console.

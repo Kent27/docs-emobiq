@@ -17,24 +17,24 @@ N/A
 
 ## Example
 
-The user wants to set their Map component coordinate by using setMapCenter function
-
-<!-- Share a scenario, like a user requirements. -->
+In this example, we will set the map component coordinate using the setMapCenter function.
 
 ### Steps
 
-| No. | Description |  |
-| ------ | ------ | ------ |
-| 1. | ![](./mapSetCenter-step-1.png) | Make sure Map component is exist on the page and add a button component on that page |
-| 2. | ![](./mapSetCenter-step-2.png) | Select the event `press` for the button and drag the function `Device.setMapCenter` to the event flow. |
-| 3. | ![](./mapSetCenter-step-3.png) | Fill in the parameters of the function. |
+1. Make sure Map component is exist on the page and add a button component on that page.
 
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./mapSetCenter-step-1.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
+
+2. Select the event `press` for the button and drag the function `Device.setMapCenter` to the event flow. Fill in the parameters of the function.
+
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./mapSetCenter-step-2.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
 ### Result
 
-The center of the Map component will be moved following the coordinate from `Device.setMapCenter` function
-
-<!-- Explain the output.
-
-Format: ![]({image-path}) -->
-
-## Links
+1. The center of the map component will be moved following the coordinate from `Device.setMapCenter` function

@@ -8,9 +8,9 @@ Creates an image for a type of matrix barcode (QR Code).
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| type | Not currently in use by the function. | String/Text | - | - | No |
-| value | The value to be attached to the QR code. | String/Text | - | - | Yes |
-| logo | An image base64 or URL of an image to be appended to the QR Code. | String/Text | - | - | No |
+| type | Not currently in use by the function. | Text | - | - | No |
+| value | The value to be attached to the QR code. | Text | - | - | Yes |
+| logo | An image base64 or URL of an image to be appended to the QR Code. | Text | - | - | No |
 | extra | The value to be included to the 'callback' as a system value under 'extra'. | Any | - | - | No |
 
 ## Output
@@ -25,38 +25,50 @@ It is executed after the function completeled generating the matrix barcode (QR 
 
 | Description | Output Type |
 | ------ | ------ |
-| Returns the image base64 value. | String/Text |
-
-## Video
-
-Coming Soon.
-
-<!-- Format: [![Video]({image-path})]({url-link}) -->
+| Returns the image base64 value. | Text |
 
 ## Example
 
+In this example, we will generate a QR code and display it in an image component.
+
 ### Steps
 
-1. First we add 2 components to the page: 
-   1. A button to generate the QR code
-   2. `imgQR`, an image placeholder for the QR code once generated.
+1. Drag a `button` component and an `image` component to a page in the editor to display the generated QR code.
+  
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./generateQRCode-step-1.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
 
-    ![](./generateQRCode-step-1.png)
+2. Call the function `Device.generateQRCode` in the `press` event of the button component and set the required parameters to generate the QR code.
 
-2. Select the "GenerateQRcode" button and add these 2 functions to the event flow:
+   ```js
+   value : test qrcode
+   ```
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./generateQRCode-step-2.png"
+        style="width: 55%; padding: 5px;"/>
+    </div>
 
-    ![](./generateQRCode-step-2.png)
+3. Call the function `App.setComponentValue` if the function `Device.generateQRCode` runs successfully and set the value to display the QR code in the image component.
 
-3. For `Device.generateQRCode` function, the parameters are: 
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./generateQRCode-step-3.png"
+        style="width: 80%; padding: 5px;"/>
+    </div>
 
-    ![](./generateQRCode-step-3.png)
-
-4. For the `App.setComponentValue`, we set the "component" value to "imgQR", the image placeholder created in step 1 and the "value" would be input returned by generateQRCode
-
-    ![](./generateQRCode-step-4.png)
+4. Call the function `Log.write` if the function `Device.generateQRCode` does not run successfully and set the value to print the response in the console. 
+   
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./generateQRCode-step-4.png"
+        style="width: 80%; padding: 5px;"/>
+    </div>
 
 ### Result
 
-![](./generateQRCode-result-1.png)
+1. The image component will display the QR code generated if the function is executed successfuly and the console will print the base64 string of the image if the function is not executed successfully. 
 
-## Links
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./generateQRCode-result-1.png"
+        style="width: 40%; padding: 5px;"/>
+    </div>

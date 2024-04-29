@@ -17,24 +17,24 @@ N/A
 
 ## Example
 
-The user wants to set their Map component zoom value by using mapSetZoom function
-
-<!-- Share a scenario, like a user requirements. -->
+In this example, we will set the map component zoom value using the mapSetZoom function.
 
 ### Steps
 
-| No. | Description |  |
-| ------ | ------ | ------ |
-| 1. | ![](./mapSetZoom-step-1.png) | Make sure Map component is exist on the page and add a button component on that page |
-| 2. | ![](./mapSetZoom-step-2.png) | Select the event `press` for the button and drag the function `Device.mapSetZoom` to the event flow. |
-| 3. | ![](./mapSetZoom-step-3.png) | Fill in the parameters of the function. |
+1. Drag a `button` component and a `map` component to a page in the mobile designer.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./mapSetZoom-step-1.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
+
+2. Select the event `press` for the button and drag the function `Device.mapSetZoom` to the event flow. Fill in the parameters of the function.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./mapSetZoom-step-2.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
 
 ### Result
 
-The zoom value of the Map component will follow the zoom value from `Device.mapSetZoom` function
-
-<!-- Explain the output.
-
-Format: ![]({image-path}) -->
-
-## Links
+1. The zoom value of the map component will follow the zoom value passed in the `Device.mapSetZoom` function.
