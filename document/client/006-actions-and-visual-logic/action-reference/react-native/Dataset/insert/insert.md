@@ -46,7 +46,7 @@ The action performed if this function does not run successfully.
 
 ## Example
 
-The user wants to insert rows of data to their local storage.
+In this example, we will insert rows of data into a tablq in the local storage.
 
 ### Steps
 
@@ -64,7 +64,7 @@ The user wants to insert rows of data to their local storage.
         style="width: 50%; padding: 5px;"/>
     </div>
 
-3. Select the event `press` and drag the `Dataset.insert` function to the event flow and fill in the parameter, for the `data` param change it's type to a function / subflow and put `Conversion.toObject` inside it then add `name`, `title` as object key with `name_value`, `title_value` as it's value respectively.
+3. Select the event `press` and drag the `Dataset.insert` function to the event flow and fill in the parameter. For the `data` parameter, change it's type to a function / subflow and put `Conversion.toObject` inside it then add `name`, `title` as object key with `name_value`, `title_value` as it's value respectively.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./insert-step-3.png"
@@ -73,4 +73,4 @@ The user wants to insert rows of data to their local storage.
 
 ### Result
 
-The new rows of data should be stored on local storage.
+1. The new rows of data should be stored on local storage.

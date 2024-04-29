@@ -48,7 +48,7 @@ The action performed if this function does not run successfully.
 
 ## Example
 
-The user wants to create a file with text value inside it.
+In this example, we will create a file with text value inside it.
 
 ### Steps
 
@@ -66,13 +66,12 @@ The user wants to create a file with text value inside it.
         style="width: 50%; padding: 5px;"/>
     </div>
 
-3. Open the installed app on a device and try to press the Button, the file will be created and ready to use.
-
-    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
-        <img src="./write-step-3.png"
-        style="width: 100%; padding: 5px;"/>
-    </div>
-
 ### Result
 
-The file will be created in user device.
+1. Open the installed app on a device and try to press the button.
+2. The file will be created and ready to use.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./write-result-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>

@@ -105,11 +105,15 @@ The action performed if this function does not run successfully.
 
 ## Example
 
-The user wants to read `Local Table` data from their local storage, (this example will only works after the user has created the data using `Dataset.insert` function).
+In this example, we will read `Local Table` data from the local storage. 
+
+```js
+Note: This example will only work after the user has created the dataset using `Dataset.insert` function.
+```
 
 ### Steps
 
-1. Make sure the `Local Table` component that's being used in `Dataset.insert` function example is exist and filled on the services panel in the service page. For `fields` field value add `name`and `title` as object key with Text type.
+1. Create a `Local Table` in the services panel in the service page if there is no table created yet. For the field, add `name`and `title` as object key with Text type.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./read-step-1.png"
@@ -123,13 +127,20 @@ The user wants to read `Local Table` data from their local storage, (this exampl
         style="width: 50%; padding: 5px;"/>
     </div>
 
-3. Select the event `press` and drag the `Dataset.read` function to the event flow and fill in the parameter. Drag a `Log.write` as `Dataset.read` callback and use input on it's value param type.
+3. Select the event `press` and drag the `Dataset.read` function to the event flow and fill in the parameter. 
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./read-step-3.png"
         style="width: 50%; padding: 5px;"/>
     </div>
 
+4. Drag a `Log.write` as `Dataset.read` callback and use input on it's value param type.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./read-step-4.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
+
 ### Result
 
-Should be able to read the data from local storage.
+1. The data should be displayed in the console.

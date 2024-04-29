@@ -47,7 +47,11 @@ The action performed if this function does not run successfully.
 
 ## Example
 
-The user wants to read the file content (this example will only works after the user has created a file using `File.write` function).
+In this example, we will read the file content.
+
+```js
+Note: This example will only work after the user has created a file using `File.write` function.
+```
 
 ### Steps
 
@@ -65,13 +69,12 @@ The user wants to read the file content (this example will only works after the 
         style="width: 50%; padding: 5px;"/>
     </div>
 
-3. Open the installed app on a device with a debugger on and try to press the Button, if the file exist user should be able to see the content on the console.
+### Result
+
+1. Open the installed app on a device with a debugger on and try to press the button.
+2. If the file exists, user should be able to see the content on the console.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./read-step-3.png"
         style="width: 100%; padding: 5px;"/>
     </div>
-
-### Result
-
-Should be able to see the content of a file from user device.

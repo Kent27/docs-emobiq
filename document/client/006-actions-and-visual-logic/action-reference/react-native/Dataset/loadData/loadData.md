@@ -43,11 +43,15 @@ The function to be executed if the records are not loaded successfully.
 
 ## Example
 
-The user wants to load the data from `Local Table` to be used in a flatlist component, (this example will only works after the user has created the data using `Dataset.insert` function).
+In this example, we will load the data from the Local Table and display it in a flatlist component.
+
+```js
+Note: This example will only work after the user has created the data using `Dataset.insert` function.
+```
 
 ### Steps
 
-1. Make sure the `Local Table` component that's being used in `Dataset.insert` function example is exist and filled on the services panel in the service page.
+1. Make sure a `Local Table` component is created and filled on the services panel in the service page.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./loadData-step-1.png"
@@ -61,21 +65,21 @@ The user wants to load the data from `Local Table` to be used in a flatlist comp
         style="width: 50%; padding: 5px;"/>
     </div>
 
-3. Drag a flatlist component to a page in the mobile designer, and drag a label component into the newly created flatlist component.
+3. Drag a `flatlist` component to a page in the mobile designer, and drag a `label` component into the `flatlist` component.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./loadData-step-3.png"
         style="width: 50%; padding: 5px;"/>
     </div>
 
-4. Fill the flatlist component property in the page and fill the label component property in the flatlist component, make sure the label component field value match with the key of the data that being stored in the local storage.
+4. Fill the `flatlist` component property in the page and fill the `label` component property in the `flatlist` component, make sure the `label` component `field` value matches the key of the data that is being stored in the local table.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./loadData-step-4.png"
         style="width: 50%; padding: 5px;"/>
     </div>
 
-5. Select the event `press` and drag the `Dataset.loadData` function to the event flow and fill in the parameter.
+5. Select the event `press` and drag the `Dataset.loadData` function to the event flow. Fill in the parameters of the function.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./loadData-step-5.png"
@@ -84,4 +88,4 @@ The user wants to load the data from `Local Table` to be used in a flatlist comp
 
 ### Result
 
-Should be able to load the data from local storage and display it on flalist component.
+1. The data should be loaded from the local table and displayed in the flalist component.

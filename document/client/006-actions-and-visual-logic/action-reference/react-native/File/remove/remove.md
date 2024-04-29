@@ -46,7 +46,11 @@ The action performed if this function does not run successfully.
 
 ## Example
 
-The user wants to remove a file from their device (this example will only works after the user has created a file using `File.write` function).
+In this example, we will remove a file from the device.
+
+```js
+Note: This example will only work after the user has created a file using `File.write` function. 
+```
 
 ### Steps
 
@@ -64,13 +68,12 @@ The user wants to remove a file from their device (this example will only works 
         style="width: 50%; padding: 5px;"/>
     </div>
 
-3. Open the installed app on a device and try to press the Button, the selected file should be deleted.
-
-    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
-        <img src="./remove-step-3.png"
-        style="width: 100%; padding: 5px;"/>
-    </div>
-
 ### Result
 
-Should be able to remove a file from user device.
+1. Open the installed app on a device and try to press the button.
+2. The selected file should be deleted.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./remove-result-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>

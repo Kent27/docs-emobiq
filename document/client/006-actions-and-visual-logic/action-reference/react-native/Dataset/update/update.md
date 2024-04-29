@@ -67,11 +67,15 @@ The action performed if this function does not run successfully.
 
 ## Example
 
-The user wants to update `Local Table` data from their local storage, (this example will only works after the user has created the data using `Dataset.insert` function).
+In this example, we will update the local table data from the local storage.
+
+```js
+Note: This example will only work after the user has created the data using `Dataset.insert` function).
+```
 
 ### Steps
 
-1. Make sure the `Local Table` component that's being used in `Dataset.insert` function example is exist and filled on the services panel in the service page. For `fields` field value add `name`and `title` as object key with Text type.
+1. Create a `Local Table` in the services panel in the service page if there is no table created yet. For the fields, add `name`and `title` as object key with Text type.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./update-step-1.png"
@@ -85,28 +89,28 @@ The user wants to update `Local Table` data from their local storage, (this exam
         style="width: 50%; padding: 5px;"/>
     </div>
 
-3. Select the event `press` and drag the `Dataset.update` function to the event flow and fill in the parameter, for the `filter` and `data` param change it's type to a function / subflow and put `Conversion.toObject` inside it.
+3. Select the event `press` and drag the `Dataset.update` function to the event flow and fill in the parameter. For the `filter` and `data` parameters, change it's type to a function / subflow.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./update-step-3.png"
         style="width: 50%; padding: 5px;"/>
     </div>
 
-4. For the `filter` param change it's type to a function / subflow and put `Conversion.toObject` inside it then add `data` as object key, change it's type to a function / subflow and put `Conversion.toObject` inside it.
+4. For the `filter` parameter, change it's type to a function / subflow and drag `Conversion.toObject` to the subflow. Then add `data` as an object key and change it's type to a function / subflow. 
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./update-step-4.png"
         style="width: 50%; padding: 5px;"/>
     </div>
 
-5. Inside `data` subflow put `Conversion.toObject` inside it then add `field`, `operator`, `value` as object key with `name`, `like`, `n%` as it's value respectively.
+5. Drag the function `Conversion.toObject` to the new subflow. Then add `field`, `operator` and `value` as object keys with `name`, `like`, `n%` as their values respectively.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./update-step-5.png"
         style="width: 50%; padding: 5px;"/>
     </div>
 
-6. For the `data` param change it's type to a function / subflow and put `Conversion.toObject` inside it then add `title` as object key, with `new value` as it's value.
+6. For the `data` parameter, it's type to a function / subflow and drag `Conversion.toObject` to the subflow. Then add `title` as an object key, with `new value` as it's value.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./update-step-6.png"
@@ -115,4 +119,5 @@ The user wants to update `Local Table` data from their local storage, (this exam
 
 ### Result
 
-Should be able to update the data from local storage.
+1. The data should be updated with the changes passed. The result can be printed in the console using the Dataset.read and Log.write functions. 
+2. Refer to the example in [Dataset.read](/document/client/006-actions-and-visual-logic/action-reference/react-native/Dataset/read/read.md) for more information on viewing the data.

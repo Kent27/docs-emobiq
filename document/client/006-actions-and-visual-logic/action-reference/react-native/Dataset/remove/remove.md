@@ -66,11 +66,15 @@ The action performed if this function does not run successfully.
 
 ## Example
 
-The user wants to remove an item from `Local Table` data from their local storage, (this example will only works after the user has created the data using `Dataset.insert` function).
+In this example, we will remove an item from the local table data from their local storage. 
+
+```js
+Note: This example will only work after the user has created the data using `Dataset.insert` function.
+```
 
 ### Steps
 
-1. Make sure the `Local Table` component that's being used in `Dataset.insert` function example is exist and filled on the services panel in the service page. For `fields` field value add `name`and `title` as object key with Text type.
+1. Create a `Local Table` in the services panel in the service page if there is no table created yet. For the fields, add `name`and `title` as object key with Text type.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./remove-step-1.png"
@@ -84,21 +88,21 @@ The user wants to remove an item from `Local Table` data from their local storag
         style="width: 50%; padding: 5px;"/>
     </div>
 
-3. Select the event `press` and drag the `Dataset.remove` function to the event flow and fill in the parameter, for the `filter` param change it's type to a function / subflow and put `Conversion.toObject` inside it.
+3. Select the event `press` and drag the `Dataset.remove` function to the event flow and fill in the parameter. Drag a `Log.write` function below the `Dataset.remove` function and change the parameter type of the value parameter to `input`.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./remove-step-3.png"
         style="width: 50%; padding: 5px;"/>
     </div>
 
-4. For the `filter` param change it's type to a function / subflow and put `Conversion.toObject` inside it then add `data` as object key, change it's type to a function / subflow and put `Conversion.toObject` inside it.
+4. For the `filter` parameter, change it's type to a function / subflow and drag `Conversion.toObject` to the subflow. Then add `data` as an object key and change it's type to a function / subflow. and put `Conversion.toObject` inside it.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./remove-step-4.png"
         style="width: 50%; padding: 5px;"/>
     </div>
 
-5. Inside `data` subflow put `Conversion.toObject` inside it then add `field`, `operator`, `value` as object key with `name`, `like`, `name%` as it's value respectively.
+5. Drag the function `Conversion.toObject` to the new subflow. Then add `field`, `operator` and `value` as object keys with `name`, `like`, `n%` as their values respectively.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./remove-step-5.png"
@@ -107,4 +111,4 @@ The user wants to remove an item from `Local Table` data from their local storag
 
 ### Result
 
-Should be able to remove the data from local storage.
+1. The data passed should be removed from the local table.

@@ -48,7 +48,11 @@ The action performed if this function does not run successfully.
 
 ## Example
 
-The user wants to copy a file (this example will only works after the user has created a file using `File.write` function).
+In this example, we will copy a file and view the contents in the console.
+
+```js
+Note: This example will only work after the user has created a file using `File.write` function.
+```
 
 ### Steps
 
@@ -59,20 +63,19 @@ The user wants to copy a file (this example will only works after the user has c
         style="width: 50%; padding: 5px;"/>
     </div>
 
-2. Select the event `press` and drag the `File.copy` function to the event flow and fill in the parameter.
+2. Select the event `press` and drag the `File.copy` function to the event flow. Fill in the parameters of the function.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./copy-step-2.png"
         style="width: 50%; padding: 5px;"/>
     </div>
 
-3. Open the installed app on a device with a debugger on and try to press the Button, if the copied file exist user should be able to see the content on the console.
-
-    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
-        <img src="./copy-step-3.png"
-        style="width: 100%; padding: 5px;"/>
-    </div>
-
 ### Result
 
-Should be able to see the content of the newly copied file from user device.
+1. Open the installed app on a device with a debugger on and try to press the button. 
+2. If the copied file exists, user should be able to see the content on the console.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./copy-result-1.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
