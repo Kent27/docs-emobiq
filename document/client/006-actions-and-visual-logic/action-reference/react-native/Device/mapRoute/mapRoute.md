@@ -12,7 +12,7 @@ Display the route on the map from the start position to end position.
 | mode | The route mode to show. | Text | - | DRIVING, WALKING, BICYCLING, TRANSIT | - |
 | startCoordinate | The latitude and longitude of the start position. Format: latitude, longitude | Text | - | - | Yes |
 | endCoordinate | The latitude and longitude of the end position. Format: latitude, longitude | Text | - | - | Yes |
-| waypoints | The waypoints on the route. Format: ['latitude, longitude'] | Array | - | - | - |
+| waypoints | The waypoints on the route. Format: ['latitude, longitude'] | List | - | - | - |
 
 ## Output
 
@@ -20,24 +20,24 @@ N/A
 
 ## Example
 
-The user wants to set their route on Map component by using mapRoute function
-
-<!-- Share a scenario, like a user requirements. -->
+In this example, we will set a route using the mapRoute function and display it on the Map component.
 
 ### Steps
 
-| No. | Description |  |
-| ------ | ------ | ------ |
-| 1. | ![](./mapRoute-step-1.png) | Make sure Map component is exist on the page and add a button component on that page |
-| 2. | ![](./mapRoute-step-2.png) | Select the event `press` for the button and drag the function `Device.mapRoute` to the event flow. |
-| 3. | ![](./mapRoute-step-3.png) | Fill in the parameters of the function. |
+1. Drag a `button` component and a `map` component to a page in the mobile designer.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./mapRoute-step-1.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
+
+2. Select the event `press` for the button and drag the function `Device.mapRoute` to the event flow. Fill in the parameters of the function.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./mapRoute-step-2.png"
+        style="width: 50%; padding: 5px;"/>
+    </div>
 
 ### Result
 
-The Map component should show the route based from `Device.mapRoute` function
-
-<!-- Explain the output.
-
-Format: ![]({image-path}) -->
-
-## Links
+1. The map component should show the route based on the parameters passed in the `Device.mapRoute` function.
