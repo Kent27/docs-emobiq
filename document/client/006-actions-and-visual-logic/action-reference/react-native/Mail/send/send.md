@@ -52,13 +52,17 @@ In this example, we will send an email to a recipient.
 
 ### Steps
 
-1. 
+1. Drag a button component to a page in the mobile designer and open up the `Action` tab.
 
-| No. | Description |  |
-| ------ | ------ | ------ |
-| 1. | ![](./send-step-1.png) | Drag a button component to a page in the mobile designer and open up the `Action` tab. |
-| 2. | ![](./send-step-2.png) | Select the event `click` and drag the `Mail.send` function to the event flow. |
-| 3. | ![](./send-step-3.png) | Fill in the parameters of the function. |
+![](./send-step-1.png)
+
+2. Select the event `press` and drag the `Mail.send` function to the event flow.
+
+![](./send-step-2.png)
+
+3. Fill in the parameters of the function.
+
+![](./send-step-3.png)
 
 ### Result
 
