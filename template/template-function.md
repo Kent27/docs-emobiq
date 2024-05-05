@@ -2,11 +2,18 @@
 
 ## Description
 
-Explains the function. What it does and what is it used for?
+{Explains the function. What it does and what is it used for?} 
+
+### Platform Supported
+
+- Web
+- Mobile
+
+<!-- Note that the Platform Supported section is only applicable to Cordova functions. -->
 
 ## Input / Parameter
 
-Display and explain the values passed to the function in a table form.
+{Display and explain the values passed to the function in a table form.}
 
 Example below:
 
@@ -32,7 +39,7 @@ Text Format
 
 ## Output
 
-Display and explain the output of the function.
+{Display and explain the output of the function.}
 
 Example below:
 
@@ -48,15 +55,13 @@ Example below:
 
 ## Callback
 
-Display and explain the callbacks available for the function.
+{Display and explain the callbacks available for the function.}
 
 Example below:
 
 ### successCallback
 
-Explain what this callback is for?
-
-<!-- A successCallback is executed when a function runs successfully. It takes the result returned by the function as its parameter. ? -->
+Explain what this callback is for.
 
 | Description | Output Type |
 | ------ | ------ |
@@ -68,30 +73,68 @@ Explain what this callback is for?
 | ------ | ------ | ------ |
 | filePath | The base64 value. | String/Text |
 
-## Video
+## Example
+
+{Share a scenario, like a user requirements.}
+
+Example below:
+
+In this example, ...
+
+### Video
 
 <!-- Format: [![Video]({image-path})]({url-link}) -->
 
-## Example
-
-Share a scenario, like a user requirements.
-
 ### Steps
 
-Show the steps and share some screenshots.
+{Show the steps and share some screenshots if necessary.}
 
-1. .....
+Example below:
 
-<!-- Format: ![]({image-path}) -->
+1. ...
+
+<!-- Format (if no modification required): ![]({image-path}) -->
+<!-- Format (if modifications are required): 
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="{image-path}" 
+        style="width: 100%; padding: 5px;"/>
+    </div> -->
+
+2. ...
 
 ### Result
 
-Explain the output.
+{Explain the output.}
+
+Example below: 
 
 <!-- Format: ![]({image-path}) -->
 
 ## Links
 
-Additional information through links.
+### Related Information
 
-- [E-Learing]({url-link})
+{Additional information through links.}
+
+Example below: 
+
+- [E-Learning]({url-link})
+
+See also:
+
+{Related functions or components to refer to.}
+
+Example below:
+
+- Components
+    - [Button]({file-path})
+- Functions
+    - [Variable.get]({file-path})
+
+### Alternative Implementation
+
+{Alternative ways available to achieve the same results.}
+
+Example below:
+
+- [Variable.get]({file-path})
