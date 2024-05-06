@@ -1,9 +1,0 @@
-Help me create a documentation for my no-code platform data type:
-# Data Type
-
-Primitive: Text, Number, boolean, list
-Composite: Objects (key-value)
-
-- Reference using variables
-- Validation
-- Dynamic vs static
