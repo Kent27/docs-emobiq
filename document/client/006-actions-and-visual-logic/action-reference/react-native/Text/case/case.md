@@ -8,7 +8,7 @@ Convert a string of text to lowercase, uppercase or capitalize.
 
 | Name | Description | Input Type | Default | Options | Required |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| type | The type of letter casing to apply to the text. | Text | - | Lowercase | Uppercase | Capitalize | Yes |
+| type | The type of letter casing to apply to the text. | Text | - | Lowercase , Uppercase , Capitalize | Yes |
 | text | The value to be converted. | Text | - | - | Yes |
 
 ## Output
