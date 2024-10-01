@@ -30,7 +30,7 @@ The callback will return all functions under.
         <img src="./delay-step-1.png"
         style="width: 100%; padding: 5px;"/>
     </div>
-2. Call the function `Logic.equal` in the `condition` parameter of the function. Enter the parameters of the `Logic.equal` function.
+2. Call the function `Control.delay`. Enter the parameters of the `Control.delay` function.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./delay-step-2.png"
