@@ -6,15 +6,15 @@ Removes the data of all global variables in the app excluding the variables spec
 
 ## Input / Parameter
 
-| Name | Description | Input Type | Default | Options | Required |
-| ------ | ------ | ------ | ------ | ------ | ------ |
-| exact | The variable(s) that should not be cleared.  | Text/List | - | - | No |
+| Name   | Description                                  | Input Type | Default | Options | Required |
+|--------|----------------------------------------------| ------ | ------ | ------ | ------ |
+| except | The variable(s) that should not be cleared.  | Text/List | - | - | No |
 
 ## Output
 
-| Description | Output Type |
-| ------ | ------ |
-| Returns formatted information.  | String/Text |
+| Description                    | Output Type |
+|--------------------------------| ------ |
+| Returns formatted information. | String/Text |
 
 ## Example
 
