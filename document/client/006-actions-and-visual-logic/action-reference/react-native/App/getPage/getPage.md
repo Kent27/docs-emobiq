@@ -29,7 +29,8 @@ In this example, we will retrieve the name of a specific page based on the `page
         style="width: 50%; padding: 5px;"/>
     </div>
 
-2. Select the event `press` and drag the `App.getPage` function to the event flow and fill in the parameter. For the `pageType` parameter, you can set as Current or Previous page.
+2. Select the event `press` and drag the `Log.write` function to the event flow and select function as the parameter type.
+3. Drag `App.getPage` function inside the `Log.write` sub flow and fill in the parameter. For the `pageType` parameter, you can set as Current or Previous page.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./appGetPage-step-2.png"
@@ -39,3 +40,7 @@ In this example, we will retrieve the name of a specific page based on the `page
 ### Result
 
 1. The result will be the name of Current/Previous page.
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./appGetPage-result.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
