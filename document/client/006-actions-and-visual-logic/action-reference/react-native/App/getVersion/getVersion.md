@@ -25,4 +25,4 @@ This function does not require any input parameters.
 
 ### Result
 
-1. In built app: the format for android will be: version, e.g: 0.0.0, for ios will be: version_applicationBuildType, e.g: 0.0.0_release
+1. In built app: the format for android will be: version, e.g: 0.0.0, for ios will be: version-applicationBuildType, e.g: 0.0.0-release
