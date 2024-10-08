@@ -2,16 +2,16 @@
 
 ## Description
 
-Shares content via a sharing mechanism (e.g., social media, email) with specified subject, message, URL, and files.
+Shares content via a sharing mechanism (e.g., social media, email) with specified subject, message, and files.
 
 ## Input / Parameter
 
-| Name    | Description                                                          | Input Type | Default | Options | Required |
-| ------- | -------------------------------------------------------------------- | ---------- | ------- | ------- | -------- |
-| subject | The subject line of the share message.                               | Text       | -       | -       | No      |
-| message | The message content to be shared.                                    | Text       | -       | -       | No      |
-| url     | A URL to be included in the shared content.                         | Text       | -       | -       | Yes      |
-| files   | A list of files to be shared along with the message.                | List       | -       | -       | Yes       |
+| Name    | Description                                                           | Input Type | Default | Options | Required |
+| ------- | --------------------------------------------------------------------- | ---------- | ------- | ------- | -------- |
+| subject | The subject line of the share message.                                | Text       | -       | -       | No       |
+| message | The message content to be shared.                                     | Text       | -       | -       | No       |
+| url     | File to be included in the shared content. (FilePath, Base64, or Link)| Text       | -       | -       | Yes      |
+| files   | File name to show based on url index.                                 | Text       | -       | -       | Yes      |
 
 ## Output
 
@@ -39,7 +39,9 @@ The action performed if this function does not run successfully.
 
 ## Example
 
-In this example, we will share a message with a subject and a URL when a button is pressed.
+In this example, we will share an image in base64 format and set the name as background_box.jpg and the url data will be:
+
+`data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAIAAADTED8xAAADMElEQVR4nOzVwQnAIBQFQYXff81RUkQCOyDj1YOPnbXWPmeTRef+/3O/OyBjzh3CD95BfqICMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMO0TAAD//2Anhf4QtqobAAAAAElFTkSuQmCC`
 
 ### Steps
 
@@ -51,17 +53,42 @@ In this example, we will share a message with a subject and a URL when a button 
     </div>
 
 2. Select the event `press` for the button and drag the `App.share` function to the event flow. Fill in the parameters: subject, message, url and files.
-
+   
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./share-step-2.png"
         style="width: 100%; padding: 5px;"/>
     </div>
 
-     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+3. For the url param, we need to change the param type to function and use `Conversion.toList` to convert data to array.
+   
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./share-step-3.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
+
+4. For the files param, we need to change the param type to function and use `Conversion.toList` to convert data to array.
+   
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./share-step-4.png"
         style="width: 100%; padding: 5px;"/>
     </div>
 
 ### Result
 
-1. Upon pressing the button, the specified subject, message, URL, and Files will be shared through the appropriate sharing mechanism.
+1. Upon pressing the button, it will shows sharing mechanism based on data that you shared. For this example we share an image based on base64 format.
+   
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./share-result.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./share-result-2.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
+
+
+2. For the url, it could be in these formats (cannot be the combination of URL link and image):
+   - File path in local storage (folder/filename or filename)
+   - Base64 format (data:image/png,base64,base64string)
+   - URL link (https/http)
