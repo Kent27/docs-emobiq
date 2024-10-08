@@ -6,11 +6,11 @@ Inserts a delay before executing another function.
 
 ## Input / Parameter
 
-| Name | Description | Input Type | Default | Options | Required |
-| ------ | ------ | ------ | ------ | ------ | ------ |
-| duration | The time before a function is executed. (In milliseconds)  | Number | - | - | Yes |
-| persistent | To still execute outside of the current page or not.  | Boolean | False | - | No |
-| extra | The stored value that is passed to all the callbacks. | Any | - | - | No |
+| Name       | Description                                                  | Input Type | Default | Options | Required |
+| ---------- | ------------------------------------------------------------ | ---------- | ------- | ------- | -------- |
+| duration   | The time before a function is executed. (In milliseconds)    | Number     | -       | -       | Yes      |
+| persistent | To still execute outside of the current page or not.         | Boolean    | False   | -       | No       |
+| extra      | The stored value that is passed to all the callbacks.        | Any        | -       | -       | No       |
 
 ## Output
 
@@ -21,6 +21,10 @@ Will return true if executed.
 ### yesCallback
 
 The callback will return all functions under.
+
+## Example
+
+In this example, We will put delay function to do `Log.write` message after 5 seconds.
 
 ### Steps
 
@@ -37,5 +41,18 @@ The callback will return all functions under.
         style="width: 100%; padding: 5px;"/>
     </div>
 
+3. Put `Log.write` below the `Control.delay`. Then put the value as "Delaying!".
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./delay-step-3.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
+
 ### Result
-1. The function will return true if delay executed.
+
+1. The function will execute after 5 seconds. In this case to return "Delaying!".
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./delay-result.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
