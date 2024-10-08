@@ -55,6 +55,18 @@ In this example, we will convert binary data into a Base64 string when a button 
         style="width: 100%; padding: 5px;"/>
     </div>
 
+3. Put `Log.write` function below the `Conversion.binaryToBase64`, to get the result.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./binaryToBase64-step-3.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
+
 ### Result
 
 1. Upon pressing the button, the binary data will be converted to a Base64 encoded string.
+
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./binaryToBase64-result.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
