@@ -6,15 +6,19 @@ Triggers a flow of actions.
 
 ## Input / Parameter
 
-| Name | Description | Input Type | Default | Options | Required |
-| ------ | ------ | ------ | ------ | ------ | ------ |
-| extra | The stored value that is passed to all the callbacks. | Any | - | - | No |
+| Name   | Description                                           | Input Type | Default | Options | Required |
+| ------ | ----------------------------------------------------- | ---------- | ------- | ------- | -------- |
+| extra  | The stored value that is passed to all the callbacks. | Any        | -       | -       | No       |
 
 ## Callback
 
 ### yesCallback
 
 The action performed if the condition is true.
+
+## Example
+
+In this example, we will put callback inside `Log.write` function.
 
 ### Steps
 
@@ -40,3 +44,8 @@ The action performed if the condition is true.
 ### Result
 
 1. The function will call yes callback(s) that specified under the `Control.callback` function.
+    
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./callback-result.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
