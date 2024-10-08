@@ -6,15 +6,19 @@ Counts the total number of characters in the text.
 
 ## Input / Parameter
 
-| Name | Description | Input Type | Default | Options | Required |
-| ------ | ------ | ------ | ------ | ------ | ------ |
-| text | The text to be counted. | Text | - | - | Yes |
+| Name   | Description             | Input Type | Default | Options | Required |
+| ------ | ----------------------- | ---------- | ------- | ------- | -------- |
+| text   | The text to be counted. | Text       | -       | -       | Yes      | 
 
 ## Output
 
-| Description | Output Type |
-| ------ | ------ |
-| Returns the total length.  | Number |
+| Description                | Output Type  |
+| -------------------------- | ------------ |
+| Returns the total length.  | Number       |
+
+## Example
+
+In this example, we will count the total of a string.
 
 ### Steps
 
@@ -39,4 +43,10 @@ Counts the total number of characters in the text.
     </div>
 
 ### Result
+
 1. The console will return the total length of text.
+   
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./length-result.png"
+        style="width: 100%; padding: 5px;"/>
+    </div>
