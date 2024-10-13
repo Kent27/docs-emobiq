@@ -10,11 +10,11 @@ Executes a function continuously with the specified interval between each execut
 | ---------- | ------------------------------------------------------- | ---------- | ------- | ------- | -------- |
 | delay      | The duration between each run. (In milliseconds)        | Number     | 0       | -       | Yes      |
 | timeout    | The duration the output appears for. (In milliseconds)  | Number     | 0       | -       | Yes      |
-| persistent | Interval is repeated outside current page or not.       | Boolean    | false   | -       | No       |
+| persistent | Interval is repeated outside current page or not.       | Boolean    | false   | false, true | No       |
 
 ## Output
 
-The function will return true if it ran successfully.
+The function will return interval id if it ran successfully.
 
 ## Callback
 
