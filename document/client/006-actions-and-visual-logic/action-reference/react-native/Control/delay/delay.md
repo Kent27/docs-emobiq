@@ -9,18 +9,18 @@ Inserts a delay before executing another function.
 | Name       | Description                                                  | Input Type | Default | Options | Required |
 | ---------- | ------------------------------------------------------------ | ---------- | ------- | ------- | -------- |
 | duration   | The time before a function is executed. (In milliseconds)    | Number     | -       | -       | Yes      |
-| persistent | To still execute outside of the current page or not.         | Boolean    | False   | -       | No       |
+| persistent | To still execute outside of the current page or not.         | Boolean    | False   | False, True | No       |
 | extra      | The stored value that is passed to all the callbacks.        | Any        | -       | -       | No       |
 
 ## Output
 
-Will return true if executed.
+Returns formatted information. 
 
 ## Callback
 
 ### yesCallback
 
-The callback will return all functions under.
+The callback will execute the function and returning boolean in input
 
 ## Example
 
