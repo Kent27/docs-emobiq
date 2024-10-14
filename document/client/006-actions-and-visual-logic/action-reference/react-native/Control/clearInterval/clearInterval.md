@@ -9,11 +9,17 @@ Clears existing interval(s).
 | Name       | Description                                                                    | Input Type | Default | Options | Required |
 | ---------- | ------------------------------------------------------------------------------ | ---------- | ------- | ------- | -------- | 
 | intervalId | The id of the interval to clear.                                               | Boolean    | -       | -       | Yes      |
-| all        | To clear all intervals or not (only for interval with persistent equals false) | Boolean    | false   | -       | No       |
+| all        | To clear all intervals or not (only for interval with persistent equals false) | Boolean    | false   | false, true | No       |
+
+## Output
+
+Returns formatted information. 
 
 ## Example
 
 In this example, we will clearInterval by interval id.
+
+__\* Note:__ Must have working `Control.interval` function with it's interval id in order for this function to work.
 
 ### Steps
 
