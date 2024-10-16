@@ -20,7 +20,9 @@ Note: The page will be updated to show the page selected by the user.
 
 ## Example
 
-In this example, we will navigate to the main page by clicking a button on the current page.
+In this example, we will navigate to the `main` page by clicking a button on the current page.
+
+Note: This example will only works if the user has 2 or more page and one of them should have `main` as it's page name
 
 ### Steps
 
@@ -28,7 +30,7 @@ In this example, we will navigate to the main page by clicking a button on the c
 2. Choose the page to navigate to from the dropdown in the `page` parameter.
     
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
-        <img src="./gotoPage-step-1.png"
+        <img src="./goToPage-step-1.png"
         style="width: 100%; padding: 5px;"/>
     </div>
 
