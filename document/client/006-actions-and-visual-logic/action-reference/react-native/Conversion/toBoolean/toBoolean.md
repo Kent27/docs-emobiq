@@ -27,7 +27,7 @@ In this example, we will convert a string to boolean and print the result in the
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./toBoolean-step-1.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 80%; padding: 5px;"/>
     </div>
 
 ### Result
