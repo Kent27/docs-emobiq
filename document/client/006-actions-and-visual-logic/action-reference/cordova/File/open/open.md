@@ -47,14 +47,14 @@ Note: This example will only work if the user has a file on their device with th
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./open-step-1.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 50%; padding: 5px;"/>
     </div>
 
 2. Inside the `fileChooser` function `yes` callback add the `open` function and fill in the parameter with `input` as the param type for `file`.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./open-step-2.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 50%; padding: 5px;"/>
     </div>
 
 ### Result
@@ -63,21 +63,21 @@ Note: This example will only work if the user has a file on their device with th
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./open-result-1.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 50%; padding: 5px;"/>
     </div>
 
 2. If the file and the suitable apps for opening that file exists, user should be able to see the popup where they can choose which app that they want to use for opening the file. Note: If there's only one app in the user device that's suitable for opening the file or the user had chosen a default app for opening that file type, it will automatically open that app without showing the app chooser popup.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./open-result-2.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 50%; padding: 5px;"/>
     </div>
 
 3. Check the file content using previously selected suitable app.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./open-result-3.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 50%; padding: 5px;"/>
     </div>
 
 ## Links
