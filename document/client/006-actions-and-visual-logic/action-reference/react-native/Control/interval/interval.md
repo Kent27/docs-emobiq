@@ -30,21 +30,21 @@ In this example, we will pass a condition to check whether two values are equal 
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./interval-step-1.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 70%; padding: 5px;"/>
     </div>
 
 2. Call the function `Control.interval`. Enter the parameters of the `Control.interval` function.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./interval-step-2.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 70%; padding: 5px;"/>
     </div>
 
 3. Put a `Log.write` function below `Control.interval` as the callback.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./interval-step-3.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 70%; padding: 5px;"/>
     </div>
 
 ### Result
