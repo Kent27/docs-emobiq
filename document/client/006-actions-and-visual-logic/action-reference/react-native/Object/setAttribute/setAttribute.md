@@ -13,7 +13,7 @@ Sets an object’s attribute.
 ## Output
 | Description                                          | Output Type |
 | ---------------------------------------------------- | ----------- |
-| Returns the updated object with new attribute.       | Object      |
+| Returns true or false.  | Boolean   |
 
 ## Example
 In this example, we will add new attribute to an object.
