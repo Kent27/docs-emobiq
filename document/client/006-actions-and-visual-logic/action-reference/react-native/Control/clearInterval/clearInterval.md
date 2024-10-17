@@ -27,21 +27,21 @@ __\* Note:__ Must have working `Control.interval` function with it's interval id
    
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./clearInterval-step-1.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 60%; padding: 5px;"/>
     </div>
 
 2. Put a `Log.write` function inside the event flow and change the param type to function.
    
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./clearInterval-step-2.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 60%; padding: 5px;"/>
     </div>
 
 3. Put function `Control.clearInterval` inside `Log.write` function. Enter the parameters of the `Control.clearInterval` function.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./clearInterval-step-3.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 60%; padding: 5px;"/>
     </div>
 
 ### Result
