@@ -10,11 +10,17 @@ Triggers a flow of actions.
 | ------ | ----------------------------------------------------- | ---------- | ------- | ------- | -------- |
 | extra  | The stored value that is passed to all the callbacks. | Any        | -       | -       | No       |
 
+## Output
+
+| Description | Output Type |
+| ------ | ------ |
+| Returns the formatted information. | Object |
+
 ## Callback
 
 ### yesCallback
 
-The action performed if the condition is true.
+The functions to be executed.
 
 ## Example
 
