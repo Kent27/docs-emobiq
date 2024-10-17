@@ -34,21 +34,21 @@ In this example, we will format a text "Hello world!" to be showed with formatti
    
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./formatText-step-1.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 50%; padding: 5px;"/>
     </div>
 
 2. Drag the `Log.write` function to the event flow and change the param type to function.
    
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./formatText-step-2.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 50%; padding: 5px;"/>
     </div>
 
 3. Put `Format.text` function inside the `value` parameter of the `Log.write` function. Fill in the parameters of the `Format.text` function.
    
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./formatText-step-3.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 50%; padding: 5px;"/>
     </div>
 
 ### Result
