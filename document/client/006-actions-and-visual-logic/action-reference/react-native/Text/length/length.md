@@ -18,7 +18,7 @@ Counts the total number of characters in the text.
 
 ## Example
 
-In this example, we will count the total of a string.
+In this example, we will count the total length of a string.
 
 ### Steps
 
