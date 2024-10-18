@@ -8,7 +8,7 @@ Converts text into a Base64 encoded string.
 
 | Name  | Description                                              | Input Type | Default | Options | Required |
 | ----- | -------------------------------------------------------  | ---------- | ------- | ------- | -------- |
-| value | The text to be converted to Base64.                      | Text/List  | -       | -       | Yes      |
+| value | The text to be converted to Base64.                      | Text  | -       | -       | Yes      |
 
 ## Output
 
