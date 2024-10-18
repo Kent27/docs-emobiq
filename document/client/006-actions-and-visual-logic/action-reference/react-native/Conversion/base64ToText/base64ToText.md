@@ -2,19 +2,19 @@
 
 ## Description
 
-Converts Base64 encoded text strings back into their original text format.
+Decode an encoded base64 string.
 
 ## Input / Parameter
 
 | Name  | Description                                             | Input Type | Default | Options | Required |
 | ----- | ------------------------------------------------------- | ---------- | ------- | ------- | -------- |
-| value | The Base64 encoded text strings to be converted.        | Text/List  | -       | -       | Yes      |
+| value | The text to be decoded.       | Text  | -       | -       | Yes      |
 
 ## Output
 
 | Description                                   | Output Type |
 | --------------------------------------------- | ----------- |
-| Returns the original text format.             | Object      |
+| Returns the decoded text.        | Object      |
 
 ## Example
 
