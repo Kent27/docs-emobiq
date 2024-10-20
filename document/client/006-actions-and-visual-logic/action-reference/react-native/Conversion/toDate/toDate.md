@@ -27,21 +27,21 @@ In this example, we will convert a string into date using `Asia/Tokyo` as the ti
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./toDate-step-1.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 70%; padding: 5px;"/>
     </div>
 
 2. Add `Log.write` function and add a subflow on it's value.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./toDate-step-2.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 70%; padding: 5px;"/>
     </div>
 
 3. Then put `Conversion.toDate` inside it and fill the value as "2024-10-10T12:30:00" and the timezone as "Asia/Tokyo".
    
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./toDate-step-3.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 70%; padding: 5px;"/>
     </div>
 
 ### Result
