@@ -64,7 +64,7 @@ In this example, we will create an image file by using `File.saveToGallery` func
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./saveToGallery-result-1.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 50%; padding: 5px;"/>
     </div>
 
 2. If the file exists, user should be able to see the file uri on the console.
