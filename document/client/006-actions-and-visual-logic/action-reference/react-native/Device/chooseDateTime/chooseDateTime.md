@@ -13,11 +13,6 @@ Customize a datetime picker with different formats.
 | minimumDate  | The minimum date.       | Text       | -       | -       | No       |
 | maximumDate  | The maximum date.       | Text       | -       | -       | No       |
 
-Mode:
-1. Date (Support on IOS & Android)
-2. Time (Support on IOS & Android)
-3. DateTime (Support on IOS)
-
 ## Output
 
 | Description                        | Output Type |
@@ -74,5 +69,11 @@ In this example, we will create an example button and when user click, we will s
     IOS:
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./chooseDateTime-result-ios.png"
+        style="width: 80%; padding: 5px;"/>
+    </div>
+
+    Platform Preview (The design will be different on native app but the functions will remain the same):
+    <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
+        <img src="./chooseDateTime-result-web.png"
         style="width: 80%; padding: 5px;"/>
     </div>
