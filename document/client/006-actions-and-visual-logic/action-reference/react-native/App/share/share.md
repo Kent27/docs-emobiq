@@ -10,8 +10,8 @@ Shares content via a sharing mechanism (e.g., social media, email) with specifie
 | ------- | --------------------------------------------------------------------- | ---------- | ------- | ------- | -------- |
 | subject | The subject line of the share message.                                | Text       | -       | -       | No       |
 | message | The message content to be shared.                                     | Text       | -       | -       | No       |
-| url     | File to be included in the shared content. (FilePath, Base64, or Link)| Text       | -       | -       | Yes      |
-| files   | File name to show based on url index.                                 | Text       | -       | -       | Yes      |
+| url     | The url to be shared. (Web Link, Http/Https)                          | Text/List  | -       | -       | Yes      |
+| files   | The files to be shared. (FilePath, Base64)                            | Text/List  | -       | -       | Yes      |
 
 ## Output
 
@@ -86,9 +86,3 @@ In this example, we will share an image in base64 format and set the name as bac
         <img src="./share-result-2.png"
         style="width: 100%; padding: 5px;"/>
     </div>
-
-
-2. For the url, it could be in these formats (cannot be the combination of URL link and image):
-   - File path in local storage (folder/filename or filename)
-   - Base64 format (data:image/png,base64,base64string)
-   - URL link (https/http)
