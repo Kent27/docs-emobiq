@@ -22,28 +22,28 @@ In this example, we will get a value using an attribute of object.
    
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./getAttribute-step-1.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 70%; padding: 5px;"/>
     </div>
 
 2. Drag the `Log.write` function to the event flow and change the param type to function.
    
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./getAttribute-step-2.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 70%; padding: 5px;"/>
     </div>
 
 3. Put `Object.getAttribute` function inside the `value` parameter of the `Log.write` function. Fill in the parameters of the `Object.getAttribute` function.
    
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./getAttribute-step-3.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 70%; padding: 5px;"/>
     </div>
 
 4. For the object param, we will create a new object using `Conversion.toObject` function.
    
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./getAttribute-step-4.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 70%; padding: 5px;"/>
     </div>
 
 ### Result
