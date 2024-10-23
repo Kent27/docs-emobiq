@@ -40,7 +40,7 @@ In this example, we will convert a base64 to string and print the result in the 
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./base64ToText-step-3.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 70%; padding: 5px;"/>
     </div>
 
 ### Result
