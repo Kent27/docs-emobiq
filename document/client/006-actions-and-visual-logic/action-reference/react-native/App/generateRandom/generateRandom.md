@@ -25,21 +25,21 @@ Generates random number, alphabetical or alphanumeric string. 
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./generateRandom-step-1.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 70%; padding: 5px;"/>
     </div>
 
 2. Drag the `Log.write` function to the event flow and select function as the parameter type. Drag `App.generateRandom` function inside the `Log.write` sub flow. On param `type` add value `“Alphabetical”` and on param `characterLength` add value `10`.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./generateRandom-step-2.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 70%; padding: 5px;"/>
     </div>
 
 2. Drag the `Log.write` function to the event flow and select function as the parameter type. Drag `App.generateRandom` function inside the `Log.write` sub flow. On param `type` add value `Alphanumeric` and on param `characterLength` add value `10`.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./generateRandom-step-3.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 70%; padding: 5px;"/>
     </div>
 
 ### Result
@@ -48,5 +48,5 @@ Generates random number, alphabetical or alphanumeric string. 
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./generateRandom-result-1.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 70%; padding: 5px;"/>
     </div>
