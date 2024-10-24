@@ -1,4 +1,4 @@
-# Device.barcodeScanner
+# Device.barcodeCameraScanner
 
 ## Description
 
@@ -37,19 +37,19 @@ In this example, we will scan a barcode and display the value in a dialog.
 1. Drag a button to a page in the mobile designer. Select the event click and drag the barcodeScanner function to the event flow.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
-        <img src="./barcodeScanner-step-1.png"
+        <img src="./barcodeCameraScanner-step-1.png"
         style="width: 70%; padding: 5px;"/>
     </div>
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
-        <img src="./barcodeScanner-step-2.png"
+        <img src="./barcodeCameraScanner-step-2.png"
         style="width: 70%; padding: 5px;"/>
     </div>
 
 2. Drag the function to be executed when the barcode scanner is activated successfully and when it failed. In this example, we are using the Log.write function. Fill in the parameters of the function.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
-        <img src="./barcodeScanner-step-3.png"
+        <img src="./barcodeCameraScanner-step-3.png"
         style="width: 70%; padding: 5px;"/>
     </div>
 
