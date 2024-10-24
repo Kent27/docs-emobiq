@@ -69,7 +69,7 @@ In this example, we will insert data from a JSON object into a table in the loca
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./insert-from-json-step-3.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 70%; padding: 5px;"/>
     </div>
 
 4. Toggle the `append` flag based on whether you want to append the new data to the existing dataset or replace everything with the new data.
