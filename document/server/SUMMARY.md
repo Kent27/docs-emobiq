@@ -122,6 +122,7 @@
   * [Validation](005-function/Validation/README.md)
     * [Validation.isEmail](005-function/Validation/Validation.isEmail.md)
     * [Validation.isList](005-function/Validation/Validation.isList.md)
+    * [Validation.isNull](005-function/Validation/Validation.isNull.md)
     * [Validation.isNumber](005-function/Validation/Validation.isNumber.md)
   * [Variable](005-function/Variable/README.md)
     * [Variable.get](005-function/Variable/Variable.get.md)

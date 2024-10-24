@@ -44,7 +44,7 @@ In this example, we will pass a condition to check whether two values are equal 
     ```
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./conditional-step-1.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 80%; padding: 5px;"/>
     </div>
 
 3. Call the function `Log.write` in both `yesCallback` and `noCallback` parameters of the `Control.conditional` function. Change the parameter type of the `value` parameter to `input`. 
