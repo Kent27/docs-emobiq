@@ -528,6 +528,8 @@
       * [Object](006-actions-and-visual-logic/action-reference/react-native/Object/README.md)
         * [insert](006-actions-and-visual-logic/action-reference/react-native/Object/insert/insert.md)
         * [remove](006-actions-and-visual-logic/action-reference/react-native/Object/remove/remove.md)
+        * [getAttribute](006-actions-and-visual-logic/action-reference/react-native/Object/getAttribute/getAttribute.md)
+        * [setAttribute](006-actions-and-visual-logic/action-reference/react-native/Object/setAttribute/setAttribute.md)
       * [Signature](006-actions-and-visual-logic/action-reference/react-native/Signature/README.md)
         * [clear](006-actions-and-visual-logic/action-reference/react-native/Signature/clear/clear.md)
       * [Text](006-actions-and-visual-logic/action-reference/react-native/Text/README.md)
