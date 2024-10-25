@@ -56,21 +56,21 @@ In this example, we will share an image in base64 format and set the name as bac
    
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./share-step-2.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 70%; padding: 5px;"/>
     </div>
 
 3. For the url param, we need to change the param type to function and use `Conversion.toList` to convert data to array.
    
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./share-step-3.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 70%; padding: 5px;"/>
     </div>
 
 4. For the files param, we need to change the param type to function and use `Conversion.toList` to convert data to array.
    
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./share-step-4.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 70%; padding: 5px;"/>
     </div>
 
 ### Result
@@ -79,10 +79,10 @@ In this example, we will share an image in base64 format and set the name as bac
    
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./share-result.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 70%; padding: 5px;"/>
     </div>
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./share-result-2.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 70%; padding: 5px;"/>
     </div>
