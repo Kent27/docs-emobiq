@@ -68,7 +68,7 @@ In this example, we will insert rows of data into a table in the local storage.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./insert-step-3.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 80%; padding: 5px;"/>
     </div>
 
 ### Result
