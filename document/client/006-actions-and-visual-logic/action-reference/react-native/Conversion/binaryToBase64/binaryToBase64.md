@@ -52,21 +52,21 @@ In this example, we will convert binary data from a file into Base64 string when
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./binaryToBase64-step-2.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 60%; padding: 5px;"/>
     </div>
 
 3. On the success callback, drag the `Conversion.binaryToBase64` and Fill in value as input result from `File.read` function.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./binaryToBase64-step-3.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 60%; padding: 5px;"/>
     </div>
 
 4. Put `Log.write` function below the success callback of `Conversion.binaryToBase64`, to get the result.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./binaryToBase64-step-4.png"
-        style="width: 100%; padding: 5px;"/>
+        style="width: 60%; padding: 5px;"/>
     </div>
 
 ### Result
