@@ -56,14 +56,14 @@ In this example, we will download a sample pdf from an url and put inside extern
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./download-step-2.png"
-        style="width: 30%; padding: 5px;"/>
+        style="width: 60%; padding: 5px;"/>
     </div>
 
 3. On the success callback, drag the `Log.write` and Fill in value as input result from `File.download` function.
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./download-step-3.png"
-        style="width: 30%; padding: 5px;"/>
+        style="width: 60%; padding: 5px;"/>
     </div>
 
 ### Result
@@ -72,10 +72,10 @@ In this example, we will download a sample pdf from an url and put inside extern
 
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./download-result-1.png"
-        style="width: 60%; padding: 5px;"/>
+        style="width: 80%; padding: 5px;"/>
     </div>
     <br/>
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./download-result-2.png"
-        style="width: 30%; padding: 5px;"/>
+        style="width: 60%; padding: 5px;"/>
     </div>
