@@ -51,21 +51,21 @@ In this example, we will export a sample PDF from a HTML and share the PDF file 
     
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./export-step-1.png"
-        style="width: 40%; padding: 5px;"/>
+        style="width: 70%%; padding: 5px;"/>
     </div>
 
 2. Select the event `press` for the button and drag the `File.export` function to the event flow. Fill in the parameters.
     
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./export-step-2.png"
-        style="width: 30%; padding: 5px;"/>
+        style="width: 70%; padding: 5px;"/>
     </div>
 
 3. On the success callback, drag the `Log.write` and Fill in value as input result from `File.export` function.
     
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./export-step-3.png"
-        style="width: 30%; padding: 5px;"/>
+        style="width: 70%; padding: 5px;"/>
     </div>
 
 ### Result
@@ -74,10 +74,10 @@ In this example, we will export a sample PDF from a HTML and share the PDF file 
    
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./export-result-1.png"
-        style="width: 35%; padding: 5px;"/>
+        style="width: 75%; padding: 5px;"/>
     </div>
     <br/>
     <div style="display:flex; align-items:center; justify-content:center; background-color: #E7F1FF;">
         <img src="./export-result-2.png"
-        style="width: 30%; padding: 5px;"/>
+        style="width: 70%; padding: 5px;"/>
     </div>
