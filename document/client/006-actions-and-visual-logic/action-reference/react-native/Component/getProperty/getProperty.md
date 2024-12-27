@@ -6,15 +6,16 @@ Returns the attribute of a component, such as its name, dimensions etc.
 
 ## Input / Parameter
 
-| Name | Description | Input Type | Default | Options | Required |
-| ------ | ------ | ------ | ------ | ------ | ------ |
-| component | The name of the component to get property from. | String/Text | - | - | Yes |
-| property | The attribute of the component. | String/Text | - | - | Yes |
+| Name        | Description                                                             | Input Type  | Default | Options | Required                       |
+|-------------|-------------------------------------------------------------------------|-------------|---------|---------|--------------------------------|
+| component   | The name of the component to get property from.                         | String/Text | -       | -       | Yes, if componentId is not set |
+| componentId | The component ID to get property from (for components in FlatList item) | String/Text | -       | -       | Yes, if component is not set   |
+| property    | The attribute of the component.                                         | String/Text | -       | -       | Yes                            |
 
 ## Output
 
-| Description | Output Type |
-| ------ | ------ |
+| Description                            | Output Type |
+|----------------------------------------|-------------|
 | Returns the property of the component. | String/Text |
 
 ## Example
