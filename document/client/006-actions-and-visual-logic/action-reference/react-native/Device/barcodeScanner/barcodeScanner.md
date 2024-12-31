@@ -6,10 +6,10 @@ Call the barcode scanner by device type and action.
 
 ## Input / Parameter
 
-| Name   | Description                                   | Input Type | Default | Options                                  | Required |
-| ------ | --------------------------------------------- | ---------- | ------- | ---------------------------------------- | -------- |
-| device | The barcode scanner device type.              | Text       | -       | zebra                                    | Yes      |
-| action | The action to be done on the barcode scanner. | Text       | -       | trigger, enable, disable, event_listener | Yes      |
+| Name   | Description                                   | Input Type | Default | Options                                                  | Required |
+|--------|-----------------------------------------------|------------|---------|----------------------------------------------------------|----------|
+| device | The barcode scanner device type.              | Text       | -       | zebra                                                    | Yes      |
+| action | The action to be done on the barcode scanner. | Text       | -       | trigger, enable, disable, event_listener, clear_listener | Yes      |
 
 ## Output
 
