@@ -195,6 +195,7 @@
         * [barcodeScanDisable](006-actions-and-visual-logic/action-reference/cordova/Device/barcodeScanDisable/barcodeScanDisable.md)
         * [barcodeScanEnable](006-actions-and-visual-logic/action-reference/cordova/Device/barcodeScanEnable/barcodeScanEnable.md)
         * [barcodeScanEvent](006-actions-and-visual-logic/action-reference/cordova/Device/barcodeScanEvent/barcodeScanEvent.md)
+        * [unregisterBarcodeScanEvent](006-actions-and-visual-logic/action-reference/cordova/Device/unregisterBarcodeScanEvent/unregisterBarcodeScanEvent.md)
         * [barcodeScanTrigger](006-actions-and-visual-logic/action-reference/cordova/Device/barcodeScanTrigger/barcodeScanTrigger.md)
         * [barcodeScanner](006-actions-and-visual-logic/action-reference/cordova/Device/barcodeScanner/barcodeScanner.md)
         * [captureAudio](006-actions-and-visual-logic/action-reference/cordova/Device/captureAudio/captureAudio.md)
