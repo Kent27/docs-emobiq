@@ -6,10 +6,11 @@ Allows users to set a value to a component.
 
 ## Input / Parameter
 
-| Name | Description | Input Type | Default | Options | Required |
-| ------ | ------ | ------ | ------ | ------ | ------ |
-| component | The name of the component. | String/Text | - | - | Yes |
-| value | The value to be set for the component. | String/Text | - | - | Yes |
+| Name        | Description                                        | Input Type  | Default | Options | Required                       |
+|-------------|----------------------------------------------------|-------------|---------|---------|--------------------------------|
+| component   | The name of the component.                         | String/Text | -       | -       | Yes, if componentId is not set |
+| componentId | The component ID (for components in FlatList item) | String/Text | -       | -       | Yes, if component is not set   |
+| value       | The value to be set for the component.             | String/Text | -       | -       | Yes                            |
 
 ## Output
 
