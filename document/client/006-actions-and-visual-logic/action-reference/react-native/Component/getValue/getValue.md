@@ -6,14 +6,16 @@ Returns the value of the component specified by the user. The component value ca
 
 ## Input / Parameter
 
-| Name | Description | Input Type | Default | Options | Required |
-| ------ | ------ | ------ | ------ | ------ | ------ |
-| component | The name of the component that the value is retrieved from. | String/Text | - | - | Yes |
+| Name        | Description                                                          | Input Type  | Default | Options | Required                       |
+|-------------|----------------------------------------------------------------------|-------------|---------|---------|--------------------------------|
+| component   | The name of the component that the value is retrieved from.          | String/Text | -       | -       | Yes, if componentId is not set |
+| componentId | The component ID to get value from (for components in FlatList item) | String/Text | -       | -       | Yes, if component is not set   |
+
 
 ## Output
 
-| Description | Output Type |
-| ------ | ------ |
+| Description                                   | Output Type |
+|-----------------------------------------------|-------------|
 | Returns the value of the component specified. | String/Text |
 
 
