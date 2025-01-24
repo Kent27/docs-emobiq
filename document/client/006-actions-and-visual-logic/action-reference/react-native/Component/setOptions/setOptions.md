@@ -6,28 +6,29 @@ Allows users to set a value to a component.
 
 ## Input / Parameter
 
-| Name | Description | Input Type | Default | Options | Required |
-| ------ | ------ | ------ | ------ | ------ | ------ |
-| component | The name of the component. | String/Text | - | - | Yes |
-| data | The id of the component. | Array/List | - | - | Yes |
-| valueField | The name of the attribute from the list of options (from data parameter) to be as the value of the dropdown options. | String/Text | - | - | Yes |
-| displayField | The name of the attribute from the list of options (from data parameter) to be as the display of the dropdown options.  | String/Text | - | - | Yes |
+| Name         | Description                                                                                                            | Input Type  | Default | Options | Required                       |
+|--------------|------------------------------------------------------------------------------------------------------------------------|-------------|---------|---------|--------------------------------|
+| component    | The name of the component.                                                                                             | String/Text | -       | -       | Yes, if componentId is not set |
+| componentId  | The component ID (for components in FlatList item)                                                                     | String/Text | -       | -       | Yes, if component is not set   |
+| data         | The id of the component.                                                                                               | Array/List  | -       | -       | Yes                            |
+| valueField   | The name of the attribute from the list of options (from data parameter) to be as the value of the dropdown options.   | String/Text | -       | -       | Yes                            |
+| displayField | The name of the attribute from the list of options (from data parameter) to be as the display of the dropdown options. | String/Text | -       | -       | Yes                            |
 
 ## Output
 
-| Description | Output Type |
-| ------ | ------ |
-| Returns the formatted information. | Object |
+| Description                        | Output Type |
+|------------------------------------|-------------|
+| Returns the formatted information. | Object      |
 
 Note: The component will be updated to show the value that has been set to it.
 
 ### Object
 
-| Key | Description | Output Type |
-| ------ | ------ | ------ |
-| success | Boolean value to denote whether the function was executed successfully. | Text |
-| message | The message to print. | Text |
-| data | Any additional message or data to print. | Text |
+| Key     | Description                                                             | Output Type |
+|---------|-------------------------------------------------------------------------|-------------|
+| success | Boolean value to denote whether the function was executed successfully. | Text        |
+| message | The message to print.                                                   | Text        |
+| data    | Any additional message or data to print.                                | Text        |
 
 ## Example
 
