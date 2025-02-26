@@ -1,0 +1,50 @@
+
+# How Pricing Works in eMOBIQ AI
+
+## Introduction
+
+Setting a budget is a crucial step in managing your project effectively. Below, we provide a clear breakdown of how pricing works, so you can make informed decisions.
+
+## Understanding the Pricing Model
+
+Our pricing structure is designed to be transparent and flexible. The cost of your project is primarily determined by two key factors:
+
+- **Application Size (Number of Pages)**: The complexity and scope of your application impact the number of pages required. If a specific page count isn’t provided in the prompt, it will be automatically determined by AI.
+- **AI Engine (Number of Revisions)**: You can select from four AI engines, each offering a different number of revisions, which determines the refinements applied.
+
+Remember, not all allocated budget here will be used in one go. It adjusts based on your application size and AI Engine you choose, ensuring efficient resource management.
+
+## Defining Your Application Size
+
+Before submission, you can specify the estimated size of your application in the prompt:
+
+- **Small**: 3-5 pages
+- **Medium**: 8-10 pages
+- **Large**: 12-15 pages
+
+The final size may vary depending on the number of features and complexity outlined in your prompt.
+
+## Choosing AI Engine
+
+We provide four flexible AI engines, each offering a different number of revisions to suit your needs:
+
+- **Swiftly**: Up to **2** revisions for a streamlined process.
+- **Balanced**: Up to **4** revisions for a well-rounded development approach.
+- **Quality**: Up to **6** revisions for in-depth refinements.
+- **Custom**: Define the exact number of revisions required.
+
+## Estimated Cost Breakdown
+
+| **Number of Pages** | **Revision Mode** | **Estimated Cost** |
+|:-------------------:|:-----------------:|:------------------:|
+| 3-5 | Swiftly | $60 |
+| 3-5 | Balanced | $70 |
+| 3-5 | Quality | $85 |
+| 8-10 | Swiftly | $110 |
+| 8-10 | Balanced | $125 |
+| 8-10 | Quality | $140 |
+| 12-15 | Swiftly | $160 |
+| 12-15 | Balanced | $180 |
+| 12-15 | Quality | $200 |
+
+We are committed to ensuring you have full control over your budget. If you have any questions, feel free to [*reach out*](https://orangekloud.com/contact-us/) to our team. We are here to help you every step of the way.
