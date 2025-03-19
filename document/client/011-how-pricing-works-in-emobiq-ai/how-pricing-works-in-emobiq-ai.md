@@ -37,14 +37,14 @@ We provide four flexible AI engines, each offering a different number of revisio
 
 | **Number of Pages** | **Revision Mode** | **Estimated Cost** |
 |:-------------------:|:-----------------:|:------------------:|
-| 3-5 | Swiftly | $60 |
-| 3-5 | Balanced | $70 |
-| 3-5 | Quality | $85 |
-| 8-10 | Swiftly | $110 |
-| 8-10 | Balanced | $125 |
-| 8-10 | Quality | $140 |
-| 12-15 | Swiftly | $160 |
-| 12-15 | Balanced | $180 |
-| 12-15 | Quality | $200 |
+| 3-5 | Swiftly | $20 |
+| 3-5 | Balanced | $30 |
+| 3-5 | Quality | $35 |
+| 8-10 | Swiftly | $50 |
+| 8-10 | Balanced | $60 |
+| 8-10 | Quality | $70 |
+| 12-15 | Swiftly | $80 |
+| 12-15 | Balanced | $95 |
+| 12-15 | Quality | $110 |
 
 We are committed to ensuring you have full control over your budget. If you have any questions, feel free to [*reach out*](https://orangekloud.com/contact-us/) to our team. We are here to help you every step of the way.
