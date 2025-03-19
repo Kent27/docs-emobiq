@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Getting Started](001-getting-started/getting-started.md)
+* [How Pricing Works in eMOBIQ AI](011-how-pricing-works-in-emobiq-ai/how-pricing-works-in-emobiq-ai.md)
 * [Platform Interface Reference](002-platform-interface-reference/platform-interface-reference.md)
 * [Page Rendering Behaviour](003-page-rendering-behaviour/page-rendering-behaviour.md)
 * [Ui Components](004-ui-components/README.md)
