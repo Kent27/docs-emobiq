@@ -10,9 +10,8 @@ Setting a budget is a crucial step in managing your project effectively. Below, 
 Our pricing structure is designed to be transparent and flexible. The cost of your project is primarily determined by two key factors:
 
 - **Application Size (Number of Pages)**: The complexity and scope of your application impact the number of pages required. If a specific page count isn’t provided in the prompt, it will be automatically determined by AI.
-- **AI Engine (Number of Revisions)**: You can select from four AI engines, each offering a different number of revisions, which determines the refinements applied.
 
-Remember, not all allocated budget here will be used in one go. It adjusts based on your application size and AI Engine you choose, ensuring efficient resource management.
+Remember, not all allocated budget here will be used in one go. It adjusts based on your application size, ensuring efficient resource management.
 
 ## Defining Your Application Size
 
@@ -26,25 +25,14 @@ The final size may vary depending on the number of features and complexity outli
 
 ## Choosing AI Engine
 
-We provide four flexible AI engines, each offering a different number of revisions to suit your needs:
-
 - **Swiftly**: Up to **2** revisions for a streamlined process.
-- **Balanced**: Up to **4** revisions for a well-rounded development approach.
-- **Quality**: Up to **6** revisions for in-depth refinements.
-- **Custom**: Define the exact number of revisions required.
 
 ## Estimated Cost Breakdown
 
 | **Number of Pages** | **Revision Mode** | **Estimated Cost** |
 |:-------------------:|:-----------------:|:------------------:|
 | 3-5 | Swiftly | $20 |
-| 3-5 | Balanced | $30 |
-| 3-5 | Quality | $35 |
 | 8-10 | Swiftly | $50 |
-| 8-10 | Balanced | $60 |
-| 8-10 | Quality | $70 |
 | 12-15 | Swiftly | $80 |
-| 12-15 | Balanced | $95 |
-| 12-15 | Quality | $110 |
 
 We are committed to ensuring you have full control over your budget. If you have any questions, feel free to [*reach out*](https://orangekloud.com/contact-us/) to our team. We are here to help you every step of the way.
