@@ -29,7 +29,7 @@ The final size may vary depending on the number of features and complexity outli
 
 ## Estimated Cost Breakdown
 
-| **Number of Pages** | **Revision Mode** | **Estimated Cost** |
+| **Number of Pages** | **Estimated Cost** |
 |:-------------------:|:-----------------:|:------------------:|
 | 3-5 | $20 |
 | 8-10 | $50 |
