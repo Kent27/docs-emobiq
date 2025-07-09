@@ -31,8 +31,8 @@ The final size may vary depending on the number of features and complexity outli
 
 | **Number of Pages** | **Revision Mode** | **Estimated Cost** |
 |:-------------------:|:-----------------:|:------------------:|
-| 3-5 | Swiftly | $20 |
-| 8-10 | Swiftly | $50 |
-| 12-15 | Swiftly | $80 |
+| 3-5 | $20 |
+| 8-10 | $50 |
+| 12-15 | $80 |
 
 We are committed to ensuring you have full control over your budget. If you have any questions, feel free to [*reach out*](https://orangekloud.com/contact-us/) to our team. We are here to help you every step of the way.
